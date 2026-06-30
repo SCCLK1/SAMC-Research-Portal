@@ -1,0 +1,108 @@
+name: Deploy to AWS EC2
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Build & Deploy to EC2 (t3.micro)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # ── SSH setup ──────────────────────────────────────────────────────────
+      - name: Configure SSH access to EC2
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/deploy_key
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy_key
+          ssh-keyscan -H "${{ secrets.EC2_HOST }}" >> ~/.ssh/known_hosts
+
+      # ── Write production .env on runner, then SCP it ───────────────────────
+      - name: Write production .env
+        run: |
+          {
+            echo "DATABASE_URL=file:./prod.db"
+            echo "AUTH_SECRET=${{ secrets.AUTH_SECRET }}"
+            echo "NEXTAUTH_SECRET=${{ secrets.NEXTAUTH_SECRET }}"
+            echo "NEXTAUTH_URL=${{ secrets.NEXTAUTH_URL }}"
+            echo "ACTIVE_LLM=${{ vars.ACTIVE_LLM }}"
+            echo "GEMINI_API_KEY=${{ secrets.GEMINI_API_KEY }}"
+            echo "OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}"
+            echo "ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}"
+            echo "SEARCH_PROVIDER=${{ vars.SEARCH_PROVIDER }}"
+            echo "SEARCH_API_KEY=${{ secrets.SEARCH_API_KEY }}"
+            echo "SCHEDULER_ENABLED=true"
+            echo "SCHEDULER_CRON=30 1 * * *"
+            echo "NODE_ENV=production"
+          } > "$RUNNER_TEMP/prod.env"
+
+      # ── Sync portal source to EC2 (no node_modules or build artifacts) ─────
+      - name: Sync source code to EC2
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}" \
+            "mkdir -p /app/samc-research-portal/portal"
+
+          rsync -az --delete \
+            --exclude='node_modules' \
+            --exclude='.next' \
+            --exclude='prod.db' \
+            --exclude='.env' \
+            --exclude='dev.db-journal' \
+            -e "ssh -i ~/.ssh/deploy_key" \
+            portal/ \
+            "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:/app/samc-research-portal/portal/"
+
+      # ── Upload .env and seed DB ────────────────────────────────────────────
+      - name: Upload .env and seed DB to EC2
+        run: |
+          scp -i ~/.ssh/deploy_key \
+            "$RUNNER_TEMP/prod.env" \
+            "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:/app/samc-research-portal/portal/.env"
+
+          # Upload dev.db as the seed — only used if prod.db doesn't exist yet
+          scp -i ~/.ssh/deploy_key \
+            portal/dev.db \
+            "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:/tmp/samc_seed.db"
+
+      # ── Build & restart on EC2 ─────────────────────────────────────────────
+      - name: Install, build & restart on EC2
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}" \
+            'bash -s' << 'ENDSSH'
+          set -e
+          PORTAL=/app/samc-research-portal/portal
+
+          # Initialise prod.db from seed only on the very first deploy
+          if [ ! -f "$PORTAL/prod.db" ]; then
+            echo "==> First deploy: seeding prod.db from dev.db"
+            cp /tmp/samc_seed.db "$PORTAL/prod.db"
+          fi
+
+          cd "$PORTAL"
+
+          # Install dependencies (triggers prisma generate via postinstall)
+          npm ci
+
+          # Apply schema changes to prod.db (safe, non-destructive)
+          DATABASE_URL="file:./prod.db" npx prisma db push --skip-generate
+
+          # Build Next.js — cap heap to 768 MB to stay within t3.micro 1 GB RAM
+          NODE_OPTIONS="--max-old-space-size=768" npm run build
+
+          # Restart or start the app with PM2
+          if pm2 describe samc-portal > /dev/null 2>&1; then
+            pm2 restart samc-portal --update-env
+          else
+            pm2 start npm \
+              --name samc-portal \
+              --cwd "$PORTAL" \
+              -- start
+          fi
+          pm2 save
+          ENDSSH

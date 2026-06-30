@@ -12,7 +12,10 @@
 /portal/build/
 
 # database
-/portal/dev.db*
+# dev.db is tracked — it is the seed database uploaded to EC2 on the first deploy.
+# prod.db lives only on the server and is never committed.
+/portal/prod.db
+/portal/prod.db-journal
 /portal/dev.db-journal
 
 # environment files
