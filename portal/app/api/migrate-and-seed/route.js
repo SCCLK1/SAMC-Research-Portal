@@ -1,39 +1,82 @@
 import { prisma } from '@/lib/db'
 import { NextResponse } from 'next/server'
 import bcrypt from 'bcryptjs'
-import fs from 'fs'
-import path from 'path'
+
+export const dynamic = 'force-dynamic'
+
+const SQL_STATEMENTS = [
+  `CREATE TABLE IF NOT EXISTS "User" (
+      "id" TEXT NOT NULL,
+      "email" TEXT NOT NULL,
+      "name" TEXT NOT NULL,
+      "designation" TEXT,
+      "role" TEXT NOT NULL DEFAULT 'FUND_MANAGER',
+      "passwordHash" TEXT NOT NULL,
+      "isActive" BOOLEAN NOT NULL DEFAULT true,
+      "createdAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      "updatedAt" TIMESTAMP(3) NOT NULL,
+      "lastLoginAt" TIMESTAMP(3),
+      CONSTRAINT "User_pkey" PRIMARY KEY ("id")
+  )`,
+  `CREATE TABLE IF NOT EXISTS "FundManagerProfile" (
+      "id" TEXT NOT NULL,
+      "userId" TEXT NOT NULL,
+      "industries" TEXT NOT NULL DEFAULT '[]',
+      "stocks" TEXT NOT NULL DEFAULT '[]',
+      "minActionability" INTEGER NOT NULL DEFAULT 40,
+      "minSeverity" INTEGER NOT NULL DEFAULT 3,
+      "eventCategories" TEXT NOT NULL DEFAULT '[]',
+      "alertScope" TEXT NOT NULL DEFAULT 'ALL',
+      "updatedAt" TIMESTAMP(3) NOT NULL,
+      CONSTRAINT "FundManagerProfile_pkey" PRIMARY KEY ("id")
+  )`,
+  `CREATE TABLE IF NOT EXISTS "AgentRun" (
+      "id" TEXT NOT NULL,
+      "userId" TEXT,
+      "runType" TEXT NOT NULL,
+      "status" TEXT NOT NULL DEFAULT 'PENDING',
+      "llmProvider" TEXT,
+      "rawOutput" TEXT,
+      "parsedOutput" TEXT,
+      "errorMessage" TEXT,
+      "startedAt" TIMESTAMP(3) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+      "completedAt" TIMESTAMP(3),
+      CONSTRAINT "AgentRun_pkey" PRIMARY KEY ("id")
+  )`,
+  `CREATE TABLE IF NOT EXISTS "SystemConfig" (
+      "key" TEXT NOT NULL,
+      "value" TEXT NOT NULL,
+      "updatedAt" TIMESTAMP(3) NOT NULL,
+      CONSTRAINT "SystemConfig_pkey" PRIMARY KEY ("key")
+  )`,
+  `CREATE TABLE IF NOT EXISTS "EventState" (
+      "id" TEXT NOT NULL,
+      "userId" TEXT NOT NULL,
+      "eventKey" TEXT NOT NULL,
+      "status" TEXT NOT NULL DEFAULT 'NEW',
+      "notes" TEXT NOT NULL DEFAULT '',
+      "updatedAt" TIMESTAMP(3) NOT NULL,
+      CONSTRAINT "EventState_pkey" PRIMARY KEY ("id")
+  )`,
+  `CREATE UNIQUE INDEX IF NOT EXISTS "User_email_key" ON "User"("email")`,
+  `CREATE UNIQUE INDEX IF NOT EXISTS "FundManagerProfile_userId_key" ON "FundManagerProfile"("userId")`,
+  `CREATE UNIQUE INDEX IF NOT EXISTS "EventState_userId_eventKey_key" ON "EventState"("userId", "eventKey")`
+]
 
 export async function GET() {
   try {
     const results = []
     
-    // 1. Read and execute the SQL schema
-    const schemaPath = path.join(process.cwd(), 'schema.sql')
-    if (fs.existsSync(schemaPath)) {
-      const sqlContent = fs.readFileSync(schemaPath, 'utf8')
-      // Split by semicolon, filter out comments and empty statements
-      const statements = sqlContent
-        .split(';')
-        .map(s => s.trim())
-        .filter(s => s.length > 0 && !s.startsWith('--'))
-
-      results.push(`Executing ${statements.length} schema SQL statements...`)
-      
-      for (const statement of statements) {
-        try {
-          await prisma.$executeRawUnsafe(statement)
-        } catch (err) {
-          // If table already exists, ignore and continue
-          if (!err.message.includes('already exists') && !err.message.includes('already a primary key')) {
-            results.push(`SQL Error: ${err.message} (Statement: ${statement.substring(0, 50)}...)`)
-          }
-        }
+    // 1. Execute SQL Statements
+    results.push(`Executing ${SQL_STATEMENTS.length} schema SQL statements...`)
+    for (const statement of SQL_STATEMENTS) {
+      try {
+        await prisma.$executeRawUnsafe(statement)
+      } catch (err) {
+        results.push(`SQL Note: ${err.message} (Statement: ${statement.substring(0, 50)}...)`)
       }
-      results.push('Schema setup queries executed.')
-    } else {
-      return NextResponse.json({ error: 'schema.sql not found in project root' }, { status: 404 })
     }
+    results.push('Schema setup completed.')
 
     // 2. Default System Config
     const configs = [
