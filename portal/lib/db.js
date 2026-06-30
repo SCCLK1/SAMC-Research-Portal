@@ -7,7 +7,13 @@ const globalForPrisma = globalThis
 function getPrismaClient() {
   if (!globalForPrisma.prisma) {
     const connectionString = process.env.POSTGRES_PRISMA_URL || process.env.DATABASE_URL || 'postgresql://mock:mock@localhost:5432/mock'
-    const pool = new Pool({ connectionString })
+    const isMock = connectionString.includes('localhost') || connectionString.includes('mock')
+    
+    const pool = new Pool({ 
+      connectionString,
+      ssl: isMock ? false : { rejectUnauthorized: false }
+    })
+    
     const adapter = new PrismaPg(pool)
     globalForPrisma.prisma = new PrismaClient({ adapter })
   }
