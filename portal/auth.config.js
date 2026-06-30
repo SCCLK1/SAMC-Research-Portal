@@ -5,6 +5,7 @@ import NextAuth from 'next-auth'
 import Credentials from 'next-auth/providers/credentials'
 
 export const authConfig = {
+  trustHost: true,
   secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || 'shriram-amc-intelligence-portal-secret-key-1234567890',
   pages: {
     signIn: '/login',
