@@ -5,17 +5,18 @@
 import { NextResponse } from 'next/server'
 import { getToken } from 'next-auth/jwt'
 
-export async function proxy(request) {
+export default async function proxy(request) {
   const { nextUrl } = request
   const pathname = nextUrl.pathname
 
-  const isAuthPage  = pathname.startsWith('/login') || pathname.startsWith('/register')
+  const isAuthPage  = pathname.startsWith('/login')
+  const isRegisterPage = pathname.startsWith('/register')
   const isAdminPage = pathname.startsWith('/admin')
   const isApiAuth   = pathname.startsWith('/api/auth') || pathname.startsWith('/api/register')
   const isStatic    = pathname.startsWith('/_next') || pathname.match(/\.(png|jpg|svg|ico|css|js)$/)
 
-  // Always allow static files and auth/register APIs
-  if (isStatic || isApiAuth) return NextResponse.next()
+  // Always allow static files, auth/register APIs, and the register page itself
+  if (isStatic || isApiAuth || isRegisterPage) return NextResponse.next()
 
   // Read JWT from cookie — edge-safe, no DB call
   const token = await getToken({

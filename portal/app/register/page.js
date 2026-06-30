@@ -7,7 +7,6 @@ import Link from 'next/link'
 export default function RegisterPage() {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
-  const [designation, setDesignation] = useState('')
   const [password, setPassword] = useState('')
   const [confirmPassword, setConfirmPassword] = useState('')
   const [error, setError] = useState('')
@@ -35,7 +34,7 @@ export default function RegisterPage() {
       const res = await fetch('/api/register', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ name, email, designation, password }),
+        body: JSON.stringify({ name, email, password }),
       })
 
       const data = await res.json()
@@ -102,17 +101,6 @@ export default function RegisterPage() {
             />
           </div>
 
-          <div className="form-group">
-            <label className="label" htmlFor="designation">Designation</label>
-            <input
-              id="designation"
-              className="input"
-              type="text"
-              placeholder="Senior Fund Manager"
-              value={designation}
-              onChange={(e) => setDesignation(e.target.value)}
-            />
-          </div>
 
           <div className="form-group">
             <label className="label" htmlFor="password">Password</label>
