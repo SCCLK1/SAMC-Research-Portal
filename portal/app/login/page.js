@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
+import Link from 'next/link'
 
 export default function LoginPage() {
   const [email, setEmail] = useState('')
@@ -120,10 +121,17 @@ export default function LoginPage() {
           </button>
         </form>
 
-        <p style={{ textAlign: 'center', marginTop: 'var(--space-6)', fontSize: '0.75rem', color: 'var(--color-text-muted)' }}>
+        <p style={{ textAlign: 'center', marginTop: 'var(--space-6)', fontSize: '0.75rem', color: 'var(--color-text-muted)', marginBottom: 0 }}>
           Access restricted to authorised fund managers.
           <br />Contact your system administrator for access.
         </p>
+
+        <div style={{ textAlign: 'center', marginTop: 'var(--space-5)', paddingTop: 'var(--space-4)', borderTop: '1px solid var(--color-border)', fontSize: '0.8125rem' }}>
+          <span className="text-secondary">New analyst?</span>{' '}
+          <Link href="/register" className="text-primary" style={{ fontWeight: 600, color: 'var(--color-primary-light)', textDecoration: 'none' }}>
+            Create an Account →
+          </Link>
+        </div>
       </div>
     </div>
   )

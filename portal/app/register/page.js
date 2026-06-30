@@ -1,0 +1,180 @@
+'use client'
+
+import { useState } from 'react'
+import { useRouter } from 'next/navigation'
+import Link from 'next/link'
+
+export default function RegisterPage() {
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [designation, setDesignation] = useState('')
+  const [password, setPassword] = useState('')
+  const [confirmPassword, setConfirmPassword] = useState('')
+  const [error, setError] = useState('')
+  const [success, setSuccess] = useState('')
+  const [loading, setLoading] = useState(false)
+  const router = useRouter()
+
+  async function handleSubmit(e) {
+    e.preventDefault()
+    setError('')
+    setSuccess('')
+
+    if (password !== confirmPassword) {
+      setError('Passwords do not match')
+      return
+    }
+
+    setLoading(true)
+
+    try {
+      const res = await fetch('/api/auth/register', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ name, email, designation, password }),
+      })
+
+      const data = await res.json()
+
+      if (!res.ok) {
+        setError(data.error ?? 'Registration failed')
+        setLoading(false)
+      } else {
+        setSuccess('Account created successfully! Redirecting to login...')
+        setTimeout(() => {
+          router.push('/login')
+        }, 2500)
+      }
+    } catch (err) {
+      console.error('Registration error:', err)
+      setError('Connection failed. Please try again.')
+      setLoading(false)
+    }
+  }
+
+  return (
+    <div className="login-page">
+      <div className="login-bg-glow login-bg-glow-1" />
+      <div className="login-bg-glow login-bg-glow-2" />
+
+      <div className="card login-card" style={{ maxWidth: 460 }}>
+        {/* Logo */}
+        <div className="login-logo">
+          <span style={{ color: 'var(--color-primary-light)' }}>AMC</span>{' '}
+          <span>Research</span>
+        </div>
+        <p className="login-tagline">Create Fund Manager Account</p>
+
+        {/* Form */}
+        <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>
+          <div className="form-group">
+            <label className="label" htmlFor="name">Full Name</label>
+            <input
+              id="name"
+              className="input"
+              type="text"
+              placeholder="Rahul Sharma"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label className="label" htmlFor="email">Email Address</label>
+            <input
+              id="email"
+              className="input"
+              type="email"
+              placeholder="rahul.sharma@amcportal.in"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label className="label" htmlFor="designation">Designation</label>
+            <input
+              id="designation"
+              className="input"
+              type="text"
+              placeholder="Senior Fund Manager"
+              value={designation}
+              onChange={(e) => setDesignation(e.target.value)}
+            />
+          </div>
+
+          <div className="form-group">
+            <label className="label" htmlFor="password">Password</label>
+            <input
+              id="password"
+              className="input"
+              type="password"
+              placeholder="••••••••"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              required
+            />
+          </div>
+
+          <div className="form-group">
+            <label className="label" htmlFor="confirmPassword">Confirm Password</label>
+            <input
+              id="confirmPassword"
+              className="input"
+              type="password"
+              placeholder="••••••••"
+              value={confirmPassword}
+              onChange={(e) => setConfirmPassword(e.target.value)}
+              required
+            />
+          </div>
+
+          {error && (
+            <div style={{
+              padding: 'var(--space-3) var(--space-4)',
+              background: 'var(--color-bearish-dim)',
+              border: '1px solid rgba(239,68,68,0.2)',
+              borderRadius: 'var(--radius-md)',
+              color: 'var(--color-bearish)',
+              fontSize: '0.8125rem',
+            }}>
+              {error}
+            </div>
+          )}
+
+          {success && (
+            <div style={{
+              padding: 'var(--space-3) var(--space-4)',
+              background: 'var(--color-bullish-dim)',
+              border: '1px solid rgba(16,185,129,0.2)',
+              borderRadius: 'var(--radius-md)',
+              color: 'var(--color-bullish)',
+              fontSize: '0.8125rem',
+            }}>
+              {success}
+            </div>
+          )}
+
+          <button
+            id="register-submit"
+            type="submit"
+            className="btn btn-primary btn-lg w-full"
+            disabled={loading}
+            style={{ marginTop: 'var(--space-2)', justifyContent: 'center' }}
+          >
+            {loading ? 'Creating Account...' : 'Register'}
+          </button>
+        </form>
+
+        <div style={{ textAlign: 'center', marginTop: 'var(--space-6)', fontSize: '0.8125rem' }}>
+          <span className="text-secondary">Already have an account?</span>{' '}
+          <Link href="/login" className="text-primary" style={{ fontWeight: 600, color: 'var(--color-primary-light)', textDecoration: 'none' }}>
+            Sign In →
+          </Link>
+        </div>
+      </div>
+    </div>
+  )
+}
