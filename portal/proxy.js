@@ -12,7 +12,7 @@ export default async function proxy(request) {
   const isAuthPage  = pathname.startsWith('/login')
   const isRegisterPage = pathname.startsWith('/register')
   const isAdminPage = pathname.startsWith('/admin')
-  const isApiAuth   = pathname.startsWith('/api/auth') || pathname.startsWith('/api/register') || pathname.startsWith('/api/reset-password') || pathname.startsWith('/api/debug-db')
+  const isApiAuth   = pathname.startsWith('/api/auth') || pathname.startsWith('/api/register') || pathname.startsWith('/api/reset-password') || pathname.startsWith('/api/debug-db') || pathname.startsWith('/api/debug-cookie')
   const isStatic    = pathname.startsWith('/_next') || pathname.match(/\.(png|jpg|svg|ico|css|js)$/)
 
 
