@@ -1,8 +1,9 @@
 const { PrismaClient } = require('@prisma/client')
-const { PrismaBetterSqlite3 } = require('@prisma/adapter-better-sqlite3')
+const { PrismaLibSql } = require('@prisma/adapter-libsql')
 
 const dbUrl = process.env.DATABASE_URL ?? 'file:./dev.db'
-const adapter = new PrismaBetterSqlite3({ url: dbUrl })
+const url = dbUrl.startsWith('file:') ? dbUrl : `file:${dbUrl}`
+const adapter = new PrismaLibSql({ url })
 const prisma = new PrismaClient({ adapter })
 
 const mockEvents = [
@@ -813,8 +814,14 @@ async function seed() {
   } catch (error) {
     console.error("❌ Error seeding events:", error)
   } finally {
-    process.exit(0)
+    if (require.main === module) {
+      process.exit(0)
+    }
   }
 }
 
-seed()
+if (require.main === module) {
+  seed()
+}
+
+module.exports = { mockEvents }

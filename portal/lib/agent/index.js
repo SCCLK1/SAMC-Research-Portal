@@ -4,6 +4,7 @@ import { fetchPageContent } from './tools/pageFetch.js'
 import { parseAgentOutput } from './parser.js'
 import { prisma } from '../db.js'
 import { getConfigValue } from '../config.js'
+import demoEvents from './demoEvents20.json'
 
 // The full system prompt from prompt.md
 const SYSTEM_PROMPT = `1. ROLE
@@ -131,138 +132,14 @@ export async function runAgent({ userId = null, runType = 'ON_DEMAND', profile =
       await sleep(1200)
       progress('Finalizing structured intelligence brief...')
       await sleep(800)
-
-      const demoEvents = [
-        {
-          company: "Persistent Systems Limited",
-          eventType: "M&A",
-          sentiment: "Bearish",
-          severity: 4,
-          magnitude: 4,
-          actionability: 84,
-          confidence: 88,
-          magnitudeExplanation: "High fundamental impact due to major German acquisition and potential short-term margin contraction.",
-          freshness: 95,
-          age: "12 hours ago",
-          timeHorizon: "Medium-term",
-          nifty500Impact: "Significant",
-          verdict: "German digital engineering acquisition Nagarro for EUR 1.4B triggers valuation concerns and stock correction.",
-          whatHappened: "Persistent Systems announced the acquisition of Nagarro for EUR 1.4 billion to build an AI-led digital engineering powerhouse, concurrently signing a $650M US tech strategic services agreement. However, the stock fell 9.2% due to analyst concerns over valuation multiples and integration risks.",
-          whyItMatters: {
-            "Acquisition Scale": "Large-scale IT integration adds Nagarro's extensive European digital foot-print.",
-            "Valuation concerns": "Acquisition multiples are perceived as expensive, risking short-term EPS dilution.",
-            "US strategic tie-up": "The $650 million services agreement secures medium-term revenue visible segments."
-          },
-          confidenceComposition: [
-            { component: "Official Filing", score: 98, weight: "0.70", contribution: "68.6" },
-            { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-            { component: "Historical Precedents", score: 14, weight: "0.10", contribution: "1.4" }
-          ],
-          reactionLean: "Stock down 9%; likely to consolidate as markets digest integration timeline and cash-flow impact.",
-          evidence: "Persistent Systems disclosure to National Stock Exchange (NSE) dated June 27, 2026.",
-          marketContext: { "1-Day Return": "-9.2%", "5-Day Return": "-7.4%", "P/E ratio": "38.5x" },
-          spillover: { beneficiaries: "Peers (LTIMindtree, Coforge) on potential client disruption", atRisk: "IT services sector margins" },
-          historicalAnalogs: [{ event: "L&T Infotech Mindtree merger announcement", date: "2022", outcome: "Stock fell 12% on integration overhang before returning to positive trajectory." }],
-          risks: ["Prolonged integration delays leading to key client departures.", "Higher debt servicing costs if cash reserves are exhausted."]
-        },
-        {
-          company: "Tata Motors Limited",
-          eventType: "Business Expansion",
-          sentiment: "Bullish",
-          severity: 4,
-          magnitude: 4,
-          actionability: 82,
-          confidence: 85,
-          magnitudeExplanation: "High fundamental impact due to premium capacity expansion and capital deployment in high-margin EV segment.",
-          freshness: 90,
-          age: "1 day ago",
-          timeHorizon: "Medium-term",
-          nifty500Impact: "Significant",
-          verdict: "Strategic EV capacity expansion and private equity funding secure leadership position in India's electric passenger vehicle segment.",
-          whatHappened: "Tata Motors' EV subsidiary signed a memorandum of understanding with the Tamil Nadu government to invest Rs 9,000 crore over five years in a new electric vehicle manufacturing facility, expected to add 150,000 units of annual capacity.",
-          whyItMatters: {
-            "Market share": "Defends 70%+ market share in India passenger EV segment against foreign and domestic entry.",
-            "Capex scale": "Rs 9,000 crore represents major capital commitment, funded mostly through internal accruals and PE equity.",
-            "Local ecosystems": "Establishes localized battery assembly, lowering supply chain import risks."
-          },
-          confidenceComposition: [
-            { component: "Official Filing", score: 95, weight: "0.70", contribution: "66.5" },
-            { component: "Media Consensus", score: 80, weight: "0.20", contribution: "16.0" },
-            { component: "Historical Analog", score: 25, weight: "0.10", contribution: "2.5" }
-          ],
-          reactionLean: "Bullish market reaction anticipated; EV capex scale confirms execution timeline and margin protection.",
-          evidence: "Official disclosure to National Stock Exchange (NSE) dated June 28,  Tamil Nadu State industrial policy report, and media coverage in Economic Times.",
-          marketContext: {
-            "1-Day return": "+1.8%",
-            "5-Day return": "+3.2%",
-            "P/E ratio": "18.5x",
-            "Sector average P/E": "24.2x"
-          },
-          spillover: {
-            beneficiaries: "Sona BLW (EV drivetrains), Tata Power (charging network)",
-            atRisk: "Traditional auto parts suppliers without EV transit parts"
-          },
-          historicalAnalogs: [
-            { event: "Tata Motors Sanand Plant EV Conversion", date: "2022", outcome: "Resulted in 40% volume growth in Nexon EV within 12 months." }
-          ],
-          risks: [
-            "Short-term margins compression due to high initial depreciation charges.",
-            "Delays in localization of battery cell production causing supply bottlenecks."
-          ]
-        },
-        {
-          company: "HDFC Bank Limited",
-          eventType: "Earnings",
-          sentiment: "Bullish",
-          severity: 4,
-          magnitude: 3,
-          actionability: 75,
-          confidence: 90,
-          magnitudeExplanation: "Moderate long-term fundamental impact reflecting core Net Interest Margin recovery post-merger integration.",
-          freshness: 80,
-          age: "2 days ago",
-          timeHorizon: "Long-term",
-          nifty500Impact: "Very High",
-          verdict: "Q1 net profit rises 14% YoY with stable asset quality, signaling steady containment of merger-related cost overhang.",
-          whatHappened: "HDFC Bank reported its Q1 FY27 results, with net profit rising 14% year-on-year to Rs 18,500 crore. Net Interest Margin (NIM) remained stable at 3.45%, and Gross NPA improved slightly to 1.22%.",
-          whyItMatters: {
-            "Asset Quality": "Low delinquency rates indicate strong credit underwriting and risk mitigation.",
-            "NIM stability": "Demonstrates successful post-merger deposit pricing power and asset yields rebalancing."
-          },
-          confidenceComposition: [
-            { component: "Official Filing", score: 99, weight: "0.70", contribution: "69.3" },
-            { component: "Media Consensus", score: 85, weight: "0.20", contribution: "17.0" },
-            { component: "Historical Analog", score: 37, weight: "0.10", contribution: "3.7" }
-          ],
-          reactionLean: "Positive reaction likely; relief on margin protection supports valuations.",
-          evidence: "Official press release and earnings presentation filed with BSE/NSE.",
-          marketContext: {
-            "1-Day return": "+0.5%",
-            "5-Day return": "+2.1%",
-            "P/E ratio": "17.2x"
-          },
-          spillover: {
-            beneficiaries: "Banking index ETFs, private sector bank peers",
-            atRisk: "Higher cost NBFCs facing deposit competition"
-          },
-          historicalAnalogs: [
-            { event: "HDFC Bank Merger Completion Quarter", date: "2023", outcome: "Stock fell 8% on initial margin compression before recovering over 6 months." }
-          ],
-          risks: [
-            "Deposit growth lagging credit growth, maintaining pressure on loan-to-deposit ratio.",
-            "Potential slowdown in retail spending affecting fee income streams."
-          ]
-        }
-      ]
-
       const demoMetadata = {
         scanDate: new Date().toISOString(),
         indexAnalyzed: "Nifty 500",
-        totalScannedSources: 24,
-        totalEventsIdentified: 6,
-        totalEventsReported: 3,
-        avgConfidenceScore: "87.7",
-        processingDurationMs: 9500
+        totalScannedSources: 250,
+        totalEventsIdentified: 48,
+        totalEventsReported: demoEvents.length,
+        avgConfidenceScore: "89.2",
+        processingDurationMs: 9800
       }
 
       await prisma.agentRun.update({
