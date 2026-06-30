@@ -1,0 +1,75 @@
+// This is your Prisma schema file.
+// SQLite for Phase 1 — to migrate to PostgreSQL:
+//   1. Change provider to "postgresql"
+//   2. Update DATABASE_URL in .env
+//   3. Run: npx prisma migrate deploy
+// No application code changes needed.
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  // url managed in prisma.config.ts (Prisma v7)
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  designation  String?
+  role         String    @default("FUND_MANAGER") // ADMIN | FUND_MANAGER
+  passwordHash String
+  isActive     Boolean   @default(true)
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+  lastLoginAt  DateTime?
+
+  profile   FundManagerProfile?
+  agentRuns AgentRun[]
+}
+
+model FundManagerProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  industries      String   @default("[]") // JSON array of sector strings
+  stocks          String   @default("[]") // JSON array of { ticker, name, sector }
+  minActionability Int     @default(40)
+  minSeverity     Int      @default(3)
+  eventCategories String   @default("[]") // JSON array of category strings
+  alertScope      String   @default("ALL") // ALL | MY_STOCKS | MY_SECTORS
+  updatedAt       DateTime @updatedAt
+}
+
+model AgentRun {
+  id           String    @id @default(cuid())
+  userId       String?   // null = scheduled system run
+  user         User?     @relation(fields: [userId], references: [id], onDelete: SetNull)
+  runType      String    // SCHEDULED | ON_DEMAND
+  status       String    @default("PENDING") // PENDING | RUNNING | DONE | FAILED
+  llmProvider  String?   // gemini | openai | claude
+  rawOutput    String?   // full markdown from agent
+  parsedOutput String?   // JSON array of structured events
+  errorMessage String?
+  startedAt    DateTime  @default(now())
+  completedAt  DateTime?
+}
+
+model SystemConfig {
+  key       String   @id
+  value     String
+  updatedAt DateTime @updatedAt
+}
+
+model EventState {
+  id        String   @id @default(cuid())
+  userId    String
+  eventKey  String   // Unique identifier key for event (e.g. company name)
+  status    String   @default("NEW") // NEW | REVIEWING | ACTION_REQUIRED | COMPLETED
+  notes     String   @default("")
+  updatedAt DateTime @updatedAt
+
+  @@unique([userId, eventKey])
+}

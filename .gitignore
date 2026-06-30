@@ -1,0 +1,30 @@
+# dependencies
+/portal/node_modules/
+/portal/.pnp
+/portal/.pnp.*
+/portal/.yarn/*
+
+# next.js
+/portal/.next/
+/portal/out/
+
+# production
+/portal/build/
+
+# database
+/portal/dev.db*
+/portal/dev.db-journal
+
+# environment files
+/portal/.env*
+
+# debug and logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# system files
+.DS_Store
+Thumbs.db
