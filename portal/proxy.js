@@ -9,12 +9,12 @@ export async function proxy(request) {
   const { nextUrl } = request
   const pathname = nextUrl.pathname
 
-  const isAuthPage  = pathname.startsWith('/login')
+  const isAuthPage  = pathname.startsWith('/login') || pathname.startsWith('/register')
   const isAdminPage = pathname.startsWith('/admin')
-  const isApiAuth   = pathname.startsWith('/api/auth')
+  const isApiAuth   = pathname.startsWith('/api/auth') || pathname.startsWith('/api/register')
   const isStatic    = pathname.startsWith('/_next') || pathname.match(/\.(png|jpg|svg|ico|css|js)$/)
 
-  // Always allow static files and auth API
+  // Always allow static files and auth/register APIs
   if (isStatic || isApiAuth) return NextResponse.next()
 
   // Read JWT from cookie — edge-safe, no DB call
