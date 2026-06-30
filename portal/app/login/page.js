@@ -14,6 +14,15 @@ export default function LoginPage() {
 
   useEffect(() => {
     document.documentElement.setAttribute('data-theme', 'light')
+    
+    // Read query params safely on client-side to avoid Suspense errors during static generation
+    const params = new URLSearchParams(window.location.search)
+    const urlError = params.get('error')
+    if (urlError === 'CredentialsSignin') {
+      setError('Invalid email or password')
+    } else if (urlError) {
+      setError('An error occurred during sign in. Please try again.')
+    }
   }, [])
 
   async function handleSubmit(e) {
@@ -21,19 +30,12 @@ export default function LoginPage() {
     setLoading(true)
     setError('')
 
-    const result = await signIn('credentials', {
+    // Perform standard browser redirect. If it fails, NextAuth redirects back to /login?error=CredentialsSignin
+    signIn('credentials', {
       email,
       password,
-      redirect: false,
+      callbackUrl: '/dashboard',
     })
-
-    if (result?.error) {
-      setError('Invalid email or password')
-      setLoading(false)
-    } else {
-      router.push('/dashboard')
-      router.refresh()
-    }
   }
 
   return (
