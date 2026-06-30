@@ -49,9 +49,13 @@ export async function POST(request) {
     })
   } catch (error) {
     console.error('Registration error:', error)
+    // Prisma unique constraint violation — email already exists
+    if (error.code === 'P2002') {
+      return NextResponse.json({ error: 'Email address is already registered' }, { status: 409 })
+    }
     const message = process.env.NODE_ENV === 'development'
       ? `${error.message} (${error.code ?? error.constructor.name})`
-      : 'Internal Server Error'
+      : 'Registration failed. Please try again.'
     return NextResponse.json({ error: message }, { status: 500 })
   }
 }

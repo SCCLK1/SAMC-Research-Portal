@@ -15,7 +15,6 @@ export default async function proxy(request) {
   const isApiAuth   = pathname.startsWith('/api/auth') || pathname.startsWith('/api/register')
   const isStatic    = pathname.startsWith('/_next') || pathname.match(/\.(png|jpg|svg|ico|css|js)$/)
 
-  console.log('[proxy] pathname:', pathname, '| isRegisterPage:', isRegisterPage, '| isAuthPage:', isAuthPage, '| isApiAuth:', isApiAuth)
 
   // Always allow static files, auth/register APIs, and the register page itself
   if (isStatic || isApiAuth || isRegisterPage) return NextResponse.next()

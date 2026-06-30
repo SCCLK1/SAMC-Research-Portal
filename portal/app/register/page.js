@@ -48,7 +48,7 @@ export default function RegisterPage() {
       }
 
       if (!res.ok) {
-        setError(`[${res.status}] ${data.error ?? 'Registration failed'}`)
+        setError(data.error ?? 'Registration failed')
         setLoading(false)
       } else {
         setSuccess('Account created successfully! Redirecting to login...')
