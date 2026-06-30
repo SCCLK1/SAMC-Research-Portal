@@ -90,7 +90,8 @@ jobs:
           npm ci
 
           # Apply schema changes to prod.db (safe, non-destructive)
-          DATABASE_URL="file:./prod.db" npx prisma db push --skip-generate
+          # Prisma 7 removed --skip-generate; generate already ran in postinstall
+          DATABASE_URL="file:./prod.db" npx prisma db push
 
           # Build Next.js — cap heap to 768 MB to stay within t3.micro 1 GB RAM
           NODE_OPTIONS="--max-old-space-size=768" npm run build
