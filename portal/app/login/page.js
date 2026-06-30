@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { signIn } from 'next-auth/react'
 import { useRouter } from 'next/navigation'
 import Link from 'next/link'
@@ -11,6 +11,10 @@ export default function LoginPage() {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const router = useRouter()
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', 'light')
+  }, [])
 
   async function handleSubmit(e) {
     e.preventDefault()
@@ -41,7 +45,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="login-logo" style={{ display: 'flex', justifyContent: 'center', marginBottom: 'var(--space-2)' }}>
           <img 
-            src="/amc-dark.svg" 
+            src="/amc.svg" 
             alt="Shriram AMC Logo" 
             style={{ height: '52px', width: 'auto', display: 'block' }} 
           />
