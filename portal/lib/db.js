@@ -1,28 +1,14 @@
 import { PrismaClient } from '@prisma/client'
-import { PrismaPg } from '@prisma/adapter-pg'
-import { Pool } from 'pg'
+import { PrismaLibSql } from '@prisma/adapter-libsql'
 
 const globalForPrisma = globalThis
 
 function getPrismaClient() {
   if (!globalForPrisma.prisma) {
-    const connectionString = 
-      process.env.DATABASE_URL_UNPOOLED || 
-      process.env.DATABASE_URL || 
-      process.env.POSTGRES_PRISMA_URL || 
-      'postgresql://mock:mock@localhost:5432/mock'
-      
-    const isMock = connectionString.includes('localhost') || connectionString.includes('mock')
+    const rawUrl = process.env.DATABASE_URL || 'file:./dev.db'
+    const url = rawUrl.startsWith('file:') ? rawUrl : `file:${rawUrl}`
     
-    const pool = new Pool({ 
-      connectionString,
-      ssl: isMock ? false : { rejectUnauthorized: false },
-      max: 1,                     // Serverless environment: use 1 connection max per container
-      idleTimeoutMillis: 1000,    // Close connections quickly when idle to avoid Neon exhaustion
-      connectionTimeoutMillis: 5000 // Fail fast if Neon connections are exhausted
-    })
-    
-    const adapter = new PrismaPg(pool)
+    const adapter = new PrismaLibSql({ url })
     globalForPrisma.prisma = new PrismaClient({ adapter })
   }
   return globalForPrisma.prisma

@@ -1,7 +1,13 @@
+require('dotenv').config()
 const { PrismaClient } = require('@prisma/client')
+const { PrismaLibSql } = require('@prisma/adapter-libsql')
 const bcrypt = require('bcryptjs')
 
-const prisma = new PrismaClient()
+const rawUrl = process.env.DATABASE_URL || 'file:./dev.db'
+const url = rawUrl.startsWith('file:') ? rawUrl : `file:${rawUrl}`
+
+const adapter = new PrismaLibSql({ url })
+const prisma = new PrismaClient({ adapter })
 
 
 async function main() {
