@@ -3,8 +3,8 @@ import { prisma } from '@/lib/db'
 import ResearchHubClient from '@/components/dashboard/ResearchHubClient'
 
 export const metadata = {
-  title: 'Research Hub — AMC Research Portal',
-  description: 'Your institutional Nifty 500 equity research and intelligence hub',
+  title: 'Research Hub — Shriram AMC Intelligence Portal',
+  description: 'Your institutional equity research and intelligence hub',
 }
 
 export default async function DashboardPage() {

@@ -1,8 +1,8 @@
 import './globals.css'
 
 export const metadata = {
-  title: 'AMC Research Portal',
-  description: 'Institutional-grade Nifty 500 event intelligence for fund managers',
+  title: 'Shriram AMC Intelligence Portal',
+  description: 'Institutional-grade event intelligence for fund managers',
 }
 
 export default function RootLayout({ children }) {

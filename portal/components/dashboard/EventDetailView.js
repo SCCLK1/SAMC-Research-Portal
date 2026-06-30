@@ -55,7 +55,7 @@ export default function EventDetailView({
                       (event.actionability ?? 0) >= 60 ? 'var(--color-accent)' :
                       'var(--color-primary-light)'
 
-  // Match company to Nifty 500 stock constituent for watchlist quick toggles
+  // Match company to stock constituent for watchlist quick toggles
   const cleanComp = event.company.toLowerCase().replace(/limited|ltd|co|corporation/g, '').trim()
   const matchedStock = NIFTY_500.find(s =>
     s.name.toLowerCase().includes(cleanComp) ||

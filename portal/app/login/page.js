@@ -39,11 +39,16 @@ export default function LoginPage() {
 
       <div className="card login-card">
         {/* Logo */}
-        <div className="login-logo">
-          <span style={{ color: 'var(--color-primary-light)' }}>AMC</span>{' '}
-          <span>Research</span>
+        <div className="login-logo" style={{ display: 'flex', justifyContent: 'center', marginBottom: 'var(--space-2)' }}>
+          <img 
+            src="/amc.svg" 
+            alt="Shriram AMC Logo" 
+            style={{ height: '48px', width: 'auto', filter: 'brightness(0) invert(1)' }} 
+          />
         </div>
-        <p className="login-tagline">Nifty 500 Event Intelligence Portal</p>
+        <p className="login-tagline" style={{ textAlign: 'center', fontWeight: 600, fontSize: '0.9375rem', color: 'var(--color-primary-light)', marginTop: 'var(--space-2)', marginBottom: 'var(--space-4)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+          Intelligence Portal
+        </p>
 
         {/* Market status strip */}
         <div style={{

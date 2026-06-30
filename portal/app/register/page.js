@@ -59,11 +59,16 @@ export default function RegisterPage() {
 
       <div className="card login-card" style={{ maxWidth: 460 }}>
         {/* Logo */}
-        <div className="login-logo">
-          <span style={{ color: 'var(--color-primary-light)' }}>AMC</span>{' '}
-          <span>Research</span>
+        <div className="login-logo" style={{ display: 'flex', justifyContent: 'center', marginBottom: 'var(--space-2)' }}>
+          <img 
+            src="/amc.svg" 
+            alt="Shriram AMC Logo" 
+            style={{ height: '48px', width: 'auto', filter: 'brightness(0) invert(1)' }} 
+          />
         </div>
-        <p className="login-tagline">Create Fund Manager Account</p>
+        <p className="login-tagline" style={{ textAlign: 'center', fontWeight: 600, fontSize: '0.9375rem', color: 'var(--color-primary-light)', marginTop: 'var(--space-2)', marginBottom: 'var(--space-4)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>
+          Intelligence Portal
+        </p>
 
         {/* Form */}
         <form onSubmit={handleSubmit} style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-4)' }}>

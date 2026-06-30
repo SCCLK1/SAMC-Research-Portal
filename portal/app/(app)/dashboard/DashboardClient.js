@@ -290,7 +290,7 @@ export default function DashboardClient({ user, profile, initialEvents, initialM
         <div className="stat-item">
           <div className="stat-value">{totalEvents}</div>
           <div className="stat-label">Total Events</div>
-          <div className="stat-sub">All Nifty 500</div>
+          <div className="stat-sub">All Covered Stocks</div>
         </div>
         <div className="stat-item">
           <div className="stat-value" style={{ color: 'var(--color-bearish)' }}>{criticalCount}</div>

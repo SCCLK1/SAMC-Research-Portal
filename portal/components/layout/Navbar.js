@@ -41,9 +41,12 @@ export default function Navbar({ user }) {
     <header className="navbar">
       <div className="navbar-container">
         {/* Brand Logo */}
-        <Link href="/dashboard" className="navbar-logo">
-          <span style={{ color: 'var(--color-primary-light)', fontWeight: 700 }}>AMC</span>
-          <span style={{ marginLeft: 4, fontWeight: 500 }}>Research</span>
+        <Link href="/dashboard" className="navbar-logo" style={{ display: 'flex', alignItems: 'center' }}>
+          <img 
+            src="/amc.svg" 
+            alt="Shriram AMC Logo" 
+            style={{ height: '24px', width: 'auto', filter: theme === 'dark' ? 'brightness(0) invert(1)' : 'none' }} 
+          />
         </Link>
 
         {/* Navigation items */}

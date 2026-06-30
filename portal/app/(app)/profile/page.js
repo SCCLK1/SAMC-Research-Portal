@@ -171,7 +171,7 @@ export default function ProfilePage() {
         <div>
           <h3 style={{ marginBottom: 'var(--space-2)' }}>Stock Watchlist</h3>
           <p className="text-secondary text-sm" style={{ marginBottom: 'var(--space-6)' }}>
-            Add Nifty 500 stocks to your watchlist. Events matching these stocks will be highlighted with a gold border in your dashboard.
+            Add stocks to your watchlist. Events matching these stocks will be highlighted with a gold border in your dashboard.
           </p>
 
           {/* Search */}
@@ -320,11 +320,11 @@ export default function ProfilePage() {
           <div>
             <h3 style={{ marginBottom: 'var(--space-2)' }}>Alert Scope</h3>
             <p className="text-secondary text-sm" style={{ marginBottom: 'var(--space-6)' }}>
-              Control whether the dashboard shows all Nifty 500 events or only events relevant to your profile.
+              Control whether the dashboard shows all events or only events relevant to your profile.
             </p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-3)' }}>
               {[
-                { value: 'ALL', label: 'All Nifty 500', desc: 'See every event across all 500 constituents' },
+                { value: 'ALL', label: 'All Covered Equities', desc: 'See every event across all monitored constituents' },
                 { value: 'MY_SECTORS', label: 'My Sectors Only', desc: 'Filter to events in your covered industries' },
                 { value: 'MY_STOCKS', label: 'My Watchlist Only', desc: 'Only events affecting your watchlist stocks' },
               ].map((opt) => (

@@ -44,11 +44,13 @@ export default function Sidebar({ user, isOpen, onClose }) {
     <aside className={`sidebar ${isOpen ? 'open' : ''}`}>
       {/* Logo */}
       <div className="sidebar-logo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 'var(--space-2)' }}>
-        <div style={{ flex: 1, minWidth: 0 }}>
-          <div className="sidebar-logo-title">
-            <span style={{ color: 'var(--color-primary-light)' }}>AMC</span> Research
-          </div>
-          <div className="sidebar-logo-subtitle">Event Intelligence Portal</div>
+        <div style={{ flex: 1, minWidth: 0, paddingRight: 'var(--space-2)' }}>
+          <img 
+            src="/amc.svg" 
+            alt="Shriram AMC Logo" 
+            style={{ height: '32px', width: 'auto', display: 'block', filter: theme === 'dark' ? 'brightness(0) invert(1)' : 'none', marginBottom: '4px' }} 
+          />
+          <div className="sidebar-logo-subtitle" style={{ fontSize: '0.625rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--color-primary-light)', fontWeight: 600 }}>Intelligence Portal</div>
         </div>
         <button className="btn-icon btn-ghost mobile-only" onClick={onClose} title="Close sidebar" style={{ padding: 4, flexShrink: 0 }}>
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">

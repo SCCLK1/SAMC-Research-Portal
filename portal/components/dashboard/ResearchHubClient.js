@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const indexData = [
   { name: 'Nifty 50', value: '24,016.40', change: '+0.54%', isPositive: true },
-  { name: 'Nifty 500', value: '22,230.15', change: '+0.62%', isPositive: true },
+  { name: 'Nifty Midcap', value: '16,420.30', change: '+0.74%', isPositive: true },
   { name: 'Nifty Bank', value: '52,342.90', change: '+0.85%', isPositive: true },
   { name: 'Nifty IT', value: '38,125.40', change: '-1.12%', isPositive: false },
 ]
