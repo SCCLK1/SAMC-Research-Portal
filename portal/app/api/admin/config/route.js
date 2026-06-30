@@ -3,6 +3,9 @@ import { prisma } from '@/lib/db'
 import { NextResponse } from 'next/server'
 import { setConfigValue, getConfigValue } from '@/lib/config'
 
+export const dynamic = 'force-dynamic'
+
+
 const CONFIG_KEYS = [
   'ACTIVE_LLM',
   'GEMINI_API_KEY',

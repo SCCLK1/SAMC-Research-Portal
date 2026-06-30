@@ -3,6 +3,9 @@ import { prisma } from '@/lib/db'
 import { NextResponse } from 'next/server'
 import bcrypt from 'bcryptjs'
 
+export const dynamic = 'force-dynamic'
+
+
 export async function GET() {
   const session = await auth()
   if (session?.user?.role !== 'ADMIN') return NextResponse.json({ error: 'Forbidden' }, { status: 403 })
