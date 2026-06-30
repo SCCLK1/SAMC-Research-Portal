@@ -41,9 +41,9 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="login-logo" style={{ display: 'flex', justifyContent: 'center', marginBottom: 'var(--space-2)' }}>
           <img 
-            src="/amc.svg" 
+            src="/amc-dark.svg" 
             alt="Shriram AMC Logo" 
-            style={{ height: '48px', width: 'auto', filter: 'brightness(0) invert(1)' }} 
+            style={{ height: '52px', width: 'auto', display: 'block' }} 
           />
         </div>
         <p className="login-tagline" style={{ textAlign: 'center', fontWeight: 600, fontSize: '0.9375rem', color: 'var(--color-primary-light)', marginTop: 'var(--space-2)', marginBottom: 'var(--space-4)', letterSpacing: '0.05em', textTransform: 'uppercase' }}>

@@ -43,9 +43,9 @@ export default function Navbar({ user }) {
         {/* Brand Logo */}
         <Link href="/dashboard" className="navbar-logo" style={{ display: 'flex', alignItems: 'center' }}>
           <img 
-            src="/amc.svg" 
+            src={theme === 'dark' ? '/amc-dark.svg' : '/amc.svg'} 
             alt="Shriram AMC Logo" 
-            style={{ height: '24px', width: 'auto', filter: theme === 'dark' ? 'brightness(0) invert(1)' : 'none' }} 
+            style={{ height: '28px', width: 'auto', display: 'block' }} 
           />
         </Link>
 

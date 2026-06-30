@@ -46,9 +46,9 @@ export default function Sidebar({ user, isOpen, onClose }) {
       <div className="sidebar-logo" style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 'var(--space-2)' }}>
         <div style={{ flex: 1, minWidth: 0, paddingRight: 'var(--space-2)' }}>
           <img 
-            src="/amc.svg" 
+            src={theme === 'dark' ? '/amc-dark.svg' : '/amc.svg'} 
             alt="Shriram AMC Logo" 
-            style={{ height: '32px', width: 'auto', display: 'block', filter: theme === 'dark' ? 'brightness(0) invert(1)' : 'none', marginBottom: '4px' }} 
+            style={{ height: '32px', width: 'auto', display: 'block', marginBottom: '4px' }} 
           />
           <div className="sidebar-logo-subtitle" style={{ fontSize: '0.625rem', textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--color-primary-light)', fontWeight: 600 }}>Intelligence Portal</div>
         </div>
