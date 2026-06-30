@@ -34,7 +34,7 @@ jobs:
 
       - name: Verify
         run: |
-          sleep 5
+          sleep 15
           STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://${{ secrets.EC2_HOST }}")
           echo "HTTP $STATUS"
           [ "$STATUS" = "200" ] || exit 1
