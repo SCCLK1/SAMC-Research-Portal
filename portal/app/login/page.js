@@ -30,12 +30,24 @@ export default function LoginPage() {
     setLoading(true)
     setError('')
 
-    // Perform standard browser redirect. If it fails, NextAuth redirects back to /login?error=CredentialsSignin
-    signIn('credentials', {
-      email,
-      password,
-      callbackUrl: '/dashboard',
-    })
+    try {
+      const result = await signIn('credentials', {
+        email,
+        password,
+        redirect: false,
+      })
+
+      if (result?.error) {
+        setError('Invalid email or password')
+        setLoading(false)
+      } else {
+        // Perform a hard redirect to force NextAuth session sync and resolve hangs
+        window.location.href = '/dashboard'
+      }
+    } catch (err) {
+      setError('An unexpected error occurred. Please try again.')
+      setLoading(false)
+    }
   }
 
   return (

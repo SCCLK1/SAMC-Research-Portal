@@ -23,7 +23,7 @@ export default async function proxy(request) {
   // Read JWT from cookie — edge-safe, no DB call
   const token = await getToken({
     req: request,
-    secret: process.env.NEXTAUTH_SECRET,
+    secret: process.env.AUTH_SECRET || process.env.NEXTAUTH_SECRET || 'shriram-amc-intelligence-portal-secret-key-1234567890',
   })
 
   const isLoggedIn = !!token
