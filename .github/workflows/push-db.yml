@@ -1,0 +1,40 @@
+name: Push DB to EC2
+
+# Run manually from GitHub Actions tab whenever you want to
+# overwrite prod.db on EC2 with the dev.db committed in this repo.
+on:
+  workflow_dispatch:
+
+jobs:
+  push-db:
+    name: Overwrite prod.db with dev.db
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        run: |
+          install -m 600 -D /dev/null ~/.ssh/deploy_key
+          echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy_key
+          ssh-keyscan -H "${{ secrets.EC2_HOST }}" >> ~/.ssh/known_hosts
+
+      - name: Upload dev.db to EC2
+        run: |
+          scp -i ~/.ssh/deploy_key \
+            portal/dev.db \
+            "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}:/app/samc-research-portal/portal/prod.db"
+
+      - name: Restart app
+        run: |
+          ssh -i ~/.ssh/deploy_key \
+            "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}" \
+            'pm2 restart samc-portal && pm2 save'
+
+      - name: Verify
+        run: |
+          sleep 5
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://${{ secrets.EC2_HOST }}")
+          echo "HTTP $STATUS"
+          [ "$STATUS" = "200" ] || exit 1
