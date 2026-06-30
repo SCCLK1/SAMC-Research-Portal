@@ -37,10 +37,18 @@ export default function RegisterPage() {
         body: JSON.stringify({ name, email, password }),
       })
 
-      const data = await res.json()
+      let data
+      try {
+        data = await res.json()
+      } catch {
+        const text = await res.text().catch(() => '(no body)')
+        setError(`Server error (${res.status}): ${text.substring(0, 200)}`)
+        setLoading(false)
+        return
+      }
 
       if (!res.ok) {
-        setError(data.error ?? 'Registration failed')
+        setError(`[${res.status}] ${data.error ?? 'Registration failed'}`)
         setLoading(false)
       } else {
         setSuccess('Account created successfully! Redirecting to login...')
@@ -50,7 +58,7 @@ export default function RegisterPage() {
       }
     } catch (err) {
       console.error('Registration error:', err)
-      setError('Connection failed. Please try again.')
+      setError(`Connection failed: ${err.message}`)
       setLoading(false)
     }
   }

@@ -1,15 +1,15 @@
 // Full auth.js — runs in Node.js runtime only (server components, API routes).
-// Extends the edge-safe authConfig with Prisma adapter + bcrypt password check.
+// Uses JWT strategy — no database adapter needed (no Account/Session tables required).
 import NextAuth from 'next-auth'
 import Credentials from 'next-auth/providers/credentials'
-import { PrismaAdapter } from '@auth/prisma-adapter'
+
 import { authConfig } from '@/auth.config'
 import { prisma } from '@/lib/db'
 import bcrypt from 'bcryptjs'
 
 export const { handlers, auth, signIn, signOut } = NextAuth({
   ...authConfig,
-  adapter: PrismaAdapter(prisma),
+  // No adapter — JWT strategy stores session in signed cookie, no DB tables required.
   // Override providers here with the real authorize implementation
   providers: [
     Credentials({
