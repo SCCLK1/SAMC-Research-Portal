@@ -22,7 +22,7 @@ export async function POST(request) {
       data: {
         name,
         email,
-        designation: designation || 'Research Analyst',
+        designation: designation || null,
         passwordHash,
         role: 'FUND_MANAGER',
         profile: {
