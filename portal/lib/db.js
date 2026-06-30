@@ -1,10 +1,15 @@
 import { PrismaClient } from '@prisma/client'
+import { PrismaPg } from '@prisma/adapter-pg'
+import { Pool } from 'pg'
 
 const globalForPrisma = globalThis
 
 function getPrismaClient() {
   if (!globalForPrisma.prisma) {
-    globalForPrisma.prisma = new PrismaClient()
+    const connectionString = process.env.POSTGRES_PRISMA_URL || process.env.DATABASE_URL || 'postgresql://mock:mock@localhost:5432/mock'
+    const pool = new Pool({ connectionString })
+    const adapter = new PrismaPg(pool)
+    globalForPrisma.prisma = new PrismaClient({ adapter })
   }
   return globalForPrisma.prisma
 }
