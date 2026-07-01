@@ -37,7 +37,8 @@ jobs:
           for i in $(seq 1 12); do
             STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://${{ secrets.EC2_HOST }}")
             echo "attempt $i: HTTP $STATUS"
-            [ "$STATUS" = "200" ] && exit 0
+            # 200 = OK, 307 = redirect to login (NextAuth) — both mean the app is up
+            [[ "$STATUS" =~ ^(200|307|302|301)$ ]] && exit 0
             sleep 5
           done
           exit 1
