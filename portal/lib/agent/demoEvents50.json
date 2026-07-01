@@ -1,12 +1,4 @@
-const { PrismaClient } = require('@prisma/client')
-const { PrismaLibSql } = require('@prisma/adapter-libsql')
-
-const dbUrl = process.env.DATABASE_URL ?? 'file:./dev.db'
-const url = dbUrl.startsWith('file:') ? dbUrl : `file:${dbUrl}`
-const adapter = new PrismaLibSql({ url })
-const prisma = new PrismaClient({ adapter })
-
-const mockEvents = [
+[
   {
     "company": "Reliance Industries Limited",
     "eventType": "Tariff hike",
@@ -3208,47 +3200,3 @@ const mockEvents = [
     ]
   }
 ]
-
-async function seed() {
-  console.log("🌱 Seeding 25 REAL events into database...")
-  
-  try {
-    const user = await prisma.user.findFirst()
-    
-    if (!user) {
-      console.error("❌ No user found. Please run: npm run db:seed first.")
-      process.exit(1)
-    }
-
-    const run = await prisma.agentRun.create({
-      data: {
-        userId: user.id,
-        runType: "SCHEDULED",
-        status: "DONE",
-        llmProvider: "gemini",
-        rawOutput: rawMarkdown,
-        parsedOutput: JSON.stringify({
-          events: mockEvents,
-          metadata: mockMetadata
-        }),
-        startedAt: new Date(),
-        completedAt: new Date()
-      }
-    })
-
-    console.log(`✅ Success! Created real AgentRun with ID: ${run.id}`)
-    console.log(`📊 Your dashboard is now populated with 25 real, detailed events from June 2026!`)
-  } catch (error) {
-    console.error("❌ Error seeding events:", error)
-  } finally {
-    if (require.main === module) {
-      process.exit(0)
-    }
-  }
-}
-
-if (require.main === module) {
-  seed()
-}
-
-module.exports = { mockEvents }

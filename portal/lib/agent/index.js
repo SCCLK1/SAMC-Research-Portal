@@ -4,7 +4,7 @@ import { fetchPageContent } from './tools/pageFetch.js'
 import { parseAgentOutput } from './parser.js'
 import { prisma } from '../db.js'
 import { getConfigValue } from '../config.js'
-import demoEvents from './demoEvents20.json'
+import demoEvents from './demoEvents50.json'
 
 // The full system prompt from prompt.md
 const SYSTEM_PROMPT = `1. ROLE
