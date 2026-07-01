@@ -37,6 +37,43 @@ function DataTable({ rows }) {
 import { NIFTY_500 } from '@/lib/nifty500'
 import { useState, useEffect } from 'react'
 
+function formatEvidence(evidence) {
+  if (!evidence) return null
+  
+  // 1. Strip raw "Source URL: ..." text if present
+  let cleanText = evidence.replace(/(?:Source URL:\s*https?:\/\/[^\s\n|]+|Source URL:[^\n]+)/gi, '').trim()
+  // Clean up trailing periods or separators
+  cleanText = cleanText.replace(/[\s.·,;-]+$/, '').trim()
+  
+  // 2. Parse any markdown links like [Text](url)
+  const parts = []
+  let lastIndex = 0
+  const regex = /\[([^\]]+)\]\((https?:\/\/[^\s)]+)\)/g
+  let match
+  
+  while ((match = regex.exec(cleanText)) !== null) {
+    const textBefore = cleanText.slice(lastIndex, match.index)
+    if (textBefore) parts.push(textBefore)
+    parts.push(
+      <a 
+        key={match.index} 
+        href={match[2]} 
+        target="_blank" 
+        rel="noopener noreferrer" 
+        style={{ color: 'var(--color-primary-light)', textDecoration: 'underline' }}
+      >
+        {match[1]}
+      </a>
+    )
+    lastIndex = regex.lastIndex
+  }
+  
+  const textAfter = cleanText.slice(lastIndex)
+  if (textAfter) parts.push(textAfter)
+  
+  return parts.length > 0 ? parts : cleanText
+}
+
 export default function EventDetailView({
   event,
   isWatchlist,
@@ -236,7 +273,7 @@ export default function EventDetailView({
         {event.evidence && (
           <Section title="Verification & Sources">
             <div style={{ padding: 'var(--space-3)', background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)', fontSize: '0.75rem', color: 'var(--color-text-secondary)', lineHeight: 1.5 }}>
-              <div>{event.evidence}</div>
+              <div>{formatEvidence(event.evidence)}</div>
               {event.url && (
                 <div style={{ marginTop: 'var(--space-2)' }}>
                   <a
