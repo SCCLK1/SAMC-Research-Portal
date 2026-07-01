@@ -34,7 +34,10 @@ jobs:
 
       - name: Verify
         run: |
-          sleep 15
-          STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://${{ secrets.EC2_HOST }}")
-          echo "HTTP $STATUS"
-          [ "$STATUS" = "200" ] || exit 1
+          for i in $(seq 1 12); do
+            STATUS=$(curl -s -o /dev/null -w "%{http_code}" "http://${{ secrets.EC2_HOST }}")
+            echo "attempt $i: HTTP $STATUS"
+            [ "$STATUS" = "200" ] && exit 0
+            sleep 5
+          done
+          exit 1
