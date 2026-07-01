@@ -137,6 +137,12 @@ function parseSingleBrief(section, company, eventType, severity) {
   const evidenceMatch = section.match(/### Evidence\s*\n+([\s\S]+?)(?=###|\n##|$)/i)
   event.evidence = evidenceMatch?.[1]?.trim()
 
+  // Source URL (if present in brief)
+  const urlMatch = section.match(/Source URL:\s*(https?:\/\/[^\s\n|]+)/i)
+  if (urlMatch) {
+    event.url = urlMatch[1].trim()
+  }
+
   // Market context
   event.marketContext = extractMarketContext(section)
 

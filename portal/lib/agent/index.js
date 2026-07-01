@@ -73,7 +73,7 @@ Resolve current Nifty 500 constituent list. Scan trusted sources with current ye
 17. OUTPUT FORMAT
 Render entirely in standard markdown tables. No emojis. No progress bars. Numbers stand alone. NM for unmeasured values.
 Daily digest: ranked table highest Actionability first.
-Full brief for Critical items and top 5: Verdict, metrics table, reaction lean, confidence composition, what happened, why it matters, evidence, market context, spillover, historical analogs, risks.
+Full brief for Critical items and top 5: Verdict, metrics table, reaction lean, confidence composition, what happened (MUST be highly elaborate, detailed, and deep, spanning 2 to 3 paragraphs, detailing transaction scale, operational parameters, timeline of announcements, and background context, NOT just a short summary), why it matters, evidence (MUST list the source URL explicitly at the bottom in the exact format "Source URL: <url>" where <url> is the actual link to the announcement or news article, e.g. "Source URL: https://www.bseindia.com/..."), market context, spillover, historical analogs, risks.
 18. ABSOLUTE RULES
 Never predict stock prices or provide target prices. Never issue buy or sell recommendations. Official filings override all media and social narratives. Never fabricate a score. Abstain when verification thresholds are not met. Social media is sentiment only, never evidence. Analyze only current Nifty 500 constituents.
 19. COMPLIANCE NOTE

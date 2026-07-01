@@ -236,7 +236,26 @@ export default function EventDetailView({
         {event.evidence && (
           <Section title="Verification & Sources">
             <div style={{ padding: 'var(--space-3)', background: 'var(--color-surface)', border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)', fontSize: '0.75rem', color: 'var(--color-text-secondary)', lineHeight: 1.5 }}>
-              {event.evidence}
+              <div>{event.evidence}</div>
+              {event.url && (
+                <div style={{ marginTop: 'var(--space-2)' }}>
+                  <a
+                    href={event.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      color: 'var(--color-primary-light)',
+                      textDecoration: 'underline',
+                      fontWeight: 500,
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '4px'
+                    }}
+                  >
+                    View Source Article ↗
+                  </a>
+                </div>
+              )}
             </div>
           </Section>
         )}

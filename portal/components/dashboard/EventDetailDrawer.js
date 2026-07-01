@@ -165,9 +165,29 @@ export default function EventDetailDrawer({ event, isWatchlist, onClose }) {
           {/* Evidence */}
           {event.evidence && (
             <Section title="Evidence Sources">
-              <p style={{ fontSize: '0.8125rem', color: 'var(--color-text-secondary)', lineHeight: 1.6 }}>
+              <p style={{ fontSize: '0.8125rem', color: 'var(--color-text-secondary)', lineHeight: 1.6, marginBottom: event.url ? '10px' : 0 }}>
                 {event.evidence}
               </p>
+              {event.url && (
+                <div style={{ marginTop: '8px' }}>
+                  <a
+                    href={event.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      fontSize: '0.8125rem',
+                      color: 'var(--color-primary-light)',
+                      textDecoration: 'underline',
+                      fontWeight: 500,
+                      display: 'inline-flex',
+                      alignItems: 'center',
+                      gap: '4px'
+                    }}
+                  >
+                    View Source Article ↗
+                  </a>
+                </div>
+              )}
             </Section>
           )}
 

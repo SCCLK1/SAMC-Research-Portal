@@ -8,779 +8,1253 @@ const prisma = new PrismaClient({ adapter })
 
 const mockEvents = [
   {
-    company: "Persistent Systems Limited",
-    eventType: "M&A",
-    sentiment: "Bearish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 84,
-    confidence: 88,
-    magnitudeExplanation: "High fundamental impact due to major German acquisition and potential short-term margin contraction.",
-    freshness: 95,
-    age: "1 day ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Significant",
-    verdict: "German digital engineering acquisition Nagarro for EUR 1.4B triggers valuation concerns and stock correction.",
-    whatHappened: "Persistent Systems announced the acquisition of Nagarro for EUR 1.4 billion to build an AI-led digital engineering powerhouse, concurrently signing a $650M US tech strategic services agreement. However, the stock fell 9.2% due to analyst concerns over valuation multiples and integration risks.",
-    whyItMatters: {
+    "company": "Persistent Systems Limited",
+    "eventType": "M&A",
+    "sentiment": "Bearish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 84,
+    "confidence": 88,
+    "magnitudeExplanation": "High fundamental impact due to major German acquisition and potential short-term margin contraction.",
+    "freshness": 95,
+    "age": "12 hours ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "German digital engineering acquisition Nagarro for EUR 1.4B triggers valuation concerns and stock correction.",
+    "url": "https://www.moneycontrol.com/news/business/companies/persistent-systems-to-acquire-nagarro-for-1-4-billion-euros-1234567.html",
+    "whatHappened": "Persistent Systems has announced a binding agreement to acquire Nagarro SE, a prominent German digital engineering services firm, for an enterprise value of EUR 1.4 billion. The transaction is set to be funded through a combination of internal cash reserves and new debt facilities of up to $800 million. Concurrently, the company signed a $650 million multi-year strategic IT services partnership with a major US technology conglomerate, ensuring a robust revenue pipeline over the next five years.\n\nHowever, Persistent's stock price reacted negatively, falling 9.2% on the National Stock Exchange (NSE) following the announcement. Institutional analysts expressed immediate concern over the acquisition valuation, which represents an EV/EBITDA multiple of approximately 18x Nagarro's trailing earnings—well above recent European IT service transaction averages. Additionally, analysts highlighted potential integration overhangs, margin dilution in the first 4-6 quarters, and the high leverage required to close the deal during a period of elevated interest rates.",
+    "whyItMatters": {
       "Acquisition Scale": "Large-scale IT integration adds Nagarro's extensive European digital foot-print.",
       "Valuation concerns": "Acquisition multiples are perceived as expensive, risking short-term EPS dilution.",
       "US strategic tie-up": "The $650 million services agreement secures medium-term revenue visible segments."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 98, weight: "0.70", contribution: "68.6" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Precedents", score: 14, weight: "0.10", contribution: "1.4" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 90,
+        "weight": "0.20",
+        "contribution": "18.0"
+      },
+      {
+        "component": "Historical Precedents",
+        "score": 14,
+        "weight": "0.10",
+        "contribution": "1.4"
+      }
     ],
-    reactionLean: "Stock down 9%; likely to consolidate as markets digest integration timeline and cash-flow impact.",
-    evidence: "Persistent Systems disclosure to National Stock Exchange (NSE) dated June 27, 2026.",
-    marketContext: { "1-Day Return": "-9.2%", "5-Day Return": "-7.4%", "P/E ratio": "38.5x" },
-    spillover: { beneficiaries: "Peers (LTIMindtree, Coforge) on potential client disruption", atRisk: "IT services sector margins" },
-    historicalAnalogs: [{ event: "L&T Infotech Mindtree merger announcement", date: "2022", outcome: "Stock fell 12% on integration overhang before returning to positive trajectory." }],
-    risks: ["Prolonged integration delays leading to key client departures.", "Higher debt servicing costs if cash reserves are exhausted."]
+    "reactionLean": "Stock down 9%; likely to consolidate as markets digest integration timeline and cash-flow impact.",
+    "evidence": "Persistent Systems disclosure to National Stock Exchange (NSE) dated June 27, 2026. Source URL: https://www.moneycontrol.com/news/business/companies/persistent-systems-to-acquire-nagarro-for-1-4-billion-euros-1234567.html",
+    "marketContext": {
+      "1-Day Return": "-9.2%",
+      "5-Day Return": "-7.4%",
+      "P/E ratio": "38.5x"
+    },
+    "spillover": {
+      "beneficiaries": "Peers (LTIMindtree, Coforge) on potential client disruption",
+      "atRisk": "IT services sector margins"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "L&T Infotech Mindtree merger announcement",
+        "date": "2022",
+        "outcome": "Stock fell 12% on integration overhang before returning to positive trajectory."
+      }
+    ],
+    "risks": [
+      "Prolonged integration delays leading to key client departures.",
+      "Higher debt servicing costs if cash reserves are exhausted."
+    ]
   },
   {
-    company: "TVS Motor Company Limited",
-    eventType: "Production milestone",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 3,
-    actionability: 68,
-    confidence: 95,
-    magnitudeExplanation: "Moderate impact reflecting scalability of EV production segment.",
-    freshness: 90,
-    age: "18 hours ago",
-    timeHorizon: "Short-term",
-    nifty500Impact: "Moderate",
-    verdict: "iQube EV series hits 1 million cumulative production milestone, cementing market leadership in electric two-wheelers.",
-    whatHappened: "TVS Motor Company announced that its flagship iQube electric scooter series has crossed the 1 million cumulative production milestone since launch, highlighting scale-up efficiency in EV manufacturing.",
-    whyItMatters: {
+    "company": "TVS Motor Company Limited",
+    "eventType": "Production milestone",
+    "sentiment": "Bullish",
+    "severity": 3,
+    "magnitude": 3,
+    "actionability": 68,
+    "confidence": 95,
+    "magnitudeExplanation": "Moderate impact reflecting scalability of EV production segment.",
+    "freshness": 90,
+    "age": "18 hours ago",
+    "timeHorizon": "Short-term",
+    "nifty500Impact": "Moderate",
+    "verdict": "iQube EV series hits 1 million cumulative production milestone, cementing market leadership in electric two-wheelers.",
+    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/tvs-motor-iqube-production-milestone-2026.pdf",
+    "whatHappened": "TVS Motor Company announced that cumulative production of its flagship iQube electric scooter series has crossed the 1 million unit milestone. The achievement reflects a significant scale-up of the company’s dedicated EV assembly lines in Hosur, Tamil Nadu, which have increased throughput capacity from 10,000 units per month in 2022 to over 50,000 units per month currently. TVS is the first legacy Indian two-wheeler manufacturer to hit the 1 million EV production mark.\n\nThe company confirmed it has expanded its retail reach for the EV segment to over 600 cities across India and is actively executing export plans for the iQube series into Southeast Asian and Latin American markets. The production milestone validates the scalability of TVS's localized supply chain, including in-house battery pack assembly and strategic partnerships for electric motor laminations. This reduces import dependency and positions TVS as a leading competitor alongside pure-play EV startups like Ola Electric.",
+    "whyItMatters": {
       "EV Market Share": "Secures TVS as top two-wheeler EV manufacturer next to Ola Electric.",
       "Production Scalability": "1 million mark shows mature assembly lines and battery sourcing networks."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 85, weight: "0.20", contribution: "17.0" },
-      { component: "Historical Analog", score: 80, weight: "0.10", contribution: "8.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 100,
+        "weight": "0.70",
+        "contribution": "70.0"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 85,
+        "weight": "0.20",
+        "contribution": "17.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 80,
+        "weight": "0.10",
+        "contribution": "8.0"
+      }
     ],
-    reactionLean: "Neutral to positive. Confirms TVS's transition capabilities in the two-wheeler EV race.",
-    evidence: "TVS Motor press release and exchange filing dated June 28, 2026.",
-    marketContext: { "1-Day Return": "-1.2%", "5-Day Return": "+2.1%", "P/E ratio": "34.2x" },
-    spillover: { beneficiaries: "Battery and auto-part component suppliers (Sona BLW)", atRisk: "Traditional ICE-only component makers" },
-    historicalAnalogs: [{ event: "TVS Apache 1 million milestone", date: "2018", outcome: "Marked a turning point in sports motorcycle market share, stock rallied 15% over 3 months." }],
-    risks: ["Persistently high lithium-ion battery costs impacting near-term EV margins."]
+    "reactionLean": "Neutral to positive. Confirms TVS's transition capabilities in the two-wheeler EV race.",
+    "evidence": "TVS Motor press release and exchange filing dated June 28, 2026. Source URL: https://www.bseindia.com/xml-data/corpfiling/AttachLive/tvs-motor-iqube-production-milestone-2026.pdf",
+    "marketContext": {
+      "1-Day Return": "-1.2%",
+      "5-Day Return": "+2.1%",
+      "P/E ratio": "34.2x"
+    },
+    "spillover": {
+      "beneficiaries": "Battery and auto-part component suppliers (Sona BLW)",
+      "atRisk": "Traditional ICE-only component makers"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "TVS Apache 1 million milestone",
+        "date": "2018",
+        "outcome": "Marked a turning point in sports motorcycle market share, stock rallied 15% over 3 months."
+      }
+    ],
+    "risks": [
+      "Persistently high lithium-ion battery costs impacting near-term EV margins."
+    ]
   },
   {
-    company: "Raymond Limited",
-    eventType: "Earnings",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 81,
-    confidence: 90,
-    magnitudeExplanation: "High impact due to massive real estate pre-sales growth and EBITDA outperformance.",
-    freshness: 90,
-    age: "2 days ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Significant",
-    verdict: "Raymond Realty logs 429% YoY quarterly booking revenue expansion, proving strong execution in Thane micro-market.",
-    whatHappened: "Raymond Limited's real estate division, Raymond Realty, reported Q2 2026 booking revenue growth of 429.17% YoY, reaching ₹2,990.79 crore, driven by robust pre-sales in premium residential projects.",
-    whyItMatters: {
+    "company": "Raymond Limited",
+    "eventType": "Earnings",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 81,
+    "confidence": 90,
+    "magnitudeExplanation": "High impact due to massive real estate pre-sales growth and EBITDA outperformance.",
+    "freshness": 90,
+    "age": "2 days ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Raymond Realty logs 429% YoY quarterly booking revenue expansion, proving strong execution in Thane micro-market.",
+    "url": "https://www.moneycontrol.com/news/business/earnings/raymond-realty-q2-bookings-rise-429-percent-1234569.html",
+    "whatHappened": "Raymond Limited’s real estate arm, Raymond Realty, reported a massive 429.17% year-on-year expansion in quarterly booking revenue, reaching ₹2,990.79 crore. The surge was driven by exceptional pre-sales in its newly launched premium residential projects in Thane, Mumbai Metropolitan Region (MMR), including the 'Address by Raymond Realty' phase. The real estate division contributed over 45% of the group's total consolidated EBITDA for the quarter, highlighting its transition into a key driver of conglomerate value.\n\nThe management indicated that strong customer collections have accelerated cash flow generation, allowing the holding group to reduce net debt by ₹850 crore. Operational margins for the real estate division remained robust at 25.6%, supported by low historical land acquisition costs and in-house execution capabilities. Brokerages have raised target multiples for Raymond, citing the successful unlock of its extensive Thane land bank and the impending demerger of its lifestyle business.",
+    "whyItMatters": {
       "Real Estate Diversification": "Realty segment becomes a major cash flow engine for the group.",
       "Debt reduction": "Strong collections enable rapid debt reduction at the holding group level."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 98, weight: "0.70", contribution: "68.6" },
-      { component: "Media Consensus", score: 80, weight: "0.20", contribution: "16.0" },
-      { component: "Historical Analog", score: 54, weight: "0.10", contribution: "5.4" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 80,
+        "weight": "0.20",
+        "contribution": "16.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 54,
+        "weight": "0.10",
+        "contribution": "5.4"
+      }
     ],
-    reactionLean: "Bullish; real estate outperformance supports higher multiple rerating for the conglomerate.",
-    evidence: "Raymond Limited corporate earnings release filed with BSE/NSE on June 27, 2026.",
-    marketContext: { "1-Day Return": "+3.4%", "5-Day Return": "+6.8%", "P/E ratio": "24.5x" },
-    spillover: { beneficiaries: "Cement and building material suppliers", atRisk: "Regional Mumbai developers without brand equity" },
-    historicalAnalogs: [{ event: "Raymond Realty Thane Phase 1 launch", date: "2021", outcome: "Prompted a 35% run-up in stock price over 2 months." }],
-    risks: ["Slowdown in premium housing demand in Mumbai Metropolitan Region due to high interest rates."]
-  },
-  {
-    company: "Securities and Exchange Board of India (SEBI)",
-    eventType: "Regulatory reform",
-    sentiment: "Neutral",
-    severity: 5,
-    magnitude: 3,
-    actionability: 70,
-    confidence: 100,
-    magnitudeExplanation: "System-wide impact on capital allocation strategies and corporate actions.",
-    freshness: 90,
-    age: "2 days ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "High",
-    verdict: "SEBI Board approves open market buy-back reforms via stock exchanges, cutting timelines and tightening rules.",
-    whatHappened: "SEBI approved major buy-back reforms, mandating open-market buy-backs to complete within 66 working days, and requiring companies to utilize at least 40% of funds in the first half of the execution period to avoid manipulative practices.",
-    whyItMatters: {
-      "Market manipulation check": "Prevents companies from announcing buy-backs without actual capital utilization.",
-      "Capital deployment speed": "Shortened timelines force faster execution, boosting market liquidity."
+    "reactionLean": "Bullish; real estate outperformance supports higher multiple rerating for the conglomerate.",
+    "evidence": "Raymond Limited corporate earnings release filed with BSE/NSE on June 27, 2026. Source URL: https://www.moneycontrol.com/news/business/earnings/raymond-realty-q2-bookings-rise-429-percent-1234569.html",
+    "marketContext": {
+      "1-Day Return": "+3.4%",
+      "5-Day Return": "+6.8%",
+      "P/E ratio": "24.5x"
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 100, weight: "0.20", contribution: "20.0" },
-      { component: "Historical Analog", score: 100, weight: "0.10", contribution: "10.0" }
+    "spillover": {
+      "beneficiaries": "Cement and building material suppliers",
+      "atRisk": "Regional Mumbai developers without brand equity"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Raymond Realty Thane Phase 1 launch",
+        "date": "2021",
+        "outcome": "Prompted a 35% run-up in stock price over 2 months."
+      }
     ],
-    reactionLean: "Neutral; long-term positive for corporate governance. Companies will need to plan buy-backs more carefully.",
-    evidence: "SEBI Board Meeting Press Release PR No. 18/2026 dated June 19, 2026.",
-    marketContext: { "Market impact": "System-wide reform", "Effective date": "Immediate post-notification" },
-    spillover: { beneficiaries: "Retail investors through fairer exit windows", atRisk: "Promoters attempting tactical buy-backs to support stock price" },
-    historicalAnalogs: [{ event: "SEBI buy-back tax adjustments", date: "2019", outcome: "Temporarily reduced buy-back volume by 30% as corporate treasury strategies adjusted." }],
-    risks: ["Reduced volume of share buy-backs in favor of higher dividend payments."]
+    "risks": [
+      "Short-term margins compression due to high initial depreciation charges.",
+      "Delays in localization of battery cell production causing supply bottlenecks."
+    ]
   },
   {
-    company: "Tata Motors Limited",
-    eventType: "Business Expansion",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 82,
-    confidence: 90,
-    magnitudeExplanation: "High fundamental impact due to premium capacity expansion and capital deployment in high-margin EV segment.",
-    freshness: 90,
-    age: "2 days ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Significant",
-    verdict: "Strategic EV capacity expansion and private equity funding secure leadership position in India's electric passenger vehicle segment.",
-    whatHappened: "Tata Motors' EV subsidiary signed a memorandum of understanding with the Tamil Nadu government to invest Rs 9,000 crore over five years in a new electric vehicle manufacturing facility, expected to add 150,000 units of annual capacity.",
-    whyItMatters: {
+    "company": "Securities and Exchange Board of India (SEBI)",
+    "eventType": "Regulatory reform",
+    "sentiment": "Bearish",
+    "severity": 4,
+    "magnitude": 3,
+    "actionability": 74,
+    "confidence": 88,
+    "magnitudeExplanation": "Moderate fundamental impact as higher compliance overhead affects retail algo platform volumes.",
+    "freshness": 90,
+    "age": "2 days ago",
+    "timeHorizon": "Long-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Tightened algo-trading consultative paper triggers compliance warnings for digital brokerage platforms.",
+    "url": "https://www.sebi.gov.in/legal/circulars/jun-2026/regulatory-framework-for-algo-trading-and-co-location_1234572.html",
+    "whatHappened": "The Securities and Exchange Board of India (SEBI) issued a comprehensive consultative paper proposing a tightened regulatory framework for algorithmic trading and co-location facilities used by institutional brokers. The regulator's proposals include raising the entry barrier for retail algo-trading platforms, mandate pre-trade risk controls for all algo orders, and implementing a dynamic tick-size regime to curb order book stuffing. SEBI aims to address systemic risks arising from high-frequency trading (HFT) and ensure market integrity.\n\nAdditionally, the paper suggests implementing a progressive penalty framework for algorithm malfunctions that trigger abnormal market volatility or order imbalances. Co-location facility access fees are proposed to be restructured to prevent monopolistic advantages for large high-frequency trading desks. Market participants have 30 days to submit feedback, and compliance changes are expected to be phased in over the next 12 months, raising compliance costs for brokerage houses.",
+    "whyItMatters": {
+      "Compliance costs": "Significant overhead increases operational costs for retail algo broker interfaces.",
+      "Volume impact": "Risk of transient volume drop in F&O segment if retail API access is restricted."
+    },
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 100,
+        "weight": "0.70",
+        "contribution": "70.0"
+      },
+      {
+        "component": "Media Review",
+        "score": 75,
+        "weight": "0.20",
+        "contribution": "15.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 30,
+        "weight": "0.10",
+        "contribution": "3.0"
+      }
+    ],
+    "reactionLean": "Bearish for retail broking stocks (AngelOne, Motilal Oswal) due to anticipated volumes contraction.",
+    "evidence": "SEBI Consultative Paper dated June 27, 2026. Source URL: https://www.sebi.gov.in/legal/circulars/jun-2026/regulatory-framework-for-algo-trading-and-co-location_1234572.html",
+    "marketContext": {
+      "1-Day Return": "-2.5%",
+      "5-Day Return": "-4.1%",
+      "P/E ratio": "18.9x"
+    },
+    "spillover": {
+      "beneficiaries": "Traditional advisory-led wealth management desks",
+      "atRisk": "Discount brokerages highly dependent on high-frequency retail volumes"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "SEBI Peak Margin implementation",
+        "date": "2020",
+        "outcome": "Caused a 15% reduction in retail intraday volumes before stabilizing over two quarters."
+      }
+    ],
+    "risks": [
+      "Unexpectedly fast implementation timeline narrowing adaptation window for tech platforms."
+    ]
+  },
+  {
+    "company": "Tata Motors Limited",
+    "eventType": "Business Expansion",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 82,
+    "confidence": 85,
+    "magnitudeExplanation": "High fundamental impact due to premium capacity expansion and capital deployment in high-margin EV segment.",
+    "freshness": 90,
+    "age": "1 day ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Strategic EV capacity expansion and private equity funding secure leadership position in India's electric passenger vehicle segment.",
+    "url": "https://www.moneycontrol.com/news/business/tata-motors-to-invest-rs-9000-crore-in-tamil-nadu-ev-plant-1234570.html",
+    "whatHappened": "Tata Motors Limited signed a definitive Memorandum of Understanding (MoU) with the State Government of Tamil Nadu to invest ₹9,000 crore over the next five years. The capital will be deployed to establish a state-of-the-art greenfield electric vehicle (EV) manufacturing plant in Ranipet. The facility is designed to have an initial annual capacity of 150,000 passenger EVs, with provision for modular expansion up to 300,000 units, creating over 5,000 direct jobs.\n\nThe plant will focus on manufacturing premium electric passenger vehicles based on Tata's advanced Acti.ev and EMA pure EV architectures. The state government has granted industrial land with dedicated power and water infrastructure, along with state tax incentives linked to employment generation. This plant strengthens Tata Motors' domestic EV leadership (where it holds a ~70% market share) by creating a localized hub for EV component sourcing, battery module assembly, and testing.",
+    "whyItMatters": {
       "Market share": "Defends 70%+ market share in India passenger EV segment against foreign and domestic entry.",
       "Capex scale": "Rs 9,000 crore represents major capital commitment, funded mostly through internal accruals and PE equity.",
       "Local ecosystems": "Establishes localized battery assembly, lowering supply chain import risks."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 95, weight: "0.70", contribution: "66.5" },
-      { component: "Media Consensus", score: 80, weight: "0.20", contribution: "16.0" },
-      { component: "Historical Analog", score: 25, weight: "0.10", contribution: "2.5" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 95,
+        "weight": "0.70",
+        "contribution": "66.5"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 80,
+        "weight": "0.20",
+        "contribution": "16.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 25,
+        "weight": "0.10",
+        "contribution": "2.5"
+      }
     ],
-    reactionLean: "Bullish market reaction anticipated; EV capex scale confirms execution timeline and margin protection.",
-    evidence: "Official disclosure to National Stock Exchange (NSE) dated June 28, 2026.",
-    marketContext: { "1-Day Return": "+1.8%", "5-Day Return": "+3.2%", "P/E ratio": "18.5x" },
-    spillover: { beneficiaries: "Sona BLW (EV drivetrains), Tata Power (charging network)", atRisk: "Traditional auto parts suppliers without EV transit parts" },
-    historicalAnalogs: [{ event: "Tata Motors Sanand Plant EV Conversion", date: "2022", outcome: "Resulted in 40% volume growth in Nexon EV within 12 months." }],
-    risks: ["Short-term margins compression due to high initial depreciation charges.", "Delays in localization of battery cell production causing supply bottlenecks."]
+    "reactionLean": "Bullish market reaction anticipated; EV capex scale confirms execution timeline and margin protection.",
+    "evidence": "Official disclosure to National Stock Exchange (NSE) dated June 28,  Tamil Nadu State industrial policy report, and media coverage in Economic Times. Source URL: https://www.moneycontrol.com/news/business/tata-motors-to-invest-rs-9000-crore-in-tamil-nadu-ev-plant-1234570.html",
+    "marketContext": {
+      "1-Day return": "+1.8%",
+      "5-Day return": "+3.2%",
+      "P/E ratio": "18.5x",
+      "Sector average P/E": "24.2x"
+    },
+    "spillover": {
+      "beneficiaries": "Sona BLW (EV drivetrains), Tata Power (charging network)",
+      "atRisk": "Traditional auto parts suppliers without EV transit parts"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Tata Motors Sanand Plant EV Conversion",
+        "date": "2022",
+        "outcome": "Resulted in 40% volume growth in Nexon EV within 12 months."
+      }
+    ],
+    "risks": [
+      "Short-term margins compression due to high initial depreciation charges.",
+      "Delays in localization of battery cell production causing supply bottlenecks."
+    ]
   },
   {
-    company: "HDFC Bank Limited",
-    eventType: "Earnings",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 3,
-    actionability: 75,
-    confidence: 90,
-    magnitudeExplanation: "Moderate to high impact as credit expansion eases NIM compression concerns post-merger.",
-    freshness: 95,
-    age: "12 hours ago",
-    timeHorizon: "Short-term",
-    nifty500Impact: "High",
-    verdict: "Robust credit growth and deposit accretion post-merger stabilize Net Interest Margins (NIM), signaling positive outlook.",
-    whatHappened: "HDFC Bank reported gross advances growth of 15.8% YoY and deposit accretion of 18.2% YoY for the quarter, beating analyst consensus and easing concerns regarding deposit franchise liquidity.",
-    whyItMatters: {
-      "Margin stability": "Stables NIM at 3.45%, beating estimates of 3.38%.",
-      "Credit expansion": "Advances driven by retail and corporate credit segments.",
-      "LDR recovery": "Loan-to-deposit ratio improves by 120 bps."
+    "company": "HDFC Bank Limited",
+    "eventType": "Earnings",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 3,
+    "actionability": 75,
+    "confidence": 90,
+    "magnitudeExplanation": "Moderate long-term fundamental impact reflecting core Net Interest Margin recovery post-merger integration.",
+    "freshness": 80,
+    "age": "2 days ago",
+    "timeHorizon": "Long-term",
+    "nifty500Impact": "Very High",
+    "verdict": "Q1 net profit rises 14% YoY with stable asset quality, signaling steady containment of merger-related cost overhang.",
+    "url": "https://www.moneycontrol.com/news/business/earnings/hdfc-bank-q1-results-net-profit-rises-14-percent-1234571.html",
+    "whatHappened": "HDFC Bank reported its financial results for Q1 FY27, posting a 14% year-on-year growth in standalone net profit to ₹18,500 crore, outperforming consensus estimates. Net Interest Income (NII) grew 11.2% to ₹29,800 crore, supported by a stable Net Interest Margin (NIM) of 3.45%, which arrested the decline observed in previous quarters post-merger. The bank’s asset quality remained highly resilient, with Gross Non-Performing Assets (GNPA) improving slightly to 1.22% from 1.24% in the preceding quarter.\n\nLoan growth for the quarter stood at 13.8% YoY, led by strong traction in retail and corporate loans, while deposit growth grew by 16.5% YoY, reflecting the bank's intense focus on deposit mobilization to improve its loan-to-deposit ratio (LDR). Management indicated that credit costs are expected to remain stable, and merger-related cost synergies in technology and personnel are starting to materialize, supporting operational efficiency.",
+    "whyItMatters": {
+      "Asset Quality": "Low delinquency rates indicate strong credit underwriting and risk mitigation.",
+      "NIM stability": "Demonstrates successful post-merger deposit pricing power and asset yields rebalancing."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 98, weight: "0.70", contribution: "68.6" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 34, weight: "0.10", contribution: "3.4" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 99,
+        "weight": "0.70",
+        "contribution": "69.3"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 85,
+        "weight": "0.20",
+        "contribution": "17.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 37,
+        "weight": "0.10",
+        "contribution": "3.7"
+      }
     ],
-    reactionLean: "Strong institutional buying expected. Restores confidence in deposit franchise scale.",
-    evidence: "HDFC Bank quarterly business update filed with BSE/NSE on June 29, 2026.",
-    marketContext: { "1-Day Return": "+2.4%", "5-Day Return": "+4.1%", "P/B Ratio": "2.8x" },
-    spillover: { beneficiaries: "Private sector banking peers (ICICI Bank, Axis Bank) on positive sector sentiment", atRisk: "NBFCs facing higher cost of capital from banking system" },
-    historicalAnalogs: [{ event: "HDFC Merger advances stabilization", date: "Q3FY24", outcome: "Led to a 6% rally in private banks index within 2 weeks." }],
-    risks: ["Elevated cost of deposits due to persistent competitive pressure in retail banking.", "Unsecured retail credit growth could trigger regulatory risk weighs."]
+    "reactionLean": "Positive reaction likely; relief on margin protection supports valuations.",
+    "evidence": "Official press release and earnings presentation filed with BSE/NSE. Source URL: https://www.moneycontrol.com/news/business/earnings/hdfc-bank-q1-results-net-profit-rises-14-percent-1234571.html",
+    "marketContext": {
+      "1-Day return": "+0.5%",
+      "5-Day return": "+2.1%",
+      "P/E ratio": "17.2x"
+    },
+    "spillover": {
+      "beneficiaries": "Banking index ETFs, private sector bank peers",
+      "atRisk": "Higher cost NBFCs facing deposit competition"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "HDFC Bank Merger Completion Quarter",
+        "date": "2023",
+        "outcome": "Stock fell 8% on initial margin compression before recovering over 6 months."
+      }
+    ],
+    "risks": [
+      "Deposit growth lagging credit growth, maintaining pressure on loan-to-deposit ratio.",
+      "Potential slowdown in retail spending affecting fee income streams."
+    ]
   },
   {
-    company: "Reliance Industries Limited",
-    eventType: "Tariff hike",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 83,
-    confidence: 95,
-    magnitudeExplanation: "High impact due to substantial ARPU expansion potential for Jio Platforms.",
-    freshness: 90,
-    age: "2 days ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "High",
-    verdict: "Jio's 12%-25% mobile tariff hikes drive monetization phase, expected to lift telecom margins and sector ARPU.",
-    whatHappened: "Reliance Industries' telecom arm, Jio Platforms, announced tariff hikes ranging from 12% to 25% across its mobile plans, starting July 3, 2026, marking a shift from subscriber acquisition to margin expansion.",
-    whyItMatters: {
-      "ARPU Expansion": "Expected to lift Jio's ARPU by ₹22-25 over the next three quarters.",
-      "5G monetization": "Tariff revisions begin charging premium rates for high-data 5G plans."
+    "company": "Reliance Industries Limited",
+    "eventType": "Tariff hike",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 78,
+    "confidence": 92,
+    "magnitudeExplanation": "High impact reflecting immediate EBITDA expandability for the retail telecom division.",
+    "freshness": 80,
+    "age": "3 days ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Reliance Jio tariff hike of 15-25% improves ARPU projections and supports capital expenditure funding.",
+    "url": "https://www.moneycontrol.com/news/business/telecom/reliance-jio-announces-15-to-25-percent-mobile-tariff-hike-1234573.html",
+    "whatHappened": "Reliance Industries' telecom subsidiary, Reliance Jio Infocomm, announced a comprehensive mobile tariff hike of 15% to 25% across its prepaid and postpaid plans. This represents the first major industry-wide tariff revision in over two years. Jio stated that the revision is aimed at improving Average Revenue Per User (ARPU) to fund massive capital expenditures on 5G network expansion and spectrum acquisition.\n\nThe market reacted very positively, with RIL shares rising 2.8% on the day of the announcement. Institutional analysts project that the tariff hike will expand Jio's ARPU from ₹181.7 to ₹205 by the end of the fiscal year, driving a ~15% expansion in telecom EBITDA. Peers Bharti Airtel and Vodafone Idea followed with matching tariff hikes, signaling a return to structural margin expansion and healthier competition in the Indian telecom sector.",
+    "whyItMatters": {
+      "ARPU Expansion": "Jio ARPU estimated to rise to ₹205, driving segment profitability.",
+      "Capex funding": "Generates surplus cash flow for 5G network rollout and spectrum amortization."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 70, weight: "0.10", contribution: "7.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 90,
+        "weight": "0.20",
+        "contribution": "18.0"
+      },
+      {
+        "component": "Historical Precedent",
+        "score": 54,
+        "weight": "0.10",
+        "contribution": "5.4"
+      }
     ],
-    reactionLean: "Highly bullish; indicates strong pricing power and brings capital returns focus back to Jio.",
-    evidence: "Reliance Jio press release and BSE corporate disclosure dated June 27, 2026.",
-    marketContext: { "1-Day Return": "+2.9%", "5-Day Return": "+5.2%", "P/E ratio": "26.4x" },
-    spillover: { beneficiaries: "Bharti Airtel, Vodafone Idea (telecom peers benefit from price umbrella)", atRisk: "Consumer wallet share (slight discretionary spending impact)" },
-    historicalAnalogs: [{ event: "December 2021 Telecom Tariff Hike", date: "2021", outcome: "Telecom index rallied 18% over the following quarter on ARPU gains." }],
-    risks: ["Initial churn in low-tier prepay subscribers shifting to state-owned BSNL."]
+    "reactionLean": "Bullish; improves holding group sum-of-parts valuation margins.",
+    "evidence": "Reliance Jio press release and RIL exchange disclosure dated June 27, 2026. Source URL: https://www.moneycontrol.com/news/business/telecom/reliance-jio-announces-15-to-25-percent-mobile-tariff-hike-1234573.html",
+    "marketContext": {
+      "1-Day Return": "+2.8%",
+      "5-Day Return": "+3.9%",
+      "P/E ratio": "26.2x"
+    },
+    "spillover": {
+      "beneficiaries": "Telecom equipment vendors, telecom tower infrastructure (Indus Towers)",
+      "atRisk": "Streaming platforms sensitive to mobile data consumption changes"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Jio Tariff Hike 2021",
+        "date": "2021",
+        "outcome": "Jio EBITDA margins expanded by 220 bps in subsequent two quarters, stock rose 12%."
+      }
+    ],
+    "risks": [
+      "Minor user churn in lower tier prepaid packages as tariff increases."
+    ]
   },
   {
-    company: "Bharti Airtel Limited",
-    eventType: "Strategic Alliance",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 3,
-    actionability: 71,
-    confidence: 90,
-    magnitudeExplanation: "Moderate impact enhancing B2B cloud and AI revenues over medium term.",
-    freshness: 80,
-    age: "4 days ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Moderate",
-    verdict: "Strategic cloud partnership with Google Cloud enables monetization of sovereign AI solutions for enterprise clients.",
-    whatHappened: "Bharti Airtel announced an agreement with Google Cloud to deliver cloud and generative AI solutions to Indian corporate clients, utilizing Airtel's extensive connectivity and data center infrastructure.",
-    whyItMatters: {
-      "B2B revenue acceleration": "Leverages Airtel's Edge computing network to run AI models locally for Indian corporates.",
-      "Google partnership scale": "Combines Google's software capabilities with Airtel's data center subsidiary Nxtra."
+    "company": "Bharti Airtel Limited",
+    "eventType": "Strategic Alliance",
+    "sentiment": "Bullish",
+    "severity": 3,
+    "magnitude": 3,
+    "actionability": 70,
+    "confidence": 88,
+    "magnitudeExplanation": "Moderate impact on digital capabilities, accelerating corporate enterprise services segment growth.",
+    "freshness": 80,
+    "age": "3 days ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Strategic alliance with Google Cloud accelerates generative AI product roadmap for enterprise business.",
+    "url": "https://www.moneycontrol.com/news/business/telecom/bharti-airtel-partners-with-google-cloud-for-ai-solutions-1234574.html",
+    "whatHappened": "Bharti Airtel announced a multi-year strategic alliance with Google Cloud to deliver generative AI and cloud solutions to Indian businesses. Airtel will build and deploy a suite of enterprise-grade AI solutions leveraging Google Cloud's Vertex AI platform. These services will target over 2,000 large enterprise customers and one million small and medium-sized businesses (SMBs) currently served by Airtel Business.\n\nThe partnership also includes a shared commitment to integrate AI solutions into Airtel's internal operations, including customer service automation, network optimization, and database query processing. Airtel will deploy Google Cloud's smart analytics tools to extract event-intelligence insights from its vast active subscriber base of 380 million users. The collaboration represents a major milestone in Airtel's transition from a connectivity provider to an integrated digital services player.",
+    "whyItMatters": {
+      "IP Creation": "Enables creation of custom enterprise-facing AI platforms.",
+      "Enterprise Growth": "Airtel Business segment revenues visible to grow at 15-18% CAGR."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 95, weight: "0.70", contribution: "66.5" },
-      { component: "Media Consensus", score: 85, weight: "0.20", contribution: "17.0" },
-      { component: "Historical Analog", score: 45, weight: "0.10", contribution: "4.5" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 96,
+        "weight": "0.70",
+        "contribution": "67.2"
+      },
+      {
+        "component": "Media Reports",
+        "score": 85,
+        "weight": "0.20",
+        "contribution": "17.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 38,
+        "weight": "0.10",
+        "contribution": "3.8"
+      }
     ],
-    reactionLean: "Positive; strengthens Airtel's position as a premium enterprise digital services provider.",
-    evidence: "Bharti Airtel press release to BSE/NSE dated June 25, 2026.",
-    marketContext: { "1-Day Return": "+1.1%", "5-Day Return": "+3.4%", "P/E ratio": "45.1x" },
-    spillover: { beneficiaries: "Tata Communications, local system integrators", atRisk: "Global cloud operators without local telecom tie-ups" },
-    historicalAnalogs: [{ event: "Airtel GCP edge hosting agreement", date: "2020", outcome: "B2B segment revenue grew by 14% over subsequent two quarters." }],
-    risks: ["Slow adoption of enterprise AI solutions among mid-tier Indian corporate clients."]
+    "reactionLean": "Positive; confirms Airtel's capability to expand non-connectivity B2B revenues.",
+    "evidence": "Bharti Airtel exchange filing dated June 27, 2026. Source URL: https://www.moneycontrol.com/news/business/telecom/bharti-airtel-partners-with-google-cloud-for-ai-solutions-1234574.html",
+    "marketContext": {
+      "1-Day Return": "+1.1%",
+      "5-Day Return": "+3.0%",
+      "P/E ratio": "45.6x"
+    },
+    "spillover": {
+      "beneficiaries": "IT consultancy partners, system integrators",
+      "atRisk": "B2B SaaS companies without direct telecom channels"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Airtel Cloud alliance with AWS",
+        "date": "2020",
+        "outcome": "Helped double Airtel Business cloud service revenues within two fiscal years."
+      }
+    ],
+    "risks": [
+      "Slow technology adoption cycles in public sector enterprises."
+    ]
   },
   {
-    company: "State Bank of India",
-    eventType: "Debt issuance",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 3,
-    actionability: 69,
-    confidence: 95,
-    magnitudeExplanation: "Moderate impact providing long-term capital for infrastructure loan portfolio.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "Moderate",
-    verdict: "SBI Board approves raising up to ₹20,000 crore via infrastructure bonds, locking in long-term capital.",
-    whatHappened: "State Bank of India's executive committee approved the raising of up to ₹20,000 crore through long-term infrastructure bonds in FY27 to fund long-gestation infrastructure projects.",
-    whyItMatters: {
-      "Funding diversification": "Locks in long-term fixed rates, reducing reliance on short-term retail deposits.",
-      "Asset-Liability matching": "Bonds match the maturity profile of corporate infra loans, lowering systemic risk."
+    "company": "State Bank of India",
+    "eventType": "Debt issuance",
+    "sentiment": "Bullish",
+    "severity": 3,
+    "magnitude": 3,
+    "actionability": 66,
+    "confidence": 90,
+    "magnitudeExplanation": "Moderate impact reflecting strong liquidity base supporting credit growth.",
+    "freshness": 75,
+    "age": "4 days ago",
+    "timeHorizon": "Long-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Successful tier-2 bond raising of ₹10,000 crore secures long-term credit funding at competitive yields.",
+    "url": "https://www.bseindia.com/xml-data/corpfiling/AttachLive/sbi-debt-issuance-tier-2-bonds-2026.pdf",
+    "whatHappened": "State Bank of India (SBI) raised ₹10,000 crore through the issuance of 15-year Tier-2 bonds at a coupon rate of 7.42% on the NSE debt platform. The issue was oversubscribed by over 3.5 times, drawing robust participation from domestic pension funds, insurance companies, and mutual funds. The capital raised will strengthen SBI's capital adequacy ratio (CAR) to support credit growth in its infrastructure lending portfolio.\n\nThe coupon rate of 7.42% was priced tightly, representing a spread of only 15 basis points over the comparable government security yield, highlighting the bank's strong credit profile and AAA rating. SBI management indicated that capital deployment will prioritize green energy financing, road infrastructure projects, and corporate manufacturing advances. The successful bond sale demonstrates deep market liquidity and investor confidence in India's public sector banking giant.",
+    "whyItMatters": {
+      "Capital buffer": "CAR expected to expand by ~45 bps, supporting lending capacity.",
+      "Yield advantage": "Low coupon rate preserves SBI's cost-of-capital edge over private bank peers."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 80, weight: "0.20", contribution: "16.0" },
-      { component: "Historical Analog", score: 90, weight: "0.10", contribution: "9.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 100,
+        "weight": "0.70",
+        "contribution": "70.0"
+      },
+      {
+        "component": "Media Review",
+        "score": 80,
+        "weight": "0.20",
+        "contribution": "16.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 40,
+        "weight": "0.10",
+        "contribution": "4.0"
+      }
     ],
-    reactionLean: "Neutral to positive; indicates healthy pipeline of infrastructure credit demand.",
-    evidence: "SBI official disclosure to stock exchanges dated June 28, 2026.",
-    marketContext: { "1-Day Return": "+0.4%", "5-Day Return": "+1.8%", "P/B ratio": "1.6x" },
-    spillover: { beneficiaries: "Infrastructure developer firms (L&T, NHAI contractors)", atRisk: "None" },
-    historicalAnalogs: [{ event: "SBI ₹10,000 crore infra bond issue", date: "2023", outcome: "Oversubscribed by 3x, lowering SBI's borrowing cost by 10 bps." }],
-    risks: ["Failure to fully deploy proceeds if infrastructure execution delays persist nationwide."]
+    "reactionLean": "Positive; confirms strong institutional support for SBI's capital structure.",
+    "evidence": "State Bank of India official exchange disclosure dated June 26, 2026. Source URL: https://www.bseindia.com/xml-data/corpfiling/AttachLive/sbi-debt-issuance-tier-2-bonds-2026.pdf",
+    "marketContext": {
+      "1-Day Return": "+0.4%",
+      "5-Day Return": "+1.8%",
+      "P/E ratio": "10.5x"
+    },
+    "spillover": {
+      "beneficiaries": "Infrastructure developers (L&T, IRB Infra)",
+      "atRisk": "High-coupon NBFCs seeking institutional debt"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "SBI Tier-2 bond issuance 2023",
+        "date": "2023",
+        "outcome": "Priced at 7.54%, subsequently supported a 14% growth in corporate loan segments."
+      }
+    ],
+    "risks": [
+      "Slight dilution of net interest margins if lending deployment is delayed."
+    ]
   },
   {
-    company: "Larsen & Toubro Limited",
-    eventType: "Order win",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 80,
-    confidence: 95,
-    magnitudeExplanation: "High impact validating L&T's global EPC leadership in renewable energy.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "Significant",
-    verdict: "L&T Hydrocarbon and Power divisions secure mega clean energy order in the Middle East worth ₹10,000+ crore.",
-    whatHappened: "Larsen & Toubro's Power Transmission & Distribution business secured a 'mega' contract (internally defined as exceeding ₹10,000 crore) for engineering, procurement, and construction of a massive solar plant and grid substation in the Middle East.",
-    whyItMatters: {
-      "Order Book visibility": "Adds to a robust order book exceeding ₹4.7 lakh crore, ensuring 2.5 years of revenue visibility.",
-      "Global green pivot": "Establishes L&T as a leading constructor of utility-scale solar projects internationally."
+    "company": "Larsen & Toubro Limited",
+    "eventType": "Order win",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 83,
+    "confidence": 92,
+    "magnitudeExplanation": "High impact due to mega contract scale expanding revenue visibility for core infra segment.",
+    "freshness": 75,
+    "age": "5 days ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Mega order win for High-Speed Rail project expands backlog to all-time high of ₹4.8L Cr.",
+    "url": "https://www.moneycontrol.com/news/business/companies/larsen-and-toubro-wins-mega-order-for-bullet-train-project-1234575.html",
+    "whatHappened": "Larsen & Toubro’s (L&T) infrastructure division secured a 'Mega' contract valued between ₹10,000 crore and ₹15,000 crore from the National High-Speed Rail Corporation (NHSRCL). The contract involves the design and construction of a major section of the Mumbai-Ahmedabad High-Speed Rail (bullet train) project, including viaducts, bridges, maintenance depots, and station sub-structures.\n\nThe project has an execution timeline of 48 months and will be executed by L&T's Heavy Civil Infrastructure business vertical. This win expands L&T's order book to an all-time high of over ₹4.8 lakh crore, providing strong revenue visibility for the next three years. Analysts highlighted that L&T's robust pre-qualification credentials and in-house engineering capacity enabled it to secure the project with favorable bidding terms, preserving its high operating margins.",
+    "whyItMatters": {
+      "Backlog strength": "Order book expands to ₹4.8L crore, providing 3+ years of revenue coverage.",
+      "Execution efficiency": "L&T's massive capital equipment base ensures execution timelines are met."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 70, weight: "0.10", contribution: "7.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Media Reports",
+        "score": 85,
+        "weight": "0.20",
+        "contribution": "17.0"
+      },
+      {
+        "component": "Historical Precedents",
+        "score": 64,
+        "weight": "0.10",
+        "contribution": "6.4"
+      }
     ],
-    reactionLean: "Bullish; order size and execution track record support revenue trajectory and margin target stability.",
-    evidence: "L&T corporate announcement filed with BSE/NSE on June 28, 2026.",
-    marketContext: { "1-Day Return": "+2.1%", "5-Day Return": "+3.8%", "P/E ratio": "31.2x" },
-    spillover: { beneficiaries: "Subcontractors, local steel and electrical component suppliers", atRisk: "European EPC contractors losing market share" },
-    historicalAnalogs: [{ event: "L&T Amaala solar project order", date: "2022", outcome: "Stock rose 12% over 60 days on execution milestone news." }],
-    risks: ["Geopolitical escalation in the Middle East causing execution delays or raw material supply bottlenecks."]
+    "reactionLean": "Bullish; reinforces L&T as prime beneficiary of domestic capital expenditure cycle.",
+    "evidence": "L&T Press Release and exchange disclosure dated June 25, 2026. Source URL: https://www.moneycontrol.com/news/business/companies/larsen-and-toubro-wins-mega-order-for-bullet-train-project-1234575.html",
+    "marketContext": {
+      "1-Day Return": "+2.2%",
+      "5-Day Return": "+4.8%",
+      "P/E ratio": "31.2x"
+    },
+    "spillover": {
+      "beneficiaries": "Steel and cement manufacturers (UltraTech, JSW Steel)",
+      "atRisk": "Smaller regional EPC contractors with constrained balance sheets"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "L&T High-Speed Rail Package C4 win",
+        "date": "2020",
+        "outcome": "Order value ₹25k Cr, driven margin expansion by 80 bps, stock rose 24% over 6 months."
+      }
+    ],
+    "risks": [
+      "Unexpected land acquisition disputes delaying site handover."
+    ]
   },
   {
-    company: "ICICI Bank Limited",
-    eventType: "Market capitalization milestone",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 3,
-    actionability: 67,
-    confidence: 100,
-    magnitudeExplanation: "Moderate impact reflecting institutional scale and benchmark indexing weight.",
-    freshness: 80,
-    age: "3 days ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "Moderate",
-    verdict: "ICICI Bank crosses ₹10 lakh crore market capitalization milestone, joining elite banking club.",
-    whatHappened: "ICICI Bank's stock price hit an all-time high, pushing its market capitalization past ₹10 lakh crore (approximately $120 billion), making it the second private bank in India (after HDFC Bank) to hit this milestone.",
-    whyItMatters: {
-      "Index weight addition": "Increases ICICI Bank's weight in Nifty 50 and MSCI indices, attracting passive capital inflows.",
-      "Valuation premium": "Reflects market trust in its clean balance sheet and high return on assets (RoA > 2.0%)."
+    "company": "ICICI Bank Limited",
+    "eventType": "Market capitalization milestone",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 3,
+    "actionability": 74,
+    "confidence": 88,
+    "magnitudeExplanation": "Moderate long-term impact reflecting sustained outperformance relative to peers.",
+    "freshness": 75,
+    "age": "5 days ago",
+    "timeHorizon": "Long-term",
+    "nifty500Impact": "Significant",
+    "verdict": "ICICI Bank crosses ₹8 lakh crore market capitalization milestone, cementing premium bank status.",
+    "url": "https://www.moneycontrol.com/news/business/icici-bank-crosses-rs-8-lakh-crore-market-cap-milestone-1234576.html",
+    "whatHappened": "ICICI Bank Limited crossed the ₹8 lakh crore ($96 billion) market capitalization milestone for the first time, following a 3.2% rally in its share price. The bank is only the second Indian lender, after HDFC Bank, to achieve this scale. The rally was supported by foreign institutional investor (FII) buying and positive brokerage updates highlighting ICICI's superior return on assets (RoA) and low credit cost projections.\n\nAnalysts attributed the market cap milestone to the bank's consistent execution, showing an RoA of 2.4% and Return on Equity (RoE) of 18.5% over the past eight quarters. The bank has successfully expanded its high-margin retail loan book while maintaining Gross NPA at a low 1.35%. Institutional investors have rerated the stock, pricing in its digital leadership and strong capital adequacy ratio of 16.8%, which supports credit growth without immediate equity dilution.",
+    "whyItMatters": {
+      "FII inflow": "Milestone likely to trigger weight index rebalancing, driving passive inflows.",
+      "Valuation premium": "ICICI Bank trades at a premium multiple, reflecting core profitability strength."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 100, weight: "0.20", contribution: "20.0" },
-      { component: "Historical Analog", score: 100, weight: "0.10", contribution: "10.0" }
+    "confidenceComposition": [
+      {
+        "component": "Market Data",
+        "score": 100,
+        "weight": "0.70",
+        "contribution": "70.0"
+      },
+      {
+        "component": "Brokerage Reports",
+        "score": 80,
+        "weight": "0.20",
+        "contribution": "16.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 20,
+        "weight": "0.10",
+        "contribution": "2.0"
+      }
     ],
-    reactionLean: "Neutral to positive; cements position as a core institutional portfolio holding.",
-    evidence: "NSE market trading disclosures and financial media index reports dated June 26, 2026.",
-    marketContext: { "1-Day Return": "+0.8%", "5-Day Return": "+2.5%", "P/B ratio": "3.1x" },
-    spillover: { beneficiaries: "Mutual funds with major bank holdings (passive inflows)", atRisk: "Underweight portfolio managers" },
-    historicalAnalogs: [{ event: "HDFC Bank crossing ₹10 lakh crore cap", date: "2021", outcome: "Passive inflows of over $450M occurred during next index rebalancing." }],
-    risks: ["Short-term profit booking from foreign institutional investors (FIIs) at record valuation multiples."]
+    "reactionLean": "Positive; consolidates ICICI Bank's position as institutional pick in financial services.",
+    "evidence": "BSE/NSE stock price and market cap metrics, Bloomberg compilation dated June 25, 2026. Source URL: https://www.moneycontrol.com/news/business/icici-bank-crosses-rs-8-lakh-crore-market-cap-milestone-1234576.html",
+    "marketContext": {
+      "1-Day Return": "+3.2%",
+      "5-Day Return": "+5.1%",
+      "P/E ratio": "18.8x"
+    },
+    "spillover": {
+      "beneficiaries": "Private banking sector peers (Axis Bank, Kotak)",
+      "atRisk": "Public sector bank peers losing market capitalization share"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "ICICI Bank crossing ₹5 lakh crore cap",
+        "date": "2021",
+        "outcome": "Triggered further 18% institutional ownership expansion within subsequent two quarters."
+      }
+    ],
+    "risks": [
+      "Slowing system deposit growth placing ceiling on credit growth."
+    ]
   },
   {
-    company: "Maruti Suzuki India Limited",
-    eventType: "Product recall",
-    sentiment: "Bearish",
-    severity: 3,
-    magnitude: 2,
-    actionability: 52,
-    confidence: 95,
-    magnitudeExplanation: "Minor impact as the financial cost is immaterial, though minor brand friction exists.",
-    freshness: 75,
-    age: "5 days ago",
-    timeHorizon: "Short-term",
-    nifty500Impact: "Minor",
-    verdict: "Recall of 16,000 WagonR and Baleno units over fuel pump motor defect carries minimal financial impact.",
-    whatHappened: "Maruti Suzuki announced a voluntary recall of 16,000 units of Baleno and WagonR models manufactured in late 2023 to replace a suspected faulty fuel pump motor component.",
-    whyItMatters: {
-      "Recall volume": "16,000 units represents less than 1% of Maruti's annual production volumes.",
-      "Cost absorption": "Component supplier to absorb replacement costs, shielding Maruti's margins."
+    "company": "Maruti Suzuki India Limited",
+    "eventType": "Product recall",
+    "sentiment": "Bearish",
+    "severity": 3,
+    "magnitude": 2,
+    "actionability": 58,
+    "confidence": 92,
+    "magnitudeExplanation": "Low impact due to small financial cost relative to Maruti's robust balance sheet.",
+    "freshness": 75,
+    "age": "6 days ago",
+    "timeHorizon": "Short-term",
+    "nifty500Impact": "Moderate",
+    "verdict": "Voluntary recall of 16k Baleno and WagonR models poses negligible financial impact.",
+    "url": "https://www.moneycontrol.com/news/business/companies/maruti-suzuki-recalls-16000-baleno-and-wagonr-cars-1234577.html",
+    "whatHappened": "Maruti Suzuki India announced a voluntary recall of 16,500 units of its popular Baleno and WagonR models manufactured between November 2025 and January 2026. The recall was initiated to inspect and replace a defective fuel pump motor component that could cause engine stalling or starting issues. The replacement of the part will be performed free of cost at Maruti's authorized service centers.\n\nWhile the recall represents a minor financial hit (estimated at ₹15-20 crore for component replacement and labor), the stock reacted with a mild 0.8% decline due to brand equity sensitivity. Maruti's swift voluntary action, coordinated under the voluntary vehicle recall policy, minimized reputational risk. Management confirmed that the defective component was traced to a single batch from a tier-2 component supplier, and quality assurance processes have been tightened to prevent recurring defects.",
+    "whyItMatters": {
+      "Financial impact": "Estimated ₹15-20 crore cost is minor, represent <0.1% of Maruti's annual revenues.",
+      "Regulatory alignment": "Voluntary disclosure protects Maruti from SEBI/SIAM punitive actions."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 70, weight: "0.10", contribution: "7.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 100,
+        "weight": "0.70",
+        "contribution": "70.0"
+      },
+      {
+        "component": "Media Reports",
+        "score": 80,
+        "weight": "0.20",
+        "contribution": "16.0"
+      },
+      {
+        "component": "Historical Precedent",
+        "score": 60,
+        "weight": "0.10",
+        "contribution": "6.0"
+      }
     ],
-    reactionLean: "Neutral to mildly bearish; minor sentiment drag but no structural change in earnings path.",
-    evidence: "Maruti Suzuki official press release submitted to BSE on June 24, 2026.",
-    marketContext: { "1-Day Return": "-0.3%", "5-Day Return": "+0.5%", "P/E ratio": "28.5x" },
-    spillover: { beneficiaries: "None", atRisk: "Fuel pump component supplier (Denso partners)" },
-    historicalAnalogs: [{ event: "Maruti Suzuki recall of 87,000 S-Presso units", date: "2023", outcome: "Stock recovered all intraday losses within 48 hours." }],
-    risks: ["Extended recall expansion if identical parts were fitted in other popular passenger vehicle models."]
+    "reactionLean": "Neutral; minor overhang resolved swiftly, focus remains on monthly sales volumes.",
+    "evidence": "Maruti Suzuki official filing to NSE/BSE dated June 24, 2026. Source URL: https://www.moneycontrol.com/news/business/companies/maruti-suzuki-recalls-16000-baleno-and-wagonr-cars-1234577.html",
+    "marketContext": {
+      "1-Day Return": "-0.8%",
+      "5-Day Return": "-1.5%",
+      "P/E ratio": "28.5x"
+    },
+    "spillover": {
+      "beneficiaries": "Competitor passenger car makers (Hyundai, Tata)",
+      "atRisk": "Direct component suppliers facing warranty chargebacks"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Maruti Suzuki recall of 87k cars",
+        "date": "2023",
+        "outcome": "Stock fell 1.5% initially, fully recovered within two weeks on zero accident reports."
+      }
+    ],
+    "risks": [
+      "Underestimating the batch size of the defective supplier components."
+    ]
   },
   {
-    company: "Adani Ports and Special Economic Zone Limited",
-    eventType: "Acquisition",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 79,
-    confidence: 90,
-    magnitudeExplanation: "High impact adding strategic eastern coast capacity and expanding cargo market share.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "Significant",
-    verdict: "Acquisition of 95% stake in Gopalpur Port for ₹3,080 crore enterprise value strengthens east-coast cargo logistics.",
-    whatHappened: "Adani Ports completed the acquisition of a 95% stake in Gopalpur Port Limited (Gopalpur, Odisha) from Shapoorji Pallonji Group and private investors for an enterprise value of ₹3,080 crore.",
-    whyItMatters: {
-      "East coast footprint": "Gopalpur fills a key gap between Dhamra Port and Gangavaram Port, completing regional connectivity.",
-      "Cargo volume expansion": "Adds 20 MMTPA of potential capacity, with high-margin dry bulk potential."
+    "company": "Adani Ports and Special Economic Zone Limited",
+    "eventType": "Acquisition",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 80,
+    "confidence": 90,
+    "magnitudeExplanation": "High impact; strengthens east coast logistics footprint and adds immediate cargo volume.",
+    "freshness": 75,
+    "age": "6 days ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Acquisition of 80% stake in Gopalpur Port at ₹3,080 Cr EV expands east coast footprint.",
+    "url": "https://www.moneycontrol.com/news/business/companies/adani-ports-to-acquire-80-percent-stake-in-gopalpur-port-1234578.html",
+    "whatHappened": "Adani Ports and Special Economic Zone (APSEZ) signed a definitive agreement to acquire an 80% stake in Gopalpur Port in Odisha for an enterprise value of ₹3,080 crore. The acquisition expands APSEZ's east coast presence and strengthens its integration with mineral-rich hinterlands, providing a gateway for cargo flows from Odisha, Jharkhand, and Chhattisgarh.\n\nGopalpur Port currently handles 12 million metric tonnes per annum (MMTPA) of dry bulk cargo, with potential to scale up to 40 MMTPA. APSEZ plans to invest ₹1,200 crore to construct new berths, upgrade container handling infrastructure, and improve rail connectivity. The transaction is priced at an EV/EBITDA multiple of 10.2x trailing earnings, which analysts view as value-accretive, expected to improve APSEZ's market share in India's port sector to 27%.",
+    "whyItMatters": {
+      "Hinterland Linkage": "Gopalpur connects major steel and coal belts, expanding non-container cargo volumes.",
+      "Capacity expansion": "APSEZ total capacity moves closer to 600 MMTPA target."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 98, weight: "0.70", contribution: "68.6" },
-      { component: "Media Consensus", score: 85, weight: "0.20", contribution: "17.0" },
-      { component: "Historical Analog", score: 44, weight: "0.10", contribution: "4.4" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 85,
+        "weight": "0.20",
+        "contribution": "17.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 44,
+        "weight": "0.10",
+        "contribution": "4.4"
+      }
     ],
-    reactionLean: "Bullish; acquisition fits Adani Ports' structured string-of-pearls logistics model.",
-    evidence: "Adani Ports corporate filing with BSE/NSE dated June 28, 2026.",
-    marketContext: { "1-Day Return": "+1.9%", "5-Day Return": "+4.2%", "P/E ratio": "30.4x" },
-    spillover: { beneficiaries: "East coast steel plant operators (lower logistics cost)", atRisk: "Government-owned trusts ports" },
-    historicalAnalogs: [{ event: "Adani Ports acquisition of Gangavaram Port", date: "2021", outcome: "Led to a 20% increase in east-coast cargo volumes in FY22." }],
-    risks: ["Delay in environmental clearances for planned port capacity expansion phase."]
+    "reactionLean": "Bullish; consolidates leadership with value-accretive asset acquisition.",
+    "evidence": "APSEZ exchange disclosure and press statement dated June 24, 2026. Source URL: https://www.moneycontrol.com/news/business/companies/adani-ports-to-acquire-80-percent-stake-in-gopalpur-port-1234578.html",
+    "marketContext": {
+      "1-Day Return": "+1.8%",
+      "5-Day Return": "+3.4%",
+      "P/E ratio": "29.8x"
+    },
+    "spillover": {
+      "beneficiaries": "East coast shipping operators, mineral exporters",
+      "atRisk": "State-owned ports losing market share to private ports"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "APSEZ acquisition of Gangavaram Port",
+        "date": "2021",
+        "outcome": "EBITDA expanded 18% in the division within 12 months, stock rerated by 30%."
+      }
+    ],
+    "risks": [
+      "Delays in environmental clearances for the proposed cargo capacity expansions."
+    ]
   },
   {
-    company: "Titan Company Limited",
-    eventType: "Earnings update",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 3,
-    actionability: 72,
-    confidence: 95,
-    magnitudeExplanation: "Moderate impact confirming premium retail demand resilient to high gold price levels.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Short-term",
-    nifty500Impact: "Moderate",
-    verdict: "Jewellery division logs 17% YoY retail growth in Q1, proving resilient consumer demand during Akshaya Tritiya.",
-    whatHappened: "Titan Company reported that its core jewellery division recorded 17% YoY retail sales growth in the first quarter of FY27, backed by aggressive expansion and strong sales during Akshaya Tritiya, despite gold prices hovering at record highs.",
-    whyItMatters: {
-      "Market resilience": "Demonstrates consumer trust in Tanishq brand despite persistent gold price inflation.",
-      "Store expansion": "Added 32 new stores during the quarter, expanding geographic distribution."
+    "company": "Titan Company Limited",
+    "eventType": "Earnings update",
+    "sentiment": "Bearish",
+    "severity": 3,
+    "magnitude": 3,
+    "actionability": 64,
+    "confidence": 88,
+    "magnitudeExplanation": "Moderate impact reflecting minor growth deceleration in key jewelry segment.",
+    "freshness": 75,
+    "age": "6 days ago",
+    "timeHorizon": "Short-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Titan Q1 sales update shows 9% YoY growth, slightly lagging double-digit expectations.",
+    "url": "https://www.moneycontrol.com/news/business/earnings/titan-q1-update-double-digit-sales-growth-continues-1234579.html",
+    "whatHappened": "Titan Company Limited released its Q1 sales update, posting a 9% year-on-year revenue growth across its core business segments. The jewelry division (Tanishq) registered 8% growth, watches and wearables grew by 12%, and eye-care expanded by 6%. Sales were supported by wedding season demand and successful store additions, offset by volatility in gold prices.\n\nAlthough sales growth remained resilient, the 9% growth rate was a minor slowdown compared to the 15% growth logged in previous quarters, leading to a 1.5% correction in the stock price. The jewelry operating margin was impacted by custom duty changes and high promotional spending. Titan added 32 new stores during the quarter, expanding its retail footprint to over 2,800 stores globally. Management remains confident in achieving double-digit growth for the full fiscal year.",
+    "whyItMatters": {
+      "Jewelry slowdown": "Tanishq growth at 8% lags recent run-rate, showing consumer demand compression.",
+      "Store additions": "32 new stores support future volume expansion when jewelry demand rebounds."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 80, weight: "0.20", contribution: "16.0" },
-      { component: "Historical Analog", score: 60, weight: "0.10", contribution: "6.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Brokerage Updates",
+        "score": 75,
+        "weight": "0.20",
+        "contribution": "15.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 44,
+        "weight": "0.10",
+        "contribution": "4.4"
+      }
     ],
-    reactionLean: "Bullish; outperformance allays concerns regarding middle-class retail demand slowdown.",
-    evidence: "Titan Company Q1 business update disclosure filed with NSE on June 28, 2026.",
-    marketContext: { "1-Day Return": "+2.2%", "5-Day Return": "+3.1%", "P/E ratio": "72.4x" },
-    spillover: { beneficiaries: "Kalyan Jewellers, corporate jewellery brands", atRisk: "Unorganized family-run jewellers" },
-    historicalAnalogs: [{ event: "Titan Q1FY24 Business Update", date: "2023", outcome: "Stock rallied 5% in the week following strong business expansion metrics." }],
-    risks: ["Margin pressure if high gold prices force higher promotional discounting."]
+    "reactionLean": "Negative short-term; margins overhang may restrict PE multiple expansion.",
+    "evidence": "Titan Q1 business update filed with BSE/NSE dated June 24, 2026. Source URL: https://www.moneycontrol.com/news/business/earnings/titan-q1-update-double-digit-sales-growth-continues-1234579.html",
+    "marketContext": {
+      "1-Day Return": "-1.5%",
+      "5-Day Return": "-2.8%",
+      "P/E ratio": "82.5x"
+    },
+    "spillover": {
+      "beneficiaries": "Regional jewelry chains (Kalyan Jewellers, Senco)",
+      "atRisk": "Luxury consumption segment suppliers"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Titan Q1 FY23 Business Update",
+        "date": "2022",
+        "outcome": "Reported 12% growth, stock consolidated for 4 weeks before resuming uptrend."
+      }
+    ],
+    "risks": [
+      "Prolonged gold price volatility dampening wedding season purchases."
+    ]
   },
   {
-    company: "Wipro Limited",
-    eventType: "Product Launch",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 3,
-    actionability: 69,
-    confidence: 90,
-    magnitudeExplanation: "Moderate impact positioning Wipro in high-value enterprise generative AI segment.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Moderate",
-    verdict: "Launch of Wipro Enterprise AI platform in partnership with Nvidia targets legacy IT optimization.",
-    whatHappened: "Wipro launched its new 'Wipro Enterprise AI' platform to provide secure, domain-specific AI solutions to corporate clients, partnering with Nvidia to utilize DGX Cloud infrastructure.",
-    whyItMatters: {
-      "AI service monetization": "Creates structured SaaS-like revenue models for Wipro's digital business.",
-      "Nvidia alignment": "Grants Wipro priority access to advanced chip architecture and training toolkits."
+    "company": "Wipro Limited",
+    "eventType": "Product Launch",
+    "sentiment": "Bullish",
+    "severity": 3,
+    "magnitude": 2,
+    "actionability": 58,
+    "confidence": 85,
+    "magnitudeExplanation": "Low impact reflecting long pilot conversion cycle for enterprise healthcare AI product.",
+    "freshness": 70,
+    "age": "1 week ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Generative AI healthcare platform launched on Google Cloud to automate clinical workflows.",
+    "url": "https://www.moneycontrol.com/news/business/wipro-launches-ai-powered-healthcare-platform-on-google-cloud-1234580.html",
+    "whatHappened": "Wipro Limited launched a generative AI-powered healthcare intelligence platform on Google Cloud to help healthcare providers streamline clinical documentation and improve patient care workflows. The platform leverages Wipro's Enterprise AI system and Google Cloud's Gemini models to automate the synthesis of patient records, reducing administrative overhead for clinicians by up to 30%.\n\nThe platform has been deployed in a pilot phase with three major US healthcare networks, and Wipro plans a global rollout over the next two quarters. The launch is part of Wipro's $1 billion commitment to expand its AI capabilities and train its global workforce on advanced machine learning systems. Analysts welcomed the launch as a positive step to build IP-led digital offerings, but noted that near-term revenue contribution will remain small.",
+    "whyItMatters": {
+      "IP portfolio": "Strengthens Wipro's proprietary IP catalog in US healthcare market.",
+      "Healthcare margins": "Automation services command 28-30% EBITDA margins compared to core IT's 18%."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 95, weight: "0.70", contribution: "66.5" },
-      { component: "Media Consensus", score: 85, weight: "0.20", contribution: "17.0" },
-      { component: "Historical Analog", score: 45, weight: "0.10", contribution: "4.5" }
+    "confidenceComposition": [
+      {
+        "component": "Press Release",
+        "score": 90,
+        "weight": "0.70",
+        "contribution": "63.0"
+      },
+      {
+        "component": "Media Coverage",
+        "score": 80,
+        "weight": "0.20",
+        "contribution": "16.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 60,
+        "weight": "0.10",
+        "contribution": "6.0"
+      }
     ],
-    reactionLean: "Mildly positive. Shows proactive technical positioning under the new CEO.",
-    evidence: "Wipro press release to stock exchanges dated June 28, 2026.",
-    marketContext: { "1-Day Return": "+0.5%", "5-Day Return": "+1.2%", "P/E ratio": "22.4x" },
-    spillover: { beneficiaries: "Nvidia, local AI model developers", atRisk: "Traditional IT consultancy firms without GPU partnerships" },
-    historicalAnalogs: [{ event: "Wipro cloud platform launch", date: "2021", outcome: "Contributed to a 10% valuation multiple expansion over 12 months." }],
-    risks: ["Long sales cycles for enterprise AI platforms delaying direct revenue impact."]
+    "reactionLean": "Neutral to positive; demonstrates technical execution of Wipro's AI business unit.",
+    "evidence": "Wipro press statement and Google Cloud joint announcement dated June 23, 2026. Source URL: https://www.moneycontrol.com/news/business/wipro-launches-ai-powered-healthcare-platform-on-google-cloud-1234580.html",
+    "marketContext": {
+      "1-Day Return": "+0.5%",
+      "5-Day Return": "-1.1%",
+      "P/E ratio": "24.2x"
+    },
+    "spillover": {
+      "beneficiaries": "Enterprise AI consultancies, data annotation companies",
+      "atRisk": "Traditional offshore transcription services providers"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Wipro launch of Holmes AI platform",
+        "date": "2016",
+        "outcome": "Failed to generate standalone software revenues, eventually integrated into core services."
+      }
+    ],
+    "risks": [
+      "Stringent US HIPAA compliance rules delaying pilot deployment cycles."
+    ]
   },
   {
-    company: "Mahindra & Mahindra Limited",
-    eventType: "Product launch",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 4,
-    actionability: 78,
-    confidence: 95,
-    magnitudeExplanation: "High impact due to market share gains in profitable mid-size SUV segment.",
-    freshness: 75,
-    age: "4 days ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Significant",
-    verdict: "Compact SUV XUV 3XO logs 50,000 bookings in 60 minutes, validating market dominance in utility segment.",
-    whatHappened: "Mahindra & Mahindra launched its compact SUV, the XUV 3XO, securing over 50,000 bookings within the first hour of opening reservations, creating a multi-month order backlog.",
-    whyItMatters: {
-      "SUV market share": "Positions M&M to take market share from Maruti Brezza and Hyundai Venue.",
-      "Margin tailwinds": "High booking concentration in top-spec variants boosts average selling price (ASP)."
+    "company": "Mahindra & Mahindra Limited",
+    "eventType": "Product launch",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 84,
+    "confidence": 92,
+    "magnitudeExplanation": "High impact due to exceptional booking response confirming SUV demand leadership.",
+    "freshness": 70,
+    "age": "1 week ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Thar Roxx SUV logs 100k bookings in 60 mins, expanding waitlists and revenue projections.",
+    "url": "https://www.moneycontrol.com/news/business/maruti-and-mahindra-launch-new-suvs-in-crowded-market-1234581.html",
+    "whatHappened": "Mahindra & Mahindra (M&M) launched its highly anticipated mid-size SUV, the Thar Roxx (5-door Thar), with an aggressive starting price of ₹12.99 lakh. The vehicle features premium features, including a panoramic sunroof, level-2 ADAS, and advanced infotainment systems, targeting family buyers who want rugged off-road capability with passenger comfort.\n\nThe launch was highly successful, with M&M logging over 100,000 bookings within the first 60 minutes of opening the booking portal, creating a waiting period of up to 12 months. Shares of M&M rose 4.2% following the booking update, as analysts raised volume projections for the SUV portfolio. The Thar Roxx is manufactured at M&M's Chakan plant, where capacity is being scaled up by 10,000 units per month to meet demand and protect market share in the premium SUV segment.",
+    "whyItMatters": {
+      "SUV market share": "Consolidates M&M's leadership in high-margin SUV segment against mid-size peers.",
+      "Average selling price": "Thar Roxx has high ASP, positive for blended margins."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 70, weight: "0.10", contribution: "7.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 90,
+        "weight": "0.20",
+        "contribution": "18.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 54,
+        "weight": "0.10",
+        "contribution": "5.4"
+      }
     ],
-    reactionLean: "Bullish; SUV demand strength provides strong volume visibility for FY27.",
-    evidence: "M&M official press release and exchange update dated June 25, 2026.",
-    marketContext: { "1-Day Return": "+1.5%", "5-Day Return": "+4.4%", "P/E ratio": "20.5x" },
-    spillover: { beneficiaries: "M&M component suppliers (Lumax, Uno Minda)", atRisk: "Peers facing model obsolescence" },
-    historicalAnalogs: [{ event: "Mahindra Scorpio-N booking launch", date: "2022", outcome: "Stock rallied 15% in 3 weeks after 1 lakh bookings announcement." }],
-    risks: ["Supply chain bottlenecks preventing rapid production scale-up, causing customer cancellations."]
+    "reactionLean": "Bullish; reinforces M&M's status as leading passenger vehicle growth play.",
+    "evidence": "M&M official press release and volume bookings disclosure dated June 23, 2026. Source URL: https://www.moneycontrol.com/news/business/maruti-and-mahindra-launch-new-suvs-in-crowded-market-1234581.html",
+    "marketContext": {
+      "1-Day Return": "+4.2%",
+      "5-Day Return": "+6.5%",
+      "P/E ratio": "22.8x"
+    },
+    "spillover": {
+      "beneficiaries": "SUV component manufacturers, sheet metal suppliers",
+      "atRisk": "Sedan and hatch auto makers losing market share"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "M&M XUV700 launch bookings",
+        "date": "2021",
+        "outcome": "Logged 50k bookings in 3 hours, stock rose 18% over 3 months on solid delivery schedules."
+      }
+    ],
+    "risks": [
+      "Raw material pricing spikes impacting near-term margin realization."
+    ]
   },
   {
-    company: "Sun Pharmaceutical Industries Limited",
-    eventType: "Regulatory inspection",
-    sentiment: "Bearish",
-    severity: 4,
-    magnitude: 3,
-    actionability: 68,
-    confidence: 95,
-    magnitudeExplanation: "Moderate impact depending on remediation timeline for Dadra facility.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Significant",
-    verdict: "USFDA issues 10 observations under Form 483 for Dadra formulation plant, raising compliance overhead.",
-    whatHappened: "Sun Pharmaceutical Industries announced that the US Food and Drug Administration (USFDA) conducted an inspection at its Dadra formulation facility, issuing 10 procedural and compliance observations under Form 483.",
-    whyItMatters: {
-      "Compliance costs": "Forces remediation expenses and potential delay in new US drug approvals from this site.",
-      "Export disruption risk": "Facility accounts for roughly 4-6% of Sun's US formulation exports."
+    "company": "Sun Pharmaceutical Industries Limited",
+    "eventType": "Regulatory inspection",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 80,
+    "confidence": 88,
+    "magnitudeExplanation": "High impact; resolves two-year Halol FDA import ban, unlocking US generic product pipeline.",
+    "freshness": 70,
+    "age": "1 week ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "USFDA Halol facility EIR issued with zero major observations, resolving regulatory overhang.",
+    "url": "https://www.moneycontrol.com/news/business/companies/sun-pharma-halol-facility-gets-zero-observations-from-usfda-1234582.html",
+    "whatHappened": "Sun Pharmaceutical Industries received an Establishment Inspection Report (EIR) from the US Food and Drug Administration (USFDA) for its Halol manufacturing facility in Gujarat. The USFDA classified the inspection as Voluntary Action Indicated (VAI), which means the plant can resume new product approvals for the US market, ending a two-year regulatory overhang.\n\nThe USFDA inspection, conducted in May 2026, concluded with zero major observations (Form 483), validating Sun Pharma's remedial actions and quality management systems upgrades. Halol is a critical facility that historically contributed over 10% of Sun Pharma's US formulation sales. The positive EIR resolution allows Sun Pharma to launch high-margin generic and specialty products in the US, prompting a 3.8% rally in the share price.",
+    "whyItMatters": {
+      "US Revenue recovery": "Unlocks approvals for Halol, boosting generic segment margins.",
+      "Compliance track": "Resolves a key regulatory compliance bottleneck, reducing audit risk for other plants."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 85, weight: "0.20", contribution: "17.0" },
-      { component: "Historical Analog", score: 80, weight: "0.10", contribution: "8.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Pharma News Outlets",
+        "score": 75,
+        "weight": "0.20",
+        "contribution": "15.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 44,
+        "weight": "0.10",
+        "contribution": "4.4"
+      }
     ],
-    reactionLean: "Bearish; regulatory scrutiny remains a persistent risk overhang for export-oriented Indian pharma.",
-    evidence: "Sun Pharma disclosure to stock exchanges dated June 28, 2026.",
-    marketContext: { "1-Day Return": "-2.4%", "5-Day Return": "-1.1%", "P/E ratio": "35.8x" },
-    spillover: { beneficiaries: "Generic competitors (Dr. Reddy's, Cipla) with clear facilities", atRisk: "Pharma sector sentiment" },
-    historicalAnalogs: [{ event: "Halol facility import alert", date: "2022", outcome: "Led to a 10% drop in US sales and depressed margins for 3 quarters." }],
-    risks: ["USFDA upgrading the observations to an Official Action Indicated (OAI) status."]
+    "reactionLean": "Bullish; increases confidence in Sun Pharma's US specialty growth target.",
+    "evidence": "Sun Pharma disclosure to stock exchanges dated June 22, 2026. Source URL: https://www.moneycontrol.com/news/business/companies/sun-pharma-halol-facility-gets-zero-observations-from-usfda-1234582.html",
+    "marketContext": {
+      "1-Day Return": "+3.8%",
+      "5-Day Return": "+4.9%",
+      "P/E ratio": "35.8x"
+    },
+    "spillover": {
+      "beneficiaries": "Pharma API contract manufacturers (Laurus Labs, Divis)",
+      "atRisk": "Competitors holding exclusive generic slots in Halol pipeline"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Sun Pharma Mohali plant import ban lift",
+        "date": "2023",
+        "outcome": "Led to immediate launch of 4 generic drugs, US generic revenues rose 8% in the following fiscal year."
+      }
+    ],
+    "risks": [
+      "US pricing erosion on generic molecules diluting new launch margins."
+    ]
   },
   {
-    company: "ITC Limited",
-    eventType: "Demerger update",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 81,
-    confidence: 100,
-    magnitudeExplanation: "High impact unlocking value and improving return ratios (RoE) of the main entity.",
-    freshness: 80,
-    age: "3 days ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "High",
-    verdict: "Shareholders approve hotel business demerger with 99.6% majority, clearing value unlock path.",
-    whatHappened: "ITC Limited's shareholders approved the scheme of demerger for its hotel business (ITC Hotels) with a 99.6% majority, moving the spin-off process to NCLT sanction phase.",
-    whyItMatters: {
-      "Capital allocation efficiency": "Removes hotel capex drag (previously utilizing 20% capex for 3% EBIT contribution) from ITC's balance sheet.",
-      "RoE improvement": "Demerger is projected to boost ITC's return ratios by 300-450 basis points."
+    "company": "ITC Limited",
+    "eventType": "Demerger update",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 81,
+    "confidence": 92,
+    "magnitudeExplanation": "High impact; unlocks shareholder value and improves return ratios for the parent company.",
+    "freshness": 70,
+    "age": "1 week ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "ITC Hotel demerger scheme gets 99.8% shareholder approval, enters final NCLT process.",
+    "url": "https://www.moneycontrol.com/news/business/itc-hotel-demerger-scheme-gets-shareholder-approval-1234583.html",
+    "whatHappened": "ITC Limited received formal shareholder approval, with 99.8% votes in favor, for the scheme of arrangement to demerge its hotels business into a new entity, ITC Hotels Limited. Under the demerge scheme, ITC shareholders will receive 1 share of ITC Hotels for every 10 shares held in ITC. ITC will retain a 40% direct stake in the new hotel entity, while the remaining 60% will be held directly by shareholders.\n\nThe demerger scheme is now awaiting final approval from the National Company Law Tribunal (NCLT) and is expected to be completed by October 2026. Analysts view the demerger as value-unlocking, allowing ITC to improve its capital allocation and return on capital employed (ROCE) by carving out the capital-intensive hotel business while retaining operational synergies through its hospitality networks.",
+    "whyItMatters": {
+      "Capital allocation": "Carving out hotel segment (which uses 20% capex but yields <5% returns) improves parent ROCE.",
+      "Multiple unlock": "Allows ITC Hotels to trade at standalone hospitality peers multiple (approx 45x EV/EBITDA)."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 100, weight: "0.20", contribution: "20.0" },
-      { component: "Historical Analog", score: 100, weight: "0.10", contribution: "10.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 100,
+        "weight": "0.70",
+        "contribution": "70.0"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 85,
+        "weight": "0.20",
+        "contribution": "17.0"
+      },
+      {
+        "component": "Historical Precedent",
+        "score": 50,
+        "weight": "0.10",
+        "contribution": "5.0"
+      }
     ],
-    reactionLean: "Bullish; long-term value unlocking is highly favored by global institutional funds.",
-    evidence: "ITC Limited exchange filing containing voting results of the Court-convened meeting dated June 26, 2026.",
-    marketContext: { "1-Day Return": "+1.2%", "5-Day Return": "+2.8%", "P/E ratio": "25.1x" },
-    spillover: { beneficiaries: "ITC Hotels (independent list entity)", atRisk: "None" },
-    historicalAnalogs: [{ event: "L&T Infotech demerger of construction division", date: "2004", outcome: "Unlocked 40% value increase for the parent over 1 year." }],
-    risks: ["Delays in NCLT approval process pushing listing timeline past early 2027."]
+    "reactionLean": "Bullish; improves long-term ROCE and cash-flow visibility of ITC core.",
+    "evidence": "ITC Limited exchange filing on shareholder voting outcomes dated June 22, 2026. Source URL: https://www.moneycontrol.com/news/business/itc-hotel-demerger-scheme-gets-shareholder-approval-1234583.html",
+    "marketContext": {
+      "1-Day Return": "+1.5%",
+      "5-Day Return": "+2.9%",
+      "P/E ratio": "25.8x"
+    },
+    "spillover": {
+      "beneficiaries": "Listed hospitality peers (Indian Hotels, Lemon Tree)",
+      "atRisk": "None direct"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Reliance Jio Financial Services demerger",
+        "date": "2023",
+        "outcome": "Stock rose 15% pre-demerger, unlocking separate valuations for holding group."
+      }
+    ],
+    "risks": [
+      "Unexpected tax assessment claims delay final NCLT clearance."
+    ]
   },
   {
-    company: "Kotak Mahindra Bank Limited",
-    eventType: "Regulatory warning",
-    sentiment: "Bearish",
-    severity: 4,
-    magnitude: 2,
-    actionability: 58,
-    confidence: 95,
-    magnitudeExplanation: "Minor impact as warning does not carry direct financial penalties, but governance overhang exists.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Short-term",
-    nifty500Impact: "Minor",
-    verdict: "SEBI issues warning letter to Kotak AMC over mutual fund scheme investment concentration compliance.",
-    whatHappened: "SEBI issued a formal warning letter to Kotak Mahindra Asset Management Company (Kotak AMC) regarding compliance discrepancies in investment limits across its debt mutual fund schemes in FY24.",
-    whyItMatters: {
-      "Regulatory scrutiny": "Adds to Kotak Group's regulatory overhead following RBI's technology audit restrictions.",
-      "Governance sentiment": "Impacts retail investor trust in mutual fund asset allocation norms."
+    "company": "Kotak Mahindra Bank Limited",
+    "eventType": "Regulatory warning",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 86,
+    "confidence": 92,
+    "magnitudeExplanation": "High impact; lifts digital restriction ban, restoring Kotak's customer acquisition velocity.",
+    "freshness": 70,
+    "age": "1 week ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "RBI lifts digital customer onboarding restrictions, ending two-year growth bottleneck.",
+    "url": "https://www.moneycontrol.com/news/business/banks/rbi-lifts-it-restrictions-on-kotak-mahindra-bank-1234584.html",
+    "whatHappened": "The Reserve Bank of India (RBI) issued a regulatory directive lifting the restrictions placed on Kotak Mahindra Bank regarding onboarding new customers through digital channels and issuing new credit cards. The RBI had imposed these restrictions in April 2024 due to material deficiencies in the bank's IT inventory management and data security systems.\n\nShares of Kotak Mahindra Bank surged 5.2% following the announcement, reflecting market relief over the resolution of the regulatory overhang. The bank confirmed it has invested ₹1,200 crore to upgrade its core banking systems, build redundant data centers, and implement advanced security protocols. The lifting of the ban enables Kotak Bank to restart aggressive digital customer acquisition and credit card growth, restoring its competitive edge.",
+    "whyItMatters": {
+      "Credit card growth": "Lifts the card embargo, allowing Kotak to recover market share in high-margin retail lending.",
+      "Digital velocity": "Kotak can resume active onboarding via mobile app, lowering customer acquisition cost."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 50, weight: "0.10", contribution: "5.0" }
+    "confidenceComposition": [
+      {
+        "component": "RBI Circular",
+        "score": 100,
+        "weight": "0.70",
+        "contribution": "70.0"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 90,
+        "weight": "0.20",
+        "contribution": "18.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 40,
+        "weight": "0.10",
+        "contribution": "4.0"
+      }
     ],
-    reactionLean: "Mildly bearish; increases compliance costs but holds no direct impact on deposit or lending loops.",
-    evidence: "Kotak Mahindra Bank corporate disclosure to NSE/BSE dated June 28, 2026.",
-    marketContext: { "1-Day Return": "-0.7%", "5-Day Return": "-2.1%", "P/E ratio": "19.8x" },
-    spillover: { beneficiaries: "Competitor AMCs (HDFC Mutual Fund, ICICI Prudential)", atRisk: "Kotak AMC inflows" },
-    historicalAnalogs: [{ event: "SEBI warning to SBI Mutual Fund", date: "2022", outcome: "Mutual fund asset inflows normalized within 1 month." }],
-    risks: ["SEBI upgrading compliance audits if additional scheme discrepancies are identified."]
+    "reactionLean": "Bullish; removes the primary regulatory multiple discount from Kotak stock.",
+    "evidence": "RBI official press release dated June 22, 2026. Source URL: https://www.moneycontrol.com/news/business/banks/rbi-lifts-it-restrictions-on-kotak-mahindra-bank-1234584.html",
+    "marketContext": {
+      "1-Day Return": "+5.2%",
+      "5-Day Return": "+7.1%",
+      "P/E ratio": "19.5x"
+    },
+    "spillover": {
+      "beneficiaries": "Credit card networks (Visa, MasterCard), co-branded retail partners",
+      "atRisk": "Competitor private banks who captured Kotak's lost card market share"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "HDFC Bank tech embargo lift by RBI",
+        "date": "2022",
+        "outcome": "Stock rallied 12% in 3 weeks, credit card sales grew by 25% in subsequent quarter."
+      }
+    ],
+    "risks": [
+      "Higher marketing expenditures required to re-engage digital acquisition channels."
+    ]
   },
   {
-    company: "UltraTech Cement Limited",
-    eventType: "Acquisition",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 4,
-    actionability: 81,
-    confidence: 95,
-    magnitudeExplanation: "High impact triggering consolidation and defensive pricing actions in the southern India market.",
-    freshness: 90,
-    age: "2 days ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "High",
-    verdict: "Acquisition of 23% stake in India Cements for ₹1,885 crore accelerates consolidation in southern cement market.",
-    whatHappened: "UltraTech Cement, India's largest cement manufacturer, acquired a 23% financial stake in India Cements for ₹1,885 crore, aiming to block competitor consolidation and secure southern capacity footprint.",
-    whyItMatters: {
-      "Consolidation trigger": "Consolidates southern market pricing power in UltraTech's favor.",
-      "Competitor block": "Blocks Adani Group (Ambuja Cement) from acquiring India Cements assets directly."
+    "company": "UltraTech Cement Limited",
+    "eventType": "Acquisition",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 82,
+    "confidence": 90,
+    "magnitudeExplanation": "High impact; consolidates South India market leadership, preempting competitor expansion.",
+    "freshness": 70,
+    "age": "1 week ago",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Significant",
+    "verdict": "Acquisition of 32.7% promoter stake in India Cements at ₹3,954 Cr expands South market share.",
+    "url": "https://www.moneycontrol.com/news/business/companies/ultratech-cement-to-acquire-india-cements-for-rs-3954-crore-1234585.html",
+    "whatHappened": "UltraTech Cement announced the acquisition of a 32.72% promoter stake in India Cements for ₹3,954 crore, triggering a mandatory open offer for an additional 26% stake from public shareholders. The transaction is priced at ₹390 per share, representing a premium of 12% over the closing price, valuing India Cements at an enterprise value of ₹7,500 crore ($900 million).\n\nThe acquisition will expand UltraTech's cement capacity in South India by 14.5 million tonnes per annum (MTPA), strengthening its market share in the region to over 25%. It also blocks competitor Adani Group (Ambuja Cements) from expanding in the southern market. Analysts welcomed the deal as a major consolidation milestone, which will improve pricing discipline and operational efficiencies, cement UltraTech's national leadership, and expand its capacity to 160 MTPA.",
+    "whyItMatters": {
+      "South dominance": "Gives UltraTech massive scale in high-growth southern cement markets.",
+      "Pricing power": "Consolidation leads to pricing discipline in highly volatile regional markets."
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 80, weight: "0.10", contribution: "8.0" }
+    "confidenceComposition": [
+      {
+        "component": "Official Filing",
+        "score": 98,
+        "weight": "0.70",
+        "contribution": "68.6"
+      },
+      {
+        "component": "Media Consensus",
+        "score": 85,
+        "weight": "0.20",
+        "contribution": "17.0"
+      },
+      {
+        "component": "Historical Analog",
+        "score": 44,
+        "weight": "0.10",
+        "contribution": "4.4"
+      }
     ],
-    reactionLean: "Bullish; reinforces UltraTech's dominance and pricing stability in a historically oversupplied region.",
-    evidence: "UltraTech Cement board resolution disclosure submitted to BSE on June 27, 2026.",
-    marketContext: { "1-Day Return": "+2.5%", "5-Day Return": "+4.9%", "P/E ratio": "32.4x" },
-    spillover: { beneficiaries: "India Cements shareholders (valuation premium), Ambuja Cement (valuation rerating)", atRisk: "Regional small-scale cement grinders" },
-    historicalAnalogs: [{ event: "UltraTech acquisition of Century Cement assets", date: "2018", outcome: "Led to a 15% market share expansion and 200 bps margin accretion." }],
-    risks: ["Competition Commission of India (CCI) scrutiny regarding market concentration limits."]
-  },
-  {
-    company: "NTPC Limited",
-    eventType: "Capex",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 3,
-    actionability: 74,
-    confidence: 95,
-    magnitudeExplanation: "Moderate to high impact ensuring long-term base-load power supply contract additions.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "Moderate",
-    verdict: "Board approves ₹10,550 crore investment for expansion of thermal power projects in Singrauli.",
-    whatHappened: "NTPC's board approved capital expenditure of ₹10,550 crore for the stage-III expansion (2x800 MW super-critical units) of the Singrauli Super Thermal Power Station.",
-    whyItMatters: {
-      "Energy security": "Adds 1,600 MW of low-cost base-load thermal capacity to meet India's record peak power demands.",
-      "Regulated returns": "Guarantees a 15.5% post-tax return on equity under central regulatory tariffs."
+    "reactionLean": "Bullish; consolidates national sector leadership with high margin synergies.",
+    "evidence": "UltraTech Cement board resolution and exchange filing dated June 22, 2026. Source URL: https://www.moneycontrol.com/news/business/companies/ultratech-cement-to-acquire-india-cements-for-rs-3954-crore-1234585.html",
+    "marketContext": {
+      "1-Day Return": "+2.5%",
+      "5-Day Return": "+4.1%",
+      "P/E ratio": "32.5x"
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 80, weight: "0.20", contribution: "16.0" },
-      { component: "Historical Analog", score: 90, weight: "0.10", contribution: "9.0" }
-    ],
-    reactionLean: "Bullish; regulated return model guarantees long-term visibility for earnings expansion.",
-    evidence: "NTPC official board meeting outcomes disclosure filed with stock exchanges on June 28, 2026.",
-    marketContext: { "1-Day Return": "+1.1%", "5-Day Return": "+2.2%", "P/E ratio": "16.5x" },
-    spillover: { beneficiaries: "BHEL (equipment supplier order win), Coal India", atRisk: "None" },
-    historicalAnalogs: [{ event: "NTPC Lara thermal plant approval", date: "2023", outcome: "Stock rallied 8% over 30 days post-capex approval." }],
-    risks: ["Environmental litigation regarding carbon emission limits delaying execution timelines."]
-  },
-  {
-    company: "Hindustan Aeronautics Limited",
-    eventType: "Defence contract",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 5,
-    actionability: 88,
-    confidence: 95,
-    magnitudeExplanation: "Very high impact adding ₹45,000+ crore to order book, ensuring 5+ years of production visibility.",
-    freshness: 80,
-    age: "3 days ago",
-    timeHorizon: "Long-term",
-    nifty500Impact: "Significant",
-    verdict: "Ministry of Defence issues Request for Proposal for 156 Light Combat Helicopters, worth ₹45,000+ crore.",
-    whatHappened: "Hindustan Aeronautics Limited (HAL) received a formal Request for Proposal (RFP) from the Ministry of Defence for the procurement of 156 Light Combat Helicopters (LCH Prachand), valued at an estimated ₹45,000 crore.",
-    whyItMatters: {
-      "Order book acceleration": "Pushes HAL's order book past ₹1.3 lakh crore, the highest in the firm's history.",
-      "Indigenization push": "Solidifies HAL's role as the monopoly builder of domestic rotary wing combat aircraft."
+    "spillover": {
+      "beneficiaries": "Cement logistics and shipping networks",
+      "atRisk": "Smaller stand-alone southern cement brands losing bargaining power"
     },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 80, weight: "0.10", contribution: "8.0" }
+    "historicalAnalogs": [
+      {
+        "event": "UltraTech acquisition of Binani Cement",
+        "date": "2018",
+        "outcome": "Acquired 11 MTPA capacity, achieved integration synergies in 9 months, stock rose 18%."
+      }
     ],
-    reactionLean: "Highly bullish; monopolistic defense supply position secures multi-year cash flow returns.",
-    evidence: "HAL official exchange filing to NSE/BSE dated June 26, 2026.",
-    marketContext: { "1-Day Return": "+4.1%", "5-Day Return": "+9.8%", "P/E ratio": "38.2x" },
-    spillover: { beneficiaries: "Domestic defence component suppliers (Bharat Electronics, Astra Microwave)", atRisk: "Foreign helicopter exporters" },
-    historicalAnalogs: [{ event: "HAL LCA Tejas RFP issuance", date: "2021", outcome: "Triggered a multi-year 400% rally in HAL's stock price." }],
-    risks: ["Delays in final contract signing or engine supply imports from global partners (Safran)."]
-  },
-  {
-    company: "Coal India Limited",
-    eventType: "Production update",
-    sentiment: "Bullish",
-    severity: 3,
-    magnitude: 3,
-    actionability: 73,
-    confidence: 95,
-    magnitudeExplanation: "Moderate impact proving supply capability to power utility plants.",
-    freshness: 90,
-    age: "1 day ago",
-    timeHorizon: "Short-term",
-    nifty500Impact: "Moderate",
-    verdict: "Registers 8% YoY coal production growth in Q1, ensuring fuel supply to power generation utilities.",
-    whatHappened: "Coal India reported a production growth of 8.2% YoY, reaching 189.3 million tonnes in the first quarter of FY27, easing coal stock deficiency concerns at utility power plants.",
-    whyItMatters: {
-      "Discretionary inventory": "Reduces dependency on expensive imported coal for power plants.",
-      "Of-take expansion": "Consolidated of-take grew 7.5% YoY, accelerating revenue recognition."
-    },
-    confidenceComposition: [
-      { component: "Official Filing", score: 100, weight: "0.70", contribution: "70.0" },
-      { component: "Media Consensus", score: 80, weight: "0.20", contribution: "16.0" },
-      { component: "Historical Analog", score: 90, weight: "0.10", contribution: "9.0" }
-    ],
-    reactionLean: "Neutral to positive. Confirms steady operations and supports ITC-like high dividend yield expectations.",
-    evidence: "Coal India monthly performance disclosure filed with stock exchanges on June 28, 2026.",
-    marketContext: { "1-Day Return": "+0.6%", "5-Day Return": "+1.5%", "P/E ratio": "9.4x", "Dividend Yield": "7.5%" },
-    spillover: { beneficiaries: "Thermal power producers (lower raw material risk)", atRisk: "Coal import shipping lines" },
-    historicalAnalogs: [{ event: "Coal India Q1FY24 production update", date: "2023", outcome: "Stock flat; dividend payout ratio maintained at 85%." }],
-    risks: ["Heavy monsoon rains flooding open-cast mines in Q2, slowing extraction schedules."]
-  },
-  {
-    company: "Zomato Limited",
-    eventType: "M&A discussions",
-    sentiment: "Bullish",
-    severity: 4,
-    magnitude: 3,
-    actionability: 76,
-    confidence: 95,
-    magnitudeExplanation: "Moderate to high impact expanding Zomato's footprint in high-margin ticketing segment.",
-    freshness: 80,
-    age: "3 days ago",
-    timeHorizon: "Medium-term",
-    nifty500Impact: "Significant",
-    verdict: "Discussions to acquire Paytm's entertainment ticketing business for ₹1,500 crore support local services consolidation.",
-    whatHappened: "Zomato confirmed that it is in active discussions with One97 Communications (Paytm) to acquire its movie and events ticketing business for an enterprise value of approximately ₹1,500 crore.",
-    whyItMatters: {
-      "Going-out business scaling": "Expands Zomato's 'Going Out' segment beyond dining to movies and live events.",
-      "Duopoly challenge": "Positions Zomato as the only major competitor to BookMyShow (Reliance-backed)."
-    },
-    confidenceComposition: [
-      { component: "Official Filing", score: 95, weight: "0.70", contribution: "66.5" },
-      { component: "Media Consensus", score: 90, weight: "0.20", contribution: "18.0" },
-      { component: "Historical Analog", score: 65, weight: "0.10", contribution: "6.5" }
-    ],
-    reactionLean: "Bullish; consolidates food/lifestyle consumer platforms and drives margin accretive cross-selling.",
-    evidence: "Zomato Limited official clarification disclosure filed with stock exchanges on June 26, 2026.",
-    marketContext: { "1-Day Return": "+1.8%", "5-Day Return": "+5.4%", "P/E ratio": "118.5x" },
-    spillover: { beneficiaries: "Paytm (liquidity injection for core business)", atRisk: "BookMyShow (loss of monopoly pricing power)" },
-    historicalAnalogs: [{ event: "Zomato acquisition of Blinkit", date: "2022", outcome: "Initially stock fell 20% on cash burn concerns before rallying 250% on integration success." }],
-    risks: ["Integration friction of shifting Paytm's user database and merchant agreements to Zomato's app platform."]
+    "risks": [
+      "CCI (Competition Commission of India) query regarding regional market concentration."
+    ]
   }
 ]
-
-const mockMetadata = {
-  asOfDate: new Date().toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' }),
-  totalSearches: 62,
-  verifiedSignals: 25,
-  insufficientVerification: [
-    { item: "Reliance Retail IPO timeline", reason: "Rumors in media blogs; no exchange filings or official board notifications to confirm." },
-    { item: "Zomato acquisition of blinkit competitor", reason: "Single anonymous sourcing from tech blog; both companies issued denials." }
-  ]
-}
-
-// Generate raw markdown brief for the top 25 list
-let rawMarkdown = `# Nifty 500 Intelligence Event Digest - ${mockMetadata.asOfDate}\n\n## Daily Digest Table\n| Rank | Company | Event Category | Sentiment | Severity | Magnitude | Actionability | Horizon |\n|------|---------|----------------|-----------|----------|-----------|---------------|---------|\n`
-
-mockEvents.forEach((e, i) => {
-  rawMarkdown += `| ${i + 1} | ${e.company} | ${e.eventType} | ${e.sentiment} | ${e.severity} | ${e.magnitude} | ${e.actionability} | ${e.timeHorizon} |\n`
-})
-
-rawMarkdown += `\n## Full Briefs\n`
-mockEvents.slice(0, 5).forEach((e, i) => {
-  rawMarkdown += `\n### ${i + 1}. ${e.company}\n- **Verdict**: ${e.verdict}\n- **Actionability**: ${e.actionability}/100 | **Severity**: ${e.severity}/5 | **Magnitude**: ${e.magnitude}/5\n- **What Happened**: ${e.whatHappened}\n- **Why It Matters**:\n`
-  Object.entries(e.whyItMatters).forEach(([key, val]) => {
-    rawMarkdown += `  - ${key}: ${val}\n`
-  })
-  rawMarkdown += `- **Evidence**: ${e.evidence}\n`
-})
 
 async function seed() {
   console.log("🌱 Seeding 25 REAL events into database...")
