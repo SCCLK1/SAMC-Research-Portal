@@ -8,6 +8,7 @@ import EventDetailView from '@/components/dashboard/EventDetailView'
 import DailyDigestTable from '@/components/dashboard/DailyDigestTable'
 import SectorHeatmap from '@/components/dashboard/SectorHeatmap'
 import AgentRunProgress from '@/components/dashboard/AgentRunProgress'
+import { NIFTY_500 } from '@/lib/nifty500'
 
 const FILTERS = ['All Events', 'My Stocks', 'My Sectors', 'Critical']
 
@@ -98,9 +99,15 @@ export default function DashboardClient({ user, profile, initialEvents, initialM
       )
     }
     if (activeFilter === 'My Sectors') {
-      return coveredSectors.some((sector) =>
-        event.company?.toLowerCase().includes(sector.toLowerCase()) ||
-        sector.toLowerCase().includes((event.eventType ?? '').toLowerCase())
+      const matchedStock = NIFTY_500.find(
+        (s) =>
+          event.company?.toLowerCase().includes(s.ticker.toLowerCase()) ||
+          event.company?.toLowerCase().includes(s.name.toLowerCase().replace(/ (ltd|limited)$/i, '')) ||
+          s.name.toLowerCase().includes(event.company?.toLowerCase().replace(/ (ltd|limited)$/i, ''))
+      )
+      const eventSector = matchedStock ? matchedStock.sector : null
+      return eventSector && coveredSectors.some(
+        (sec) => sec.toLowerCase() === eventSector.toLowerCase()
       )
     }
     if (activeFilter === 'Critical') {
