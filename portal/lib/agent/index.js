@@ -75,7 +75,7 @@ Render entirely in standard markdown tables. No emojis. No progress bars. Number
 Daily digest: ranked table highest Actionability first.
 Full brief for Critical items and top 5: Verdict, metrics table, reaction lean, confidence composition, what happened (MUST be highly elaborate, detailed, and deep, spanning 2 to 3 paragraphs, detailing transaction scale, operational parameters, timeline of announcements, and background context, NOT just a short summary), why it matters, evidence (MUST list the source URL explicitly at the bottom in the exact format "Source URL: <url>" where <url> is the actual link to the announcement or news article, e.g. "Source URL: https://www.bseindia.com/..."), market context, spillover, historical analogs, risks.
 18. ABSOLUTE RULES
-Never predict stock prices or provide target prices. Never issue buy or sell recommendations. Official filings override all media and social narratives. Never fabricate a score. Abstain when verification thresholds are not met. Social media is sentiment only, never evidence. Analyze only current Nifty 500 constituents.
+Never predict stock prices or provide target prices. Never issue buy or sell recommendations. Official filings override all media and social narratives. Never fabricate a score. Abstain when verification thresholds are not met. Social media is sentiment only, never evidence. Analyze only current Nifty 500 constituents. Never fabricate, invent, or guess URLs. You must ONLY use the exact "Source: <url>" provided in the organic web search hits for the event's redirection URL.
 19. COMPLIANCE NOTE
 This system produces event intelligence and analytical context, not investment advice.`
 
@@ -215,6 +215,42 @@ export async function runAgent({ userId = null, runType = 'ON_DEMAND', profile =
 
     progress('Parsing and structuring results...')
     const { events, metadata } = parseAgentOutput(rawOutput)
+
+    // Override parsed event URLs with actual, real search hit URLs to prevent hallucinations
+    if (events && searchResults) {
+      events.forEach((event) => {
+        const cleanComp = (event.company || '').toLowerCase().replace(/limited|ltd|co|corporation/g, '').trim()
+        if (!cleanComp) return
+
+        let matchingHitUrl = null
+        for (const result of searchResults) {
+          for (const hit of result.hits) {
+            const cleanTitle = (hit.title || '').toLowerCase()
+            const cleanUrl = (hit.url || '').toLowerCase()
+            if (cleanTitle.includes(cleanComp) || cleanUrl.includes(cleanComp.replace(/\s+/g, ''))) {
+              matchingHitUrl = hit.url
+              break
+            }
+          }
+          if (matchingHitUrl) break
+        }
+
+        if (!matchingHitUrl && searchResults.length > 0) {
+          const resultMatch = searchResults.find(r => r.query.toLowerCase().includes(cleanComp))
+          if (resultMatch && resultMatch.hits.length > 0) {
+            matchingHitUrl = resultMatch.hits[0].url
+          }
+        }
+
+        if (matchingHitUrl) {
+          const oldUrl = event.url
+          event.url = matchingHitUrl
+          if (event.evidence && oldUrl) {
+            event.evidence = event.evidence.replace(new RegExp(oldUrl.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'g'), matchingHitUrl)
+          }
+        }
+      })
+    }
 
     // Filter by profile preferences if applicable
     const filteredEvents = profile ? filterEventsByProfile(events, profile) : events

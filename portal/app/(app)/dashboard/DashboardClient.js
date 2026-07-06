@@ -22,6 +22,8 @@ export default function DashboardClient({ user, profile, initialEvents, initialM
   const [runProgress, setRunProgress] = useState([])
   const [currentRun, setCurrentRun] = useState(latestRun)
   const [showKpiGuide, setShowKpiGuide] = useState(false)
+  const [sortKey, setSortKey] = useState('actionability')
+  const [sortOrder, setSortOrder] = useState('desc')
 
   const router = useRouter()
   const searchParams = useSearchParams()
@@ -89,7 +91,7 @@ export default function DashboardClient({ user, profile, initialEvents, initialM
     }
   }, [stocks, profile, router])
 
-  // Filter events based on active tab
+  // Filter and sort events based on active tab and sort options
   const filteredEvents = events.filter((event) => {
     if (activeFilter === 'My Stocks') {
       return watchlistTickers.some(
@@ -114,6 +116,40 @@ export default function DashboardClient({ user, profile, initialEvents, initialM
       return (event.actionability ?? 0) >= 80 || event.severity >= 5
     }
     return true
+  }).sort((a, b) => {
+    let valA, valB
+
+    if (sortKey === 'time') {
+      const getAgeValue = (ageStr) => {
+        if (!ageStr) return 999
+        const s = ageStr.toLowerCase().trim()
+        if (s === 'today') return 1
+        if (s === 'yesterday') return 2
+        const match = s.match(/(\d+)\s+day/)
+        if (match) return parseInt(match[1])
+        const wMatch = s.match(/(\d+)\s+week/)
+        if (wMatch) return parseInt(wMatch[1]) * 7
+        return 999
+      }
+      valA = getAgeValue(a.age)
+      valB = getAgeValue(b.age)
+
+      if (valA < valB) return sortOrder === 'desc' ? -1 : 1
+      if (valA > valB) return sortOrder === 'desc' ? 1 : -1
+      return 0
+    }
+
+    if (sortKey === 'company') {
+      valA = a.company || ''
+      valB = b.company || ''
+    } else {
+      valA = a[sortKey] ?? 0
+      valB = b[sortKey] ?? 0
+    }
+
+    if (valA < valB) return sortOrder === 'asc' ? -1 : 1
+    if (valA > valB) return sortOrder === 'asc' ? 1 : -1
+    return 0
   })
 
   // Synchronise selected event with the query parameter 'company'
@@ -351,7 +387,41 @@ export default function DashboardClient({ user, profile, initialEvents, initialM
           ))}
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex gap-2 items-center">
+          <div className="flex items-center gap-1" style={{ marginRight: '8px' }}>
+            <span className="text-secondary text-xs" style={{ whiteSpace: 'nowrap', fontWeight: 500 }}>Sort:</span>
+            <select
+              value={`${sortKey}-${sortOrder}`}
+              onChange={(e) => {
+                const [key, order] = e.target.value.split('-')
+                setSortKey(key)
+                setSortOrder(order)
+              }}
+              style={{
+                background: 'var(--color-surface)',
+                border: '1px solid var(--color-border)',
+                borderRadius: 'var(--radius-md)',
+                color: 'var(--color-text)',
+                fontSize: '0.75rem',
+                padding: '4px 8px',
+                outline: 'none',
+                cursor: 'pointer',
+                fontWeight: 500
+              }}
+            >
+              <option value="time-desc">Time (Newest First)</option>
+              <option value="time-asc">Time (Oldest First)</option>
+              <option value="actionability-desc">Actionability (High to Low)</option>
+              <option value="actionability-asc">Actionability (Low to High)</option>
+              <option value="severity-desc">Severity (High to Low)</option>
+              <option value="severity-asc">Severity (Low to High)</option>
+              <option value="confidence-desc">Confidence (High to Low)</option>
+              <option value="confidence-asc">Confidence (Low to High)</option>
+              <option value="company-asc">Company Name (A to Z)</option>
+              <option value="company-desc">Company Name (Z to A)</option>
+            </select>
+          </div>
+
           {['cards', 'table', 'heatmap'].map((mode) => (
             <button
               key={mode}
