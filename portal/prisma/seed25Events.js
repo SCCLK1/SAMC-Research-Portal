@@ -17,260 +17,204 @@ const prisma = new PrismaClient({ adapter })
 
 const mockEvents = [
   {
-    "company": "Reliance Industries Limited",
-    "eventType": "Tariff hike",
+    "company": "Adani Enterprises Limited",
+    "eventType": "Business Expansion",
     "sentiment": "Bullish",
     "severity": 4,
     "magnitude": 4,
-    "actionability": 82,
-    "confidence": 92,
-    "magnitudeExplanation": "High fundamental impact reflecting c.category and scale of c.name transaction.",
+    "actionability": 89,
+    "confidence": 90,
+    "magnitudeExplanation": "High fundamental impact reflecting Adani Group's Rs 2,500 crore missile manufacturing hub expansion in Madhya Pradesh.",
     "freshness": 100,
-    "age": "Today",
-    "timeHorizon": "Medium-term",
-    "nifty500Impact": "Significant",
-    "verdict": "Reliance Industries Limited announces mobile tariff hike of 15% to 25% across prepaid and postpaid segments.",
-    "url": "https://www.livemint.com/industry/jio-leads-tariff-hike-raises-plan-rates-by-12-25-from-3-july-rivals-likely-to-follow-11719501020974.html",
-    "whatHappened": "Reliance Industries Limited has officially announced a comprehensive tariff revision ranging from 15% to 25% across its entire prepaid and postpaid mobile plans, effective from July 6, 2026. This adjustment represents the first major upward revision in pricing in over two years, aiming to boost Average Revenue Per User (ARPU) metrics. The management stated that the incremental cash flows generated from this hike will be direct-channeled into accelerating the company's 5G network densification and spectrum debt amortization.\n\nInstitutional research brokerages reacted strongly to the announcement, with leading analysts projecting a 12% to 15% expansion in the telecom division's EBITDA for the upcoming fiscal quarters. The stock price closed 3.4% higher on the NSE following the disclosure. Competitors in the telecom sector are widely expected to announce corresponding tariff revisions within the next 48 hours, signaling a positive return to structural pricing power and margins expansion across the industry.",
+    "age": "Yesterday",
+    "timeHorizon": "Long-term",
+    "nifty500Impact": "High",
+    "verdict": "Adani Group announces Rs 2,500 crore investment to build missile manufacturing hub in Madhya Pradesh.",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeDNzYnNfNnpWY1JDLVFRNGZ1TjFTcEhOQXJMN2RjZVViSHZHY1g0WHZrOG9vSmJhaUUwMnlUMmdvYl9tVXlnSnpyREVRNmtkbnBGVnVuWW9uZnRFT294ZkhzTGFFT0phLWd4TXE5NVNINFA2UzdaNmFwRnRXaUh1em5TMmtGSzkwM2RCTDh2WDBCSmJJRk1zT1VxeGhTTGtwdlpYMkItaGJXZWNWZUhvUERvd1RqS3RfSkpQM2RTZjZOUGw0Sm00dktGS1hid9IB0wFBVV95cUxPU3JJOWZwLWlfSi1PQXR0YjRyRks0ZXg5dS1MRHcyMnN2UU1ab01TelQ0NGxyN3RQXzZWWWJwMUlVMEIwcUNfY3RtMEFLek1vX1V0V0lPTkVMTDN1ZEtGT0kwNkExbEk3STBnb3NUVkxTNFVSMlU1WG05ckpCOFNLRENlOEJvcnhTQTVpdUI0Ml9nSnJBSzJuaDZtclEyYUZmSC1mNDB0U0dZamZpMVdnUWJpenNCcGxZVXUtVXhHVWJjekd1allxdDlvWnBlSGMxNl9Z?oc=5",
+    "whatHappened": "Adani Group announced on July 5, 2026, a major investment of Rs 2,500 crore to construct a state-of-the-art missile and ammunition manufacturing hub in Madhya Pradesh. The project is part of Adani Defence & Aerospace's long-term plan to localise advanced defence systems in India. The facility is expected to generate direct employment and establish a robust local supplier ecosystem.",
     "whyItMatters": {
-      "Scale of Event": "Significant strategic shift affecting Reliance Industries Limited's market capitalization.",
-      "Synergies / Margins": "High operating efficiencies expected to expand operating margins.",
-      "Valuation / Multiple": "Brokerages reiterate positive ratings, driving institutional accumulation."
+      "Strategic Alignment": "Directly supports India's self-reliance mandate in defence production.",
+      "Revenue Outlines": "Adds a long-term capital-heavy revenue generator to Adani Enterprises' portfolio.",
+      "Indigenisation": "Improves domestic technological capabilities for strategic ammunition production."
     },
     "confidenceComposition": [
       {
-        "component": "Official Filing",
-        "score": 98,
-        "weight": "0.70",
-        "contribution": "68.6"
-      },
-      {
-        "component": "Media Consensus",
+        "component": "Verified News",
         "score": 90,
-        "weight": "0.20",
-        "contribution": "18.0"
+        "weight": 0.7
       },
       {
-        "component": "Historical Precedent",
-        "score": 70,
-        "weight": "0.10",
-        "contribution": "7.0"
+        "component": "Historical Analog",
+        "score": 85,
+        "weight": 0.3
       }
     ],
-    "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Reliance Industries Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.livemint.com/industry/jio-leads-tariff-hike-raises-plan-rates-by-12-25-from-3-july-rivals-likely-to-follow-11719501020974.html",
     "marketContext": {
-      "1-Day Return": "+1.5%",
-      "5-Day Return": "+3.2%",
-      "P/E ratio": "18.0x"
-    },
-    "spillover": {
-      "beneficiaries": "Segment peers and key suppliers",
-      "atRisk": "Smaller competitors without access to capital"
+      "1-Day Return": "+2.1%",
+      "5-Day Return": "+4.3%"
     },
     "historicalAnalogs": [
       {
-        "event": "Reliance Industries Limited similar corporate action",
-        "date": "2023",
-        "outcome": "Stock gained 12% in the subsequent two quarters post-announcement."
+        "event": "Adani Defence Kanpur Ammunition Complex",
+        "date": "2024",
+        "outcome": "Helped secure multiple defence contract pipelines."
       }
     ],
     "risks": [
-      "Unexpected regulatory audit queries.",
-      "Short-term pressure on operating margins due to integration capex."
-    ]
+      "Extended regulatory approvals and testing timelines for ammunition.",
+      "High capital expenditure timeline before commercial payback."
+    ],
+    "evidence": "Adani Enterprises Limited official press release dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizgFBVV95cUxQeDNzYnNfNnpWY1JDLVFRNGZ1TjFTcEhOQXJMN2RjZVViSHZHY1g0WHZrOG9vSmJhaUUwMnlUMmdvYl9tVXlnSnpyREVRNmtkbnBGVnVuWW9uZnRFT294ZkhzTGFFT0phLWd4TXE5NVNINFA2UzdaNmFwRnRXaUh1em5TMmtGSzkwM2RCTDh2WDBCSmJJRk1zT1VxeGhTTGtwdlpYMkItaGJXZWNWZUhvUERvd1RqS3RfSkpQM2RTZjZOUGw0Sm00dktGS1hid9IB0wFBVV95cUxPU3JJOWZwLWlfSi1PQXR0YjRyRks0ZXg5dS1MRHcyMnN2UU1ab01TelQ0NGxyN3RQXzZWWWJwMUlVMEIwcUNfY3RtMEFLek1vX1V0V0lPTkVMTDN1ZEtGT0kwNkExbEk3STBnb3NUVkxTNFVSMlU1WG05ckpCOFNLRENlOEJvcnhTQTVpdUI0Ml9nSnJBSzJuaDZtclEyYUZmSC1mNDB0U0dZamZpMVdnUWJpenNCcGxZVXUtVXhHVWJjekd1allxdDlvWnBlSGMxNl9Z?oc=5"
   },
   {
-    "company": "Tata Consultancy Services Limited",
-    "eventType": "Order win",
+    "company": "PC Jeweller Limited",
+    "eventType": "Earnings update",
     "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 4,
+    "actionability": 87,
+    "confidence": 88,
+    "magnitudeExplanation": "PC Jeweller reports 21% YoY revenue growth in Q1 and expects to become debt-free in the current quarter.",
+    "freshness": 100,
+    "age": "Today",
+    "timeHorizon": "Short-term",
+    "nifty500Impact": "Moderate",
+    "verdict": "PC Jeweller reports 21% YoY Q1 revenue growth, projects debt-free status in Q1 FY27.",
+    "url": "https://www.livemint.com/market/stock-market-news/pc-jeweller-share-price-jumps-over-6-after-companys-claim-to-become-debt-free-in-the-current-quarter-11783054135924.html",
+    "whatHappened": "PC Jeweller provided an upbeat business update on July 6, 2026, reporting a 21% YoY rise in consolidated revenue for Q1FY27. Additionally, the company disclosed that it had reduced its outstanding bank debt by approximately 24% during the quarter and cleared over 90% of its total bank debt since its September 2024 settlement. The company stated it expects to become completely debt-free within the current quarter.",
+    "whyItMatters": {
+      "Debt Deleveraging": "Achieving debt-free status will significantly reduce finance costs and boost net margins.",
+      "Consumer Revival": "The 21% revenue growth indicates strong consumer brand trust recovery.",
+      "Working Capital": "Frees up credit limits and cash flows for retail inventory expansion."
+    },
+    "confidenceComposition": [
+      {
+        "component": "Verified News",
+        "score": 88,
+        "weight": 0.7
+      },
+      {
+        "component": "Historical Analog",
+        "score": 82,
+        "weight": 0.3
+      }
+    ],
+    "marketContext": {
+      "1-Day Return": "+6.4%",
+      "5-Day Return": "+9.1%"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "PC Jeweller bank settlement execution",
+        "date": "September 2024",
+        "outcome": "Triggered multi-month recovery and credit outlook upgrade."
+      }
+    ],
+    "risks": [
+      "Volatile gold prices impacting gross operating margins.",
+      "Sustaining retail franchise sales volumes in a highly competitive jewellery sector."
+    ],
+    "evidence": "PC Jeweller Limited business update disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.livemint.com/market/stock-market-news/pc-jeweller-share-price-jumps-over-6-after-companys-claim-to-become-debt-free-in-the-current-quarter-11783054135924.html"
+  },
+  {
+    "company": "Glenmark Pharmaceuticals Limited",
+    "eventType": "Business Expansion",
+    "sentiment": "Bullish",
+    "severity": 4,
+    "magnitude": 3,
+    "actionability": 85,
+    "confidence": 89,
+    "magnitudeExplanation": "Launch of generic Olanzapine Injection expands US injectable portfolio presence.",
+    "freshness": 100,
+    "age": "Today",
+    "timeHorizon": "Medium-term",
+    "nifty500Impact": "Moderate",
+    "verdict": "Glenmark Launches Generic Olanzapine Injection in the United States.",
+    "url": "https://www.business-standard.com/markets/news/glenmark-pharma-share-rise-over-2-on-launch-of-olanzapine-single-dose-vial-126070600315_1.html",
+    "whatHappened": "Glenmark Pharmaceuticals announced on July 6, 2026, that its US subsidiary has launched a generic version of Olanzapine for Injection (10 mg/vial) in the United States. The injection is indicated for the treatment of schizophrenia and acute agitation in bipolar I disorder. According to IQVIA data, the reference listed drug, Zyprexa, had annual sales of approximately $25.4 million in the US for the 12 months ending May 2026.",
+    "whyItMatters": {
+      "Portfolio Expansion": "Further establishes Glenmark in the high-barrier institutional sterile injectables market in the US.",
+      "Generic Opportunity": "Provides an affordable generic therapeutic option for acute agitation management.",
+      "US Sales Pipeline": "Contributes to steady specialty product revenue streams in North America."
+    },
+    "confidenceComposition": [
+      {
+        "component": "Verified News",
+        "score": 89,
+        "weight": 0.7
+      },
+      {
+        "component": "Historical Analog",
+        "score": 80,
+        "weight": 0.3
+      }
+    ],
+    "marketContext": {
+      "1-Day Return": "+2.3%",
+      "5-Day Return": "+3.1%"
+    },
+    "historicalAnalogs": [
+      {
+        "event": "Glenmark generic US injectables launches",
+        "date": "2025",
+        "outcome": "Supported US sales growth and institutional channel volume."
+      }
+    ],
+    "risks": [
+      "Price erosion in the generic injectables market from US competitors.",
+      "Regulatory compliance audits at manufacturing sites."
+    ],
+    "evidence": "Glenmark Pharmaceuticals Limited official press release dated July 6, 2026. Source URL: https://www.business-standard.com/markets/news/glenmark-pharma-share-rise-over-2-on-launch-of-olanzapine-single-dose-vial-126070600315_1.html"
+  },
+  {
+    "company": "State Bank of India",
+    "eventType": "Earnings update",
+    "sentiment": "Neutral",
     "severity": 3,
     "magnitude": 3,
-    "actionability": 72,
-    "confidence": 90,
-    "magnitudeExplanation": "High fundamental impact reflecting c.category and scale of c.name transaction.",
+    "actionability": 82,
+    "confidence": 87,
+    "magnitudeExplanation": "PSU banks' loan growth outpacing deposit growth in Q1 presents NIM support but deposit mobilization hurdles.",
     "freshness": 100,
     "age": "Yesterday",
-    "timeHorizon": "Medium-term",
-    "nifty500Impact": "Significant",
-    "verdict": "Tata Consultancy Services Limited secures mega order win valued at ₹12150 crore for infrastructure project execution.",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTmZPNWVFVDVhR1BfLVJENzRwZEp4d3c3Q3c1VjVZSU9EX0xvZGJ0SG9JNFJTeWRQUUdzY2FMNEpNMGdkMlhCUnJ3d2UwRkJDQUw2V2NlTUlkVzNPT002emg5ejFtc2FwWF9mRG9OdjJCX0NxaWUyZ3huRVp1cXFOZUlIMERFQlNYa1ZZb3hxRGpwTmdYVVNId2x4MUEwazduNzhUOA?oc=5",
-    "whatHappened": "Tata Consultancy Services Limited's key business vertical has successfully bagged a prestigious 'Mega' contract valued at approximately ₹12150 crore from a government utility agency. The scope of the contract includes design, engineering, supply, and installation of complex high-capacity systems, scheduled for completion over a strict 36-month timeline.\n\nThis contract expands the company's consolidated order backlog to an all-time high, providing robust revenue visibility for the next three fiscal years. Analysts highlighted that the company's strong pre-qualification credentials and operational leverage allowed it to bid with favorable margin parameters. Work is expected to commence immediately in July 5, 2026, with first milestone billings projected by the end of Q2.",
+    "timeHorizon": "Short-term",
+    "nifty500Impact": "High",
+    "verdict": "PSU Banks' loan growth outpaces deposits in Q1, raising concerns over deposit mobilization.",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUUxRU9IaURuellVSzcwZ3NGMmx4QUZYT0F5SExkRy04OGFzS0NZNGYxdUZnb0labVJRbXI0MFJXX0VZc05lRDFsc1hwcC01dHhMS01XaUk4WlhQZWZlb190UEJFZ2xYWjJ2OC1jNVBlMnJJRHFOcW1WdnR5UjFDblN6eGk1M2NhdXg5a1p5LThBNVhTaXNOcWtoZ25NWXJVV3I0dWdpcFZmelo3Tk5NcXB4V04wZnJmV2FWdjVqaEZ6d0d2X0tuU3RvNGE2UdIB0wFBVV95cUxNdHo4dnB1QnBUTV9PUzlFLV9tR3duYlVyS2JSY3AxSVJFVlJXM3V1bEgzUXRsWVZqOG9NQWhteVJwNTNGdkctRVFJSEZ0YXZRNWpldEIwemVxWXVtRzlRMTNvdlg5T21LbjRuOU5aSk1WSU1HYU5XWE1UNWtXT0NFZXdrWl9sdG95MkNRNzgxMVA2VUdERm5feUg4aTlpYmZpUE9jdW8yb1RoUjBfZ0xxQWcwMmhyWXhMQnhOTDJucm9DaWg4OTFEbXQxZU56NnBVdi04?oc=5",
+    "whatHappened": "Reports on July 5, 2026, highlighted that public sector banks (PSU banks), including State Bank of India, are seeing credit/loan growth outpace deposit expansion in the first quarter of FY27. While this supports near-term interest income, it creates pressure on liquidity ratios and deposit costs as banks compete to mobilize retail savings.",
     "whyItMatters": {
-      "Scale of Event": "Significant strategic shift affecting Tata Consultancy Services Limited's market capitalization.",
-      "Synergies / Margins": "High operating efficiencies expected to expand operating margins.",
-      "Valuation / Multiple": "Brokerages reiterate positive ratings, driving institutional accumulation."
+      "Net Interest Margin (NIM)": "Loan expansion supports asset yields but rising deposit rates will squeeze NIMs in upcoming quarters.",
+      "Liquidity Profile": "Higher credit-to-deposit (CD) ratios draw regulator attention and require capital conservation.",
+      "Funding Cost": "Forces public sector banks to raise term deposit interest rates, escalating cost of funds."
     },
     "confidenceComposition": [
       {
-        "component": "Official Filing",
-        "score": 98,
-        "weight": "0.70",
-        "contribution": "68.6"
+        "component": "Verified News",
+        "score": 87,
+        "weight": 0.7
       },
       {
-        "component": "Media Consensus",
-        "score": 90,
-        "weight": "0.20",
-        "contribution": "18.0"
-      },
-      {
-        "component": "Historical Precedent",
-        "score": 70,
-        "weight": "0.10",
-        "contribution": "7.0"
+        "component": "Historical Analog",
+        "score": 83,
+        "weight": 0.3
       }
     ],
-    "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Tata Consultancy Services Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMipAFBVV95cUxNTmZPNWVFVDVhR1BfLVJENzRwZEp4d3c3Q3c1VjVZSU9EX0xvZGJ0SG9JNFJTeWRQUUdzY2FMNEpNMGdkMlhCUnJ3d2UwRkJDQUw2V2NlTUlkVzNPT002emg5ejFtc2FwWF9mRG9OdjJCX0NxaWUyZ3huRVp1cXFOZUlIMERFQlNYa1ZZb3hxRGpwTmdYVVNId2x4MUEwazduNzhUOA?oc=5",
     "marketContext": {
-      "1-Day Return": "+2.5%",
-      "5-Day Return": "+3.2%",
-      "P/E ratio": "19.0x"
-    },
-    "spillover": {
-      "beneficiaries": "Segment peers and key suppliers",
-      "atRisk": "Smaller competitors without access to capital"
+      "1-Day Return": "+0.5%",
+      "5-Day Return": "-1.2%"
     },
     "historicalAnalogs": [
       {
-        "event": "Tata Consultancy Services Limited similar corporate action",
-        "date": "2023",
-        "outcome": "Stock gained 12% in the subsequent two quarters post-announcement."
+        "event": "Private banks credit-deposit mismatch action",
+        "date": "2024",
+        "outcome": "Led to NIM contraction and sluggish stock performance."
       }
     ],
     "risks": [
-      "Unexpected regulatory audit queries.",
-      "Short-term pressure on operating margins due to integration capex."
-    ]
-  },
-  {
-    "company": "HDFC Bank Limited",
-    "eventType": "Earnings",
-    "sentiment": "Bullish",
-    "severity": 4,
-    "magnitude": 3,
-    "actionability": 76,
-    "confidence": 88,
-    "magnitudeExplanation": "High fundamental impact reflecting c.category and scale of c.name transaction.",
-    "freshness": 100,
-    "age": "Today",
-    "timeHorizon": "Medium-term",
-    "nifty500Impact": "Significant",
-    "verdict": "HDFC Bank Limited reports Q1 Net Profit growth of 14% YoY, beating consensus estimates.",
-    "url": "https://www.livemint.com/market/stock-market-news/hdfc-bank-share-price-gains-after-q1-results-should-you-buy-sell-or-hold-the-stock-11721619477543.html",
-    "whatHappened": "HDFC Bank Limited declared its financial results for the quarter ended July 6, 2026, posting a robust 14% year-on-year growth in standalone net profit to ₹15000 crore. Standalone Net Interest Income (NII) / revenue expanded by 12% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 6, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
-    "whyItMatters": {
-      "Scale of Event": "Significant strategic shift affecting HDFC Bank Limited's market capitalization.",
-      "Synergies / Margins": "High operating efficiencies expected to expand operating margins.",
-      "Valuation / Multiple": "Brokerages reiterate positive ratings, driving institutional accumulation."
-    },
-    "confidenceComposition": [
-      {
-        "component": "Official Filing",
-        "score": 98,
-        "weight": "0.70",
-        "contribution": "68.6"
-      },
-      {
-        "component": "Media Consensus",
-        "score": 90,
-        "weight": "0.20",
-        "contribution": "18.0"
-      },
-      {
-        "component": "Historical Precedent",
-        "score": 70,
-        "weight": "0.10",
-        "contribution": "7.0"
-      }
+      "Tight systemic liquidity driving intense deposit rate competition.",
+      "RBI regulatory intervention to curb aggressive credit growth if CD ratio exceeds thresholds."
     ],
-    "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "HDFC Bank Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.livemint.com/market/stock-market-news/hdfc-bank-share-price-gains-after-q1-results-should-you-buy-sell-or-hold-the-stock-11721619477543.html",
-    "marketContext": {
-      "1-Day Return": "+3.5%",
-      "5-Day Return": "+3.2%",
-      "P/E ratio": "20.0x"
-    },
-    "spillover": {
-      "beneficiaries": "Segment peers and key suppliers",
-      "atRisk": "Smaller competitors without access to capital"
-    },
-    "historicalAnalogs": [
-      {
-        "event": "HDFC Bank Limited similar corporate action",
-        "date": "2023",
-        "outcome": "Stock gained 12% in the subsequent two quarters post-announcement."
-      }
-    ],
-    "risks": [
-      "Unexpected regulatory audit queries.",
-      "Short-term pressure on operating margins due to integration capex."
-    ]
-  },
-  {
-    "company": "ICICI Bank Limited",
-    "eventType": "Regulatory clearance",
-    "sentiment": "Bullish",
-    "severity": 4,
-    "magnitude": 3,
-    "actionability": 74,
-    "confidence": 90,
-    "magnitudeExplanation": "High fundamental impact reflecting Regulatory clearance and scale of ICICI Bank Limited transaction.",
-    "freshness": 100,
-    "age": "Yesterday",
-    "timeHorizon": "Medium-term",
-    "nifty500Impact": "Significant",
-    "verdict": "ICICI Bank receives RBI clearance on technology and security audits, paving way for new digital product launches.",
-    "url": "https://www.livemint.com/market/market-stats/icici-bank-q1-results-s0003019",
-    "whatHappened": "ICICI Bank Limited has received a formal communication from the Reserve Bank of India (RBI) confirming the satisfactory completion of its comprehensive technology and data security audit. The regulator has cleared the bank's remediation actions, which were initiated following previous operational guidelines.\n\nThis clearance allows ICICI Bank to resume launching new digital banking products, onboarding large-scale corporate partners, and expanding its credit card issuance. The bank had invested over ₹950 crore over the last 18 months to upgrade its core database infrastructure and enhance cybersecurity frameworks, ensuring high resilience. The stock price reacted positively, gaining 3.8% on July 5, 2026.",
-    "whyItMatters": {
-      "IT Remediation": "Resolves regulatory concerns regarding digital scaling and infrastructure security.",
-      "Growth Expansion": "Paves way for aggressive credit card and digital product customer onboarding.",
-      "Valuation Impact": "Relieves valuation overhang, driving institutional confidence and brokerage upgrades."
-    },
-    "confidenceComposition": [
-      {
-        "component": "Official Filing",
-        "score": 98,
-        "weight": "0.70",
-        "contribution": "68.6"
-      },
-      {
-        "component": "Media Consensus",
-        "score": 90,
-        "weight": "0.20",
-        "contribution": "18.0"
-      },
-      {
-        "component": "Historical Precedent",
-        "score": 70,
-        "weight": "0.10",
-        "contribution": "7.0"
-      }
-    ],
-    "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "ICICI Bank Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.livemint.com/market/market-stats/icici-bank-q1-results-s0003019",
-    "marketContext": {
-      "1-Day Return": "+4.5%",
-      "5-Day Return": "+3.2%",
-      "P/E ratio": "21.0x"
-    },
-    "spillover": {
-      "beneficiaries": "Segment peers and key suppliers",
-      "atRisk": "Smaller competitors without access to capital"
-    },
-    "historicalAnalogs": [
-      {
-        "event": "HDFC Bank IT audit clearance",
-        "date": "2022",
-        "outcome": "Stock re-rated by 8% in the following month as credit card issuance resumed."
-      }
-    ],
-    "risks": [
-      "Ongoing maintenance costs of upgraded IT infrastructure.",
-      "Strict regulatory oversight remains active."
-    ]
+    "evidence": "Banking sector credit updates published in national press on July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUUxRU9IaURuellVSzcwZ3NGMmx4QUZYT0F5SExkRy04OGFzS0NZNGYxdUZnb0labVJRbXI0MFJXX0VZc05lRDFsc1hwcC01dHhMS01XaUk4WlhQZWZlb190UEJFZ2xYWjJ2OC1jNVBlMnJJRHFOcW1WdnR5UjFDblN6eGk1M2NhdXg5a1p5LThBNVhTaXNOcWtoZ25NWXJVV3I0dWdpcFZmelo3Tk5NcXB4V04wZnJmV2FWdjVqaEZ6d0d2X0tuU3RvNGE2UdIB0wFBVV95cUxNdHo4dnB1QnBUTV9PUzlFLV9tR3duYlVyS2JSY3AxSVJFVlJXM3V1bEgzUXRsWVZqOG9NQWhteVJwNTNGdkctRVFJSEZ0YXZRNWpldEIwemVxWXVtRzlRMTNvdlg5T21LbjRuOU5aSk1WSU1HYU5XWE1UNWtXT0NFZXdrWl9sdG95MkNRNzgxMVA2VUdERm5feUg4aTlpYmZpUE9jdW8yb1RoUjBfZ0xxQWcwMmhyWXhMQnhOTDJucm9DaWg4OTFEbXQxZU56NnBVdi04?oc=5"
   },
   {
     "company": "Infosys Limited",
