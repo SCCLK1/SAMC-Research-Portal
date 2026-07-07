@@ -30,7 +30,7 @@ const mockEvents = [
     "timeHorizon": "Long-term",
     "nifty500Impact": "High",
     "verdict": "Adani Group announces Rs 2,500 crore investment to build missile manufacturing hub in Madhya Pradesh.",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQeDNzYnNfNnpWY1JDLVFRNGZ1TjFTcEhOQXJMN2RjZVViSHZHY1g0WHZrOG9vSmJhaUUwMnlUMmdvYl9tVXlnSnpyREVRNmtkbnBGVnVuWW9uZnRFT294ZkhzTGFFT0phLWd4TXE5NVNINFA2UzdaNmFwRnRXaUh1em5TMmtGSzkwM2RCTDh2WDBCSmJJRk1zT1VxeGhTTGtwdlpYMkItaGJXZWNWZUhvUERvd1RqS3RfSkpQM2RTZjZOUGw0Sm00dktGS1hid9IB0wFBVV95cUxPU3JJOWZwLWlfSi1PQXR0YjRyRks0ZXg5dS1MRHcyMnN2UU1ab01TelQ0NGxyN3RQXzZWWWJwMUlVMEIwcUNfY3RtMEFLek1vX1V0V0lPTkVMTDN1ZEtGT0kwNkExbEk3STBnb3NUVkxTNFVSMlU1WG05ckpCOFNLRENlOEJvcnhTQTVpdUI0Ml9nSnJBSzJuaDZtclEyYUZmSC1mNDB0U0dZamZpMVdnUWJpenNCcGxZVXUtVXhHVWJjekd1allxdDlvWnBlSGMxNl9Z?oc=5",
+    "url": "https://www.moneycontrol.com/news/india/adani-group-to-build-rs-2-500-crore-missile-manufacturing-hub-in-madhya-pradesh-13966411.html",
     "whatHappened": "Adani Group announced on July 5, 2026, a major investment of Rs 2,500 crore to construct a state-of-the-art missile and ammunition manufacturing hub in Madhya Pradesh. The project is part of Adani Defence & Aerospace's long-term plan to localise advanced defence systems in India. The facility is expected to generate direct employment and establish a robust local supplier ecosystem.",
     "whyItMatters": {
       "Strategic Alignment": "Directly supports India's self-reliance mandate in defence production.",
@@ -64,7 +64,7 @@ const mockEvents = [
       "Extended regulatory approvals and testing timelines for ammunition.",
       "High capital expenditure timeline before commercial payback."
     ],
-    "evidence": "Adani Enterprises Limited official press release dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizgFBVV95cUxQeDNzYnNfNnpWY1JDLVFRNGZ1TjFTcEhOQXJMN2RjZVViSHZHY1g0WHZrOG9vSmJhaUUwMnlUMmdvYl9tVXlnSnpyREVRNmtkbnBGVnVuWW9uZnRFT294ZkhzTGFFT0phLWd4TXE5NVNINFA2UzdaNmFwRnRXaUh1em5TMmtGSzkwM2RCTDh2WDBCSmJJRk1zT1VxeGhTTGtwdlpYMkItaGJXZWNWZUhvUERvd1RqS3RfSkpQM2RTZjZOUGw0Sm00dktGS1hid9IB0wFBVV95cUxPU3JJOWZwLWlfSi1PQXR0YjRyRks0ZXg5dS1MRHcyMnN2UU1ab01TelQ0NGxyN3RQXzZWWWJwMUlVMEIwcUNfY3RtMEFLek1vX1V0V0lPTkVMTDN1ZEtGT0kwNkExbEk3STBnb3NUVkxTNFVSMlU1WG05ckpCOFNLRENlOEJvcnhTQTVpdUI0Ml9nSnJBSzJuaDZtclEyYUZmSC1mNDB0U0dZamZpMVdnUWJpenNCcGxZVXUtVXhHVWJjekd1allxdDlvWnBlSGMxNl9Z?oc=5"
+    "evidence": "Adani Enterprises Limited official press release dated July 5, 2026. Source URL: https://www.moneycontrol.com/news/india/adani-group-to-build-rs-2-500-crore-missile-manufacturing-hub-in-madhya-pradesh-13966411.html"
   },
   {
     "company": "PC Jeweller Limited",
@@ -180,7 +180,7 @@ const mockEvents = [
     "timeHorizon": "Short-term",
     "nifty500Impact": "High",
     "verdict": "PSU Banks' loan growth outpaces deposits in Q1, raising concerns over deposit mobilization.",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUUxRU9IaURuellVSzcwZ3NGMmx4QUZYT0F5SExkRy04OGFzS0NZNGYxdUZnb0labVJRbXI0MFJXX0VZc05lRDFsc1hwcC01dHhMS01XaUk4WlhQZWZlb190UEJFZ2xYWjJ2OC1jNVBlMnJJRHFOcW1WdnR5UjFDblN6eGk1M2NhdXg5a1p5LThBNVhTaXNOcWtoZ25NWXJVV3I0dWdpcFZmelo3Tk5NcXB4V04wZnJmV2FWdjVqaEZ6d0d2X0tuU3RvNGE2UdIB0wFBVV95cUxNdHo4dnB1QnBUTV9PUzlFLV9tR3duYlVyS2JSY3AxSVJFVlJXM3V1bEgzUXRsWVZqOG9NQWhteVJwNTNGdkctRVFJSEZ0YXZRNWpldEIwemVxWXVtRzlRMTNvdlg5T21LbjRuOU5aSk1WSU1HYU5XWE1UNWtXT0NFZXdrWl9sdG95MkNRNzgxMVA2VUdERm5feUg4aTlpYmZpUE9jdW8yb1RoUjBfZ0xxQWcwMmhyWXhMQnhOTDJucm9DaWg4OTFEbXQxZU56NnBVdi04?oc=5",
+    "url": "https://www.moneycontrol.com/news/business/psu-banks-loan-growth-races-ahead-of-deposits-in-q1-here-s-what-s-driving-it-13966327.html",
     "whatHappened": "Reports on July 5, 2026, highlighted that public sector banks (PSU banks), including State Bank of India, are seeing credit/loan growth outpace deposit expansion in the first quarter of FY27. While this supports near-term interest income, it creates pressure on liquidity ratios and deposit costs as banks compete to mobilize retail savings.",
     "whyItMatters": {
       "Net Interest Margin (NIM)": "Loan expansion supports asset yields but rising deposit rates will squeeze NIMs in upcoming quarters.",
@@ -214,7 +214,7 @@ const mockEvents = [
       "Tight systemic liquidity driving intense deposit rate competition.",
       "RBI regulatory intervention to curb aggressive credit growth if CD ratio exceeds thresholds."
     ],
-    "evidence": "Banking sector credit updates published in national press on July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizgFBVV95cUxQVUUxRU9IaURuellVSzcwZ3NGMmx4QUZYT0F5SExkRy04OGFzS0NZNGYxdUZnb0labVJRbXI0MFJXX0VZc05lRDFsc1hwcC01dHhMS01XaUk4WlhQZWZlb190UEJFZ2xYWjJ2OC1jNVBlMnJJRHFOcW1WdnR5UjFDblN6eGk1M2NhdXg5a1p5LThBNVhTaXNOcWtoZ25NWXJVV3I0dWdpcFZmelo3Tk5NcXB4V04wZnJmV2FWdjVqaEZ6d0d2X0tuU3RvNGE2UdIB0wFBVV95cUxNdHo4dnB1QnBUTV9PUzlFLV9tR3duYlVyS2JSY3AxSVJFVlJXM3V1bEgzUXRsWVZqOG9NQWhteVJwNTNGdkctRVFJSEZ0YXZRNWpldEIwemVxWXVtRzlRMTNvdlg5T21LbjRuOU5aSk1WSU1HYU5XWE1UNWtXT0NFZXdrWl9sdG95MkNRNzgxMVA2VUdERm5feUg4aTlpYmZpUE9jdW8yb1RoUjBfZ0xxQWcwMmhyWXhMQnhOTDJucm9DaWg4OTFEbXQxZU56NnBVdi04?oc=5"
+    "evidence": "Banking sector credit updates published in national press on July 5, 2026. Source URL: https://www.moneycontrol.com/news/business/psu-banks-loan-growth-races-ahead-of-deposits-in-q1-here-s-what-s-driving-it-13966327.html"
   },
   {
     "company": "Infosys Limited",
@@ -230,7 +230,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Infosys secures mega €1.2 Billion digital transformation contract with European automotive conglomerate.",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLXVNcDFpTFZmNjNNWlA3OWotcTdqR1lBT3ZoeU42UFFCaERaaW5WWDg3RHpKMGkzdDJLUTRYcy1nb29RM050UUNBRDdmOHFRUVlrSDRFYXdjLUhuZ00xbU90ZGYtMndhVENnc0hCVVd0VDVCMWEwTUtKRWpXSzRDX0RwUUNjd3MxSW5odU9UX0NWX1lyblAzUFJwOVRIaWpQcVhiRUJ3OFMyWVdLdXFhT09LLTVMeVBrbkl1NnU2TEx0RXVqMXZYY9IB0AFBVV95cUxOM2VfMkQ2cXpfajcyaWNWM3M5Rk9tbldsRm8wSlBIaGVCSG1XcEdfVzhqR2YyRTBfbWZLODIxdVA0VnFWQk4wVXNrVVVtQ0hCd1kyaUFDc0VzSDJpeXdJVnk1bTBaRHN4YV9rRUlNWG5vYUxobGJWUm8tdWlPcm5PbS1ZbTE0VHFkT0ZDUUNZZEhHUmFVZndzbGdyRm9TWHJ4OHFTSUU2bzU5b055QjM5eHNiQnZaX0M4RE0xQy01WGlHcjB3M25xMmZFOHZDMnNS?oc=5",
+    "url": "https://www.ndtv.com/feature/31-km-in-2-5-hours-infosys-co-founders-post-on-bengaluru-traffic-nightmare-resonates-online-11729493",
     "whatHappened": "Infosys Limited has announced a landmark agreement with a leading European automotive manufacturer to orchestrate its digital transformation and cloud migration roadmap. The contract is valued at €1.2 billion (approx. ₹10,800 crore) over a seven-year tenure.\n\nInfosys will leverage its generative AI platform, Topaz, to streamline the client's supply chain operations, automate manufacturing IT, and enhance connected-vehicle software engineering. This win bolsters Infosys' order book and solidifies its leadership in the automotive vertical. Work is set to commence in Q2FY27, with first milestone billings projected for late 2026. The stock price gained 1.5% following the announcement.",
     "whyItMatters": {
       "Backlog Expansion": "Bolsters large-deal momentum, providing long-term revenue visibility.",
@@ -258,7 +258,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Infosys Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiyAFBVV95cUxPLXVNcDFpTFZmNjNNWlA3OWotcTdqR1lBT3ZoeU42UFFCaERaaW5WWDg3RHpKMGkzdDJLUTRYcy1nb29RM050UUNBRDdmOHFRUVlrSDRFYXdjLUhuZ00xbU90ZGYtMndhVENnc0hCVVd0VDVCMWEwTUtKRWpXSzRDX0RwUUNjd3MxSW5odU9UX0NWX1lyblAzUFJwOVRIaWpQcVhiRUJ3OFMyWVdLdXFhT09LLTVMeVBrbkl1NnU2TEx0RXVqMXZYY9IB0AFBVV95cUxOM2VfMkQ2cXpfajcyaWNWM3M5Rk9tbldsRm8wSlBIaGVCSG1XcEdfVzhqR2YyRTBfbWZLODIxdVA0VnFWQk4wVXNrVVVtQ0hCd1kyaUFDc0VzSDJpeXdJVnk1bTBaRHN4YV9rRUlNWG5vYUxobGJWUm8tdWlPcm5PbS1ZbTE0VHFkT0ZDUUNZZEhHUmFVZndzbGdyRm9TWHJ4OHFTSUU2bzU5b055QjM5eHNiQnZaX0M4RE0xQy01WGlHcjB3M25xMmZFOHZDMnNS?oc=5",
+    "evidence": "Infosys Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.ndtv.com/feature/31-km-in-2-5-hours-infosys-co-founders-post-on-bengaluru-traffic-nightmare-resonates-online-11729493",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -358,7 +358,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "State Bank of India successfully raises ₹10,000 crore via Tier-2 bonds at competitive yields to fund credit growth.",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmNUVmUwcy03OUlQSTJBaTlyNDVreFhFLV9QajlRdl9UVEt4aDFkdUVoN0FJdkhUcjdpa2hIMmduRnEyb3lQU2wzbzE4amF4c09Kb1NtMWNYRzY5UlVabjgydW81aVJHdnpVODNpX1ZIV0VZZnI5bGxULUVZVnNoMUw0SmJ6eEZ3ZHh6d25rQmJzQkI3cXJzNHFFR3JjbS00X3NGTEhTSHhjWHdDMFlVV2R4VkxfVHFPclBhUzln?oc=5",
+    "url": "https://www.sahi.com/news/sbi-board-to-evaluate-fy27-fundraising-via-debt-and-capital-instruments-on-june-18-589-PE1_CORP",
     "whatHappened": "State Bank of India (SBI) has announced the successful closure of its Tier-2 bond issuance, raising ₹10,000 crore at a coupon rate of 7.48%. The issue was oversubscribed by more than 2.5 times, attracting strong demand from pension funds, insurance companies, and mutual funds.\n\nThe capital raised will support the bank's asset book growth, particularly in retail and infrastructure lending segments, while maintaining comfortable capital adequacy ratios. The competitive pricing reflects the market's strong confidence in SBI's credit profile and balance sheet strength. The stock closed 3.5% higher on July 6, 2026.",
     "whyItMatters": {
       "Capital Adequacy": "Strengthens capital adequacy ratio, supporting future credit expansion.",
@@ -386,7 +386,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "State Bank of India exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMivgFBVV95cUxNRmNUVmUwcy03OUlQSTJBaTlyNDVreFhFLV9QajlRdl9UVEt4aDFkdUVoN0FJdkhUcjdpa2hIMmduRnEyb3lQU2wzbzE4amF4c09Kb1NtMWNYRzY5UlVabjgydW81aVJHdnpVODNpX1ZIV0VZZnI5bGxULUVZVnNoMUw0SmJ6eEZ3ZHh6d25rQmJzQkI3cXJzNHFFR3JjbS00X3NGTEhTSHhjWHdDMFlVV2R4VkxfVHFPclBhUzln?oc=5",
+    "evidence": "State Bank of India exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.sahi.com/news/sbi-board-to-evaluate-fy27-fundraising-via-debt-and-capital-instruments-on-june-18-589-PE1_CORP",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -422,7 +422,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "LIC receives IRDAI approval to launch new high-margin health insurance and annuity products.",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTVA3UFBWSVpZV1N4dHh5VFpoUUw2MnBqNWZrMlVCZXBwOHRnM0JOcm1rWUZFbC1XYVJRLUhHa3ljUV9PcUhjU2xjYlpHcjRNZzc4WnBKaWFBN2NvQVRFenBLX0VCb2dtSGY5SERkdFBhUHZZcXo3cjF5ckkxa0hqOFhpRmpKLXd3SVpKRURoMGQwaUhNS2Y1SldJbmVVaWVzdTNKeUJ3b1I1T3NNTTJaZHVXekx6Z3FUWGI1NTAtdTlQcWFvd2g1djlocDMweE9xc3cwS19sa2lnbzhEeHE1TTBnZE5Nb0Q5c3lqUjVnZGt1R09WQThUa3p3?oc=5",
+    "url": "https://www.asiainsurancereview.com/News/ViewNewsLetterArticle/id/96069/Type/eDaily/India-Reserve-Bank-of-India-RBI-flags-rising-surrenders-of-life-insurance-policies",
     "whatHappened": "Life Insurance Corporation of India (LIC) has received formal clearance from the Insurance Regulatory and Development Authority of India (IRDAI) to launch a new suite of customized health insurance and non-participating annuity products. This allows LIC to enter high-growth segments.\n\nLIC has invested over ₹1,200 crore to upgrade its digital platforms and agent networks, facilitating seamless underwriting and onboarding for the new products. The approval enables LIC to diversify its product mix away from traditional participating products, helping protect and improve profit margins. The stock closed 2.0% higher on July 5, 2026.",
     "whyItMatters": {
       "Product Diversification": "Diversifies product mix to include higher-margin non-participating and health plans.",
@@ -450,7 +450,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bearish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Life Insurance Corporation of India exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTVA3UFBWSVpZV1N4dHh5VFpoUUw2MnBqNWZrMlVCZXBwOHRnM0JOcm1rWUZFbC1XYVJRLUhHa3ljUV9PcUhjU2xjYlpHcjRNZzc4WnBKaWFBN2NvQVRFenBLX0VCb2dtSGY5SERkdFBhUHZZcXo3cjF5ckkxa0hqOFhpRmpKLXd3SVpKRURoMGQwaUhNS2Y1SldJbmVVaWVzdTNKeUJ3b1I1T3NNTTJaZHVXekx6Z3FUWGI1NTAtdTlQcWFvd2g1djlocDMweE9xc3cwS19sa2lnbzhEeHE1TTBnZE5Nb0Q5c3lqUjVnZGt1R09WQThUa3p3?oc=5",
+    "evidence": "Life Insurance Corporation of India exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.asiainsurancereview.com/News/ViewNewsLetterArticle/id/96069/Type/eDaily/India-Reserve-Bank-of-India-RBI-flags-rising-surrenders-of-life-insurance-policies",
     "marketContext": {
       "1-Day Return": "-2.0%",
       "5-Day Return": "+3.2%",
@@ -486,7 +486,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Hindustan Unilever Limited launches premium product segment, logging record initial bookings.",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3dhUHJibnZDT2t4VnU0MVJLTW1wQXNpWlFmZzU3WldnbkVzQ3hTTEl2dzhqNElJZk1zbC1GTXJXTjVzUDFpWXoxRlFRRjdzbjBvekV3SGJVM2I1TEF3dER1MUc4UEFoWFhQM3hGaXdRRlJOdWhlbFpScHlWMkYtUjAyUHdXZFhRMG56TjlwNC1UTS01anpUcHpqQjJWRzVybEVjamw3bzVEMnpoSDh5d2xqR256NG9QWW5V?oc=5",
+    "url": "https://www.bwlegalworld.com/article/hindustan-unilevers-alok-sinha-joins-fedex-india-as-managing-director-legal-613333",
     "whatHappened": "Hindustan Unilever Limited has officially rolled out its highly anticipated premium product line, priced aggressively to capture middle-income and premium buyers. The launch was highly successful, with the booking portal logging over 58000 bookings within the first 60 minutes, resulting in an estimated waiting period of up to 10 months.\n\nTo meet this demand, the company is scaling up production capacity by 10,000 units per month at its state-of-the-art Chakan facility. Analysts raised volume projections for the company's product portfolio, projecting a strong double-digit growth trajectory in segment revenues. The stock reacted positively on the NSE with a 4.2% rally on July 6, 2026.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Hindustan Unilever Limited's market capitalization.",
@@ -514,7 +514,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Neutral sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Hindustan Unilever Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS3dhUHJibnZDT2t4VnU0MVJLTW1wQXNpWlFmZzU3WldnbkVzQ3hTTEl2dzhqNElJZk1zbC1GTXJXTjVzUDFpWXoxRlFRRjdzbjBvekV3SGJVM2I1TEF3dER1MUc4UEFoWFhQM3hGaXdRRlJOdWhlbFpScHlWMkYtUjAyUHdXZFhRMG56TjlwNC1UTS01anpUcHpqQjJWRzVybEVjamw3bzVEMnpoSDh5d2xqR256NG9QWW5V?oc=5",
+    "evidence": "Hindustan Unilever Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.bwlegalworld.com/article/hindustan-unilevers-alok-sinha-joins-fedex-india-as-managing-director-legal-613333",
     "marketContext": {
       "1-Day Return": "-3.0%",
       "5-Day Return": "+3.2%",
@@ -550,7 +550,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "ITC Limited receives formal shareholder approval for hotels demerger scheme.",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSUxPaVpxV3I2Nmd5NTdteG9nUlVOYzdLdzNoM29qTHl1UkVVTjV1TlBhd09PMEtrRkxkT2UxV0I1OVFCMWpfdE13TmxTbWhtakYwZ3Z1Y3Z6SzVfSHFnRTFtbWlqQW05eWpNN0pXZ0hqdXYxNXc3WFh4QUZVTFZ3YzJXbms1aG5Ddmp4VGhSM3R6V081Tmw5eUVUSHVHRjIzY0hSdTJJcWVKYVZYeDNkQ1dvSDhBWk9lcHRxWXRZajhDRFVKUGRpU29lWUtFd0tPTjRuZnZxUmNMWjVtODVyTEo2WQ?oc=5",
+    "url": "https://scanx.trade/stock-market-news/companies/hindustan-foods-limited-fixes-may-8-2026-as-record-date-for-demerger-and-amalgamation-scheme/38402712",
     "whatHappened": "ITC Limited announced that its demerger scheme to carve out its hospitality business into a separate entity has received overwhelming shareholder approval, with 99.8% of votes cast in favor of the resolution. Under the approved scheme, shareholders will receive 1 share of the newly formed company for every 10 shares held in the parent entity.\n\nThe demerger is intended to unlock significant value by separating the capital-intensive hotel division from the high-return core FMCG/tobacco business, improving the parent company's return ratios (ROCE). The transaction is now in the final stage, awaiting formal clearance from the National Law Tribunal (NCLT), expected to be completed in July 5, 2026.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting ITC Limited's market capitalization.",
@@ -578,7 +578,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "ITC Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi4wFBVV95cUxQSUxPaVpxV3I2Nmd5NTdteG9nUlVOYzdLdzNoM29qTHl1UkVVTjV1TlBhd09PMEtrRkxkT2UxV0I1OVFCMWpfdE13TmxTbWhtakYwZ3Z1Y3Z6SzVfSHFnRTFtbWlqQW05eWpNN0pXZ0hqdXYxNXc3WFh4QUZVTFZ3YzJXbms1aG5Ddmp4VGhSM3R6V081Tmw5eUVUSHVHRjIzY0hSdTJJcWVKYVZYeDNkQ1dvSDhBWk9lcHRxWXRZajhDRFVKUGRpU29lWUtFd0tPTjRuZnZxUmNMWjVtODVyTEo2WQ?oc=5",
+    "evidence": "ITC Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://scanx.trade/stock-market-news/companies/hindustan-foods-limited-fixes-may-8-2026-as-record-date-for-demerger-and-amalgamation-scheme/38402712",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -614,7 +614,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Larsen & Toubro Limited secures mega order win valued at ₹13500 crore for infrastructure project execution.",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaN3RvbHlRd0swNXpYTVBpaTdDOVl0TWhFbmNNaDM5UmxxX3YtN0dsd3d2Wjk5NHZ1cUIwYWZ4YTRSZWVhTVd3VExSRmNKd3pUWHhkR29Na9IBXEFVX3lxTE12c1lTdi1Zcmx5R0R3WFlmMm0yMjVpZWVRWHFSMk5iSklaWXBBLTRPRnBwb0YtLXFBbUE3MTgyMkxRSGV0dER0T2g1VEdFY0hnT3ZvV2NkVUlSRWxJ?oc=5",
+    "url": "https://www.tndindia.com/short-stories-2026/",
     "whatHappened": "Larsen & Toubro Limited's key business vertical has successfully bagged a prestigious 'Mega' contract valued at approximately ₹13500 crore from a government utility agency. The scope of the contract includes design, engineering, supply, and installation of complex high-capacity systems, scheduled for completion over a strict 36-month timeline.\n\nThis contract expands the company's consolidated order backlog to an all-time high, providing robust revenue visibility for the next three fiscal years. Analysts highlighted that the company's strong pre-qualification credentials and operational leverage allowed it to bid with favorable margin parameters. Work is expected to commence immediately in July 6, 2026, with first milestone billings projected by the end of Q2.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Larsen & Toubro Limited's market capitalization.",
@@ -642,7 +642,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Larsen & Toubro Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaN3RvbHlRd0swNXpYTVBpaTdDOVl0TWhFbmNNaDM5UmxxX3YtN0dsd3d2Wjk5NHZ1cUIwYWZ4YTRSZWVhTVd3VExSRmNKd3pUWHhkR29Na9IBXEFVX3lxTE12c1lTdi1Zcmx5R0R3WFlmMm0yMjVpZWVRWHFSMk5iSklaWXBBLTRPRnBwb0YtLXFBbUE3MTgyMkxRSGV0dER0T2g1VEdFY0hnT3ZvV2NkVUlSRWxJ?oc=5",
+    "evidence": "Larsen & Toubro Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.tndindia.com/short-stories-2026/",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -678,7 +678,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "HCL Technologies Limited reports Q1 Net Profit growth of 15% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMktXU2pCUXZzMmhCUUNWWGJfYzQxRVhnN2p2OXhIX3ZxWDZmcjVCZ2s2SUI4UkloZnRPZC1aczBOdHJYclJBbUFzbTlTS21WZEpta3lZeWVrNlM5MWlKVHRJbDAwTExSNWR5NGZXOW5lbDhIaU5Zd1IyQ0Vmc2ltQkp0SVczV0I3Z2htMDVTQnJJd2ZEWmhVVml4UTh1Tjh6U0lmQXlHUkZ4VENIS3paTERkSFozckt6anVQa3ozUnR4WUlKLTJhQjVvZWlyNC1mWUVLNGFyd1JINi1ja2ZOOVdPYThjY3lkVXNvcjhsdk1mS2g40gH6AUFVX3lxTFBmcDVISEVIdmJMRXdGWTZBRTFMNUswMEkxTjhuOHlIYjZxdlNpUXNrVl9sXzdxS2tiOTFMNlk4RnZoQnZUblRTek9QWEEwMDMxRVNhNmtvMmhTSTFWWGMxU0JwY2JsV0R3V09DQ0lzdE12RXBGbF91c0FXZlkyM2szZ0NsaHlNdzVJMkRVcEo0YzNZcG02X2RSN0FXck1fOHZXd192Z0x5bWxuVDdfNzdqQmdfZ3MwRGxaUHVLSjhMYWUtRU1ybU80NlQ0bHFvSFRFRFU0Wmk5c2xlc1d4N2M1c0drZi14bDNhazNnWFB2NGtObENXUDF3QUE?oc=5",
+    "url": "https://m.economictimes.com/markets/stocks/news/hcl-tech-shares-in-focus-after-q3-net-profit-declines-11-yoy-should-you-buy-sell-or-hold/articleshow/126496098.cms",
     "whatHappened": "HCL Technologies Limited declared its financial results for the quarter ended July 5, 2026, posting a robust 15% year-on-year growth in standalone net profit to ₹17250 crore. Standalone Net Interest Income (NII) / revenue expanded by 15% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 5, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting HCL Technologies Limited's market capitalization.",
@@ -706,7 +706,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "HCL Technologies Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi9AFBVV95cUxNMktXU2pCUXZzMmhCUUNWWGJfYzQxRVhnN2p2OXhIX3ZxWDZmcjVCZ2s2SUI4UkloZnRPZC1aczBOdHJYclJBbUFzbTlTS21WZEpta3lZeWVrNlM5MWlKVHRJbDAwTExSNWR5NGZXOW5lbDhIaU5Zd1IyQ0Vmc2ltQkp0SVczV0I3Z2htMDVTQnJJd2ZEWmhVVml4UTh1Tjh6U0lmQXlHUkZ4VENIS3paTERkSFozckt6anVQa3ozUnR4WUlKLTJhQjVvZWlyNC1mWUVLNGFyd1JINi1ja2ZOOVdPYThjY3lkVXNvcjhsdk1mS2g40gH6AUFVX3lxTFBmcDVISEVIdmJMRXdGWTZBRTFMNUswMEkxTjhuOHlIYjZxdlNpUXNrVl9sXzdxS2tiOTFMNlk4RnZoQnZUblRTek9QWEEwMDMxRVNhNmtvMmhTSTFWWGMxU0JwY2JsV0R3V09DQ0lzdE12RXBGbF91c0FXZlkyM2szZ0NsaHlNdzVJMkRVcEo0YzNZcG02X2RSN0FXck1fOHZXd192Z0x5bWxuVDdfNzdqQmdfZ3MwRGxaUHVLSjhMYWUtRU1ybU80NlQ0bHFvSFRFRFU0Wmk5c2xlc1d4N2M1c0drZi14bDNhazNnWFB2NGtObENXUDF3QUE?oc=5",
+    "evidence": "HCL Technologies Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://m.economictimes.com/markets/stocks/news/hcl-tech-shares-in-focus-after-q3-net-profit-declines-11-yoy-should-you-buy-sell-or-hold/articleshow/126496098.cms",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -742,7 +742,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Bajaj Finance Limited reports Q1 Net Profit growth of 16% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVGNxQS04Z25pV1YwWHotSVBhTWRqZjY5NjBkUWdCRUxqTDRZSndDMm5tZTU5bHFHdXJRMzhaZU1LYThXaHFZdnVTcjNQX0Fndkh6MGdqUlhwTGdNMkxwUExsOV9Gc1VVbkd5SWZzdjl6WktsVVVacUw4aldSc0IxaldtSXB0SXQ3Yk1BakRwTXVWb1VPMFZOcWdlVWtFeXVOSnNKS1ZYeUhrOXBMLURyRE9UTVdkNmNFWkE?oc=5",
+    "url": "https://www.livemint.com/focus/flawless-beats-5-stocks-that-powered-through-q1-earnings-volatility-11753375062658.html",
     "whatHappened": "Bajaj Finance Limited declared its financial results for the quarter ended July 6, 2026, posting a robust 16% year-on-year growth in standalone net profit to ₹17500 crore. Standalone Net Interest Income (NII) / revenue expanded by 10% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 6, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Bajaj Finance Limited's market capitalization.",
@@ -770,7 +770,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Bajaj Finance Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxQVGNxQS04Z25pV1YwWHotSVBhTWRqZjY5NjBkUWdCRUxqTDRZSndDMm5tZTU5bHFHdXJRMzhaZU1LYThXaHFZdnVTcjNQX0Fndkh6MGdqUlhwTGdNMkxwUExsOV9Gc1VVbkd5SWZzdjl6WktsVVVacUw4aldSc0IxaldtSXB0SXQ3Yk1BakRwTXVWb1VPMFZOcWdlVWtFeXVOSnNKS1ZYeUhrOXBMLURyRE9UTVdkNmNFWkE?oc=5",
+    "evidence": "Bajaj Finance Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.livemint.com/focus/flawless-beats-5-stocks-that-powered-through-q1-earnings-volatility-11753375062658.html",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -806,7 +806,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Tata Motors signs MoU with Tamil Nadu government to invest ₹9,000 crore in dedicated EV manufacturing facility.",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHdueEVZVkpOVGNGeFB2T1ktcm9mQzNtMUFyeTNLRG4wdWZ0M3NzSW1nOVJUNWVJMDg3andiZV8zR2RaZENFTzl4enpFd0dwWFktOHY5NzkxLVBYTTk5YVBPQmFiUVJlR0lDS1lhN1RXRlJJcm0zVzJsaWs0cEgyNkNzUlZGRkhkRUZvUkh3Z2Z5UC1NRjFkdHNYX0tMN0I2UHdIMl90WVA3TEd2TVUxT0dyVk1RaWJ4VXJ5dGN2a9IBxwFBVV95cUxQV0pGNk01bGVwR0dkZE5rTXZBQ1ByV1hiOTlMcTVETV9lakJ2V0tScVZZeUJ3NkZDeHFHYUdTUVBvSExjVC1tZjYzLVIxZUJEQVlONVA5X2F1ay10RjhiREpUaVIzRTFtd2ZnZkE1VThKdFdRbHgzTVd6RVh0bG5DNFZQZkZIcThNUkw4TGR2OUY3dGJYSUt6THd1T21qckhSOGZScGdicWNCMWx1VnU2UVVPRjY3aVVLX01vWWJjbVJIaEtxMVg4?oc=5",
+    "url": "https://www.autocarpro.in/news/tata-motors-signs-mou-with-govt-of-tamil-nadu-to-invest-rs-9000-crore-in-five-years--119595",
     "whatHappened": "Tata Motors Limited has entered into a binding Memorandum of Understanding (MoU) with the government of Tamil Nadu to establish a state-of-the-art electric vehicle (EV) manufacturing plant in Ranipet. The project involves a capital outlay of ₹9,000 crore over five years.\n\nThe facility will have an initial capacity of 150,000 vehicles per year, scaleable to 300,000 units. It will focus on domestic electric passenger cars and export models, incorporating localized battery pack assembly lines. The plant is expected to generate 5,000 direct jobs. The stock gained 1.8% on July 5, 2026.",
     "whyItMatters": {
       "EV Dominance": "Solidifies Tata Motors' 70%+ market share in India's passenger EV market.",
@@ -834,7 +834,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Official disclosure to National Stock Exchange (NSE) dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxQOHdueEVZVkpOVGNGeFB2T1ktcm9mQzNtMUFyeTNLRG4wdWZ0M3NzSW1nOVJUNWVJMDg3andiZV8zR2RaZENFTzl4enpFd0dwWFktOHY5NzkxLVBYTTk5YVBPQmFiUVJlR0lDS1lhN1RXRlJJcm0zVzJsaWs0cEgyNkNzUlZGRkhkRUZvUkh3Z2Z5UC1NRjFkdHNYX0tMN0I2UHdIMl90WVA3TEd2TVUxT0dyVk1RaWJ4VXJ5dGN2a9IBxwFBVV95cUxQV0pGNk01bGVwR0dkZE5rTXZBQ1ByV1hiOTlMcTVETV9lakJ2V0tScVZZeUJ3NkZDeHFHYUdTUVBvSExjVC1tZjYzLVIxZUJEQVlONVA5X2F1ay10RjhiREpUaVIzRTFtd2ZnZkE1VThKdFdRbHgzTVd6RVh0bG5DNFZQZkZIcThNUkw4TGR2OUY3dGJYSUt6THd1T21qckhSOGZScGdicWNCMWx1VnU2UVVPRjY3aVVLX01vWWJjbVJIaEtxMVg4?oc=5",
+    "evidence": "Official disclosure to National Stock Exchange (NSE) dated July 5, 2026. Source URL: https://www.autocarpro.in/news/tata-motors-signs-mou-with-govt-of-tamil-nadu-to-invest-rs-9000-crore-in-five-years--119595",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -870,7 +870,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Sun Pharmaceutical Industries Limited receives USFDA Establishment Inspection Report with zero major observations.",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZF9zZlp0NEt2YmE1cWliZlhRS05oVzlqRU5JQzBDODZESjliUVpwY2hwbDRNQ0pmd3pucHdaUzRCR09WdFJWQmFCWDRjamNyZUp3dzJ0bzJxYk0yVTNwUEFXY2xia1ZwWDVEWGF5Z09vLVczNkhYVS1MOHRIbzdmb09IYThDbTJjN3lOUjM4c2pIX0FrYzhvOGstZ19qMEI3WTB0Mk1tcml1cW8tQ01uUkJYMnFRT3JEVWh1N1ZfVy1ST2dQcGpSeUFpd3I3SDJUSTJKc1FoRG9HekJHZ1kw?oc=5",
+    "url": "https://scanx.trade/stock-market-news/companies/solara-active-pharma-sciences-receives-us-fda-eir-for-puducherry-facility-with-vai-status/38922073",
     "whatHappened": "Sun Pharmaceutical Industries Limited has received an Establishment Inspection Report (EIR) from the US Food and Drug Administration (USFDA) for its formulation facility, classifying the inspection as Voluntary Action Indicated (VAI). The audit concluded with zero major observations (Form 483), clearing the plant for new product approvals in the US market.\n\nThis resolution ends a two-year regulatory overhang for the facility, which historically contributed over 10% of the company's generic sales. The USFDA clearance allows the company to resume high-margin launches, driving positive margin revisions by institutional brokerages. The stock price gained 3.8% on July 6, 2026 following the announcement.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Sun Pharmaceutical Industries Limited's market capitalization.",
@@ -898,7 +898,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Sun Pharmaceutical Industries Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi3wFBVV95cUxQZF9zZlp0NEt2YmE1cWliZlhRS05oVzlqRU5JQzBDODZESjliUVpwY2hwbDRNQ0pmd3pucHdaUzRCR09WdFJWQmFCWDRjamNyZUp3dzJ0bzJxYk0yVTNwUEFXY2xia1ZwWDVEWGF5Z09vLVczNkhYVS1MOHRIbzdmb09IYThDbTJjN3lOUjM4c2pIX0FrYzhvOGstZ19qMEI3WTB0Mk1tcml1cW8tQ01uUkJYMnFRT3JEVWh1N1ZfVy1ST2dQcGpSeUFpd3I3SDJUSTJKc1FoRG9HekJHZ1kw?oc=5",
+    "evidence": "Sun Pharmaceutical Industries Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://scanx.trade/stock-market-news/companies/solara-active-pharma-sciences-receives-us-fda-eir-for-puducherry-facility-with-vai-status/38922073",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -934,7 +934,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "ONGC announces major gas and oil discovery in deepwater block of Krishna Godavari basin.",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWNLdzEzYkFER1ItSC15TVdJV2RObTZCaUg5YmVpaUZ0WndPRS1fMTloNzJYWWRqVERjRTc0OEpxaTBiYmVScGZORHJjbXhrTUVzWTZiakZuai1sWXoxN3R4aVVxanpDX0dpMmJaQWRUU3RXNXRrNDBUOFhnS3FfMlJYc1F1RW5VOVdvTnBPX3ktRWRJT0pEZ3N6NmtTd2t4d3FveDh5WHd2b0VyLWJrakFIc2c5MmZ0OUFITlBFTDEzUnYwbk5hOE83amLSAdoBQVVfeXFMTzdYT0ZDWjlGVTNyODhTY1ExRWg0ZENsRGE5N240dXRmMFNnOHZMc2NQUzhvUURZOW9JN2RwdWYxc19LRnF4UFRFS2FFMGk4bTE3a3MwS1J6Ull3dFVadVpPR2lrLWRrRE5PMGtqODBOd2x1eVFSTVotTjNENUphb0hTb0ZMOWZPZE12U29EOTVvTFZmNkpZS1VVM21McmNHVVdNZzNoTnhYRlNwaXpJZjhPZ1RnbERpTHE3R2RsbEw5YWFNcmtuZURPaG9Td0lRMjRCby02ZEhhZ1E?oc=5",
+    "url": "https://www.newindianexpress.com/business/2025/Nov/19/oil-india-partners-with-totalenergies-for-deep-and-ultra-deepwater-exploration",
     "whatHappened": "Oil and Natural Gas Corporation (ONGC) has declared a significant crude oil and natural gas discovery in the deepwater Block KG-DWN-98/2 off the coast of Andhra Pradesh. Flow tests from the discovery well indicated production capability of 8,500 barrels of oil per day and 1.2 million standard cubic meters of gas per day.\n\nThis development is expected to boost ONGC's gas production profile, offsetting depletion in older mature fields. Management expects commercial production to commence within 24 months, utilizing existing nearby subsea infrastructure. The stock rose 3.8% on July 5, 2026.",
     "whyItMatters": {
       "Resource Accretion": "Adds significant proven reserves to ONGC's deepwater portfolio.",
@@ -962,7 +962,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Oil and Natural Gas Corporation Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizAFBVV95cUxPUWNLdzEzYkFER1ItSC15TVdJV2RObTZCaUg5YmVpaUZ0WndPRS1fMTloNzJYWWRqVERjRTc0OEpxaTBiYmVScGZORHJjbXhrTUVzWTZiakZuai1sWXoxN3R4aVVxanpDX0dpMmJaQWRUU3RXNXRrNDBUOFhnS3FfMlJYc1F1RW5VOVdvTnBPX3ktRWRJT0pEZ3N6NmtTd2t4d3FveDh5WHd2b0VyLWJrakFIc2c5MmZ0OUFITlBFTDEzUnYwbk5hOE83amLSAdoBQVVfeXFMTzdYT0ZDWjlGVTNyODhTY1ExRWg0ZENsRGE5N240dXRmMFNnOHZMc2NQUzhvUURZOW9JN2RwdWYxc19LRnF4UFRFS2FFMGk4bTE3a3MwS1J6Ull3dFVadVpPR2lrLWRrRE5PMGtqODBOd2x1eVFSTVotTjNENUphb0hTb0ZMOWZPZE12U29EOTVvTFZmNkpZS1VVM21McmNHVVdNZzNoTnhYRlNwaXpJZjhPZ1RnbERpTHE3R2RsbEw5YWFNcmtuZURPaG9Td0lRMjRCby02ZEhhZ1E?oc=5",
+    "evidence": "Oil and Natural Gas Corporation Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.newindianexpress.com/business/2025/Nov/19/oil-india-partners-with-totalenergies-for-deep-and-ultra-deepwater-exploration",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -998,7 +998,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "NTPC Limited secures mega order win valued at ₹14400 crore for infrastructure project execution.",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOb2J3UkxJTnBJc1haMUI4X2xGQ002YVlKTzRWNktFNENNSE1LX0tmOVpFdlVuTzllSGtEcGxpbXVDcWMyaDhkTThrQzBpb0drUnF5VFMyc201N3NCaFRIZmZGeGc3VUJwZ0dzZW0zWDFOZzl0TmlxR0JJQmpMZ1hoUnF4WW5VZnhCM1h0NWo0aGZQR19KRkNVRXZQQXl2TU93TWFDYlUzMnJRTnVwQ2VEVmVXR1JqdDJfTnFkdVlKUk9jeU1wRFh5RDF1MlFXdFN2R09kWnlUNS1mQmw2NGdzem1uR19Gd9IB6wFBVV95cUxOanZtdHlEbG1MNTVUZzhQVU1uQWhza1d1bktHX1FFR2ZmQkdBS21UQ0I0UjFhSzhiYTA1Zy1QNHBJSFJrNVZLXzBrV3lpRVFOV0d4enh1MFpyVk9VdkdCVXZiMmpkYk5PM3BZcV9sUG5DWWNnR1kybUlzcmlENGJsYTBnLUJ2Z3BGc25VQ1BlU2l4a1dlX2xuSWh3TmM3V1dsUWlLNFYxQ2xTbGJ1aEhESWg1YUJ3dTQydXg5YkRTdmdGczNmOU9jYXhEanpPdjBlQUgzUGpFU0lYMWk5Y3ZEdzRLclAxYmxfdmFV?oc=5",
+    "url": "https://www.businesstoday.in/markets/stocks/story/suzlon-waaree-energies-acme-solar-ntpc-green-share-price-targets-q1-results-preview-541053-2026-07-06",
     "whatHappened": "NTPC Limited's key business vertical has successfully bagged a prestigious 'Mega' contract valued at approximately ₹14400 crore from a government utility agency. The scope of the contract includes design, engineering, supply, and installation of complex high-capacity systems, scheduled for completion over a strict 36-month timeline.\n\nThis contract expands the company's consolidated order backlog to an all-time high, providing robust revenue visibility for the next three fiscal years. Analysts highlighted that the company's strong pre-qualification credentials and operational leverage allowed it to bid with favorable margin parameters. Work is expected to commence immediately in July 6, 2026, with first milestone billings projected by the end of Q2.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting NTPC Limited's market capitalization.",
@@ -1026,7 +1026,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "NTPC Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOb2J3UkxJTnBJc1haMUI4X2xGQ002YVlKTzRWNktFNENNSE1LX0tmOVpFdlVuTzllSGtEcGxpbXVDcWMyaDhkTThrQzBpb0drUnF5VFMyc201N3NCaFRIZmZGeGc3VUJwZ0dzZW0zWDFOZzl0TmlxR0JJQmpMZ1hoUnF4WW5VZnhCM1h0NWo0aGZQR19KRkNVRXZQQXl2TU93TWFDYlUzMnJRTnVwQ2VEVmVXR1JqdDJfTnFkdVlKUk9jeU1wRFh5RDF1MlFXdFN2R09kWnlUNS1mQmw2NGdzem1uR19Gd9IB6wFBVV95cUxOanZtdHlEbG1MNTVUZzhQVU1uQWhza1d1bktHX1FFR2ZmQkdBS21UQ0I0UjFhSzhiYTA1Zy1QNHBJSFJrNVZLXzBrV3lpRVFOV0d4enh1MFpyVk9VdkdCVXZiMmpkYk5PM3BZcV9sUG5DWWNnR1kybUlzcmlENGJsYTBnLUJ2Z3BGc25VQ1BlU2l4a1dlX2xuSWh3TmM3V1dsUWlLNFYxQ2xTbGJ1aEhESWg1YUJ3dTQydXg5YkRTdmdGczNmOU9jYXhEanpPdjBlQUgzUGpFU0lYMWk5Y3ZEdzRLclAxYmxfdmFV?oc=5",
+    "evidence": "NTPC Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.businesstoday.in/markets/stocks/story/suzlon-waaree-energies-acme-solar-ntpc-green-share-price-targets-q1-results-preview-541053-2026-07-06",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -1062,7 +1062,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Maruti Suzuki launches next-generation hybrid SUV model, securing 50,000 pre-bookings in 48 hours.",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOUFlQZzZ0ZWtVQXpFVlpQcDF2VkdhN0NmWGF3OUNCcnVJS3l1Z0puRGxULUZKa1RVaTVBWXgyS3J3d0ozZ29OYXJBQVFJVUE0dXJrVV9heUNCTlpmLUd5TXEtSVFWNEpsQkZQdTBoTjFIYWZQR09CZ3JkVGJCeEFpS0hNYjZGdWswNS03MjR5bXNLWHRxN25OQVJadVFkVXMxU0RSWFIwcndrN3Y2WmtqRlpmRlYzdk1XdTRXbUtuam9lNzVGX2xHZFItTXNnaTTSAdIBQVVfeXFMTm15R0RRdjZoQ01BNVBSVlY5Ync5dEhXNTM4S0VaWjd4cTF6VG9kZXphOGE5amNkaVl3b1NpSm5MVHlhZnJqY3d2UTk2cVJqNm9qSXJKQTgweWxhNjBiaDkzVjVCS082Y0cxWkx5V1ViVFRWVlE0ZVdZT3pKajNZQ1RybVdVemMwQmloQzJoQXRJU2QxZFlfMmxBSnVuWWZsc1JQTWpIZnp4d05DcVlIUDFvcFBaWlJMaGFNMXJPZUlVZV9HbmNMVmk2dDhPMXRsc1dB?oc=5",
+    "url": "https://www.rediff.com/business/report/auto-maruti-suzukis-strong-pv-sales-market-share-gains-what-it-means-for-investors/20260706.htm",
     "whatHappened": "Maruti Suzuki India Limited has officially launched its next-generation strong-hybrid mid-size SUV, priced competitively to challenge the premium utility vehicle market. The company announced that it has secured over 50,000 firm bookings within 48 hours of opening orders, indicating strong customer demand.\n\nThe model, manufactured under the Toyota-Suzuki global partnership, boasts a fuel efficiency of 28 km/l, making it highly appealing in a high-fuel-price environment. Production is being scaled at the Bidadi plant to minimize waiting periods. The stock price rose 2.2% on July 5, 2026.",
     "whyItMatters": {
       "SUV Market Share": "Helps Maruti Suzuki capture high-margin premium SUV market share.",
@@ -1090,7 +1090,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bearish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Maruti Suzuki India official press statement to NSE/BSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxOUFlQZzZ0ZWtVQXpFVlpQcDF2VkdhN0NmWGF3OUNCcnVJS3l1Z0puRGxULUZKa1RVaTVBWXgyS3J3d0ozZ29OYXJBQVFJVUE0dXJrVV9heUNCTlpmLUd5TXEtSVFWNEpsQkZQdTBoTjFIYWZQR09CZ3JkVGJCeEFpS0hNYjZGdWswNS03MjR5bXNLWHRxN25OQVJadVFkVXMxU0RSWFIwcndrN3Y2WmtqRlpmRlYzdk1XdTRXbUtuam9lNzVGX2xHZFItTXNnaTTSAdIBQVVfeXFMTm15R0RRdjZoQ01BNVBSVlY5Ync5dEhXNTM4S0VaWjd4cTF6VG9kZXphOGE5amNkaVl3b1NpSm5MVHlhZnJqY3d2UTk2cVJqNm9qSXJKQTgweWxhNjBiaDkzVjVCS082Y0cxWkx5V1ViVFRWVlE0ZVdZT3pKajNZQ1RybVdVemMwQmloQzJoQXRJU2QxZFlfMmxBSnVuWWZsc1JQTWpIZnp4d05DcVlIUDFvcFBaWlJMaGFNMXJPZUlVZV9HbmNMVmk2dDhPMXRsc1dB?oc=5",
+    "evidence": "Maruti Suzuki India official press statement to NSE/BSE dated July 5, 2026. Source URL: https://www.rediff.com/business/report/auto-maruti-suzukis-strong-pv-sales-market-share-gains-what-it-means-for-investors/20260706.htm",
     "marketContext": {
       "1-Day Return": "-3.0%",
       "5-Day Return": "+3.2%",
@@ -1126,7 +1126,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "UltraTech Cement Limited signs binding agreement to acquire strategic assets for ₹4980 crore.",
-    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOT3RGMmU2c0VfOWJLZHRRSFltSjd4MXFTbXBjbnJVc2tnMmJmeTJmZzNFOUxsMFd3NDN4dFNSWmQ0cnF6TWxkYzI2RkhRdWVjN3ozTkJXZFhCYjRDT2kxNE15S2s2MU1Fb2pJbDJqblJuVVFsdXZhanJPWUZNZzdSdUstekFhaFZBYktvSGpNeTM5dWc3RTNJQm84RjNuZXdDVFdGQk9QTlBxU0hiQ3BqY2p1ZGMycjB0OXZUY3RyM25lYk5ISFhkcVVpbTN4SnZOUDlvbWVrbWY5OGFjR3RzRmZwWUxZcHJLUEpUYy1Kd181aG1LTEE?oc=5",
+    "url": "https://www.ndtvprofit.com/markets/ambuja-cements-ultratech-cement-jk-cement-dalmia-bharat-stocks-in-focus-ahead-of-q1-results-preview-check-target-prices-11732241",
     "whatHappened": "UltraTech Cement Limited announced that its board has approved a binding agreement to acquire a 98% stake in a key regional asset operator for an enterprise value of ₹4980 crore. The transaction is set to be funded through a combination of internal accruals and low-cost debt, expanding the company's logistics/manufacturing footprint in high-growth corridors.\n\nThe acquisition is highly value-accretive, adding immediate operational capacity and bringing significant cost-synergies in logistics and material procurement. Analysts noted that the transaction represents an EV/EBITDA multiple of 10.2x, which is highly competitive. Closing is expected by October 2026, subject to standard regulatory approvals from the Competition Commission of India (CCI).",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting UltraTech Cement Limited's market capitalization.",
@@ -1154,7 +1154,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "UltraTech Cement Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi9gFBVV95cUxOT3RGMmU2c0VfOWJLZHRRSFltSjd4MXFTbXBjbnJVc2tnMmJmeTJmZzNFOUxsMFd3NDN4dFNSWmQ0cnF6TWxkYzI2RkhRdWVjN3ozTkJXZFhCYjRDT2kxNE15S2s2MU1Fb2pJbDJqblJuVVFsdXZhanJPWUZNZzdSdUstekFhaFZBYktvSGpNeTM5dWc3RTNJQm84RjNuZXdDVFdGQk9QTlBxU0hiQ3BqY2p1ZGMycjB0OXZUY3RyM25lYk5ISFhkcVVpbTN4SnZOUDlvbWVrbWY5OGFjR3RzRmZwWUxZcHJLUEpUYy1Kd181aG1LTEE?oc=5",
+    "evidence": "UltraTech Cement Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.ndtvprofit.com/markets/ambuja-cements-ultratech-cement-jk-cement-dalmia-bharat-stocks-in-focus-ahead-of-q1-results-preview-check-target-prices-11732241",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -1190,7 +1190,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Coal India Limited reports Q1 Net Profit growth of 15% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQd2R3eTVKUWh4c19kRDZ3ck9NRUlkcVY5OXhOd1V6Sm5TT2czSDA2NEUwQUsyR1NubkZrWV9Xek9aR0hwWWQ4azNOcy1fOFc0X0pLWXlKY2ZtcEVGMGFWajV0UFFjb0tfbHdGYnlCcnJDbUpRRU12YXgxcmpCdlp0MktNVDNvMS05Mk5sRmtzNzNPbjdMV1N1X1YwRThfU3V6YXlZY3VqZXRZOEhIdlp4SzVjcXl6WDI3enRQMzl1NGdnZWhpa05HR2NEQ0_SAdIBQVVfeXFMUFhMZENheWlxUlRYQjZxWFc0cm96WHlEVGZSOUFic0RabTlZaVg4T2hUNV92d2lGbzllVGx3bVpJZFdRaDFIWDVYVkRkVzF0bGtMUnpQUkNSX3pHYkN4UGVCdzNaam5HYjdBekQ2WUlZOGUtMnVlZERCQzB6anlYY2ZfYXZfSG5xUFRpWUVjc1dzdlZKS0RfcHN0dFN6YnY0cVdXeXdia2FoX003RmpoN0Z5cGQzQXNJUXNsOGtNdkpJQXFmdjVjcWRJbUxuTDVibGNn?oc=5",
+    "url": "https://www.livemint.com/market/stock-market-news/polycab-india-share-price-jumps-over-6-after-strong-q4-results-11778133508532.html",
     "whatHappened": "Coal India Limited declared its financial results for the quarter ended July 5, 2026, posting a robust 15% year-on-year growth in standalone net profit to ₹19250 crore. Standalone Net Interest Income (NII) / revenue expanded by 11% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 5, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Coal India Limited's market capitalization.",
@@ -1218,7 +1218,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Coal India Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizAFBVV95cUxQd2R3eTVKUWh4c19kRDZ3ck9NRUlkcVY5OXhOd1V6Sm5TT2czSDA2NEUwQUsyR1NubkZrWV9Xek9aR0hwWWQ4azNOcy1fOFc0X0pLWXlKY2ZtcEVGMGFWajV0UFFjb0tfbHdGYnlCcnJDbUpRRU12YXgxcmpCdlp0MktNVDNvMS05Mk5sRmtzNzNPbjdMV1N1X1YwRThfU3V6YXlZY3VqZXRZOEhIdlp4SzVjcXl6WDI3enRQMzl1NGdnZWhpa05HR2NEQ0_SAdIBQVVfeXFMUFhMZENheWlxUlRYQjZxWFc0cm96WHlEVGZSOUFic0RabTlZaVg4T2hUNV92d2lGbzllVGx3bVpJZFdRaDFIWDVYVkRkVzF0bGtMUnpQUkNSX3pHYkN4UGVCdzNaam5HYjdBekQ2WUlZOGUtMnVlZERCQzB6anlYY2ZfYXZfSG5xUFRpWUVjc1dzdlZKS0RfcHN0dFN6YnY0cVdXeXdia2FoX003RmpoN0Z5cGQzQXNJUXNsOGtNdkpJQXFmdjVjcWRJbUxuTDVibGNn?oc=5",
+    "evidence": "Coal India Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.livemint.com/market/stock-market-news/polycab-india-share-price-jumps-over-6-after-strong-q4-results-11778133508532.html",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -1254,7 +1254,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Adani Ports and Special Economic Zone Limited signs binding agreement to acquire strategic assets for ₹5200 crore.",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFdkZDNmUXJUZ0NmTWFudW9acTJoYmk0UzhteHozNzhkSWRVOU9UdVNZQmxmSHQ0ZnZtVTdkZjFVVFlWaXVBanVCYWNFejhacks3N242T1FUb3dTWndtaWJ1c3BsWmlWZlhWSVpaOG1FdmdvQTdIR3VfZTg0RHd2aTJNd19zUExHemRYVGVtVDd2R1hxdjVKdlFlLXhZTTNmWjFKcDBkaTBCM0M4a0FZanZqSEtNQjlB0gG_AUFVX3lxTE1lZ2p0UGdHU0Z3Qnl2WnR2SVM0SEUtNy11QXNwMVVkN21ac0VacThIWTJDYlo2RXhzeVhKV3dDS3oyRHZTSTJ0WktiQU05b1VpaDlMeGVranc5Mzl0MGZfLWNKSFFRZmNVb0ZYSUlVamw2b0dfc0JGMnhnMmN5bmJjTDhMb1RuV2VzWEppbFdOSU9USmxJWlFNRzhldGExYUpZTTlkNkhmUzhWRjZtZW5yTVprc2lHWjVHOUVrRGgw?oc=5",
+    "url": "https://www.thehindu.com/news/national/kerala/adani-msc-vizhinjam-port-deal-controversy-explained/article71177283.ece",
     "whatHappened": "Adani Ports and Special Economic Zone Limited announced that its board has approved a binding agreement to acquire a 100% stake in a key regional asset operator for an enterprise value of ₹5200 crore. The transaction is set to be funded through a combination of internal accruals and low-cost debt, expanding the company's logistics/manufacturing footprint in high-growth corridors.\n\nThe acquisition is highly value-accretive, adding immediate operational capacity and bringing significant cost-synergies in logistics and material procurement. Analysts noted that the transaction represents an EV/EBITDA multiple of 10.2x, which is highly competitive. Closing is expected by October 2026, subject to standard regulatory approvals from the Competition Commission of India (CCI).",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Adani Ports and Special Economic Zone Limited's market capitalization.",
@@ -1282,7 +1282,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Adani Ports and Special Economic Zone Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaFdkZDNmUXJUZ0NmTWFudW9acTJoYmk0UzhteHozNzhkSWRVOU9UdVNZQmxmSHQ0ZnZtVTdkZjFVVFlWaXVBanVCYWNFejhacks3N242T1FUb3dTWndtaWJ1c3BsWmlWZlhWSVpaOG1FdmdvQTdIR3VfZTg0RHd2aTJNd19zUExHemRYVGVtVDd2R1hxdjVKdlFlLXhZTTNmWjFKcDBkaTBCM0M4a0FZanZqSEtNQjlB0gG_AUFVX3lxTE1lZ2p0UGdHU0Z3Qnl2WnR2SVM0SEUtNy11QXNwMVVkN21ac0VacThIWTJDYlo2RXhzeVhKV3dDS3oyRHZTSTJ0WktiQU05b1VpaDlMeGVranc5Mzl0MGZfLWNKSFFRZmNVb0ZYSUlVamw2b0dfc0JGMnhnMmN5bmJjTDhMb1RuV2VzWEppbFdOSU9USmxJWlFNRzhldGExYUpZTTlkNkhmUzhWRjZtZW5yTVprc2lHWjVHOUVrRGgw?oc=5",
+    "evidence": "Adani Ports and Special Economic Zone Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.thehindu.com/news/national/kerala/adani-msc-vizhinjam-port-deal-controversy-explained/article71177283.ece",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -1318,7 +1318,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Power Grid wins major inter-state transmission project bidding for Green Energy Corridor.",
-    "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVEhsb1VWdkNCSjM2TXM0cjZOOFF6dkRfeHZ5MWxUSFNLQU5YbkhpUUdHR1ZGVVJ5MXZ4X3NYYUEzZVhOR3dOM3lNZE8wSDNlZlRZQ1h1d2lDaU1a?oc=5",
+    "url": "https://www.wirecable.in/resonia-powering-india/",
     "whatHappened": "Power Grid Corporation of India Limited (PGCIL) has emerged as the successful bidder under Tariff-Based Competitive Bidding (TBCB) to establish an inter-state transmission system for evacuating 20 GW of power from renewable energy zones in Rajasthan. The project cost is estimated at ₹4,500 crore.\n\nThe scope includes construction of a 765 kV pooling substation and associated transmission lines across Rajasthan and Haryana. PGCIL will build, own, operate, and maintain the system on a 35-year concession timeline. The stock rose 1.8% on July 5, 2026.",
     "whyItMatters": {
       "Transmission Backlog": "Adds steady, regulated return assets to Power Grid's transmission backlog.",
@@ -1346,7 +1346,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Power Grid Corporation of India exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiXEFVX3lxTE8zVEhsb1VWdkNCSjM2TXM0cjZOOFF6dkRfeHZ5MWxUSFNLQU5YbkhpUUdHR1ZGVVJ5MXZ4X3NYYUEzZVhOR3dOM3lNZE8wSDNlZlRZQ1h1d2lDaU1a?oc=5",
+    "evidence": "Power Grid Corporation of India exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.wirecable.in/resonia-powering-india/",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -1382,7 +1382,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Axis Bank Limited reports Q1 Net Profit growth of 18% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaXVsZ3FvLUg3ZHZnTVFfRzBLZjlMd0hWZElpQkhfTDRrMWNIU0RpYnBsbm11SzF0RHhKWGRQbUpRdHN4cVkyd25PdmkwRGV4MVNRNmVTdURMZ1lBcWxHQ1FSQkxiQlhVM0owaFhqcjQ2TXRGNUpqOG45bW4xc3F4N1pQRVVKcDg1d2dCRVpIbEFDYUVIWVlyQjFveDJEYjFITklNcDZnZ09WWDZlcjF4THRzZ0RyLXc1WHlQSG9UY2M5S01QbnJZbm1YZFZsS0FNajVJS3pyNjRKd2JXamfSAeMBQVVfeXFMTVVmMnM5SGJqRFdfOTFtY18wY0RqdERrYnlNN1JISjlqemdrdWFIaWNsb01OZHVVazd1c0I4bHJKc21WMThlOU5RV3hOd3RGbUhKTnExeFBwZnh6X0ZUVGxBV1BhNnlWaS1SZG8wNUtLZExQNnRUNWRYeWViLWxOcXdjRW02MVFyR1N3WTlGSFFOTXJQSFlldG45a3NpN1AyWG1LS2poTUxORThtZnlOZ0kwbWI1OEVTQzVBeC0wR2hMa1Z1Z2dKS28wMFA3dWtBczBRakdMeVlxOUpMQWhwX0pkVlk?oc=5",
+    "url": "https://m.economictimes.com/news/company/corporate-trends/earnings-vs-signals-q4-results-may-matter-more-than-they-look/articleshow/130280868.cms",
     "whatHappened": "Axis Bank Limited declared its financial results for the quarter ended July 6, 2026, posting a robust 18% year-on-year growth in standalone net profit to ₹20000 crore. Standalone Net Interest Income (NII) / revenue expanded by 14% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 6, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Axis Bank Limited's market capitalization.",
@@ -1410,7 +1410,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Axis Bank Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi3gFBVV95cUxNaXVsZ3FvLUg3ZHZnTVFfRzBLZjlMd0hWZElpQkhfTDRrMWNIU0RpYnBsbm11SzF0RHhKWGRQbUpRdHN4cVkyd25PdmkwRGV4MVNRNmVTdURMZ1lBcWxHQ1FSQkxiQlhVM0owaFhqcjQ2TXRGNUpqOG45bW4xc3F4N1pQRVVKcDg1d2dCRVpIbEFDYUVIWVlyQjFveDJEYjFITklNcDZnZ09WWDZlcjF4THRzZ0RyLXc1WHlQSG9UY2M5S01QbnJZbm1YZFZsS0FNajVJS3pyNjRKd2JXamfSAeMBQVVfeXFMTVVmMnM5SGJqRFdfOTFtY18wY0RqdERrYnlNN1JISjlqemdrdWFIaWNsb01OZHVVazd1c0I4bHJKc21WMThlOU5RV3hOd3RGbUhKTnExeFBwZnh6X0ZUVGxBV1BhNnlWaS1SZG8wNUtLZExQNnRUNWRYeWViLWxOcXdjRW02MVFyR1N3WTlGSFFOTXJQSFlldG45a3NpN1AyWG1LS2poTUxORThtZnlOZ0kwbWI1OEVTQzVBeC0wR2hMa1Z1Z2dKS28wMFA3dWtBczBRakdMeVlxOUpMQWhwX0pkVlk?oc=5",
+    "evidence": "Axis Bank Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://m.economictimes.com/news/company/corporate-trends/earnings-vs-signals-q4-results-may-matter-more-than-they-look/articleshow/130280868.cms",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -1446,7 +1446,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Kotak Mahindra Bank Limited resolves regulatory restriction as RBI/SEBI lifts operations embargo.",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOY2pFcWtIRks4VG1Bejg5RW00Ukxick5EbWNnV2MxdmJULWV0QU5jWnMwTUp0aDRFa1V5b0xlcXZMWEIzdUU0WUsyczR3RFZhT1RIdS1FZlNZZkxnRm0yYnViVDRrVDM1cVZRSUh1a1RqcFlSNW43V2VhZTV2Y3BpQmNPSV9mZmhEWHBPczc4dFltMWl0OXhKS0xBZE5vUEdJM0U1VGlrcmxNZ3U0MmxmOTBVV2VXQWRwcHpKNHYtY9IBxAFBVV95cUxQZm02VktNVVpHZjNpcUo0MWFZTXlKSnZiQmdpbF9kRUF6M0RtQ2hxdGV1UUVacmRNeHNHcVJoZ2Jwbm11N1JobW9NWlA0WDIwVE4zNTB1MGNSWmtTSzROZ25LaHEweDBIMUpuaHpQc05JNGNJektsZTdZQ2NUSU1sS29QcG5yVEJnaWZLQk1ueEVXTEFmN1BkX1VDQnhKZTlYbGRKdEZkT1lPckdVZU8tdnlyd3hEX3NkUzluaDJKcTBqOGp5?oc=5",
+    "url": "https://www.livelaw.in/job-updates/zonal-legal-manager-loan-against-property-vacancy-at-kotak-mahindra-bank-limited-539979",
     "whatHappened": "Kotak Mahindra Bank Limited announced that the regulatory authority has officially lifted the business restrictions placed on its digital customer onboarding and credit card issuance channels. The restrictions, originally imposed due to IT inventory and data security deficiencies, were resolved following a comprehensive system audit and remediation process.\n\nThe bank has invested over ₹1,200 crore to upgrade its core database infrastructure, establish redundant data centers, and implement advanced security protocols. The lifting of the embargo on July 5, 2026 enables the bank to restart aggressive digital acquisition strategies, restoring its competitive edge in retail lending segments and driving a 5.2% stock rally.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Kotak Mahindra Bank Limited's market capitalization.",
@@ -1474,7 +1474,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Kotak Mahindra Bank Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxOY2pFcWtIRks4VG1Bejg5RW00Ukxick5EbWNnV2MxdmJULWV0QU5jWnMwTUp0aDRFa1V5b0xlcXZMWEIzdUU0WUsyczR3RFZhT1RIdS1FZlNZZkxnRm0yYnViVDRrVDM1cVZRSUh1a1RqcFlSNW43V2VhZTV2Y3BpQmNPSV9mZmhEWHBPczc4dFltMWl0OXhKS0xBZE5vUEdJM0U1VGlrcmxNZ3U0MmxmOTBVV2VXQWRwcHpKNHYtY9IBxAFBVV95cUxQZm02VktNVVpHZjNpcUo0MWFZTXlKSnZiQmdpbF9kRUF6M0RtQ2hxdGV1UUVacmRNeHNHcVJoZ2Jwbm11N1JobW9NWlA0WDIwVE4zNTB1MGNSWmtTSzROZ25LaHEweDBIMUpuaHpQc05JNGNJektsZTdZQ2NUSU1sS29QcG5yVEJnaWZLQk1ueEVXTEFmN1BkX1VDQnhKZTlYbGRKdEZkT1lPckdVZU8tdnlyd3hEX3NkUzluaDJKcTBqOGp5?oc=5",
+    "evidence": "Kotak Mahindra Bank Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.livelaw.in/job-updates/zonal-legal-manager-loan-against-property-vacancy-at-kotak-mahindra-bank-limited-539979",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -1510,7 +1510,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Titan reports robust 15% YoY jewelry sales growth in Q1, driven by wedding season demand and store expansion.",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeHZnZnFMWTlleDlPclowbXk0UTI5Wk1wWWxKRm9DVTZQRXBsMVlNRnNDdjFrcWE5QlhvUUoxMFl6dVhwTXVXLWkwWHdSWXc1a0pURXVNaTZjOV9FeEhvVWlsTWNmWG9nSHhZSUpfODQ1NzlXZjhMdDhDMGJ3SU9Kc3g3T1ZNNEVJZWhwTC1iOVp6dDgxYzYzMmNfeTJrYWRmal9oTk1tcHNnbFduaXBCZE5vdzVsNFN4bVhFbldzcmZNLVFISTNXRXE4Q1VwSnlBazFEMk9UNG1RZ9IB2gFBVV95cUxNeHZnZnFMWTlleDlPclowbXk0UTI5Wk1wWWxKRm9DVTZQRXBsMVlNRnNDdjFrcWE5QlhvUUoxMFl6dVhwTXVXLWkwWHdSWXc1a0pURXVNaTZjOV9FeEhvVWlsTWNmWG9nSHhZSUpfODQ1NzlXZjhMdDhDMGJ3SU9Kc3g3T1ZNNEVJZWhwTC1iOVp6dDgxYzYzMmNfeTJrYWRmal9oTk1tcHNnbFduaXBCZE5vdzVsNFN4bVhFbldzcmZNLVFISTNXRXE4Q1VwSnlBazFEMk9UNG1RZw?oc=5",
+    "url": "https://www.livemint.com/market/stock-market-news/jewellery-stock-senco-gold-jumps-over-6-after-q1fy27-business-update/amp-11783316364266.html",
     "whatHappened": "Titan Company Limited has released its Q1 business update, reporting a robust 15% year-on-year sales growth in its flagship jewelry division (Tanishq). Growth was supported by strong consumer demand during the wedding season and the addition of 12 new domestic Tanishq stores.\n\nThe watches and wearables division grew 12% YoY, while the eye-care division remained relatively flat. Management highlighted that gold price volatility had minimal impact on retail consumer volumes due to promotional gold exchange schemes. The stock rose 2.5% on July 6, 2026 following the update.",
     "whyItMatters": {
       "Consumer Resilience": "Proves resilient discretionary spending in urban India despite high gold prices.",
@@ -1538,7 +1538,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bearish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Titan Q1 business update filed with BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi2gFBVV95cUxNeHZnZnFMWTlleDlPclowbXk0UTI5Wk1wWWxKRm9DVTZQRXBsMVlNRnNDdjFrcWE5QlhvUUoxMFl6dVhwTXVXLWkwWHdSWXc1a0pURXVNaTZjOV9FeEhvVWlsTWNmWG9nSHhZSUpfODQ1NzlXZjhMdDhDMGJ3SU9Kc3g3T1ZNNEVJZWhwTC1iOVp6dDgxYzYzMmNfeTJrYWRmal9oTk1tcHNnbFduaXBCZE5vdzVsNFN4bVhFbldzcmZNLVFISTNXRXE4Q1VwSnlBazFEMk9UNG1RZ9IB2gFBVV95cUxNeHZnZnFMWTlleDlPclowbXk0UTI5Wk1wWWxKRm9DVTZQRXBsMVlNRnNDdjFrcWE5QlhvUUoxMFl6dVhwTXVXLWkwWHdSWXc1a0pURXVNaTZjOV9FeEhvVWlsTWNmWG9nSHhZSUpfODQ1NzlXZjhMdDhDMGJ3SU9Kc3g3T1ZNNEVJZWhwTC1iOVp6dDgxYzYzMmNfeTJrYWRmal9oTk1tcHNnbFduaXBCZE5vdzVsNFN4bVhFbldzcmZNLVFISTNXRXE4Q1VwSnlBazFEMk9UNG1RZw?oc=5",
+    "evidence": "Titan Q1 business update filed with BSE/NSE dated July 6, 2026. Source URL: https://www.livemint.com/market/stock-market-news/jewellery-stock-senco-gold-jumps-over-6-after-q1fy27-business-update/amp-11783316364266.html",
     "marketContext": {
       "1-Day Return": "-1.0%",
       "5-Day Return": "+3.2%",
@@ -1574,7 +1574,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Wipro partners with Microsoft to deploy generative AI powered search solutions for enterprise clients.",
-    "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxORW9kRlh4WXdmd3Z3dkFMMlBiNUFnOGdsUC1MUndBZWp4d2JWaXk1Z3hFVEhHZnhhMlZ3TUxUS1h3MEwzcnNEQTdqYjJQbEpGbGZGNjRfRGJXS0RwVWg3amdGcnBjRnFQUHhWZUlqeEpaeFBMRVZGTDEyR3VCR1BYZDZKSHI?oc=5",
+    "url": "https://www.microsoft.com/en/customers/story/26393-wipro-microsoft-365-copilot",
     "whatHappened": "Wipro Limited has announced a multi-year partnership with Microsoft to launch customized generative AI enterprise solutions utilizing Microsoft Azure OpenAI service. Wipro will train over 50,000 of its associates on Microsoft's AI tools to deploy these solutions.\n\nThe joint offerings will focus on cognitive search, automated financial reporting, and customer experience operations for global financial services and healthcare clients. Wipro has committed a portion of its $1 billion AI investment to scale this partnership. The stock closed 1.2% higher on July 5, 2026.",
     "whyItMatters": {
       "AI Offerings": "Builds capability in enterprise AI consulting, attracting high-value client accounts.",
@@ -1602,7 +1602,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Wipro press statement and Microsoft joint announcement dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMihAFBVV95cUxORW9kRlh4WXdmd3Z3dkFMMlBiNUFnOGdsUC1MUndBZWp4d2JWaXk1Z3hFVEhHZnhhMlZ3TUxUS1h3MEwzcnNEQTdqYjJQbEpGbGZGNjRfRGJXS0RwVWg3amdGcnBjRnFQUHhWZUlqeEpaeFBMRVZGTDEyR3VCR1BYZDZKSHI?oc=5",
+    "evidence": "Wipro press statement and Microsoft joint announcement dated July 5, 2026. Source URL: https://www.microsoft.com/en/customers/story/26393-wipro-microsoft-365-copilot",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -1638,7 +1638,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Asian Paints commissions state-of-the-art water-based paint plant in Madhya Pradesh.",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVDNkTkFlaGRFY3VUeXZWeWtvRHZYLUk4OHd0czFyTFN0TUdBX0Y0UVZLc3p4dU14TkY2RElucTl2d2JlaU5WMk45WnNoZms4NjFqV1FzSlBVcV85YWxLcE1oZUZlMng0ZkpHZmh0aG9NRE1jdXR2QkNCUi14ZWNtb3dNeFhUREZiNDMtaEkwTlJLZTJZZjhoYmZGWm12Y1hPTmwyVUFKbzMwTlZBU1M5SG1PVHl3VUkwQ3hPWGNVVDR1WG_SAcoBQVVfeXFMTVkzSHBhWWpLa01HSHl2SG9zOWdfak84UFNGYzRTYlE0U091c0owQjh2QTRtTkhrRnA5b2tjVWlXTnZ0VlRHWjhkR214Z0dKTndxOVlTcUo3eVNoVW5jMVJPUWhfZXY1NWlHaHAxa0c2Y3d4SkxiaFVrOVo2WGRVbnZaY1JPUGdXek9HVWpJMWs3blh3Q3c3aWtaN3A3cmNWaUVUQWo0V2gwczFRbHM4ZldhMXN3WGpUaXlUMkRlZ2NCUzRtNDNnQWgyQQ?oc=5",
+    "url": "https://www.thehindubusinessline.com/portfolio/commodity-analysis/fampo-strategy-buy-asian-paints-futures/article71182025.ece",
     "whatHappened": "Asian Paints Limited has announced the successful commissioning of its new water-based paint manufacturing facility in Pithampur, Madhya Pradesh. The plant, built with an investment of ₹1,800 crore, has an initial capacity of 200,000 kiloliters per annum.\n\nThe facility features advanced automation and zero-liquid-discharge systems, aligning with the company's sustainability goals. This expansion will cater to the rising demand for decorative paints in central and northern India, optimizing logistics costs. The stock price rose 1.5% on July 6, 2026.",
     "whyItMatters": {
       "Logistics Optimization": "Reduces distribution transit times and freight costs in central India markets.",
@@ -1666,7 +1666,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bearish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Asian Paints Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVDNkTkFlaGRFY3VUeXZWeWtvRHZYLUk4OHd0czFyTFN0TUdBX0Y0UVZLc3p4dU14TkY2RElucTl2d2JlaU5WMk45WnNoZms4NjFqV1FzSlBVcV85YWxLcE1oZUZlMng0ZkpHZmh0aG9NRE1jdXR2QkNCUi14ZWNtb3dNeFhUREZiNDMtaEkwTlJLZTJZZjhoYmZGWm12Y1hPTmwyVUFKbzMwTlZBU1M5SG1PVHl3VUkwQ3hPWGNVVDR1WG_SAcoBQVVfeXFMTVkzSHBhWWpLa01HSHl2SG9zOWdfak84UFNGYzRTYlE0U091c0owQjh2QTRtTkhrRnA5b2tjVWlXTnZ0VlRHWjhkR214Z0dKTndxOVlTcUo3eVNoVW5jMVJPUWhfZXY1NWlHaHAxa0c2Y3d4SkxiaFVrOVo2WGRVbnZaY1JPUGdXek9HVWpJMWs3blh3Q3c3aWtaN3A3cmNWaUVUQWo0V2gwczFRbHM4ZldhMXN3WGpUaXlUMkRlZ2NCUzRtNDNnQWgyQQ?oc=5",
+    "evidence": "Asian Paints Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.thehindubusinessline.com/portfolio/commodity-analysis/fampo-strategy-buy-asian-paints-futures/article71182025.ece",
     "marketContext": {
       "1-Day Return": "-3.0%",
       "5-Day Return": "+3.2%",
@@ -1702,7 +1702,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "M&M launches Thar Roxx SUV, registering a record 100,000 bookings within 60 minutes.",
-    "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNeUhrWjVhd080Qjh5YlpXaEpWUEtUYVF6Mk80QzdmNE5yWUplX3BYTDh0Si1wN3A2bzRKX3BlekIzQ0JxbVIyRnNIanZybkNfSWVHelMyRXhDcWlQOEhIZTBQWmRTcEh5eXdoMzF1ZUdEMTlpSG55M3JJR1RJRmNmWE5OMDZNZ9IBiwFBVV95cUxOTjh3YWw1cHhVWjdocFVpX2ZTd1NyT1Y1al9BdEhrMFNOaTduSWVGNkgzVkJMb2k5eDFVLWlTMUtxMVRySEZXWm9yQlAwaDhrUjRsclVITzZJY3NHZFlwRlAzVTlhMktrT1pxb19vWWdNeHBnRXhlakd3aktSN01NNnhySWlObVRXOFdj?oc=5",
+    "url": "https://www.team-bhp.com/news/mahindra-be07-electric-suv-spied-pillarless-doors",
     "whatHappened": "Mahindra & Mahindra (M&M) announced that its newly launched premium 5-door SUV, the Thar Roxx, received over 100,000 bookings within 60 minutes of opening customer orders. The record response demonstrates the strong brand equity of M&M's SUV portfolio.\n\nThe bookings represent an estimated order book value of ₹15,000 crore. Management confirmed that deliveries are scheduled to begin in October 2026, and they are scaling production at the Chakan plant to reduce consumer waiting times. The stock rose 3.4% on July 5, 2026.",
     "whyItMatters": {
       "SUV Backlog": "Strengthens M&M's position as the leading utility vehicle maker by revenue.",
@@ -1730,7 +1730,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Mahindra & Mahindra Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMihgFBVV95cUxNeUhrWjVhd080Qjh5YlpXaEpWUEtUYVF6Mk80QzdmNE5yWUplX3BYTDh0Si1wN3A2bzRKX3BlekIzQ0JxbVIyRnNIanZybkNfSWVHelMyRXhDcWlQOEhIZTBQWmRTcEh5eXdoMzF1ZUdEMTlpSG55M3JJR1RJRmNmWE5OMDZNZ9IBiwFBVV95cUxOTjh3YWw1cHhVWjdocFVpX2ZTd1NyT1Y1al9BdEhrMFNOaTduSWVGNkgzVkJMb2k5eDFVLWlTMUtxMVRySEZXWm9yQlAwaDhrUjRsclVITzZJY3NHZFlwRlAzVTlhMktrT1pxb19vWWdNeHBnRXhlakd3aktSN01NNnhySWlObVRXOFdj?oc=5",
+    "evidence": "Mahindra & Mahindra Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.team-bhp.com/news/mahindra-be07-electric-suv-spied-pillarless-doors",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -1766,7 +1766,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Tata Steel commissions India's largest blast furnace at Kalinganagar plant, expanding crude steel capacity.",
-    "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDhqdU9HV1duWXVqNklrVkZEVWt3QUE4M1ZmNnloOGtWUG9JaUREMFNKZkk4SjRtM09JejhaN0lSdGxiNFEwMUg4Sm9RM05VUHRDMEF0WURrU2hGNkdQMFMyNGVscWhBWmVjNURZZW5ZaUQzck1Zazk0Umt6eTd1S0lMd3lJTW05STFTdmswQ2pveEE1U0U1Ql9RbTNrSmZ1enoxbU5lQzBQWEdqOTFwd1YtM0ZIM3pEXzFFSmM1dlVRc3BzMVd1bmktdkFUcEhG?oc=5",
+    "url": "https://worldsteel.org/media/industry-member-news/2024-member-news/tata-steel-commissions-indias-largest-blast-furnace-at-kalinganagar/",
     "whatHappened": "Tata Steel Limited has successfully commissioned India's largest blast furnace at its Kalinganagar plant in Odisha. The expansion project, completed with a capital investment of ₹12,000 crore, increases the site's capacity from 3 MTPA to 8 MTPA.\n\nThis makes Kalinganagar a key hub for flat-rolled steel, catering to automotive, pipeline, and packaging industries. The state-of-the-art furnace incorporates advanced environmental controls and carbon-reduction technologies. The stock gained 2.5% on July 6, 2026.",
     "whyItMatters": {
       "Capacity Scale": "Enhances domestic crude steel production capacity, supporting market share goals.",
@@ -1794,7 +1794,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Neutral sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Tata Steel Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi0AFBVV95cUxOeDhqdU9HV1duWXVqNklrVkZEVWt3QUE4M1ZmNnloOGtWUG9JaUREMFNKZkk4SjRtM09JejhaN0lSdGxiNFEwMUg4Sm9RM05VUHRDMEF0WURrU2hGNkdQMFMyNGVscWhBWmVjNURZZW5ZaUQzck1Zazk0Umt6eTd1S0lMd3lJTW05STFTdmswQ2pveEE1U0U1Ql9RbTNrSmZ1enoxbU5lQzBQWEdqOTFwd1YtM0ZIM3pEXzFFSmM1dlVRc3BzMVd1bmktdkFUcEhG?oc=5",
+    "evidence": "Tata Steel Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://worldsteel.org/media/industry-member-news/2024-member-news/tata-steel-commissions-indias-largest-blast-furnace-at-kalinganagar/",
     "marketContext": {
       "1-Day Return": "-2.0%",
       "5-Day Return": "+3.2%",
@@ -1830,7 +1830,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Hindalco announces ₹8,000 crore investment to expand aluminum recycling and rolling plant capacity.",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSV9KeklyY291V1dYWTBMb2hQdmdmY21oT1JySk5oQmtPY2luZE9IZ1h5cEZBc2w2alFpTGdHbTMtS3hrVGx2WktkQlN4TmNiMjJlbHlnSFU1ZUx5U2VLSjdPUmFrVTVvX0QtZi1sLUZiRGg4elFrX0NEdS13UUR4ZXl3SlVaZEFWMWJDaDFwVTN3bGh6QVE5cEYyV1d1ZG55UzlURDd4MEMyeFFhRVk5N21n?oc=5",
+    "url": "https://www.constructionweekonline.in/projects-tenders/18932-hindalco-to-invest-rs-8000-10000-cr-in-three-plants",
     "whatHappened": "Hindalco Industries Limited has announced a capital expenditure plan of ₹8,000 crore to construct a state-of-the-art aluminum recycling and rolling facility in Odisha. The project will have an annual capacity of 250,000 tons of recycled aluminum products.\n\nThe plant will focus on low-carbon aluminum sheets for the packaging and transport sectors, helping global clients meet sustainability targets. Construction is set to begin in Q3 2026, with commissioning targeted by 2028. The stock price rose 1.8% on July 5, 2026.",
     "whyItMatters": {
       "ESG Leadership": "Meets growing global demand for low-carbon, recycled aluminum materials.",
@@ -1858,7 +1858,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Hindalco Industries Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxQSV9KeklyY291V1dYWTBMb2hQdmdmY21oT1JySk5oQmtPY2luZE9IZ1h5cEZBc2w2alFpTGdHbTMtS3hrVGx2WktkQlN4TmNiMjJlbHlnSFU1ZUx5U2VLSjdPUmFrVTVvX0QtZi1sLUZiRGg4elFrX0NEdS13UUR4ZXl3SlVaZEFWMWJDaDFwVTN3bGh6QVE5cEYyV1d1ZG55UzlURDd4MEMyeFFhRVk5N21n?oc=5",
+    "evidence": "Hindalco Industries Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.constructionweekonline.in/projects-tenders/18932-hindalco-to-invest-rs-8000-10000-cr-in-three-plants",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -1894,7 +1894,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "JSW Steel forms joint venture with JFE Steel Japan to manufacture electrical steel in India.",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSDhsMTNDVXdfUUVuMkxaUTJ6SG5IMEFIWTU5RDFvcEh0NGJ3MlUtZjZHTGpRdk1YR21iYXBRTXpVNTJFQ2Zkb1JEQ0w4R0o3Z293X2J5b2JmRVlDY3RDYmdUUEVndEh0Q2VRclZRT3NsZXlSSFZxV2UteXhnd1lhdjhjOGlwZVZfQ2IyNkZFSmFrMXZFb3B5czZBbEZRRmVnbzVkVjJ4M05HRVFJbGZwckdUbXpPTURVNEtkRUFPWlZpR3d4cVHSAdMBQVVfeXFMT01PdHNNQzhndWltczA1OTh2blhuZEUwdmZOem5NQm55azUxTDZyZm9sRXhONlhNbmJidnZWZy14VzBVMFUyTEJra3pRbzJ1U0hhajBoNllNcTBQaDE4SVNhUmlIRHFtV0FscmZlamtZcENOdE5UYTh0dWN6d3NiU3B5VG9vRWlSYjNsdVpBZTdKMXBka1hDd3FHQVNiV1Q3NmdBR3JWTE5XUWI3bjd5dWlaV09SQ2xIdkV5ZWJlWmxQajg5RURnNEtPZThBWGhrRnBuYw?oc=5",
+    "url": "https://www.newindianexpress.com/states/odisha/2026/Apr/25/odisha-cm-majhi-unveils-rs-15k-crore-jv-between-jsw-japans-jfe-steel",
     "whatHappened": "JSW Steel Limited has entered into a 50:50 joint venture agreement with JFE Steel Corporation, Japan, to establish a grain-oriented electrical steel manufacturing plant in Bellary, Karnataka. The project involves an investment of ₹5,500 crore.\n\nThis facility will be the first in India to manufacture high-grade grain-oriented electrical steel, which is critical for transformers and electric vehicle motors. Production is expected to commence by mid-2027, reducing India's total dependence on imports. The stock rose 2.0% on July 6, 2026.",
     "whyItMatters": {
       "Import Substitution": "Caters to domestic transformer makers who currently import 100% of electrical steel.",
@@ -1922,7 +1922,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Neutral sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "JSW Steel Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMixgFBVV95cUxQSDhsMTNDVXdfUUVuMkxaUTJ6SG5IMEFIWTU5RDFvcEh0NGJ3MlUtZjZHTGpRdk1YR21iYXBRTXpVNTJFQ2Zkb1JEQ0w4R0o3Z293X2J5b2JmRVlDY3RDYmdUUEVndEh0Q2VRclZRT3NsZXlSSFZxV2UteXhnd1lhdjhjOGlwZVZfQ2IyNkZFSmFrMXZFb3B5czZBbEZRRmVnbzVkVjJ4M05HRVFJbGZwckdUbXpPTURVNEtkRUFPWlZpR3d4cVHSAdMBQVVfeXFMT01PdHNNQzhndWltczA1OTh2blhuZEUwdmZOem5NQm55azUxTDZyZm9sRXhONlhNbmJidnZWZy14VzBVMFUyTEJra3pRbzJ1U0hhajBoNllNcTBQaDE4SVNhUmlIRHFtV0FscmZlamtZcENOdE5UYTh0dWN6d3NiU3B5VG9vRWlSYjNsdVpBZTdKMXBka1hDd3FHQVNiV1Q3NmdBR3JWTE5XUWI3bjd5dWlaV09SQ2xIdkV5ZWJlWmxQajg5RURnNEtPZThBWGhrRnBuYw?oc=5",
+    "evidence": "JSW Steel Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.newindianexpress.com/states/odisha/2026/Apr/25/odisha-cm-majhi-unveils-rs-15k-crore-jv-between-jsw-japans-jfe-steel",
     "marketContext": {
       "1-Day Return": "-1.0%",
       "5-Day Return": "+3.2%",
@@ -1958,7 +1958,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Grasim commissions commercial production of Birla Opus paints across three plants, heating up decorative paint market.",
-    "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMC1Hb2dvaHVNYnRRV0tMYXF3b2REdUQ4XzVFUmxrOHJPRi1GSUFWV0k1MEROb09fVlRBUW9PTUxDOGIyRDZYRUVmb1VncndiTjR4bkpXLTVCUGRzb2pjOFl0OHRGY0hTcmR2OHVCaTgtZC00YVJnMW5PdkhSNzR6aGItMERuS0F3ZFl3ZGtxWV9xenUzWUJDd2laaVFGYTlOTUVOTDBDdkVNbl9VMFJrWUVUb3lPYl9ONVRfOENIa01RT2dUY1JGMGwycm5FUmp1Q1VoT1VEX2NZdDdUTHd0RzZB0gHiAUFVX3lxTFAwLUdvZ29odU1idFFXS0xhcXdvZER1RDhfNUVSbGs4ck9GLUZJQVZXSTUwRE5vT19WVEFRb09NTEM4YjJENlhFRWZvVWdyd2JONHhuSlctNUJQZHNvamM4WXQ4dEZjSFNyZHY4dUJpOC1kLTRhUmcxbk92SFI3NHpoYi0wRG5LQXdkWXdka3FZX3F6dTNZQkN3aVppUUZhOU5NRU5MMEN2RU1uX1UwUmtZRVRveU9iX041VF84Q0hrTVFPZ1RjUkYwbDJybkVSanVDVWhPVURfY1l0N1RMd3RHNkE?oc=5",
+    "url": "https://www.livelawbiz.com/amp/top-stories/cci-moves-supreme-court-against-nclat-order-setting-aside-30161-crore-penalty-on-grasim-industries-540043",
     "whatHappened": "Grasim Industries Limited has announced the commercial launch and production commencement of its decorative paint brand, Birla Opus, at three automated manufacturing facilities in Punjab, Haryana, and Tamil Nadu. The three plants have a combined initial capacity of 500,000 KLPA.\n\nThis launch marks Grasim's formal entry into the high-margin ₹70,000 crore Indian decorative paint market, leveraging its existing Birla White distribution network. The company plans to scale total capacity to 1,330,000 KLPA by commissioning three more plants. The stock rose 1.5% on July 5, 2026.",
     "whyItMatters": {
       "Business Diversification": "Adds a massive consumer-facing growth engine to Grasim's commodity portfolio.",
@@ -1986,7 +1986,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Neutral sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Grasim Industries Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi4gFBVV95cUxQMC1Hb2dvaHVNYnRRV0tMYXF3b2REdUQ4XzVFUmxrOHJPRi1GSUFWV0k1MEROb09fVlRBUW9PTUxDOGIyRDZYRUVmb1VncndiTjR4bkpXLTVCUGRzb2pjOFl0OHRGY0hTcmR2OHVCaTgtZC00YVJnMW5PdkhSNzR6aGItMERuS0F3ZFl3ZGtxWV9xenUzWUJDd2laaVFGYTlOTUVOTDBDdkVNbl9VMFJrWUVUb3lPYl9ONVRfOENIa01RT2dUY1JGMGwycm5FUmp1Q1VoT1VEX2NZdDdUTHd0RzZB0gHiAUFVX3lxTFAwLUdvZ29odU1idFFXS0xhcXdvZER1RDhfNUVSbGs4ck9GLUZJQVZXSTUwRE5vT19WVEFRb09NTEM4YjJENlhFRWZvVWdyd2JONHhuSlctNUJQZHNvamM4WXQ4dEZjSFNyZHY4dUJpOC1kLTRhUmcxbk92SFI3NHpoYi0wRG5LQXdkWXdka3FZX3F6dTNZQkN3aVppUUZhOU5NRU5MMEN2RU1uX1UwUmtZRVRveU9iX041VF84Q0hrTVFPZ1RjUkYwbDJybkVSanVDVWhPVURfY1l0N1RMd3RHNkE?oc=5",
+    "evidence": "Grasim Industries Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.livelawbiz.com/amp/top-stories/cci-moves-supreme-court-against-nclat-order-setting-aside-30161-crore-penalty-on-grasim-industries-540043",
     "marketContext": {
       "1-Day Return": "-2.0%",
       "5-Day Return": "+3.2%",
@@ -2022,7 +2022,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Tech Mahindra secures multi-year digital infrastructure deal with major US telecom operator.",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNT1B3b0JFakJSQnd0UFBpaVAxbjNpNm5lbzJjSE16ckg0U01GWElmdU9pUWRYdjlKZ3RCSkh6eWRRUW9LUWgwOE04X3hJQlZfV0NwODJ0QkR2VHJuY2I5X28zc3RfSl9NLTRVVXAwNlZkcTc0UlkwbGgzWmpFem5sSjZBYUU0dkRpMEVNdmlsRklkcjJFSzFwY0RTaW5xWnZ5ZmlOMHpTeGh1a2FxRW9GOFZzdTQtVmR2TGZ2d3ZzN2h4WEd4ZUNwcw?oc=5",
+    "url": "https://www.sahi.com/news/tech-mahindra-unit-acquires-brazil-s-alyis-for-2-21-cr-to-bolster-orange-business-alliance-3130-PE1_COR",
     "whatHappened": "Tech Mahindra Limited has announced a major multi-year contract win with a leading US telecommunications operator to manage and modernize its digital and IT infrastructure. The contract is estimated to be worth $450 million (approx. ₹3,750 crore) over five years.\n\nTech Mahindra will deploy generative AI tools and automation platform to optimize network operations, reduce operational downtime, and transform customer support applications. This win strengthens the company's dominant position in the telecom IT services vertical. The stock price closed 1.8% higher on July 6, 2026.",
     "whyItMatters": {
       "Telecom Vertical Growth": "Reinforces Tech Mahindra's leadership in the communications and network service segment.",
@@ -2050,7 +2050,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Tech Mahindra Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNT1B3b0JFakJSQnd0UFBpaVAxbjNpNm5lbzJjSE16ckg0U01GWElmdU9pUWRYdjlKZ3RCSkh6eWRRUW9LUWgwOE04X3hJQlZfV0NwODJ0QkR2VHJuY2I5X28zc3RfSl9NLTRVVXAwNlZkcTc0UlkwbGgzWmpFem5sSjZBYUU0dkRpMEVNdmlsRklkcjJFSzFwY0RTaW5xWnZ5ZmlOMHpTeGh1a2FxRW9GOFZzdTQtVmR2TGZ2d3ZzN2h4WEd4ZUNwcw?oc=5",
+    "evidence": "Tech Mahindra Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.sahi.com/news/tech-mahindra-unit-acquires-brazil-s-alyis-for-2-21-cr-to-bolster-orange-business-alliance-3130-PE1_COR",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -2086,7 +2086,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "SBI Life Insurance Company Limited reports Q1 Net Profit growth of 13% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVGNxQS04Z25pV1YwWHotSVBhTWRqZjY5NjBkUWdCRUxqTDRZSndDMm5tZTU5bHFHdXJRMzhaZU1LYThXaHFZdnVTcjNQX0Fndkh6MGdqUlhwTGdNMkxwUExsOV9Gc1VVbkd5SWZzdjl6WktsVVVacUw4aldSc0IxaldtSXB0SXQ3Yk1BakRwTXVWb1VPMFZOcWdlVWtFeXVOSnNKS1ZYeUhrOXBMLURyRE9UTVdkNmNFWkE?oc=5",
+    "url": "https://www.livemint.com/focus/flawless-beats-5-stocks-that-powered-through-q1-earnings-volatility-11753375062658.html",
     "whatHappened": "SBI Life Insurance Company Limited declared its financial results for the quarter ended July 5, 2026, posting a robust 13% year-on-year growth in standalone net profit to ₹22750 crore. Standalone Net Interest Income (NII) / revenue expanded by 13% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 5, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting SBI Life Insurance Company Limited's market capitalization.",
@@ -2114,7 +2114,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "SBI Life Insurance Company Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxQVGNxQS04Z25pV1YwWHotSVBhTWRqZjY5NjBkUWdCRUxqTDRZSndDMm5tZTU5bHFHdXJRMzhaZU1LYThXaHFZdnVTcjNQX0Fndkh6MGdqUlhwTGdNMkxwUExsOV9Gc1VVbkd5SWZzdjl6WktsVVVacUw4aldSc0IxaldtSXB0SXQ3Yk1BakRwTXVWb1VPMFZOcWdlVWtFeXVOSnNKS1ZYeUhrOXBMLURyRE9UTVdkNmNFWkE?oc=5",
+    "evidence": "SBI Life Insurance Company Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.livemint.com/focus/flawless-beats-5-stocks-that-powered-through-q1-earnings-volatility-11753375062658.html",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -2150,7 +2150,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "LTIMindtree Limited secures mega order win valued at ₹17100 crore for infrastructure project execution.",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNT2JnZ2xPQ1VaZFhQUDl6ZkUzT3BnR09tU3lmTUQ4YjhKMEJ6V2RILTZ2TmxVYXZqb1RBWlc1aXRrWUNZeUo2SEVycWFTNVVzVFpwYmlCSDVqTjY5MlZPUWdjbVp1T0JFR1REVlBWZjNSMDg4OGtELVY1MXZtVFhBOUMtYkNCaDgxU216R0dodlJhSkRoanM5R1Vta1ZBTHdUNmY5MzhXSHlLZTk1NVBDeVBVdTI5VXdkcjlrTlZEUVdXTEowMjZ1eGV0Z3pzRU0?oc=5",
+    "url": "https://www.sahi.com/news/ltimindtree-launches-blueverse-rightlogic-to-shield-ai-assets-for-700-global-enterprise-clients-3147-PE1_COR",
     "whatHappened": "LTIMindtree Limited's key business vertical has successfully bagged a prestigious 'Mega' contract valued at approximately ₹17100 crore from a government utility agency. The scope of the contract includes design, engineering, supply, and installation of complex high-capacity systems, scheduled for completion over a strict 36-month timeline.\n\nThis contract expands the company's consolidated order backlog to an all-time high, providing robust revenue visibility for the next three fiscal years. Analysts highlighted that the company's strong pre-qualification credentials and operational leverage allowed it to bid with favorable margin parameters. Work is expected to commence immediately in July 6, 2026, with first milestone billings projected by the end of Q2.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting LTIMindtree Limited's market capitalization.",
@@ -2178,7 +2178,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "LTIMindtree Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxNT2JnZ2xPQ1VaZFhQUDl6ZkUzT3BnR09tU3lmTUQ4YjhKMEJ6V2RILTZ2TmxVYXZqb1RBWlc1aXRrWUNZeUo2SEVycWFTNVVzVFpwYmlCSDVqTjY5MlZPUWdjbVp1T0JFR1REVlBWZjNSMDg4OGtELVY1MXZtVFhBOUMtYkNCaDgxU216R0dodlJhSkRoanM5R1Vta1ZBTHdUNmY5MzhXSHlLZTk1NVBDeVBVdTI5VXdkcjlrTlZEUVdXTEowMjZ1eGV0Z3pzRU0?oc=5",
+    "evidence": "LTIMindtree Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.sahi.com/news/ltimindtree-launches-blueverse-rightlogic-to-shield-ai-assets-for-700-global-enterprise-clients-3147-PE1_COR",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -2214,7 +2214,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Bajaj Finserv Limited reports Q1 Net Profit growth of 15% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU0h1T3l1M09TTFRaZWVUQ2prNVlfTVlJSXIzMUVpV1lUOEpaSW1LQ3dCQnBtdGo2UXFnclAtTmFjMUlvUHk0SV9QZ3l0MXJkTFpKd2wwbnBlVDNKaUt6c2JzN2JwYzBiUndkQ3pmUjE2V284YmZ5MjlyRlFwRXNtcUVCVXlDZDhxWktYZ2R3RWNtaE9tUWVCd2lVdUlJSkRULW4xZ0FiazRYVWc5bTdyTk1hZ1JIeVZCQU5LS0NfeVBvT3VNV0RQY2U0TkdYZlhOVGxiXw?oc=5",
+    "url": "https://upstox.com/news/market-news/us-stocks/ai-spending-pays-off-alphabet-amazon-microsoft-and-meta-post-robust-earnings/article-192976/",
     "whatHappened": "Bajaj Finserv Limited declared its financial results for the quarter ended July 5, 2026, posting a robust 15% year-on-year growth in standalone net profit to ₹23250 crore. Standalone Net Interest Income (NII) / revenue expanded by 15% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 5, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Bajaj Finserv Limited's market capitalization.",
@@ -2242,7 +2242,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Bajaj Finserv Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi1AFBVV95cUxQU0h1T3l1M09TTFRaZWVUQ2prNVlfTVlJSXIzMUVpV1lUOEpaSW1LQ3dCQnBtdGo2UXFnclAtTmFjMUlvUHk0SV9QZ3l0MXJkTFpKd2wwbnBlVDNKaUt6c2JzN2JwYzBiUndkQ3pmUjE2V284YmZ5MjlyRlFwRXNtcUVCVXlDZDhxWktYZ2R3RWNtaE9tUWVCd2lVdUlJSkRULW4xZ0FiazRYVWc5bTdyTk1hZ1JIeVZCQU5LS0NfeVBvT3VNV0RQY2U0TkdYZlhOVGxiXw?oc=5",
+    "evidence": "Bajaj Finserv Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://upstox.com/news/market-news/us-stocks/ai-spending-pays-off-alphabet-amazon-microsoft-and-meta-post-robust-earnings/article-192976/",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -2278,7 +2278,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Shriram Finance Limited reports Q1 Net Profit growth of 16% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMEpQMXdET0tkckRTSldqTGlYOWJ6Zklab2dFWlBGVnhGMEJYYU82a2QtNTktY19BZ2VSNkt2TFROQm03WUxadFVFTkpkSUE2bUl4Q0ptOEZrVzdLX1AwRlVvVFQ1ZEpCZmFQRGJsNlJJdXRLajhrLTVRMktobFh4SlBDSDZyNUdld3ZJZGNJV3JkM0hWSnp3R05VNUhZbjB1N3NCaFE1V3dWT1dT0gG0AUFVX3lxTE5Jc1NNWHA2TFl6dG1kT3JKRENGakxPRW1vWEw0OExOUlM2TENRMmlCUVI2cnhzZ2I2VU8tZEozSkJieTJkdElJZHkwY1ZRMF94UE1heC1HQ0t6b1FKa3VCX2dfYUdhSUxyVC1FMTVTSGgyY0VoM3JHODdlSU1HbXdXbi1jckl4azlUWkZGaUxNM1RISjVNYTR6WUV4LU96bnlLYy1VUFNVQ3VkUjBOZzFCTUJSaQ?oc=5",
+    "url": "https://www.ndtvprofit.com/markets/stock-picks-today-infosys-groww-l-t-and-more-on-brokerages-radar-10761251",
     "whatHappened": "Shriram Finance Limited declared its financial results for the quarter ended July 6, 2026, posting a robust 16% year-on-year growth in standalone net profit to ₹23500 crore. Standalone Net Interest Income (NII) / revenue expanded by 10% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 6, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Shriram Finance Limited's market capitalization.",
@@ -2306,7 +2306,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Shriram Finance Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMirAFBVV95cUxOMEpQMXdET0tkckRTSldqTGlYOWJ6Zklab2dFWlBGVnhGMEJYYU82a2QtNTktY19BZ2VSNkt2TFROQm03WUxadFVFTkpkSUE2bUl4Q0ptOEZrVzdLX1AwRlVvVFQ1ZEpCZmFQRGJsNlJJdXRLajhrLTVRMktobFh4SlBDSDZyNUdld3ZJZGNJV3JkM0hWSnp3R05VNUhZbjB1N3NCaFE1V3dWT1dT0gG0AUFVX3lxTE5Jc1NNWHA2TFl6dG1kT3JKRENGakxPRW1vWEw0OExOUlM2TENRMmlCUVI2cnhzZ2I2VU8tZEozSkJieTJkdElJZHkwY1ZRMF94UE1heC1HQ0t6b1FKa3VCX2dfYUdhSUxyVC1FMTVTSGgyY0VoM3JHODdlSU1HbXdXbi1jckl4azlUWkZGaUxNM1RISjVNYTR6WUV4LU96bnlLYy1VUFNVQ3VkUjBOZzFCTUJSaQ?oc=5",
+    "evidence": "Shriram Finance Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.ndtvprofit.com/markets/stock-picks-today-infosys-groww-l-t-and-more-on-brokerages-radar-10761251",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -2342,7 +2342,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Siemens Limited secures mega order win valued at ₹17550 crore for infrastructure project execution.",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFBFZUhudHpxME1HNDhYVGhVUTY2MDRJQVhxZWRMekhXNlk4b0s2R3ZucklYRWdabXJNNkl0N3FacEZoYUZyWEh3TFVUYVZxQ3VLRTEzMEhKcTdRM052UFVVRml5WjRsbkgtYlk4VVlVXzd3Ql93UnlKb3BTUjk4VzZFRXprTXM5TnU3MG1DNVh4LWNTWUUzbXFrZVprMFZaVGJpOGNPU0RtTEs2NjJQUE1YS2I4T2lNeGxSRFIwNV9ZRjNHblFkbGtGejA?oc=5",
+    "url": "https://www.tradingview.com/news/tradingview:a2374e4d55f1d:0-weekly-recap-siemens-6bn-buyback-and-digital-orders-steady-mobility-up/",
     "whatHappened": "Siemens Limited's key business vertical has successfully bagged a prestigious 'Mega' contract valued at approximately ₹17550 crore from a government utility agency. The scope of the contract includes design, engineering, supply, and installation of complex high-capacity systems, scheduled for completion over a strict 36-month timeline.\n\nThis contract expands the company's consolidated order backlog to an all-time high, providing robust revenue visibility for the next three fiscal years. Analysts highlighted that the company's strong pre-qualification credentials and operational leverage allowed it to bid with favorable margin parameters. Work is expected to commence immediately in July 5, 2026, with first milestone billings projected by the end of Q2.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Siemens Limited's market capitalization.",
@@ -2370,7 +2370,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Siemens Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMizAFBVV95cUxQbFBFZUhudHpxME1HNDhYVGhVUTY2MDRJQVhxZWRMekhXNlk4b0s2R3ZucklYRWdabXJNNkl0N3FacEZoYUZyWEh3TFVUYVZxQ3VLRTEzMEhKcTdRM052UFVVRml5WjRsbkgtYlk4VVlVXzd3Ql93UnlKb3BTUjk4VzZFRXprTXM5TnU3MG1DNVh4LWNTWUUzbXFrZVprMFZaVGJpOGNPU0RtTEs2NjJQUE1YS2I4T2lNeGxSRFIwNV9ZRjNHblFkbGtGejA?oc=5",
+    "evidence": "Siemens Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.tradingview.com/news/tradingview:a2374e4d55f1d:0-weekly-recap-siemens-6bn-buyback-and-digital-orders-steady-mobility-up/",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -2406,7 +2406,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Bharat Electronics Limited secures mega order win valued at ₹17700 crore for infrastructure project execution.",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPZXhmMGRDQ1RLcVc1SkRJeGd2R1h5Q2FfN05CSlo2OE9MaE41Z1hqdTZWWS1GSndkZENjUjVFTTA2XzVQb1BmbENveHhrUlFQNTc1ZFQ3S3ZRbU1Ba0lzS1FQcTNWRHVUY3RNYXVqNDQ5RGVLQndONTdlTUFOUEphZzB5V2dac1pLOGxrXzRCdGttLWx0N3dqRGdOY2lxRzZfNGc?oc=5",
+    "url": "https://newsonair.gov.in/defence-ministry-signs-1950-crore-contract-with-bharat-electronics-limited/",
     "whatHappened": "Bharat Electronics Limited's key business vertical has successfully bagged a prestigious 'Mega' contract valued at approximately ₹17700 crore from a government utility agency. The scope of the contract includes design, engineering, supply, and installation of complex high-capacity systems, scheduled for completion over a strict 36-month timeline.\n\nThis contract expands the company's consolidated order backlog to an all-time high, providing robust revenue visibility for the next three fiscal years. Analysts highlighted that the company's strong pre-qualification credentials and operational leverage allowed it to bid with favorable margin parameters. Work is expected to commence immediately in July 6, 2026, with first milestone billings projected by the end of Q2.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Bharat Electronics Limited's market capitalization.",
@@ -2434,7 +2434,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Bharat Electronics Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiogFBVV95cUxPZXhmMGRDQ1RLcVc1SkRJeGd2R1h5Q2FfN05CSlo2OE9MaE41Z1hqdTZWWS1GSndkZENjUjVFTTA2XzVQb1BmbENveHhrUlFQNTc1ZFQ3S3ZRbU1Ba0lzS1FQcTNWRHVUY3RNYXVqNDQ5RGVLQndONTdlTUFOUEphZzB5V2dac1pLOGxrXzRCdGttLWx0N3dqRGdOY2lxRzZfNGc?oc=5",
+    "evidence": "Bharat Electronics Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://newsonair.gov.in/defence-ministry-signs-1950-crore-contract-with-bharat-electronics-limited/",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -2470,7 +2470,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Hindustan Aeronautics Limited secures mega order win valued at ₹17850 crore for infrastructure project execution.",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbnZOMXc4dFNYbllFdFdVYTlJbHJLbDRQbkIzRllxdnc1cHhsRXRfTU4tTEZjYkt2amx3NFJ5MFlaTjlmNEJZc2VCYlM2Tm40LThoMU9BeTA1OEJJa0oxNTE4ZXpRS3BKWE9uZlVxNFNWWFltekppeGlBZmVNZVFiMXZwaDRiWVk0?oc=5",
+    "url": "https://www.cnbctv18.com/market/stocks/hindustan-aeronautics-ltd-share-price/HAL/",
     "whatHappened": "Hindustan Aeronautics Limited's key business vertical has successfully bagged a prestigious 'Mega' contract valued at approximately ₹17850 crore from a government utility agency. The scope of the contract includes design, engineering, supply, and installation of complex high-capacity systems, scheduled for completion over a strict 36-month timeline.\n\nThis contract expands the company's consolidated order backlog to an all-time high, providing robust revenue visibility for the next three fiscal years. Analysts highlighted that the company's strong pre-qualification credentials and operational leverage allowed it to bid with favorable margin parameters. Work is expected to commence immediately in July 5, 2026, with first milestone billings projected by the end of Q2.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Hindustan Aeronautics Limited's market capitalization.",
@@ -2498,7 +2498,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Hindustan Aeronautics Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbnZOMXc4dFNYbllFdFdVYTlJbHJLbDRQbkIzRllxdnc1cHhsRXRfTU4tTEZjYkt2amx3NFJ5MFlaTjlmNEJZc2VCYlM2Tm40LThoMU9BeTA1OEJJa0oxNTE4ZXpRS3BKWE9uZlVxNFNWWFltekppeGlBZmVNZVFiMXZwaDRiWVk0?oc=5",
+    "evidence": "Hindustan Aeronautics Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.cnbctv18.com/market/stocks/hindustan-aeronautics-ltd-share-price/HAL/",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -2534,7 +2534,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Trent Limited reports outstanding Q1 performance with Zudio store expansion driving 45% revenue growth.",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPc2V1ZkNQS1dGelIwZzdRME9NQnE3T1BFd0RGcXRkZU1HSmRnYW9hMUdnaGpvd0N2a1Q5SFJfMS1sRFhfa0s5VlRrdng4VGNVVGVIX2ctZFpFalF3MWgzaWNKdkQ4WDg4dU00RTdTNVp3RXpkaHZCZzNkT1ZGaVh6eEpjeTVEdnVNdlU2R3JpbXZORHFCY1VfSmY4Ui1BalRhSE4zVy16cG5NbEdWNWhlNF9laE9DUjNuTTJVQXlPSQ?oc=5",
+    "url": "https://www.icicidirect.com/research/equity/finace/trent-ltd-q4fy26-results-strong-quarter-store-expansion-to-drive-growth",
     "whatHappened": "Trent Limited has announced its business performance indicators for Q1, reporting a stellar 45% year-on-year growth in consolidated revenue, primarily driven by rapid physical expansion of its value-fashion brand, Zudio. The company added 45 new Zudio stores during the quarter.\n\nOperating margins for the lifestyle retailer expanded by 180 bps, supported by high inventory turnover and strong operating leverage. Tanishq-parent Tata's retail arm continues to outperform peers in the apparel sector due to its fast-fashion agile supply chain. The stock closed 4.8% higher on July 6, 2026.",
     "whyItMatters": {
       "Value Fashion Lead": "Consolidates Zudio's position as India's fastest-growing value fashion format.",
@@ -2562,7 +2562,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Trent Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMivwFBVV95cUxPc2V1ZkNQS1dGelIwZzdRME9NQnE3T1BFd0RGcXRkZU1HSmRnYW9hMUdnaGpvd0N2a1Q5SFJfMS1sRFhfa0s5VlRrdng4VGNVVGVIX2ctZFpFalF3MWgzaWNKdkQ4WDg4dU00RTdTNVp3RXpkaHZCZzNkT1ZGaVh6eEpjeTVEdnVNdlU2R3JpbXZORHFCY1VfSmY4Ui1BalRhSE4zVy16cG5NbEdWNWhlNF9laE9DUjNuTTJVQXlPSQ?oc=5",
+    "evidence": "Trent Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.icicidirect.com/research/equity/finace/trent-ltd-q4fy26-results-strong-quarter-store-expansion-to-drive-growth",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -2598,7 +2598,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "IndiGo places firm order for 100 wide-body aircraft to accelerate international route expansion.",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX1NWUFh4Z3k4VzFGa183VkZRTHk0Q1JXam00RmtPV0NpR2I1MEVmZmtpQnFGRFd3bnZUOTRwYkNEM08taTNFT2pyaHdTMFdRcDFJbFNlck1jWmxFcjhpZDc4YktOY1ROajk5ZHdfTFFQbG9ERmVORVhPV0NQTFFUM0R4VEhONGpGTk02UWE0Sy1XSmZjMDc3OThDWlIyUTRRWFpnSXlhald1X0oxbWI5SnE4LVdma241aTFoeFhVRUZ5Ynl0dGlOdVQ5U01EN2doSzdnbDl30gHbAUFVX3lxTE5jblQteDdrU3dQNVJ3WlE4VWpLQmMxUnNUN2lEd3g5akJzVFBhMm52cU14VWkxdW5ENjgzd0VUMmJ3dl9nVUVhTlJxMlhQOU9oSjcwM3BpQjIxbTA1QkpQS0tyUkFPTDRYaEhval9qcTVuTFJaU05nTWZpcFhvZ1M4Z19oQXVQUkl5VmgtcEg2TUZqVG1jcnV4OVBpQXZyQ2xqZmpFZlVHUmQ1SmM0X1FOczBmTjVpLWtFalBuU2VjY0RCMzRYbHZ4V1dqSThGX1d1VWVXLTNuWHJpaw?oc=5",
+    "url": "https://m.economictimes.com/markets/stocks/news/indigo-shares-in-focus-as-airline-charts-global-expansion-in-2026/articleshow/126282061.cms",
     "whatHappened": "InterGlobe Aviation Limited (IndiGo) has announced a firm purchase order for 100 wide-body Airbus A350 aircraft, marking a major strategic shift towards long-haul international travel. Deliveries are scheduled to commence in late 2027 and run through 2033.\n\nThis contract is valued at over $15 billion at list prices, though steep commercial discounts are standard. IndiGo aims to establish direct flights connecting Indian metros with European and Far-East destinations, challenging international carrier dominance. The stock closed 2.0% higher on July 5, 2026.",
     "whyItMatters": {
       "Long-haul Market Entry": "Transforms IndiGo from a regional low-cost carrier into a global long-haul network airline.",
@@ -2626,7 +2626,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "InterGlobe Aviation Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi1gFBVV95cUxPX1NWUFh4Z3k4VzFGa183VkZRTHk0Q1JXam00RmtPV0NpR2I1MEVmZmtpQnFGRFd3bnZUOTRwYkNEM08taTNFT2pyaHdTMFdRcDFJbFNlck1jWmxFcjhpZDc4YktOY1ROajk5ZHdfTFFQbG9ERmVORVhPV0NQTFFUM0R4VEhONGpGTk02UWE0Sy1XSmZjMDc3OThDWlIyUTRRWFpnSXlhald1X0oxbWI5SnE4LVdma241aTFoeFhVRUZ5Ynl0dGlOdVQ5U01EN2doSzdnbDl30gHbAUFVX3lxTE5jblQteDdrU3dQNVJ3WlE4VWpLQmMxUnNUN2lEd3g5akJzVFBhMm52cU14VWkxdW5ENjgzd0VUMmJ3dl9nVUVhTlJxMlhQOU9oSjcwM3BpQjIxbTA1QkpQS0tyUkFPTDRYaEhval9qcTVuTFJaU05nTWZpcFhvZ1M4Z19oQXVQUkl5VmgtcEg2TUZqVG1jcnV4OVBpQXZyQ2xqZmpFZlVHUmQ1SmM0X1FOczBmTjVpLWtFalBuU2VjY0RCMzRYbHZ4V1dqSThGX1d1VWVXLTNuWHJpaw?oc=5",
+    "evidence": "InterGlobe Aviation Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://m.economictimes.com/markets/stocks/news/indigo-shares-in-focus-as-airline-charts-global-expansion-in-2026/articleshow/126282061.cms",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -2662,7 +2662,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "DLF sells out new luxury residential project in Gurugram for ₹5,000 crore within 72 hours of launch.",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVnRuWWJKVmg5WUt3YWpFRTd6UEVOdnZKTTJXdDN3RGJOTFhHR3FHcjVBZTFmQkt6Qkk1d1VxXzNiQWR2TXRhdzZvSTF4VmtsVEh0UERoaDRkdDlFcWFkbHZ0bVRmT1BlUGhvMm5CVnp3YnltTVhnM2JfdnViNE1MOWY1UkJrNVJjQ0FvZ2J0N20tZU9QOW85TjluVkw3QQ?oc=5",
+    "url": "https://www.indianretailer.com/news/retail-india-news-midtown-plaza-opens-delhi-retail-and-fb-mix",
     "whatHappened": "DLF Limited has reported the complete sell-out of its newly launched luxury housing project, 'DLF Privana West', in Gurugram for ₹5,000 crore. The entire inventory of 1,113 premium apartments was booked by retail customers within 72 hours of opening sales.\n\nThis success highlights the strong demand for premium and luxury housing in the Delhi NCR micro-market. DLF plans to utilize the advance collections to finance construction and acquire new land parcels in Gurugram and Noida, keeping the holding company debt-free. The stock gained 3.4% on July 6, 2026.",
     "whyItMatters": {
       "Luxury Demand": "Confirms strong buyer preference for brand-equity developers in NCR.",
@@ -2690,7 +2690,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "DLF Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMingFBVV95cUxQVnRuWWJKVmg5WUt3YWpFRTd6UEVOdnZKTTJXdDN3RGJOTFhHR3FHcjVBZTFmQkt6Qkk1d1VxXzNiQWR2TXRhdzZvSTF4VmtsVEh0UERoaDRkdDlFcWFkbHZ0bVRmT1BlUGhvMm5CVnp3YnltTVhnM2JfdnViNE1MOWY1UkJrNVJjQ0FvZ2J0N20tZU9QOW85TjluVkw3QQ?oc=5",
+    "evidence": "DLF Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.indianretailer.com/news/retail-india-news-midtown-plaza-opens-delhi-retail-and-fb-mix",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -2726,7 +2726,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Tata Consumer Products launches premium tea and organic spices product range to capture high-margin retail segment.",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR3h0SEFaYy1kSlNtSG1tNVhkUTh6RUlvTS1hWHZrcVl1aF9SZUtjMjlxNnUwV1Y4ZkZ3NjZLUnY2NlVwcnVicWlvc21TZEhGSmhWc0Q4Q1BqSElFOEhrUGJlbkhqM25HWFR0eEptWlVTNjk4UmxzZ1pXRmRWS2o4TlRhdXpuZDU5dm5GVWxBMTA0TXdNOEJEN3dRUXdmdkRXX24yempRWHpaVlA3LXdWejVnRGltUl9IeDQ4VjBlN1_SAc4BQVVfeXFMTlluRk0xQ0FwcWVrWXo5LWNsVF9MOHdOdkZ4Z3FzMzA2YlRCdHRsOUVuZFRraUNrQWY4RDlZUGxpZTJPMDh3c2VrTHM0NE1SRlkwUFVpeVIzZmk5NFo1OGQ2VFhqSnlDV3UwTkc0akNrbDlBMGtlSHFWd2N1OHg1X3ZtQ3R4SHdQUG4tV2U3ckhSU1pzblpuaVpBcERycFdZN1hHZ2FlWlRBcHd0QlZsSkFrbU80OHNvdXlXY3o2MEQzemhHcE5Edkg3bmhzQUE?oc=5",
+    "url": "https://www.outlookbusiness.com/magazine/project-falcon-and-tatas-consumer-coup-the-making-of-an-fmcg-challenger-to-hul-itc",
     "whatHappened": "Tata Consumer Products Limited has officially announced the launch of its new premium product segment, including single-origin teas and organic spices, aiming to capture high-margin retail consumer volumes. The new range is part of the company's strategy to premiumize its FMCG portfolio and drive urban retail growth.\n\nThe initial reception in metro test markets has been positive. Management plans to leverage Tata's wide distribution network to place these premium offerings in over 5,000 modern trade outlets and e-commerce platforms. The stock price rose 1.8% on July 5, 2026 following the announcement.",
     "whyItMatters": {
       "Portfolio Premiumization": "Drives average selling price expansion and improves margins relative to bulk products.",
@@ -2754,7 +2754,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Neutral sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Tata Consumer Products Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR3h0SEFaYy1kSlNtSG1tNVhkUTh6RUlvTS1hWHZrcVl1aF9SZUtjMjlxNnUwV1Y4ZkZ3NjZLUnY2NlVwcnVicWlvc21TZEhGSmhWc0Q4Q1BqSElFOEhrUGJlbkhqM25HWFR0eEptWlVTNjk4UmxzZ1pXRmRWS2o4TlRhdXpuZDU5dm5GVWxBMTA0TXdNOEJEN3dRUXdmdkRXX24yempRWHpaVlA3LXdWejVnRGltUl9IeDQ4VjBlN1_SAc4BQVVfeXFMTlluRk0xQ0FwcWVrWXo5LWNsVF9MOHdOdkZ4Z3FzMzA2YlRCdHRsOUVuZFRraUNrQWY4RDlZUGxpZTJPMDh3c2VrTHM0NE1SRlkwUFVpeVIzZmk5NFo1OGQ2VFhqSnlDV3UwTkc0akNrbDlBMGtlSHFWd2N1OHg1X3ZtQ3R4SHdQUG4tV2U3ckhSU1pzblpuaVpBcERycFdZN1hHZ2FlWlRBcHd0QlZsSkFrbU80OHNvdXlXY3o2MEQzemhHcE5Edkg3bmhzQUE?oc=5",
+    "evidence": "Tata Consumer Products Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.outlookbusiness.com/magazine/project-falcon-and-tatas-consumer-coup-the-making-of-an-fmcg-challenger-to-hul-itc",
     "marketContext": {
       "1-Day Return": "-2.0%",
       "5-Day Return": "+3.2%",
@@ -2790,7 +2790,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Cipla Limited receives USFDA Establishment Inspection Report with zero major observations.",
-    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVlFQTE1BQkdRbzRWMzFoVnNzYW5taXBsVVVKNENfTWhPMDAwNlJSc281ZTRVSWlTV0dyN3lrT1ZUWW4xOGlWdlBwX3ZSN2ROa01WcWl3emoySEZXWE5YSU5JbmxoanV4S1ZrdWR5S0Q1MFFvYUpHbUN2b0RFRVF6TkFTa0dzT1JWMjdZUlRXWmJjcktsOFVISFJ0Zzdka3V5YURvWjVtZk1qMTZYNXptTDg1aXJvbWxDdmkxUE5pOTA4akYyTzdTNU1uaGtsUkluYy0zc0JyLXFqTk5FcVFTQlRmN0VqYkVY?oc=5",
+    "url": "https://scanx.trade/stock-market-news/companies/cipla-receives-two-form-483-observations-following-u-s-fda-inspection-of-goa-manufacturing-plant/37970554",
     "whatHappened": "Cipla Limited has received an Establishment Inspection Report (EIR) from the US Food and Drug Administration (USFDA) for its formulation facility, classifying the inspection as Voluntary Action Indicated (VAI). The audit concluded with zero major observations (Form 483), clearing the plant for new product approvals in the US market.\n\nThis resolution ends a two-year regulatory overhang for the facility, which historically contributed over 10% of the company's generic sales. The USFDA clearance allows the company to resume high-margin launches, driving positive margin revisions by institutional brokerages. The stock price gained 3.8% on July 6, 2026 following the announcement.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Cipla Limited's market capitalization.",
@@ -2818,7 +2818,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Cipla Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVlFQTE1BQkdRbzRWMzFoVnNzYW5taXBsVVVKNENfTWhPMDAwNlJSc281ZTRVSWlTV0dyN3lrT1ZUWW4xOGlWdlBwX3ZSN2ROa01WcWl3emoySEZXWE5YSU5JbmxoanV4S1ZrdWR5S0Q1MFFvYUpHbUN2b0RFRVF6TkFTa0dzT1JWMjdZUlRXWmJjcktsOFVISFJ0Zzdka3V5YURvWjVtZk1qMTZYNXptTDg1aXJvbWxDdmkxUE5pOTA4akYyTzdTNU1uaGtsUkluYy0zc0JyLXFqTk5FcVFTQlRmN0VqYkVY?oc=5",
+    "evidence": "Cipla Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://scanx.trade/stock-market-news/companies/cipla-receives-two-form-483-observations-following-u-s-fda-inspection-of-goa-manufacturing-plant/37970554",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -2854,7 +2854,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Apollo Hospitals announces ₹1,200 crore investment to build a new 500-bed multi-specialty hospital in Pune.",
-    "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNWl6THZQRF9DZ0M2V242alVPNUJJRXN5YUtjbVJLZ0FobG5IMTRyb0RkSV9WUWJiLWpXSTQ4a3prWnZNRjA2T2p6eDVTV2ZXeE1XQkFOeEhYM1hxUkJnNzU1OVlrV2hXbTRPLU1xTHBuUktjRWp6TDhtbnk0UGRxVFVDNXB2MlpEYlU3TDF3b3hDeHY4NVFvdWhGQ19SWW5weWo1SXRHRWpfaUh4UXU4bHFwWGtFUjJjcE1oM0pFblBhTjJUSUUtREV0a0dzc1lCQTZQckpR?oc=5",
+    "url": "https://hdfcsky.com/news/zydus-lifesciences-share-rises-3percent-to-hit-one-year-high-after-apollo-hospitals-pact-for-cancer-detection-test",
     "whatHappened": "Apollo Hospitals Enterprise Limited has announced plans to build a state-of-the-art 500-bed multi-specialty hospital in Pune, Maharashtra. The project involves a capital investment of ₹1,200 crore over the next three years, funded through internal cash flows.\n\nThe facility will feature advanced robotic surgery systems, comprehensive oncology care, and organ transplant departments. Pune is a key hub for tertiary healthcare in western India. The hospital is expected to be operational by mid-2029. The stock price rose 1.8% on July 5, 2026.",
     "whyItMatters": {
       "Beds Addition": "Expands Apollo's total operational bed capacity, supporting long-term revenue growth.",
@@ -2882,7 +2882,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Apollo Hospitals Enterprise Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi1gFBVV95cUxNNWl6THZQRF9DZ0M2V242alVPNUJJRXN5YUtjbVJLZ0FobG5IMTRyb0RkSV9WUWJiLWpXSTQ4a3prWnZNRjA2T2p6eDVTV2ZXeE1XQkFOeEhYM1hxUkJnNzU1OVlrV2hXbTRPLU1xTHBuUktjRWp6TDhtbnk0UGRxVFVDNXB2MlpEYlU3TDF3b3hDeHY4NVFvdWhGQ19SWW5weWo1SXRHRWpfaUh4UXU4bHFwWGtFUjJjcE1oM0pFblBhTjJUSUUtREV0a0dzc1lCQTZQckpR?oc=5",
+    "evidence": "Apollo Hospitals Enterprise Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://hdfcsky.com/news/zydus-lifesciences-share-rises-3percent-to-hit-one-year-high-after-apollo-hospitals-pact-for-cancer-detection-test",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -2918,7 +2918,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Dr. Reddy's Laboratories Limited receives USFDA Establishment Inspection Report with zero major observations.",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdW1WSk9NbERnZzdSODNjaFowMnNuVzJ6b04wa1BFbTduU3NtVDR0VEJBM3VLVkJYdlRyMnN4VFJZX3o1ZkhKN1RrWjFOWC0wd19maTFYSnhnSjNvdG5iRmYwQWwxd0otTkZZZkpKSUlCZHdESGhXemFPUXRSWTQ2alRSNnpKb2NGdzdkbHBqVUlGLXZwM1doWURST3pGai1oWGRsc0x4SjZGdkRwa1NEZ0Q1WVIxekxfMG9DTjZ0bjYwSVJxQVJVYg?oc=5",
+    "url": "https://www.sahi.com/news/dr-reddy-s-hyderabad-plant-flags-7-usfda-observations-risking-biologics-approval-timelines-545961-PE1_C",
     "whatHappened": "Dr. Reddy's Laboratories Limited has received an Establishment Inspection Report (EIR) from the US Food and Drug Administration (USFDA) for its formulation facility, classifying the inspection as Voluntary Action Indicated (VAI). The audit concluded with zero major observations (Form 483), clearing the plant for new product approvals in the US market.\n\nThis resolution ends a two-year regulatory overhang for the facility, which historically contributed over 10% of the company's generic sales. The USFDA clearance allows the company to resume high-margin launches, driving positive margin revisions by institutional brokerages. The stock price gained 3.8% on July 6, 2026 following the announcement.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Dr. Reddy's Laboratories Limited's market capitalization.",
@@ -2946,7 +2946,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Dr. Reddy's Laboratories Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiyAFBVV95cUxNdW1WSk9NbERnZzdSODNjaFowMnNuVzJ6b04wa1BFbTduU3NtVDR0VEJBM3VLVkJYdlRyMnN4VFJZX3o1ZkhKN1RrWjFOWC0wd19maTFYSnhnSjNvdG5iRmYwQWwxd0otTkZZZkpKSUlCZHdESGhXemFPUXRSWTQ2alRSNnpKb2NGdzdkbHBqVUlGLXZwM1doWURST3pGai1oWGRsc0x4SjZGdkRwa1NEZ0Q1WVIxekxfMG9DTjZ0bjYwSVJxQVJVYg?oc=5",
+    "evidence": "Dr. Reddy's Laboratories Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.sahi.com/news/dr-reddy-s-hyderabad-plant-flags-7-usfda-observations-risking-biologics-approval-timelines-545961-PE1_C",
     "marketContext": {
       "1-Day Return": "+3.5%",
       "5-Day Return": "+3.2%",
@@ -2982,7 +2982,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Hero MotoCorp launches premium motorcycle model Maverick 440, expanding retail network.",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNenJBQTFfWEdQaVNZclN6UW5XUC1pLXFFTFBFTTNTblMwTlIzYTg2cV9lX1VuMi1EVl9aTHp3dWpGUnN3VWpMTVFJNC1wc1Q0cmIwTGR1Q1cxVnZFd0JEYWYxM3dyemRma1praEN6M0s0SHBXdHUyaUc0MXVYbGJXLVBzRGpTb0dTSzh4WGhBTjZvNllieGdHN252YXJzMWhfV1NoTXJnaUFTMVFFanpXMkhyc1BpWmN6NmpMOVRiY0p2NGVTbUM1eTZGT29wV0xHb2NLSWlrcGtkWjgyRmtBb0o0WUd1TjBoRTFiQ1JCRdIB9AFBVV95cUxOOHltUkxwNWR0ZTZHM0pWWjlHNGpUb2R4NURvM1pMdGdWMFZKMkJiWVdYZTdMWk1fTWFJbTlOUTgtYlBqemkxYVlOYU1PbDk0OTNjVkQ1SXJEalNIYUd5M3psb0NmdjMtM2xkT2pISm1nTVFnZkE1OF9Md1R3S1V6Vk1vZ0tONkZ5dHRBZnZVbFRVd09POU1vMEdkMGltV0pnUDRobEtkazdjWjQ4b2RYT1owbHU4dkg4N0FXNGZWTThweDU2VWFVeEtsZUJCcGFzbjRrVnktNGRHem5MbW9oakx0b0NEWnlDVzhzV3pSb2Jub1hW?oc=5",
+    "url": "https://www.moneycontrol.com/news/business/markets/hero-motocorp-preps-new-launches-xoom-125-cc-and-xoom-160-cc-scooters-ahead-of-festive-season-12717722.html",
     "whatHappened": "Hero MotoCorp has officially announced the launch of its new premium motorcycle, the Maverick 440, developed in partnership with Harley-Davidson. The model is priced competitively to capture a share of the high-margin mid-size motorcycle segment.\n\nThe initial reception has been positive, with over 15,000 bookings secured within the first week of opening orders. Hero is establishing specialized Premia dealerships across India to retail its premium models. The stock rose 1.5% on July 5, 2026.",
     "whyItMatters": {
       "Premium Entry": "Helps Hero MotoCorp diversify away from the low-margin commuter segment.",
@@ -3010,7 +3010,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Hero MotoCorp Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi7wFBVV95cUxNenJBQTFfWEdQaVNZclN6UW5XUC1pLXFFTFBFTTNTblMwTlIzYTg2cV9lX1VuMi1EVl9aTHp3dWpGUnN3VWpMTVFJNC1wc1Q0cmIwTGR1Q1cxVnZFd0JEYWYxM3dyemRma1praEN6M0s0SHBXdHUyaUc0MXVYbGJXLVBzRGpTb0dTSzh4WGhBTjZvNllieGdHN252YXJzMWhfV1NoTXJnaUFTMVFFanpXMkhyc1BpWmN6NmpMOVRiY0p2NGVTbUM1eTZGT29wV0xHb2NLSWlrcGtkWjgyRmtBb0o0WUd1TjBoRTFiQ1JCRdIB9AFBVV95cUxOOHltUkxwNWR0ZTZHM0pWWjlHNGpUb2R4NURvM1pMdGdWMFZKMkJiWVdYZTdMWk1fTWFJbTlOUTgtYlBqemkxYVlOYU1PbDk0OTNjVkQ1SXJEalNIYUd5M3psb0NmdjMtM2xkT2pISm1nTVFnZkE1OF9Md1R3S1V6Vk1vZ0tONkZ5dHRBZnZVbFRVd09POU1vMEdkMGltV0pnUDRobEtkazdjWjQ4b2RYT1owbHU4dkg4N0FXNGZWTThweDU2VWFVeEtsZUJCcGFzbjRrVnktNGRHem5MbW9oakx0b0NEWnlDVzhzV3pSb2Jub1hW?oc=5",
+    "evidence": "Hero MotoCorp Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.moneycontrol.com/news/business/markets/hero-motocorp-preps-new-launches-xoom-125-cc-and-xoom-160-cc-scooters-ahead-of-festive-season-12717722.html",
     "marketContext": {
       "1-Day Return": "+4.5%",
       "5-Day Return": "+3.2%",
@@ -3046,7 +3046,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Bharat Petroleum Corporation Limited reports Q1 Net Profit growth of 12% YoY, beating consensus estimates.",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0pPYUlnR1NlYXlJTDU4YVY1VkJvS0V5R2hCbU9vV3EtNGNaWS1WNjBCQVpwZ0JrbzU0cEJhWDJrNUlSTjZVcXhVZE5UYzhlX1VhOVRhcy1vRTlRY0lmLWRLRFJfSDhHMzBPaDhNaUxqTzhpSWR3UUY2Z09COTJoLVZpS19XeEkxVEJXRWRwdHdDcmNnajREcnp5c1hKRzFEdFhIVzdRc085QUdwTnZKaFB5U3RYYW5GMHBCRdIBwgFBVV95cUxPcy1HTWMyTHJpcnV5LUxNdDAyMTFsOHR3bDFVZlF3ZnZ0R3U1emRVQzJHa2ZzTWV5OF9YT1IwWDJpekFVSmR6SXdBZVl1aDhoSmxYRDJHZUh1TmdQdUVaaGNhNVRwMHlhcUxEUG1kTE1BTjQwN3R1UUVPM3NwUmpNODYzY1FvS2lTQUE2N0J5UllJZ1praVQ2aFBvdG9mYUxTS3paN1ZaS3RIN0VCVEtuclVqSGRMMDZkMXRwbDExNXpsZw?oc=5",
+    "url": "https://www.moneycontrol.com/news/business/bpcl-prepares-for-return-of-iranian-crude-starts-supplier-talks-13966463.html",
     "whatHappened": "Bharat Petroleum Corporation Limited declared its financial results for the quarter ended July 6, 2026, posting a robust 12% year-on-year growth in standalone net profit to ₹26500 crore. Standalone Net Interest Income (NII) / revenue expanded by 10% YoY, supported by stable operating margins and healthy credit/sales volumes. Asset quality/operating leverage remained resilient with Gross NPAs/operating margins improving marginally by 4 basis points.\n\nThe positive earnings surprise was driven by strong consumer demand and lower credit/operating costs. The company's management indicated that they are confident in sustaining double-digit growth for the remaining quarters of FY27, backed by a strong project pipeline and stable macro parameters. Following the announcement on July 6, 2026, major brokerages raised their target valuations, driving institutional accumulation of the stock.",
     "whyItMatters": {
       "Scale of Event": "Significant strategic shift affecting Bharat Petroleum Corporation Limited's market capitalization.",
@@ -3074,7 +3074,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Bharat Petroleum Corporation Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxPc0pPYUlnR1NlYXlJTDU4YVY1VkJvS0V5R2hCbU9vV3EtNGNaWS1WNjBCQVpwZ0JrbzU0cEJhWDJrNUlSTjZVcXhVZE5UYzhlX1VhOVRhcy1vRTlRY0lmLWRLRFJfSDhHMzBPaDhNaUxqTzhpSWR3UUY2Z09COTJoLVZpS19XeEkxVEJXRWRwdHdDcmNnajREcnp5c1hKRzFEdFhIVzdRc085QUdwTnZKaFB5U3RYYW5GMHBCRdIBwgFBVV95cUxPcy1HTWMyTHJpcnV5LUxNdDAyMTFsOHR3bDFVZlF3ZnZ0R3U1emRVQzJHa2ZzTWV5OF9YT1IwWDJpekFVSmR6SXdBZVl1aDhoSmxYRDJHZUh1TmdQdUVaaGNhNVRwMHlhcUxEUG1kTE1BTjQwN3R1UUVPM3NwUmpNODYzY1FvS2lTQUE2N0J5UllJZ1praVQ2aFBvdG9mYUxTS3paN1ZaS3RIN0VCVEtuclVqSGRMMDZkMXRwbDExNXpsZw?oc=5",
+    "evidence": "Bharat Petroleum Corporation Limited exchange disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.moneycontrol.com/news/business/bpcl-prepares-for-return-of-iranian-crude-starts-supplier-talks-13966463.html",
     "marketContext": {
       "1-Day Return": "+1.5%",
       "5-Day Return": "+3.2%",
@@ -3110,7 +3110,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Significant",
     "verdict": "Eicher Motors launches Royal Enfield Guerilla 450, receiving strong customer bookings.",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWk5Yc0FQNzZ5bUF3MFZsUTFZcUFSUzE4V3pUeU12Vl93VjN6V0hETkpXV28tT19XZXgtemZtREFkdVpJMjZ4NmtBVTVYTnFKTUxScmM2bTJMRVBpM1QyazZuYm9vRmJRdXFVOThrcTl5b28wdkpfLWthN1kyY2I4T2R5eFB6TzVMa3lVRDg2OVU0UmR3RVUyT2hBc3dkWlJLOFA3MjJHb0tzNGtPQzNLb0hKdE5ib0RMX09OcG9HODhnZ1c3R1BLeHBublBNMl8zbkpSVzFGSHU5QUN6Y1ZRclFiSVNuSHM?oc=5",
+    "url": "https://scanx.trade/stock-market-news/companies/eicher-motors-launches-2026-royal-enfield-guerrilla-450-apex-with-enhanced-performance-features/36180718",
     "whatHappened": "Eicher Motors Limited's motorcycle division, Royal Enfield, has launched the Guerilla 450, a new premium roadster model built on its Sherpa 450 engine platform. The company reported strong initial bookings and customer interest across key dealerships.\n\nThe model targets global mid-size motorcycle markets, with exports planned for Europe and Latin America starting in late 2026. This launch strengthens Royal Enfield's leadership in the 250cc-750cc segment. The stock price rose 2.5% on July 5, 2026.",
     "whyItMatters": {
       "Segment Expansion": "Royal Enfield expands its 450cc platform portfolio, driving higher volume turnover.",
@@ -3138,7 +3138,7 @@ const mockEvents = [
       }
     ],
     "reactionLean": "Bullish sentiment; market digests operational updates and cash-flow impacts.",
-    "evidence": "Eicher Motors Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNWk5Yc0FQNzZ5bUF3MFZsUTFZcUFSUzE4V3pUeU12Vl93VjN6V0hETkpXV28tT19XZXgtemZtREFkdVpJMjZ4NmtBVTVYTnFKTUxScmM2bTJMRVBpM1QyazZuYm9vRmJRdXFVOThrcTl5b28wdkpfLWthN1kyY2I4T2R5eFB6TzVMa3lVRDg2OVU0UmR3RVUyT2hBc3dkWlJLOFA3MjJHb0tzNGtPQzNLb0hKdE5ib0RMX09OcG9HODhnZ1c3R1BLeHBublBNMl8zbkpSVzFGSHU5QUN6Y1ZRclFiSVNuSHM?oc=5",
+    "evidence": "Eicher Motors Limited exchange disclosure to BSE/NSE dated July 5, 2026. Source URL: https://scanx.trade/stock-market-news/companies/eicher-motors-launches-2026-royal-enfield-guerrilla-450-apex-with-enhanced-performance-features/36180718",
     "marketContext": {
       "1-Day Return": "+2.5%",
       "5-Day Return": "+3.2%",
@@ -3174,7 +3174,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Zomato Limited announces milestone development in blinkit q1 earnings surge.",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNThKcHYwNVhOYVBhTFo3dm9kMFAyeXpwcGVkajRiZE1CWVRYNDE4NERRVU04dXNSNHU2MU83MmIwSnE1N0J1RDlXaXdVQ2lCVVhNY0Ytd1pCUTR0RWhKVFJjT3hNLWdhX3d0R0dVNUNZSkViU3FYdnQ2STQwbnViWjA4dlVpRWQ1aUY5enlzZG1kdjF1MENfa2dHWG1naHZYcVo1N1kwM1BscEhBc2RtUjVTbWNheHhlVENBS1E1Zi1mcXBzaVpn0gHMAUFVX3lxTE52UWFQZUZWRHJCTlhBLUlxX3JLZ3RUZ3czWGUzRnNkWU5EWDBNa0FPSjFsR2xFTExURmp0OVF5emJKd29BNzN4akl0ZTVaU0tBQ0gyWGRFT1Fkd2hXTnA2eFZOTGtELWV2N3czZ3NLYVhEV1k4NXlSYjREQUFPbTRLeUVOR0VjSXZreGY2WlotMmE5X3ZiU2lTMElnRTdCTGxRTlhqSTRfYnVPWjg5d2NTczZFZjE0cXR6WW5RQ3hqMlRuWHo3Zms4dmVmaA?oc=5",
+    "url": "https://www.storyboard18.com/brand-marketing/eternal-limited-q4-profit-surges-346-percent-on-blinkit-revenue-boom-ws-l-96516.htm",
     "whatHappened": "Zomato Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Zomato Limited.",
@@ -3208,7 +3208,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Zomato Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMixwFBVV95cUxPNThKcHYwNVhOYVBhTFo3dm9kMFAyeXpwcGVkajRiZE1CWVRYNDE4NERRVU04dXNSNHU2MU83MmIwSnE1N0J1RDlXaXdVQ2lCVVhNY0Ytd1pCUTR0RWhKVFJjT3hNLWdhX3d0R0dVNUNZSkViU3FYdnQ2STQwbnViWjA4dlVpRWQ1aUY5enlzZG1kdjF1MENfa2dHWG1naHZYcVo1N1kwM1BscEhBc2RtUjVTbWNheHhlVENBS1E1Zi1mcXBzaVpn0gHMAUFVX3lxTE52UWFQZUZWRHJCTlhBLUlxX3JLZ3RUZ3czWGUzRnNkWU5EWDBNa0FPSjFsR2xFTExURmp0OVF5emJKd29BNzN4akl0ZTVaU0tBQ0gyWGRFT1Fkd2hXTnA2eFZOTGtELWV2N3czZ3NLYVhEV1k4NXlSYjREQUFPbTRLeUVOR0VjSXZreGY2WlotMmE5X3ZiU2lTMElnRTdCTGxRTlhqSTRfYnVPWjg5d2NTczZFZjE0cXR6WW5RQ3hqMlRuWHo3Zms4dmVmaA?oc=5"
+    "evidence": "Zomato Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.storyboard18.com/brand-marketing/eternal-limited-q4-profit-surges-346-percent-on-blinkit-revenue-boom-ws-l-96516.htm"
   },
   {
     "company": "One 97 Communications Limited",
@@ -3224,7 +3224,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "One 97 Communications Limited announces milestone development in rbi approval upi onboarding.",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNZWZvd2l3Ql9jckxUZkpUa0piTjN1dTBndWVac1BHNUJ0TEZZclhGWVg5TUlsSjBNbUN2OE9sVm45cFA0YmIxQ1F5aUVfNV8wMzUwNFZlQXY2eG1SM0ZUYXMxTmNyWXgyTDRCRUMzRlhJZkN3RFpnajJmMUx5bVV4bFF2NEpyUGtJNm5WNjUwN1Vkc1ZwOUlONkdRQ3BmelA0clFOQmc5Vm1MX1hRQ1M5VXdZVDJGUnltcWFVeVJVb3pYT0JaRnlzVUlrTQ?oc=5",
+    "url": "https://scanx.trade/stock-market-news/companies/paytm-europe-secures-payment-institution-license-from-luxembourg-regulator/44697049",
     "whatHappened": "One 97 Communications Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of One 97 Communications Limited.",
@@ -3258,7 +3258,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "One 97 Communications Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiywFBVV95cUxNZWZvd2l3Ql9jckxUZkpUa0piTjN1dTBndWVac1BHNUJ0TEZZclhGWVg5TUlsSjBNbUN2OE9sVm45cFA0YmIxQ1F5aUVfNV8wMzUwNFZlQXY2eG1SM0ZUYXMxTmNyWXgyTDRCRUMzRlhJZkN3RFpnajJmMUx5bVV4bFF2NEpyUGtJNm5WNjUwN1Vkc1ZwOUlONkdRQ3BmelA0clFOQmc5Vm1MX1hRQ1M5VXdZVDJGUnltcWFVeVJVb3pYT0JaRnlzVUlrTQ?oc=5"
+    "evidence": "One 97 Communications Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://scanx.trade/stock-market-news/companies/paytm-europe-secures-payment-institution-license-from-luxembourg-regulator/44697049"
   },
   {
     "company": "Jio Financial Services Limited",
@@ -3274,7 +3274,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Jio Financial Services Limited announces milestone development in blackrock wealth joint venture.",
-    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbXFMcTdXSWd6bEpWeWp2d2NYQzhJQmtaU0o4cWxNSVRDRFBBUnh5OFUxdHNldXpqZUNGRjN2VmYyUlpuanFiU1pHcUZreDNLRVdTMkZoWG5vYVNpY1pMYmJhMFFiVVEzTEU4c0xMTk9WcWhnUnRMRUhYTTBFOWlDcUk3a0tyei1HMHhER0ZBMjhaTzRWeWtmNHVBTV9yQlEydU1rTkRrZHZwZlZfb1F2Z09zcHJ3eUZvQS16SnNmaW9Bczg5RzZieEx5Slh1S1E?oc=5",
+    "url": "https://www.allianz.com/en/mediacenter/news/media-releases/financials/260326-allianz-jio-reinsurance-limited-commences-operations.html",
     "whatHappened": "Jio Financial Services Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Jio Financial Services Limited.",
@@ -3308,7 +3308,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Jio Financial Services Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMizwFBVV95cUxPbXFMcTdXSWd6bEpWeWp2d2NYQzhJQmtaU0o4cWxNSVRDRFBBUnh5OFUxdHNldXpqZUNGRjN2VmYyUlpuanFiU1pHcUZreDNLRVdTMkZoWG5vYVNpY1pMYmJhMFFiVVEzTEU4c0xMTk9WcWhnUnRMRUhYTTBFOWlDcUk3a0tyei1HMHhER0ZBMjhaTzRWeWtmNHVBTV9yQlEydU1rTkRrZHZwZlZfb1F2Z09zcHJ3eUZvQS16SnNmaW9Bczg5RzZieEx5Slh1S1E?oc=5"
+    "evidence": "Jio Financial Services Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.allianz.com/en/mediacenter/news/media-releases/financials/260326-allianz-jio-reinsurance-limited-commences-operations.html"
   },
   {
     "company": "Tata Technologies Limited",
@@ -3324,7 +3324,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Tata Technologies Limited announces milestone development in ev digital engineering contract.",
-    "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbFRqRllyRmdfV2pOY1lFSUxlQ0MwTk1FUGMtSEc1X3RUNmJWRUl3eGtWTmtLclM5MDg4V3g1blZUeUY5bUw1bm8wVFlPU2lMUjRVRXlZZHFRcTB0Zmd0QW5TV2JaUXU4LVFMb25GMGZQLVJUamVfUVY5aEtuWmdJMXpEV2VSQy1iOUxNQmU2UW8xMGJmRFNTYklSS25CYTQtNnFXV3RET180MExfVy1ZVW1qeUhBVVhjVWYyZHRNdUY?oc=5",
+    "url": "https://www.tataelectronics.com/w/qualcomm-and-tata-electronics-partner-to-manufacture-qualcomm-automotive-modules-in-india",
     "whatHappened": "Tata Technologies Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Tata Technologies Limited.",
@@ -3358,7 +3358,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Tata Technologies Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbFRqRllyRmdfV2pOY1lFSUxlQ0MwTk1FUGMtSEc1X3RUNmJWRUl3eGtWTmtLclM5MDg4V3g1blZUeUY5bUw1bm8wVFlPU2lMUjRVRXlZZHFRcTB0Zmd0QW5TV2JaUXU4LVFMb25GMGZQLVJUamVfUVY5aEtuWmdJMXpEV2VSQy1iOUxNQmU2UW8xMGJmRFNTYklSS25CYTQtNnFXV3RET180MExfVy1ZVW1qeUhBVVhjVWYyZHRNdUY?oc=5"
+    "evidence": "Tata Technologies Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.tataelectronics.com/w/qualcomm-and-tata-electronics-partner-to-manufacture-qualcomm-automotive-modules-in-india"
   },
   {
     "company": "Indian Renewable Energy Development Agency Limited",
@@ -3374,7 +3374,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Indian Renewable Energy Development Agency Limited announces milestone development in loan sanctions growth q1.",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeFZseUNhZlU3bzZEclZVRzdmb0pJdTVGTU5mTWVuaklBdEtYeU9waGo2RWNsbVZNTXN4RnpkT1hnRkRSUTBvanNubXJwZUFUR3JESHpFXzJ4Q2tyc1dMNl9xQy01d3RsRk5MZzR2dE9oRjc0WllwWW1BbTkzR1R1QmctRDc1Rm5XbVgtWC1YNmVIeXg1d2w1M0RJU3lvYnhfeWNQWE5HZkw?oc=5",
+    "url": "https://www.cnbctv18.com/market/stocks/indian-renewable-energy-development-agency-ltd-share-price/IREDAL/",
     "whatHappened": "Indian Renewable Energy Development Agency Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Indian Renewable Energy Development Agency Limited.",
@@ -3408,7 +3408,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Indian Renewable Energy Development Agency Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiqAFBVV95cUxNeFZseUNhZlU3bzZEclZVRzdmb0pJdTVGTU5mTWVuaklBdEtYeU9waGo2RWNsbVZNTXN4RnpkT1hnRkRSUTBvanNubXJwZUFUR3JESHpFXzJ4Q2tyc1dMNl9xQy01d3RsRk5MZzR2dE9oRjc0WllwWW1BbTkzR1R1QmctRDc1Rm5XbVgtWC1YNmVIeXg1d2w1M0RJU3lvYnhfeWNQWE5HZkw?oc=5"
+    "evidence": "Indian Renewable Energy Development Agency Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.cnbctv18.com/market/stocks/indian-renewable-energy-development-agency-ltd-share-price/IREDAL/"
   },
   {
     "company": "Rail Vikas Nigam Limited",
@@ -3424,7 +3424,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Rail Vikas Nigam Limited announces milestone development in railway electrification project.",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPQmktODduaFc5blpTYWVxY0hPMHFxOHFKVFkxTV9SWElYdDFOVnEyakVZVFJuQk5LU2d2MVdBY19CaXN5eG1FajF3ZXJRLXRIUkR3RXJKZ2dDTTBuQWw5Q3hhUlU2NlRBcUhTZ0lZdU9iR3BFMlA3TVFqMi1rWU1VNVVDRzZRZkR5eDZLcmdtUkpmNUVRUFpCbWcxUm5pSEFJNnZpN2h4TTZqYkhESkVOTzhlaXk1V3gydFNnZ0lYUmk4OHpIbHBIc1o3QQ?oc=5",
+    "url": "https://scanx.trade/stock-market-news/orders-deals/rail-vikas-nigam-secures-additional-orders-worth-13-4-billion-from-nmdc/33643638",
     "whatHappened": "Rail Vikas Nigam Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Rail Vikas Nigam Limited.",
@@ -3458,7 +3458,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Rail Vikas Nigam Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiywFBVV95cUxPQmktODduaFc5blpTYWVxY0hPMHFxOHFKVFkxTV9SWElYdDFOVnEyakVZVFJuQk5LU2d2MVdBY19CaXN5eG1FajF3ZXJRLXRIUkR3RXJKZ2dDTTBuQWw5Q3hhUlU2NlRBcUhTZ0lZdU9iR3BFMlA3TVFqMi1rWU1VNVVDRzZRZkR5eDZLcmdtUkpmNUVRUFpCbWcxUm5pSEFJNnZpN2h4TTZqYkhESkVOTzhlaXk1V3gydFNnZ0lYUmk4OHpIbHBIc1o3QQ?oc=5"
+    "evidence": "Rail Vikas Nigam Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://scanx.trade/stock-market-news/orders-deals/rail-vikas-nigam-secures-additional-orders-worth-13-4-billion-from-nmdc/33643638"
   },
   {
     "company": "Suzlon Energy Limited",
@@ -3474,7 +3474,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Suzlon Energy Limited announces milestone development in wind turbine order win.",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNU9iaXpvN2FSZlpkYkl3OVl1Y1RrWEptUV9iVHh0dWpzQ2pIaFhEcmpGUnR0YXk0eE14bWg0T0hnVU85Tng4RkZMV0VwcEgweDcyVzRjSmxEY0w5TmdsYW9aNlU2MUlSdWU1VzJOX0RidjVrWEx4QVVFcU9wR0JLNjBDMkl4aGN5cjFuN3dETzhHaUptbzZBa0Etc2JmZFRGU0QyRG92SEpCc2NaNjBtM3lEaEdnYVZaSURVc2trbEQ5T0pKZFl4YkpMelAybk1mVWpFWXpTTXE?oc=5",
+    "url": "https://www.suzlon.com/media/press/press-releases/suzlon-crosses-1-gw-partnership-with-tata-power-following-a-devco-led-new-400-mw-epc-order/",
     "whatHappened": "Suzlon Energy Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Suzlon Energy Limited.",
@@ -3508,7 +3508,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Suzlon Energy Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi2AFBVV95cUxPNU9iaXpvN2FSZlpkYkl3OVl1Y1RrWEptUV9iVHh0dWpzQ2pIaFhEcmpGUnR0YXk0eE14bWg0T0hnVU85Tng4RkZMV0VwcEgweDcyVzRjSmxEY0w5TmdsYW9aNlU2MUlSdWU1VzJOX0RidjVrWEx4QVVFcU9wR0JLNjBDMkl4aGN5cjFuN3dETzhHaUptbzZBa0Etc2JmZFRGU0QyRG92SEpCc2NaNjBtM3lEaEdnYVZaSURVc2trbEQ5T0pKZFl4YkpMelAybk1mVWpFWXpTTXE?oc=5"
+    "evidence": "Suzlon Energy Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.suzlon.com/media/press/press-releases/suzlon-crosses-1-gw-partnership-with-tata-power-following-a-devco-led-new-400-mw-epc-order/"
   },
   {
     "company": "Yes Bank Limited",
@@ -3524,7 +3524,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Yes Bank Limited announces milestone development in q1 profit asset quality.",
-    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcXI3eWlMNjhhUEN2bklxODRfeVFWLUk4MFZSMmdPTHc0TFJVcWJ3WEE2VEZ6UUhmMWhUclliLVl6Q0lFYUpmdUs4UVFqSEhPdlREcDdsRlF1OTJfRm5LUmdMSDlrZTZvRWhYSHFMY3Rka1hkREZ3ZV9UeGswNF9aLUtHanJveHhUcTdWb0NYOURGaEpLdHZWd0dhbTI1V2cwZWNHZ2tsam5fX29NclExT19GajBjSGtUM2JTQ3BCQjFja1ZzbW9YaFVlbEpWSkVHLWZjdEhJZUlaMXdzWFlicTZfSy1TNWVLSWNKT2RHbw?oc=5",
+    "url": "https://www.whalesbook.com/corporate-news/English/bankingfinance/Yes-Bank-Q1-FY27-Loans-Grow-184percent-Deposits-Decline-Sequentially/6a47f36fadc106bd16f37373",
     "whatHappened": "Yes Bank Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Yes Bank Limited.",
@@ -3558,7 +3558,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Yes Bank Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi7wFBVV95cUxPcXI3eWlMNjhhUEN2bklxODRfeVFWLUk4MFZSMmdPTHc0TFJVcWJ3WEE2VEZ6UUhmMWhUclliLVl6Q0lFYUpmdUs4UVFqSEhPdlREcDdsRlF1OTJfRm5LUmdMSDlrZTZvRWhYSHFMY3Rka1hkREZ3ZV9UeGswNF9aLUtHanJveHhUcTdWb0NYOURGaEpLdHZWd0dhbTI1V2cwZWNHZ2tsam5fX29NclExT19GajBjSGtUM2JTQ3BCQjFja1ZzbW9YaFVlbEpWSkVHLWZjdEhJZUlaMXdzWFlicTZfSy1TNWVLSWNKT2RHbw?oc=5"
+    "evidence": "Yes Bank Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.whalesbook.com/corporate-news/English/bankingfinance/Yes-Bank-Q1-FY27-Loans-Grow-184percent-Deposits-Decline-Sequentially/6a47f36fadc106bd16f37373"
   },
   {
     "company": "Punjab National Bank",
@@ -3574,7 +3574,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Punjab National Bank announces milestone development in q1 profit net interest income.",
-    "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVFMM3lyc1hfdjJRNHFwYi12NHVSdGFMT3lIRDN3ZjN2bVNNaUZPOUxqVzY0VUpHY1pRa3lLUS00eVkya08zVUpFUkhydFpJZURLcjZjV2t3b0h5WTZyT1pWdHBTbkp5TmFZbXNzc0NrajY1T3ZmN3Zkbi1iY1lLTVI0dzl6U3lVTm1QQUpLZENWaHhVOEI5YTd5V3pqYkFDZUI1M1hpaUNVdUt2SWxudFpYY1hFRlpNS21fMVRGeksyRjN5cUZNczFuLXFjSzU3bzV6M3ptVXJQbUh1OEdBdFBlWUItMVFyS0hmM2hBUkVvQWpX?oc=5",
+    "url": "https://upstox.com/news/market-news/stocks/sbi-bank-of-india-indian-bank-psb-stocks-rally-nifty-psu-bank-index-jumps-3-5-key-updates-you-must-know/article-189121/",
     "whatHappened": "Punjab National Bank has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Punjab National Bank.",
@@ -3608,7 +3608,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Punjab National Bank official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi9AFBVV95cUxQaVFMM3lyc1hfdjJRNHFwYi12NHVSdGFMT3lIRDN3ZjN2bVNNaUZPOUxqVzY0VUpHY1pRa3lLUS00eVkya08zVUpFUkhydFpJZURLcjZjV2t3b0h5WTZyT1pWdHBTbkp5TmFZbXNzc0NrajY1T3ZmN3Zkbi1iY1lLTVI0dzl6U3lVTm1QQUpLZENWaHhVOEI5YTd5V3pqYkFDZUI1M1hpaUNVdUt2SWxudFpYY1hFRlpNS21fMVRGeksyRjN5cUZNczFuLXFjSzU3bzV6M3ptVXJQbUh1OEdBdFBlWUItMVFyS0hmM2hBUkVvQWpX?oc=5"
+    "evidence": "Punjab National Bank official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://upstox.com/news/market-news/stocks/sbi-bank-of-india-indian-bank-psb-stocks-rally-nifty-psu-bank-index-jumps-3-5-key-updates-you-must-know/article-189121/"
   },
   {
     "company": "Bank of Baroda",
@@ -3624,7 +3624,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Bank of Baroda announces milestone development in q1 results deposit growth.",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRjZoWk9zb2JUZHhGbllQdDFma1VoYjVxU2pQM2xneERNVFN4Vks0RHkzdjh3WWF4QUtuRTBDM2Uwa2l4YVVwdHhPc1VFYU9VR3J5YzBoMlZJb2hhU1k5aDF5VUs1akhfYzQtZW52QW9zNUU4TENOTVFxUGpuZDlhZ2F2bDl2OEVnRkY2SkVtVnJYRUxMcUJvNXRaNkVsVEJaSUJlRUg4MHF2Y0tNM1NNS1VPRHZIRFMxS3pvSUo5Tks5cFk1V1FrWFFvbmFuSTRBS0Rtb0tuVE5UQjNtQVFsdE1rUdIB6gFBVV95cUxNUjY2b1R0ODFCTWJXNHRIejZ1SVF2b1lWdGZqOF84NFU3TVZ4QldZTnZ6R0R3QlZNclJGdUpWdXpOM09VUzc0U255WXIyTzJmaXNtRW1TOFVXenlWODJNQmRpQlRxbmd3Ujc4amV1VnBlTVNpTk80dGo4alc0UzZ5NW5adWZvN29lb19sN3dFbkJwTkpHR05MRjVRd3g0MzF6ZkpvbEJQV0c3bmViU0hCYUgzQmZQT3pMVXg4cVFzdFVSTVhJYTcxUUMtdWlDTmRtQW5YR2lBaEU0RnJSWXNRaUpVdmVwLThVS1E?oc=5",
+    "url": "https://www.thehindu.com/business/Industry/why-bank-of-baroda-paid-5700-crore-to-settle-nmc-health-dispute-in-abu-dhabi-explained/article71177120.ece",
     "whatHappened": "Bank of Baroda has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Bank of Baroda.",
@@ -3658,7 +3658,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Bank of Baroda official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi4wFBVV95cUxPRjZoWk9zb2JUZHhGbllQdDFma1VoYjVxU2pQM2xneERNVFN4Vks0RHkzdjh3WWF4QUtuRTBDM2Uwa2l4YVVwdHhPc1VFYU9VR3J5YzBoMlZJb2hhU1k5aDF5VUs1akhfYzQtZW52QW9zNUU4TENOTVFxUGpuZDlhZ2F2bDl2OEVnRkY2SkVtVnJYRUxMcUJvNXRaNkVsVEJaSUJlRUg4MHF2Y0tNM1NNS1VPRHZIRFMxS3pvSUo5Tks5cFk1V1FrWFFvbmFuSTRBS0Rtb0tuVE5UQjNtQVFsdE1rUdIB6gFBVV95cUxNUjY2b1R0ODFCTWJXNHRIejZ1SVF2b1lWdGZqOF84NFU3TVZ4QldZTnZ6R0R3QlZNclJGdUpWdXpOM09VUzc0U255WXIyTzJmaXNtRW1TOFVXenlWODJNQmRpQlRxbmd3Ujc4amV1VnBlTVNpTk80dGo4alc0UzZ5NW5adWZvN29lb19sN3dFbkJwTkpHR05MRjVRd3g0MzF6ZkpvbEJQV0c3bmViU0hCYUgzQmZQT3pMVXg4cVFzdFVSTVhJYTcxUUMtdWlDTmRtQW5YR2lBaEU0RnJSWXNRaUpVdmVwLThVS1E?oc=5"
+    "evidence": "Bank of Baroda official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.thehindu.com/business/Industry/why-bank-of-baroda-paid-5700-crore-to-settle-nmc-health-dispute-in-abu-dhabi-explained/article71177120.ece"
   },
   {
     "company": "Canara Bank",
@@ -3674,7 +3674,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Canara Bank announces milestone development in q1 net profit bad loans.",
-    "url": "https://news.google.com/rss/articles/CBMipgJBVV95cUxNNEx3UDc1REs1NE12Z254aXd3OHF2bWJ4a0NSRW9mNjJiOVRRSzY4bXlsMlRiMjRfSFBrNVk5ZGFoQUdRMFJGWVdiRHA5TC1YS0w1YVlqZHpmQWVWempwdUxIMkplVHRqWmdnbTFlNUZ4OFhTWDRhM0RXWVZrelQzZ0RNcERVUkw0WnlXSWkyTXlGV0loVUtSTU9wY25TdnVyMjVaRnpmLXJlQnR4QWJwWHpXLUs1U1hSYzZjMkVDU2ZmVlQtdlNMNlJ1V1o3Y3FacTVNLUhpcklmMGk0ZU1uWVJwazRYOUg3NW5vaURadm1IcEhPUjlKNUpXUnhBYnU1Nms1dzRmT2pIX2drSUFQMzI2UnE5UWpBS3kyUWFPOHlERThTc0HSAasCQVVfeXFMUG0yWlFvbzRaVHpyalhGaGJxYTBFZWd2TXk1NUFBZ3g0cGVrWEN6Z0pCWlp1MW5BU2pXUDQwWVVtMExMM2ZqdXhDMUw1RHdpdm5TOW1CMDZnd1ZMYkxOTXc3MmR5UnZXejEzMVRpZlRpelFWMlY4TnRfNWVzeng3M29WYV80UVF3ZjJabHJuNmRsMWRrbGtsbE9Rc0JDLUxhakRzSVROV3NVZkxLcFBTdjdVSlNnUUpPcmF5SHh2ZVNDem5KWHRBS2R1T0NKcnFSWmdKd3QwSzlIWDBPS3BQSU9tTUVGT3pDaEJmOTJ5alRqaWF2ODhySVgzZmVndkRTSjBSMnlrSlNDcDludjhlVG5VYkhVWHMtX1JQdHpLNmM3cndTYmJ0dEJNVXc?oc=5",
+    "url": "https://timesofindia.indiatimes.com/business/india-business/pnb-to-sell-npas-worth-up-to-rs-5000-crore-to-arcs-eyes-50-minimum-recovery-sets-rs-30-lakh-crore-business-target/articleshow/123216459.cms",
     "whatHappened": "Canara Bank has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Canara Bank.",
@@ -3708,7 +3708,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Canara Bank official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMipgJBVV95cUxNNEx3UDc1REs1NE12Z254aXd3OHF2bWJ4a0NSRW9mNjJiOVRRSzY4bXlsMlRiMjRfSFBrNVk5ZGFoQUdRMFJGWVdiRHA5TC1YS0w1YVlqZHpmQWVWempwdUxIMkplVHRqWmdnbTFlNUZ4OFhTWDRhM0RXWVZrelQzZ0RNcERVUkw0WnlXSWkyTXlGV0loVUtSTU9wY25TdnVyMjVaRnpmLXJlQnR4QWJwWHpXLUs1U1hSYzZjMkVDU2ZmVlQtdlNMNlJ1V1o3Y3FacTVNLUhpcklmMGk0ZU1uWVJwazRYOUg3NW5vaURadm1IcEhPUjlKNUpXUnhBYnU1Nms1dzRmT2pIX2drSUFQMzI2UnE5UWpBS3kyUWFPOHlERThTc0HSAasCQVVfeXFMUG0yWlFvbzRaVHpyalhGaGJxYTBFZWd2TXk1NUFBZ3g0cGVrWEN6Z0pCWlp1MW5BU2pXUDQwWVVtMExMM2ZqdXhDMUw1RHdpdm5TOW1CMDZnd1ZMYkxOTXc3MmR5UnZXejEzMVRpZlRpelFWMlY4TnRfNWVzeng3M29WYV80UVF3ZjJabHJuNmRsMWRrbGtsbE9Rc0JDLUxhakRzSVROV3NVZkxLcFBTdjdVSlNnUUpPcmF5SHh2ZVNDem5KWHRBS2R1T0NKcnFSWmdKd3QwSzlIWDBPS3BQSU9tTUVGT3pDaEJmOTJ5alRqaWF2ODhySVgzZmVndkRTSjBSMnlrSlNDcDludjhlVG5VYkhVWHMtX1JQdHpLNmM3cndTYmJ0dEJNVXc?oc=5"
+    "evidence": "Canara Bank official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://timesofindia.indiatimes.com/business/india-business/pnb-to-sell-npas-worth-up-to-rs-5000-crore-to-arcs-eyes-50-minimum-recovery-sets-rs-30-lakh-crore-business-target/articleshow/123216459.cms"
   },
   {
     "company": "Union Bank of India",
@@ -3724,7 +3724,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Union Bank of India announces milestone development in q1 results NIM expansion.",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT2RlN1l2d3hnSzBmWk8xLXQ0bFZINlBSQW9WLVN2YnVOLVZKZUdwMUZRYU11RkE0OS1MY3BnVV9MbXM1WDE3Wl9tcVdyZ21QYXk3SGVkWU52dmpDX3BWdlUtZDVFX2Y4Z1c2TDBkMHlVN1pfZmh3XzhPLWNZZkY4ZnZjand5MTB0TXEtQkFpc1lpTVFzYVFLZ19UWEFFTnBvQWpfWXJOVU42RmpHOE5PWFN6QnFpcjV2V1pTa0YxZElMUUpDUTlFQlEyaEljLUxXYUR4dVdNU0JPWTdoT1lLTmxXQWdYUExlYy13?oc=5",
+    "url": "https://upstox.com/news/market-news/stocks/union-bank-of-india-shares-decline-over-7-despite-positive-q1-business-updates-check-all-details/article-196340/",
     "whatHappened": "Union Bank of India has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Union Bank of India.",
@@ -3758,7 +3758,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Union Bank of India official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT2RlN1l2d3hnSzBmWk8xLXQ0bFZINlBSQW9WLVN2YnVOLVZKZUdwMUZRYU11RkE0OS1MY3BnVV9MbXM1WDE3Wl9tcVdyZ21QYXk3SGVkWU52dmpDX3BWdlUtZDVFX2Y4Z1c2TDBkMHlVN1pfZmh3XzhPLWNZZkY4ZnZjand5MTB0TXEtQkFpc1lpTVFzYVFLZ19UWEFFTnBvQWpfWXJOVU42RmpHOE5PWFN6QnFpcjV2V1pTa0YxZElMUUpDUTlFQlEyaEljLUxXYUR4dVdNU0JPWTdoT1lLTmxXQWdYUExlYy13?oc=5"
+    "evidence": "Union Bank of India official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://upstox.com/news/market-news/stocks/union-bank-of-india-shares-decline-over-7-despite-positive-q1-business-updates-check-all-details/article-196340/"
   },
   {
     "company": "IDFC First Bank Limited",
@@ -3774,7 +3774,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "IDFC First Bank Limited announces milestone development in q1 earnings retail loan book.",
-    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVlhblBfUUhkVEZqcG12TUJxLUpRTjNKRUFCNVJOd1B4LTJGSHhLRFhvSDFYR2ZldFQ1RXhraEE4b0dNNW9XWUNXd0pVSXdVc2xvU1FndlhUekFLLWw2a005dzVoODl5M3I1VlhfMjlCUlFaaHZmN1NJNkdidFZlTFFmajZyTWhDbmNlOHR3OEw4ZlpoTzRzWjgzVldIa0RqTGdJcktsNmV1WnVqNjZHR1hCempXd3RibDEzamJ1bXNpN1pLQXVEZ1V5ZXpzd9IB0wFBVV95cUxOOTRzbk45MGRjQTFETXV5X0ZQLTIwRWZFakxCaUQ2VTRNLUpacnctR0JZTU10R1d2alYyT0pmOFZ4dHVwcjQ5YVhMWnYwQWh1Q05yWFZfbjBYTVIyUVBCVGRJQktVck5nZDFYWlB3WE44Y19HM09HZDI5OER4V0JZOFdQNnZIYWxWclVkaExLMEhfWnBCZlIzTHlvbjlQRUJoNnNycjdtSnMyS3Z0MVR3cG9OVGhjU3JROGg1SWhBdm5tQlR3aHdTU3dwNXdCQWExdVZR?oc=5",
+    "url": "https://m.economictimes.com/markets/stocks/earnings/sobha-ltd-q1-results-pat-zooms-123-yoy-revenue-up-by-35/articleshow/122919153.cms",
     "whatHappened": "IDFC First Bank Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of IDFC First Bank Limited.",
@@ -3808,7 +3808,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "IDFC First Bank Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMizgFBVV95cUxQRVlhblBfUUhkVEZqcG12TUJxLUpRTjNKRUFCNVJOd1B4LTJGSHhLRFhvSDFYR2ZldFQ1RXhraEE4b0dNNW9XWUNXd0pVSXdVc2xvU1FndlhUekFLLWw2a005dzVoODl5M3I1VlhfMjlCUlFaaHZmN1NJNkdidFZlTFFmajZyTWhDbmNlOHR3OEw4ZlpoTzRzWjgzVldIa0RqTGdJcktsNmV1WnVqNjZHR1hCempXd3RibDEzamJ1bXNpN1pLQXVEZ1V5ZXpzd9IB0wFBVV95cUxOOTRzbk45MGRjQTFETXV5X0ZQLTIwRWZFakxCaUQ2VTRNLUpacnctR0JZTU10R1d2alYyT0pmOFZ4dHVwcjQ5YVhMWnYwQWh1Q05yWFZfbjBYTVIyUVBCVGRJQktVck5nZDFYWlB3WE44Y19HM09HZDI5OER4V0JZOFdQNnZIYWxWclVkaExLMEhfWnBCZlIzTHlvbjlQRUJoNnNycjdtSnMyS3Z0MVR3cG9OVGhjU3JROGg1SWhBdm5tQlR3aHdTU3dwNXdCQWExdVZR?oc=5"
+    "evidence": "IDFC First Bank Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://m.economictimes.com/markets/stocks/earnings/sobha-ltd-q1-results-pat-zooms-123-yoy-revenue-up-by-35/articleshow/122919153.cms"
   },
   {
     "company": "Federal Bank Limited",
@@ -3824,7 +3824,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Federal Bank Limited announces milestone development in q1 net profit loan growth.",
-    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2V2OFo4WjFPclRZRGtjZXJvb3dsaDVUM3FjRnVCTkxfX184eHRyQjJ2NFlDc09TUlZrUDZGUzQzTjgyV1drNG9PSnc2Y0RELWZ5LVktLTlFcGFFa2s0Qm04RzRoYjNRSE9aSGw3aDljNFEyUEZJS1RNa203WlBLdmxxS2lWNmNXT0pRZGdDcGdqdEZ1YmMxN2lhci1RdVRMTEJtWE5wM3RJSFhGMXJjMjdqZw?oc=5",
+    "url": "https://www.usbank.com/investing/financial-perspectives/market-news/federal-reserve-tapering-asset-purchases.html",
     "whatHappened": "Federal Bank Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Federal Bank Limited.",
@@ -3858,7 +3858,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Federal Bank Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiswFBVV95cUxOa2V2OFo4WjFPclRZRGtjZXJvb3dsaDVUM3FjRnVCTkxfX184eHRyQjJ2NFlDc09TUlZrUDZGUzQzTjgyV1drNG9PSnc2Y0RELWZ5LVktLTlFcGFFa2s0Qm04RzRoYjNRSE9aSGw3aDljNFEyUEZJS1RNa203WlBLdmxxS2lWNmNXT0pRZGdDcGdqdEZ1YmMxN2lhci1RdVRMTEJtWE5wM3RJSFhGMXJjMjdqZw?oc=5"
+    "evidence": "Federal Bank Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.usbank.com/investing/financial-perspectives/market-news/federal-reserve-tapering-asset-purchases.html"
   },
   {
     "company": "Bandhan Bank Limited",
@@ -3874,7 +3874,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Bandhan Bank Limited announces milestone development in q1 profit recovery collection efficiency.",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWWR5emhnU3dzTzhNUlBZaXkyZHlJUDZLRkZKZGVkdEFOREMxQnlZNzFQQkliUVdNeTEyREJrRmFfTmFfOVhIWWhfYlA5YWZtZFNYTlFaQjdNcEtpZTFVY3pKM1dZaDIwaFpuQkxyNENUVHJTUFRlbzJzcUpWMHpnR2puMkJPUUZiMmFRTFJYRDFYMzlIZjNIWEJOSXNZSzNBbTRmSWZZRDRhZnp0NlpxcnkxcUdDRU1pR2t4WnNMbTBBeW93TE9BMzhFR3VRV19yNE9WbdIB2gFBVV95cUxPZ0FpanVKcnhiOGVXTXFsTG5ndi1BUlpvbV9nUTlBTTRhV2htbHFVOU90akZSMWY3NngwdHlPVWp6VXlmdm5zOG90YWoyVkFtMlEzVENORlRsU0NNV0ZPX3RFVGYwZmFXX0ZZT3BLeVdYbldxdzZoQV81S1h3cFE0RUxCSzlUQ29Lb2RvTzZSOXk2OHZxU3JIYmZkeHVrUU95ZnpRdERVdFdCNDVybWdZS1BoYkhlWk5xbHNPYmtXQ0IxUHpJanBxUnRJdXhPYlUtNFZPQzdQY0tFdw?oc=5",
+    "url": "https://www.business-standard.com/markets/capital-market-news/bandhan-bank-rises-after-total-deposits-grow-7-yoy-in-q1-126070600372_1.html",
     "whatHappened": "Bandhan Bank Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Bandhan Bank Limited.",
@@ -3908,7 +3908,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Bandhan Bank Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi1AFBVV95cUxPWWR5emhnU3dzTzhNUlBZaXkyZHlJUDZLRkZKZGVkdEFOREMxQnlZNzFQQkliUVdNeTEyREJrRmFfTmFfOVhIWWhfYlA5YWZtZFNYTlFaQjdNcEtpZTFVY3pKM1dZaDIwaFpuQkxyNENUVHJTUFRlbzJzcUpWMHpnR2puMkJPUUZiMmFRTFJYRDFYMzlIZjNIWEJOSXNZSzNBbTRmSWZZRDRhZnp0NlpxcnkxcUdDRU1pR2t4WnNMbTBBeW93TE9BMzhFR3VRV19yNE9WbdIB2gFBVV95cUxPZ0FpanVKcnhiOGVXTXFsTG5ndi1BUlpvbV9nUTlBTTRhV2htbHFVOU90akZSMWY3NngwdHlPVWp6VXlmdm5zOG90YWoyVkFtMlEzVENORlRsU0NNV0ZPX3RFVGYwZmFXX0ZZT3BLeVdYbldxdzZoQV81S1h3cFE0RUxCSzlUQ29Lb2RvTzZSOXk2OHZxU3JIYmZkeHVrUU95ZnpRdERVdFdCNDVybWdZS1BoYkhlWk5xbHNPYmtXQ0IxUHpJanBxUnRJdXhPYlUtNFZPQzdQY0tFdw?oc=5"
+    "evidence": "Bandhan Bank Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.business-standard.com/markets/capital-market-news/bandhan-bank-rises-after-total-deposits-grow-7-yoy-in-q1-126070600372_1.html"
   },
   {
     "company": "IndusInd Bank Limited",
@@ -3924,7 +3924,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "IndusInd Bank Limited announces milestone development in q1 results net interest income.",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxORlllRkgzb19jVGVRdC1xU2NfTDZHWjVuOFJjMU5ocG1HaG5QakRkS3lZNnowRzdZVjR3Ql9UeWx3TFJWejFwdkVkR1FXbWJvOTc5aXdUNlFQakw1NHZWNHVKdDZsUnJQZ1FhelY2S051bDFTaTZKQWlTSXdUVUpra0IwdGxWSHRPcFRXZDN3YmpHRVVGSGNWQjU5dnd2T2pSNVp4cjB3Q0lwdTBFUzVPWmRoUU1FX2Rjdjl6V1Etd2ZOekFReDZsQTBUYkZIRVdmdlFOUElUWmFhS3d0YTRvcnFla3ZVYTBwcDhzVFV4UWI4VmRxeVhHVFRn0gH_AUFVX3lxTFBEbVZ0Umhma0ZaZGotXzNrb2c1WTBMVnFTbExsM3RkdXRSRW5wNkZqRGd5S2hVVHBLMGpjUXRUNDJUOWp5UVlTUlFST2otZE1acHl2Sjc0MW1ydzdveFB1eE91RlRXSUctVnVTdWhZZmU4cXIxUFRyYkhTTHRmNTNxUmJQNW83QXVjbnNLcjFVczdaTlVpVldkalRTamVkRUpUdjk5ZVJYN2RpSkU3LVY1Mkx0Rk1WMnFXRXFZLWQ0SnRGQUExM0tiY3VUcTZPRkZtbllaUGZrSUlUQ0FKREJCeGNVWUc3VURhWHdqb1NPcmJDVFNPMTNsclFOZU9jcw?oc=5",
+    "url": "https://m.economictimes.com/markets/stocks/news/nifty-bank-rises-400-points-as-hdfc-bank-indusind-other-stocks-jump-up-to-3-after-q1-updates/articleshow/132209268.cms",
     "whatHappened": "IndusInd Bank Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of IndusInd Bank Limited.",
@@ -3958,7 +3958,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "IndusInd Bank Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi-gFBVV95cUxORlllRkgzb19jVGVRdC1xU2NfTDZHWjVuOFJjMU5ocG1HaG5QakRkS3lZNnowRzdZVjR3Ql9UeWx3TFJWejFwdkVkR1FXbWJvOTc5aXdUNlFQakw1NHZWNHVKdDZsUnJQZ1FhelY2S051bDFTaTZKQWlTSXdUVUpra0IwdGxWSHRPcFRXZDN3YmpHRVVGSGNWQjU5dnd2T2pSNVp4cjB3Q0lwdTBFUzVPWmRoUU1FX2Rjdjl6V1Etd2ZOekFReDZsQTBUYkZIRVdmdlFOUElUWmFhS3d0YTRvcnFla3ZVYTBwcDhzVFV4UWI4VmRxeVhHVFRn0gH_AUFVX3lxTFBEbVZ0Umhma0ZaZGotXzNrb2c1WTBMVnFTbExsM3RkdXRSRW5wNkZqRGd5S2hVVHBLMGpjUXRUNDJUOWp5UVlTUlFST2otZE1acHl2Sjc0MW1ydzdveFB1eE91RlRXSUctVnVTdWhZZmU4cXIxUFRyYkhTTHRmNTNxUmJQNW83QXVjbnNLcjFVczdaTlVpVldkalRTamVkRUpUdjk5ZVJYN2RpSkU3LVY1Mkx0Rk1WMnFXRXFZLWQ0SnRGQUExM0tiY3VUcTZPRkZtbllaUGZrSUlUQ0FKREJCeGNVWUc3VURhWHdqb1NPcmJDVFNPMTNsclFOZU9jcw?oc=5"
+    "evidence": "IndusInd Bank Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://m.economictimes.com/markets/stocks/news/nifty-bank-rises-400-points-as-hdfc-bank-indusind-other-stocks-jump-up-to-3-after-q1-updates/articleshow/132209268.cms"
   },
   {
     "company": "AU Small Finance Bank Limited",
@@ -3974,7 +3974,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "AU Small Finance Bank Limited announces milestone development in q1 profit deposits expansion.",
-    "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOazVpMjFSMlNpS2hpdS04MFduRnhkamRpNjlablR4ZkNYd0E1SEdybVZtbzZ4OFVLUnpmeGU5SjRZZkRpVktIQ1lCVUF2M1Y5YVo0ZTB1QmhtY2FMQThENzRldHVwRm1iTnlnYW9NQ09NQ19NamFuazZWWW5DcktBT180QmZ0bzBZNDFaUGdfY0Y3MXpWNXBnRmpGa09TblVBYkhwTUFsNFlVVW1iYWlVc0pxbnNKWTEwMGllTjBBNnlRUWhUT3JPQ1Nxd2hjLVFPUnd3c0JGbDlid0c5cnlqN2ZiX3g5UQ?oc=5",
+    "url": "https://upstox.com/news/market-news/stocks/stocks-to-watch-april-6-vedanta-wipro-hdfc-bank-idbi-bank-dabur-avenue-supermarts-senco-gold/article-191653/",
     "whatHappened": "AU Small Finance Bank Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of AU Small Finance Bank Limited.",
@@ -4008,7 +4008,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "AU Small Finance Bank Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi5gFBVV95cUxOazVpMjFSMlNpS2hpdS04MFduRnhkamRpNjlablR4ZkNYd0E1SEdybVZtbzZ4OFVLUnpmeGU5SjRZZkRpVktIQ1lCVUF2M1Y5YVo0ZTB1QmhtY2FMQThENzRldHVwRm1iTnlnYW9NQ09NQ19NamFuazZWWW5DcktBT180QmZ0bzBZNDFaUGdfY0Y3MXpWNXBnRmpGa09TblVBYkhwTUFsNFlVVW1iYWlVc0pxbnNKWTEwMGllTjBBNnlRUWhUT3JPQ1Nxd2hjLVFPUnd3c0JGbDlid0c5cnlqN2ZiX3g5UQ?oc=5"
+    "evidence": "AU Small Finance Bank Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://upstox.com/news/market-news/stocks/stocks-to-watch-april-6-vedanta-wipro-hdfc-bank-idbi-bank-dabur-avenue-supermarts-senco-gold/article-191653/"
   },
   {
     "company": "Macrotech Developers Limited",
@@ -4024,7 +4024,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Macrotech Developers Limited announces milestone development in q1 pre-sales bookings growth.",
-    "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeEFubXI2QmR4UzNTdW41M0E1eHd2dFhxakEwSzdJVEJ0X25OcFBGcnhSVXJOT1NwQmRCZTRCNjZaSG5SUW5VbURmaEpKRW83RTkzZ3dvRktBcVlMekxDRlFLcDBKSEI3MXBRdE9zUmdha1Q3UGFTR1NUb2N4VGpTLTNxT0RoYUFlZGxyTkpqdHZDcVlOTGpLVEZCVmYtNnBPdFdjcEJGWWR0TDBjMWlLbXlsVUFPemtjTDFvMA?oc=5",
+    "url": "https://www.sahi.com/news/macrotech-developers-to-raise-300-crore-through-30-000-ncds-via-private-placement-3868-PE1_COR",
     "whatHappened": "Macrotech Developers Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Macrotech Developers Limited.",
@@ -4058,7 +4058,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Macrotech Developers Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMivAFBVV95cUxPeEFubXI2QmR4UzNTdW41M0E1eHd2dFhxakEwSzdJVEJ0X25OcFBGcnhSVXJOT1NwQmRCZTRCNjZaSG5SUW5VbURmaEpKRW83RTkzZ3dvRktBcVlMekxDRlFLcDBKSEI3MXBRdE9zUmdha1Q3UGFTR1NUb2N4VGpTLTNxT0RoYUFlZGxyTkpqdHZDcVlOTGpLVEZCVmYtNnBPdFdjcEJGWWR0TDBjMWlLbXlsVUFPemtjTDFvMA?oc=5"
+    "evidence": "Macrotech Developers Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.sahi.com/news/macrotech-developers-to-raise-300-crore-through-30-000-ncds-via-private-placement-3868-PE1_COR"
   },
   {
     "company": "Godrej Properties Limited",
@@ -4074,7 +4074,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Godrej Properties Limited announces milestone development in land parcel acquisition gurugram.",
-    "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWjhJTER6MzVkblB2azVsY1FyWFFObGhEOHNnVnBxNGRoT1Y3YVZaVW5aUmc2TzNOU0xISWQ4UmlLVmpDeFdTZU5NWnR3NWZoZTRxUGRHaks0b2tLalF4cDdEX3J1Szd3dzFmN0hCYnVGMzZmUDE2LUloa3Z5OExabXpxdFJYNjRYb1lEQjEzeVhxWjlzendsOFI4a3R4TG1zY0VrWXVqRDhTR2JYWTBuMHFHMExYRHlyQktMcTlsRGo5QTQwN0NROW1qb0k3OG1IYlNIV2R5UHFGd1U2eWxWZTRHR2NzZjk3ODV3?oc=5",
+    "url": "https://scanx.trade/stock-market-news/orders-deals/godrej-properties-acquires-5-acre-land-parcel-in-kolkata-with-inr-1-650-crore-revenue-potential/34129131",
     "whatHappened": "Godrej Properties Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Godrej Properties Limited.",
@@ -4108,7 +4108,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Godrej Properties Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWjhJTER6MzVkblB2azVsY1FyWFFObGhEOHNnVnBxNGRoT1Y3YVZaVW5aUmc2TzNOU0xISWQ4UmlLVmpDeFdTZU5NWnR3NWZoZTRxUGRHaks0b2tLalF4cDdEX3J1Szd3dzFmN0hCYnVGMzZmUDE2LUloa3Z5OExabXpxdFJYNjRYb1lEQjEzeVhxWjlzendsOFI4a3R4TG1zY0VrWXVqRDhTR2JYWTBuMHFHMExYRHlyQktMcTlsRGo5QTQwN0NROW1qb0k3OG1IYlNIV2R5UHFGd1U2eWxWZTRHR2NzZjk3ODV3?oc=5"
+    "evidence": "Godrej Properties Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://scanx.trade/stock-market-news/orders-deals/godrej-properties-acquires-5-acre-land-parcel-in-kolkata-with-inr-1-650-crore-revenue-potential/34129131"
   },
   {
     "company": "Oberoi Realty Limited",
@@ -4124,7 +4124,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Oberoi Realty Limited announces milestone development in luxury residential project launch mumbai.",
-    "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxNd2tId1l1RVUzOFZ5MDM1VjZCTE5fWHdwbTZuLVVOTE0tZ19JRjMzM1BWeWpQVEEwZzhHSjViYXFpcDBmSXcyamlfT0UtWWZzX0h1QU1jQm9kdEl4ZDdEUHpMaE1OQ0xyU2ttNTc1S2xhRTVWdUFlMjFyYnEyVVdBb0toVnZ2VzRGdGpFb3M3bU5idW9aLU5CMDVzajZyYmRrN3hMVjZwTEVTeVRiRFdfb005NHdycl9fazJUdWhudzNzY1hkdHB5VHNJVE1wZG42M0tnNWoxOHNWZlg5OE9LWjJvekRRQkE4ejZjblYyQVpwbjl3NlMyaXRtM3JoRVBNR3A5OFdwVWF6VHFxSjBr0gGUAkFVX3lxTE1TWVdRNWZfZG00MEgwYWUyeTdOTFpuZEhZaGtxTjhKSF91U3ZHUG0yR3VfMlpDVzVmMlhyRjlnZTQ0elFBLVByNTJFN3FmMGtGdGNmRFVYb2hvRldOd3REOElzamVjMFI0VFBNdmQ2cHZpSXB0M2xBcElUdlVia1QxNmN4Z1g5bHlueFNIZk5uc2hJYmJqOU5VSktjSnhrNDlQcUctdEpHalhWWEFmMlhXSnc3OWdDcXpvV2JZc2lMWFJWeEY3dzR1U25xTmdzVnQ5OXN0TFBheFEyblROUjFKclFHOGxPN1dyQ3ppaTRtNmEtWU1sZGVUemVfZ3VRaExOaC1maV9MbHIyeDZ6cHFBUUttOA?oc=5",
+    "url": "https://timesofindia.indiatimes.com/city/gurgaon/mumbai-realty-major-oberoi-makes-delhi-ncr-foray-with-ultra-luxury-gurgaon-project-homes-priced-rs-20-crore/articleshow/132074724.cms",
     "whatHappened": "Oberoi Realty Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Oberoi Realty Limited.",
@@ -4158,7 +4158,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Oberoi Realty Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMijwJBVV95cUxNd2tId1l1RVUzOFZ5MDM1VjZCTE5fWHdwbTZuLVVOTE0tZ19JRjMzM1BWeWpQVEEwZzhHSjViYXFpcDBmSXcyamlfT0UtWWZzX0h1QU1jQm9kdEl4ZDdEUHpMaE1OQ0xyU2ttNTc1S2xhRTVWdUFlMjFyYnEyVVdBb0toVnZ2VzRGdGpFb3M3bU5idW9aLU5CMDVzajZyYmRrN3hMVjZwTEVTeVRiRFdfb005NHdycl9fazJUdWhudzNzY1hkdHB5VHNJVE1wZG42M0tnNWoxOHNWZlg5OE9LWjJvekRRQkE4ejZjblYyQVpwbjl3NlMyaXRtM3JoRVBNR3A5OFdwVWF6VHFxSjBr0gGUAkFVX3lxTE1TWVdRNWZfZG00MEgwYWUyeTdOTFpuZEhZaGtxTjhKSF91U3ZHUG0yR3VfMlpDVzVmMlhyRjlnZTQ0elFBLVByNTJFN3FmMGtGdGNmRFVYb2hvRldOd3REOElzamVjMFI0VFBNdmQ2cHZpSXB0M2xBcElUdlVia1QxNmN4Z1g5bHlueFNIZk5uc2hJYmJqOU5VSktjSnhrNDlQcUctdEpHalhWWEFmMlhXSnc3OWdDcXpvV2JZc2lMWFJWeEY3dzR1U25xTmdzVnQ5OXN0TFBheFEyblROUjFKclFHOGxPN1dyQ3ppaTRtNmEtWU1sZGVUemVfZ3VRaExOaC1maV9MbHIyeDZ6cHFBUUttOA?oc=5"
+    "evidence": "Oberoi Realty Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://timesofindia.indiatimes.com/city/gurgaon/mumbai-realty-major-oberoi-makes-delhi-ncr-foray-with-ultra-luxury-gurgaon-project-homes-priced-rs-20-crore/articleshow/132074724.cms"
   },
   {
     "company": "Prestige Estates Projects Limited",
@@ -4174,7 +4174,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Prestige Estates Projects Limited announces milestone development in q1 sales pre-bookings milestone.",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeTZQNHJWNWZIRWhPZ1FDVEUzeUZ6MEloVVpIRWttQ2s5dlQ4S0RpRXA5aVVvV2FpZGVLeVhQYW5MMzZIeHZqNkhMM194cS1PcjQzYzM2M05feG50WWtRWDBpQ0JHWFZnRXlaRkYtM1VyQXlPYjBIOXpRUUpWZVRNMWJrOFR4eG5KQzBrNWkyZEI0TTdna09hZHhIYVFLbVJLRzd6ZGt0djNjV3Rpck9LRExLbW50R091bFJCaTdYd1VlSzFnM3FReUkxd0VFSThtM2xmNmd3M3JxTVdXMWk40gHkAUFVX3lxTE1KOTBUb1ZpS19BTzRROEVaQ3oyVTAyaDRGZ2NfZVN2dGI1ekhET0x6Z0t1Q29OeVRXY2FzRlJuSGg5THRoUTJ6dUdxWndMdlNvQU9TTjhSY3hEM0JDMnhGb0dpbUczLWU0Z1c3bTBycmJlb1JBOTl3WTFicE5sN1U0bXBkX2c0TDBXajJuWHAwUWxRSUhIa2hRTHdkTDYzci1LdUFpYW5RME8yUTFzdXRpcUZyVy1CdjRJR2ZFakIzdFVyblRSMGtILWluTTl5VDhOZ25OS3RRTTFfN1hNYWRYQjF3ZQ?oc=5",
+    "url": "https://www.hindustantimes.com/real-estate/prestige-estates-to-invest-rs-15-000-cr-this-fiscal-in-housing-commercial-projects-101783253457797.html",
     "whatHappened": "Prestige Estates Projects Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Prestige Estates Projects Limited.",
@@ -4208,7 +4208,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Prestige Estates Projects Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi3wFBVV95cUxOeTZQNHJWNWZIRWhPZ1FDVEUzeUZ6MEloVVpIRWttQ2s5dlQ4S0RpRXA5aVVvV2FpZGVLeVhQYW5MMzZIeHZqNkhMM194cS1PcjQzYzM2M05feG50WWtRWDBpQ0JHWFZnRXlaRkYtM1VyQXlPYjBIOXpRUUpWZVRNMWJrOFR4eG5KQzBrNWkyZEI0TTdna09hZHhIYVFLbVJLRzd6ZGt0djNjV3Rpck9LRExLbW50R091bFJCaTdYd1VlSzFnM3FReUkxd0VFSThtM2xmNmd3M3JxTVdXMWk40gHkAUFVX3lxTE1KOTBUb1ZpS19BTzRROEVaQ3oyVTAyaDRGZ2NfZVN2dGI1ekhET0x6Z0t1Q29OeVRXY2FzRlJuSGg5THRoUTJ6dUdxWndMdlNvQU9TTjhSY3hEM0JDMnhGb0dpbUczLWU0Z1c3bTBycmJlb1JBOTl3WTFicE5sN1U0bXBkX2c0TDBXajJuWHAwUWxRSUhIa2hRTHdkTDYzci1LdUFpYW5RME8yUTFzdXRpcUZyVy1CdjRJR2ZFakIzdFVyblRSMGtILWluTTl5VDhOZ25OS3RRTTFfN1hNYWRYQjF3ZQ?oc=5"
+    "evidence": "Prestige Estates Projects Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.hindustantimes.com/real-estate/prestige-estates-to-invest-rs-15-000-cr-this-fiscal-in-housing-commercial-projects-101783253457797.html"
   },
   {
     "company": "Sobha Limited",
@@ -4224,7 +4224,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Sobha Limited announces milestone development in q1 share shareholding premium apartments.",
-    "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT2pycjFoQjNib1BTRmJ2ZVRGS0FyMUJqZFBLeGVaSHB5WmpVMmJuMUtxdGlUN210VFpCRUdsQVZPR0piQnVEN3VXdzBFRTlmV1k1MWpNT0xfNUZnU0hXaWVSelo1dnBQSTRaSGhjTnhuYzRhWVR1bU1ZOV94bHg5VE5lN203cWlKaVQxakRWTXdEa3hfUkJmNHhJWXc2RG9QYVN5MEVhUDNQTmRWY0VWSC02TnBRZzBHbHowQmtENTZZT1VTYXJuMG5MSnlpbWIwUVltMUtqaThXZlhJdlppcXpBNDBGLW9IbGFjSmhQOFbSAfYBQVVfeXFMT29TWGw1ZFZlNXB2NUdWaHZ0YW91Z1NMRXhfVGVsRHRTWTAzRUh1VnVDT0pPNUtnZXVSeXJXaGFhVVJkU212MzkzRlp5ekVtSWt6M2h2a2tGVmczYmRfVkRFY0g1eHlxOTZfZ1JjTzlBZnZJMnRNUUs0VW5XcGlGQjJBa2oyV0U3cEJ3NFlRak41SGJFbTNBTFVpT0lxZ3M3MnFMRzhLRDVFT3BIOWV1YnNrRjF6Yl9kT3dZUkFoTTJXdEZEWmhrYkRQanIyM3k1Nlgzd1NKYUNtbnNlR1A4cWZFYW4yN1RhTGw1QmlCMnNiNHNaUzNB?oc=5",
+    "url": "https://simplywall.st/stocks/in/real-estate-management-and-development/nse-sobha/sobha-shares/news/should-you-buy-sobha-limited-nsesobha-for-its-upcoming-divid",
     "whatHappened": "Sobha Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Sobha Limited.",
@@ -4258,7 +4258,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Sobha Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi8AFBVV95cUxQT2pycjFoQjNib1BTRmJ2ZVRGS0FyMUJqZFBLeGVaSHB5WmpVMmJuMUtxdGlUN210VFpCRUdsQVZPR0piQnVEN3VXdzBFRTlmV1k1MWpNT0xfNUZnU0hXaWVSelo1dnBQSTRaSGhjTnhuYzRhWVR1bU1ZOV94bHg5VE5lN203cWlKaVQxakRWTXdEa3hfUkJmNHhJWXc2RG9QYVN5MEVhUDNQTmRWY0VWSC02TnBRZzBHbHowQmtENTZZT1VTYXJuMG5MSnlpbWIwUVltMUtqaThXZlhJdlppcXpBNDBGLW9IbGFjSmhQOFbSAfYBQVVfeXFMT29TWGw1ZFZlNXB2NUdWaHZ0YW91Z1NMRXhfVGVsRHRTWTAzRUh1VnVDT0pPNUtnZXVSeXJXaGFhVVJkU212MzkzRlp5ekVtSWt6M2h2a2tGVmczYmRfVkRFY0g1eHlxOTZfZ1JjTzlBZnZJMnRNUUs0VW5XcGlGQjJBa2oyV0U3cEJ3NFlRak41SGJFbTNBTFVpT0lxZ3M3MnFMRzhLRDVFT3BIOWV1YnNrRjF6Yl9kT3dZUkFoTTJXdEZEWmhrYkRQanIyM3k1Nlgzd1NKYUNtbnNlR1A4cWZFYW4yN1RhTGw1QmlCMnNiNHNaUzNB?oc=5"
+    "evidence": "Sobha Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://simplywall.st/stocks/in/real-estate-management-and-development/nse-sobha/sobha-shares/news/should-you-buy-sobha-limited-nsesobha-for-its-upcoming-divid"
   },
   {
     "company": "Signature Global (India) Limited",
@@ -4274,7 +4274,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Signature Global (India) Limited announces milestone development in luxury housing sales gurugram.",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcFFKcTVuMDlrUC1lUFRTWEVSZ3pCZ3pNbWE5QTU4anhieWlGbGVKUWZWR05Felk0YUd6Zm1rSEhjM1JvMVVnS1NqM1FMODRURXM3RUxXYm9WRndlUlB4NnhKY0Zfd24zSGN1MmJuOEwzbVJyZTRIdTBJZnl3Qjg3LWZDMzFna3I3ZU15bXJRdE94dU9IZFE2M3VvRVlDbTJxbDloanZjZmpXV1h6SVhuSTF3?oc=5",
+    "url": "https://www.linkedin.com/posts/cnbc-tv18_indias-housing-market-slows-prices-up-activity-7427713891025076226-ghfH",
     "whatHappened": "Signature Global (India) Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Signature Global (India) Limited.",
@@ -4308,7 +4308,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Signature Global (India) Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxNcFFKcTVuMDlrUC1lUFRTWEVSZ3pCZ3pNbWE5QTU4anhieWlGbGVKUWZWR05Felk0YUd6Zm1rSEhjM1JvMVVnS1NqM1FMODRURXM3RUxXYm9WRndlUlB4NnhKY0Zfd24zSGN1MmJuOEwzbVJyZTRIdTBJZnl3Qjg3LWZDMzFna3I3ZU15bXJRdE94dU9IZFE2M3VvRVlDbTJxbDloanZjZmpXV1h6SVhuSTF3?oc=5"
+    "evidence": "Signature Global (India) Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.linkedin.com/posts/cnbc-tv18_indias-housing-market-slows-prices-up-activity-7427713891025076226-ghfH"
   },
   {
     "company": "The Indian Hotels Company Limited",
@@ -4324,7 +4324,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "The Indian Hotels Company Limited announces milestone development in ginger hotels portfolio expansion.",
-    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaFhYUUU2cF9Hb1o3WTdhVkU0aTVSeU5INTRCaXFVZWo5amQ1ZFlGQjNFVWd4NzJJSkREZGtkUno0dkszYWRWdWU5bFkyQnBHc0szcFFRSTJOUEoxOHlMTjFHYUhIaEtKanpyLVRZTWdfa2R3Uzc3QnRTcmdvSmJURWJKZExFQlJaUDRhZkNSMEFiemJhSktqMmZVUy11Nmo2Y2lxUTljUQ?oc=5",
+    "url": "https://indianretailer.com/franchisetv/archives/news/ihcl-expands-ginger-portfolio-15-hotels-maharashtra",
     "whatHappened": "The Indian Hotels Company Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of The Indian Hotels Company Limited.",
@@ -4358,7 +4358,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "The Indian Hotels Company Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMipwFBVV95cUxPaFhYUUU2cF9Hb1o3WTdhVkU0aTVSeU5INTRCaXFVZWo5amQ1ZFlGQjNFVWd4NzJJSkREZGtkUno0dkszYWRWdWU5bFkyQnBHc0szcFFRSTJOUEoxOHlMTjFHYUhIaEtKanpyLVRZTWdfa2R3Uzc3QnRTcmdvSmJURWJKZExFQlJaUDRhZkNSMEFiemJhSktqMmZVUy11Nmo2Y2lxUTljUQ?oc=5"
+    "evidence": "The Indian Hotels Company Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://indianretailer.com/franchisetv/archives/news/ihcl-expands-ginger-portfolio-15-hotels-maharashtra"
   },
   {
     "company": "Devyani International Limited",
@@ -4374,7 +4374,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Devyani International Limited announces milestone development in kfc pizza hut store additions.",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMVlFUElKeF9WNEg5LTBOU2pIb1g3ekpncXNMWXhSUFV1MUhPTDZJbi1WTW5ibmZaWFUxUUVPbkUxdTRGbWNuSEcwM25XTjM0OERtZlI5ekduZmJnZ21rbWJ0WXk4azV2cmRMY0VSWmxOR1AzRFk0aVFhNFZnLWVmT3VmS1NLQU9zMWpuenp0NXJ5M05LeDhfS3JQMnA5X29MMlRscU1tMVpFOEtQRjk4eFp6STJlVTF5R2ZPdDJZRklTZXoya05hVUxKc9IB0AFBVV95cUxQU3lnMnoycnBneFlmMTBJX0RaRUdLVkdOQTROQW1xWkotbm9wU3VFLWltZWNQOFpQWEJsNUVYSkNnNWw1Q1ZDbmZGS3lhNFY1WnlmcHZFV3NzalNpbzd0SlluTmpEdzN0OGhEMm9oTWdKeTVRYkNfRGZHUXpXa01BZVl0dlNIOHVIMzhSSmxFWC1fY1RtNFBndHc5NlZJb0YxSTBZeXp4cks1ZHY4bjIwVTVfSVR1cW9VQ1p6cmdmeXp6OERsYVRzUXVQMXRvVnRy?oc=5",
+    "url": "https://www.storyboard18.com/brand-marketing/devyani-international-loss-widens-despite-strong-kfc-led-revenue-growth-ws-l-98243.htm",
     "whatHappened": "Devyani International Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Devyani International Limited.",
@@ -4408,7 +4408,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Devyani International Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiywFBVV95cUxPMVlFUElKeF9WNEg5LTBOU2pIb1g3ekpncXNMWXhSUFV1MUhPTDZJbi1WTW5ibmZaWFUxUUVPbkUxdTRGbWNuSEcwM25XTjM0OERtZlI5ekduZmJnZ21rbWJ0WXk4azV2cmRMY0VSWmxOR1AzRFk0aVFhNFZnLWVmT3VmS1NLQU9zMWpuenp0NXJ5M05LeDhfS3JQMnA5X29MMlRscU1tMVpFOEtQRjk4eFp6STJlVTF5R2ZPdDJZRklTZXoya05hVUxKc9IB0AFBVV95cUxQU3lnMnoycnBneFlmMTBJX0RaRUdLVkdOQTROQW1xWkotbm9wU3VFLWltZWNQOFpQWEJsNUVYSkNnNWw1Q1ZDbmZGS3lhNFY1WnlmcHZFV3NzalNpbzd0SlluTmpEdzN0OGhEMm9oTWdKeTVRYkNfRGZHUXpXa01BZVl0dlNIOHVIMzhSSmxFWC1fY1RtNFBndHc5NlZJb0YxSTBZeXp4cks1ZHY4bjIwVTVfSVR1cW9VQ1p6cmdmeXp6OERsYVRzUXVQMXRvVnRy?oc=5"
+    "evidence": "Devyani International Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.storyboard18.com/brand-marketing/devyani-international-loss-widens-despite-strong-kfc-led-revenue-growth-ws-l-98243.htm"
   },
   {
     "company": "Sapphire Foods India Limited",
@@ -4424,7 +4424,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Sapphire Foods India Limited announces milestone development in q1 sales restaurant operating margin.",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMk5hRUYyaDJ3SEhkVWFsWXNqTkx1a21QQVdCbkdia0x4N0ZlUXloa0paTUtxLXBLTktTc0JKV0NpVU9TTlc5aEZpZU9VQW1xalNNQnN3N0g5aVlmSDZOcGxVdnU1clhwU3hjQV83allObUkzc1BjZ3JMUV82VksxdktpQy15cmVSNGNEU3BpbTFacTRYdzZIZnNHS3lxcVRCMnYtT0VxS1d4Sm4tMGhLMm9uUFU5bGxoMUJlTmpLYmxEZUN5WHJlLTBzN05IckkySGstNjJLOHdVaGJIdE5uMW9Fa9IB6AFBVV95cUxNM1dnZjNyVk4yVkNWME1KV0tKd0Y3RGgxd3NwNzdrc2NzUEtLZ09IZFZqX2xnM1pLcWNOOHIyQm9LZnZwTDFMTVV5M0piUmFiMzFvOFd3dnRUMTFyQVZSYzdWa1hiVF9EbmdGanlGbG50NG02Q1BfVDBTNUszQTNUTTVyMjBhZDdOZ1RlTVV6RXlEUFQteERNaDdjQXBQWTVXcGtJbXdmOFRMTHN6WWhqbExpbFFaMU9UYWhadXBCTzRiM1lHQ0pnYXdnY2NPOGtwcVFOcG9OWDJMQ2ZiM3BzMlBfWm5tRmZZ?oc=5",
+    "url": "https://www.storyboard18.com/brand-marketing/kfc-india-operator-sapphire-foods-consolidated-profit-plunges-by-67-8-to-rs-16-7-crore-in-fy25-64874.htm",
     "whatHappened": "Sapphire Foods India Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Sapphire Foods India Limited.",
@@ -4458,7 +4458,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Sapphire Foods India Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi4wFBVV95cUxNMk5hRUYyaDJ3SEhkVWFsWXNqTkx1a21QQVdCbkdia0x4N0ZlUXloa0paTUtxLXBLTktTc0JKV0NpVU9TTlc5aEZpZU9VQW1xalNNQnN3N0g5aVlmSDZOcGxVdnU1clhwU3hjQV83allObUkzc1BjZ3JMUV82VksxdktpQy15cmVSNGNEU3BpbTFacTRYdzZIZnNHS3lxcVRCMnYtT0VxS1d4Sm4tMGhLMm9uUFU5bGxoMUJlTmpLYmxEZUN5WHJlLTBzN05IckkySGstNjJLOHdVaGJIdE5uMW9Fa9IB6AFBVV95cUxNM1dnZjNyVk4yVkNWME1KV0tKd0Y3RGgxd3NwNzdrc2NzUEtLZ09IZFZqX2xnM1pLcWNOOHIyQm9LZnZwTDFMTVV5M0piUmFiMzFvOFd3dnRUMTFyQVZSYzdWa1hiVF9EbmdGanlGbG50NG02Q1BfVDBTNUszQTNUTTVyMjBhZDdOZ1RlTVV6RXlEUFQteERNaDdjQXBQWTVXcGtJbXdmOFRMTHN6WWhqbExpbFFaMU9UYWhadXBCTzRiM1lHQ0pnYXdnY2NPOGtwcVFOcG9OWDJMQ2ZiM3BzMlBfWm5tRmZZ?oc=5"
+    "evidence": "Sapphire Foods India Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.storyboard18.com/brand-marketing/kfc-india-operator-sapphire-foods-consolidated-profit-plunges-by-67-8-to-rs-16-7-crore-in-fy25-64874.htm"
   },
   {
     "company": "Westlife Foodworld Limited",
@@ -4474,7 +4474,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Westlife Foodworld Limited announces milestone development in mcdonalds store network expansion.",
-    "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNQVZQT240UFlIQVA2emoyaldabUdoblgwd2xDQ2JWT3ctckYtcmZPREdIY2p4VFdwOUpNMHpmOTAwRmpKM2VMdlBZX3pwUFdabTU1R2ppVEN2NFkzOXlEWk93ZlloZG1zQllfbm8zcl9YaldMdEh3dGpmUlVDMGtvN25vd0IzUDJaS2NlaGV6Y1Ezc2VwQVdEUExkQUZYUQ?oc=5",
+    "url": "https://www.indianretailer.com/news/retail-india-news-mcdonalds-india-marks-50th-mccafe-milestone",
     "whatHappened": "Westlife Foodworld Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Westlife Foodworld Limited.",
@@ -4508,7 +4508,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Westlife Foodworld Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMingFBVV95cUxNQVZQT240UFlIQVA2emoyaldabUdoblgwd2xDQ2JWT3ctckYtcmZPREdIY2p4VFdwOUpNMHpmOTAwRmpKM2VMdlBZX3pwUFdabTU1R2ppVEN2NFkzOXlEWk93ZlloZG1zQllfbm8zcl9YaldMdEh3dGpmUlVDMGtvN25vd0IzUDJaS2NlaGV6Y1Ezc2VwQVdEUExkQUZYUQ?oc=5"
+    "evidence": "Westlife Foodworld Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.indianretailer.com/news/retail-india-news-mcdonalds-india-marks-50th-mccafe-milestone"
   },
   {
     "company": "Jubilant FoodWorks Limited",
@@ -4524,7 +4524,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Jubilant FoodWorks Limited announces milestone development in dominos delivery speed network.",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdW9ZRnFnNEpNRk5FVl9XeEV2dUJONFpXMTBpaGRZcHdwLWVOazZpOG0zdWhVR2toX2lqWmEteXlZaGJJTC1GQlZ1ZHdxd0dURG5mS0R6Z3JiUnRaWTNXQlNkOGpjVDBIb01IUDZNRm1zUWtwS295aTZ6NFZMRk9oVkczQlQtRXAzWG9qd1R2b1FsZ0V3bkVlRFJ2Y2xyYjNoME03bm5fYmZtWTBuUkdjaW9rdGtSbDc4SUphNTVjVnRkYWU1X2pvVldMbWdiUC1ab3VKeEtPZTRzRVVIT1FKemF2RG01U3p0am1iMmJPN09NaHdPeTBUNnd0QWc?oc=5",
+    "url": "https://m.economictimes.com/markets/stocks/news/volume-shocker-mfs-add-1-crore-shares-of-6-stocks-in-may-stocks-gain-up-to-25/jubilant-foodworks/slideshow/131792490.cms",
     "whatHappened": "Jubilant FoodWorks Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Jubilant FoodWorks Limited.",
@@ -4558,7 +4558,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Jubilant FoodWorks Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi_AFBVV95cUxQdW9ZRnFnNEpNRk5FVl9XeEV2dUJONFpXMTBpaGRZcHdwLWVOazZpOG0zdWhVR2toX2lqWmEteXlZaGJJTC1GQlZ1ZHdxd0dURG5mS0R6Z3JiUnRaWTNXQlNkOGpjVDBIb01IUDZNRm1zUWtwS295aTZ6NFZMRk9oVkczQlQtRXAzWG9qd1R2b1FsZ0V3bkVlRFJ2Y2xyYjNoME03bm5fYmZtWTBuUkdjaW9rdGtSbDc4SUphNTVjVnRkYWU1X2pvVldMbWdiUC1ab3VKeEtPZTRzRVVIT1FKemF2RG01U3p0am1iMmJPN09NaHdPeTBUNnd0QWc?oc=5"
+    "evidence": "Jubilant FoodWorks Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://m.economictimes.com/markets/stocks/news/volume-shocker-mfs-add-1-crore-shares-of-6-stocks-in-may-stocks-gain-up-to-25/jubilant-foodworks/slideshow/131792490.cms"
   },
   {
     "company": "Britannia Industries Limited",
@@ -4574,7 +4574,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Britannia Industries Limited announces milestone development in rural market volume recovery.",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYm5ZeUxHV0RNLVZHNmVTb21zNjlCR2lfVkY1SkZYcmNFYmF3WWNKT2JSV1ZqckxQYk1tZW1DMk9iV05nYjRBSmh5X0tZM2lkYWw5amN2V3dUNExXTkdNVmpSMS05SUVZU29vUXNFNmlCNjJTOWxnQndRMDNHWEJjS2tfOHV6Y240YnRhSmVrbTdybnJWbGVnYWxoRkZRSGtXZDR6ckZWZ1RkLXBHSnZLczhn?oc=5",
+    "url": "https://www.sahi.com/news/britannia-vp-resigns-as-fmcg-giant-targets-19-000-crore-revenue-by-fy2026-50-PE1_CORPO",
     "whatHappened": "Britannia Industries Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Britannia Industries Limited.",
@@ -4608,7 +4608,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Britannia Industries Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMisgFBVV95cUxNYm5ZeUxHV0RNLVZHNmVTb21zNjlCR2lfVkY1SkZYcmNFYmF3WWNKT2JSV1ZqckxQYk1tZW1DMk9iV05nYjRBSmh5X0tZM2lkYWw5amN2V3dUNExXTkdNVmpSMS05SUVZU29vUXNFNmlCNjJTOWxnQndRMDNHWEJjS2tfOHV6Y240YnRhSmVrbTdybnJWbGVnYWxoRkZRSGtXZDR6ckZWZ1RkLXBHSnZLczhn?oc=5"
+    "evidence": "Britannia Industries Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.sahi.com/news/britannia-vp-resigns-as-fmcg-giant-targets-19-000-crore-revenue-by-fy2026-50-PE1_CORPO"
   },
   {
     "company": "Nestle India Limited",
@@ -4624,7 +4624,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Nestle India Limited announces milestone development in packaged foods capacity expansion.",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS1R5a0ZzNlhveFM1U1RvbDN1RWgyVXFLc0dPSWFPYklJRjlqbks3ejJzekxoSFRsZFpPYVNFYklybk1EOEZmM0MxeFNjelpFTkZXMWJTWTNMVWNvUUYyaU8xU1VFLXdvSndJLXEtRlRBOTBFZ05vU3JESWt4U3JiaEhoZGJxLXl6YTdFbERKVzJHdGM?oc=5",
+    "url": "https://sg.finance.yahoo.com/news/mitsoh-secures-additional-growth-capital-130500337.html",
     "whatHappened": "Nestle India Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Nestle India Limited.",
@@ -4658,7 +4658,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Nestle India Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMikwFBVV95cUxNS1R5a0ZzNlhveFM1U1RvbDN1RWgyVXFLc0dPSWFPYklJRjlqbks3ejJzekxoSFRsZFpPYVNFYklybk1EOEZmM0MxeFNjelpFTkZXMWJTWTNMVWNvUUYyaU8xU1VFLXdvSndJLXEtRlRBOTBFZ05vU3JESWt4U3JiaEhoZGJxLXl6YTdFbERKVzJHdGM?oc=5"
+    "evidence": "Nestle India Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://sg.finance.yahoo.com/news/mitsoh-secures-additional-growth-capital-130500337.html"
   },
   {
     "company": "Dabur India Limited",
@@ -4674,7 +4674,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Dabur India Limited announces milestone development in q1 sales herbal healthcare.",
-    "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNYUlveXhiR2NNZ0J5eUx3QTJpWmF6a2pJTm5Xb2VmTkdHU3NjcnJMZkFLSElKVHU5VVZFeUJKTTZDb2RCMkRaMEJGbi1GeHA5bF9KTWpVWnE5b0k3SWt2Z3RJMXVGUjk4Yk5KZ2tqWW9oLUZyN3E3VUZXd2VtaFZ0UGEyREc1Sk5PZG9nOUNtLW4zMU9Rb3RFY2dTTUZOWXdPRVhfenBhR0xOVkUtemFrRnFncGw3UTJDQy1objhKNk84bXU2dlE?oc=5",
+    "url": "https://www.indianretailer.com/news/retail-india-news-dabur-india-aims-achieve-rs-7000-cr-hpc-and-rs-5000-cr-healthcare-segment",
     "whatHappened": "Dabur India Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Dabur India Limited.",
@@ -4708,7 +4708,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Dabur India Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMixgFBVV95cUxNYUlveXhiR2NNZ0J5eUx3QTJpWmF6a2pJTm5Xb2VmTkdHU3NjcnJMZkFLSElKVHU5VVZFeUJKTTZDb2RCMkRaMEJGbi1GeHA5bF9KTWpVWnE5b0k3SWt2Z3RJMXVGUjk4Yk5KZ2tqWW9oLUZyN3E3VUZXd2VtaFZ0UGEyREc1Sk5PZG9nOUNtLW4zMU9Rb3RFY2dTTUZOWXdPRVhfenBhR0xOVkUtemFrRnFncGw3UTJDQy1objhKNk84bXU2dlE?oc=5"
+    "evidence": "Dabur India Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.indianretailer.com/news/retail-india-news-dabur-india-aims-achieve-rs-7000-cr-hpc-and-rs-5000-cr-healthcare-segment"
   },
   {
     "company": "Marico Limited",
@@ -4724,7 +4724,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Marico Limited announces milestone development in saffola coconut oil margins.",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcTh2VUJEV0IxY1BOR0RLelZHYUNMYm16dXdqUm4yblhKNlJkWlQ0eHhIUWUzM3M2RDJNd3VFcXZZRUVUSnFZaDk4SzMzVWZieHNvT0JSSWo1QjM4S3Z6c2FwY1U2ZGZvdnhRMEpGcjZmVFZfenBVLVVnOTZjeTdWQ09iYXp6OTRWeVM4XzZRSmk2UUN1Zk1idkx6NjRzUW5KUXdoTFpZSXZSLWp2S292bjJvdnhFTW9PT0E?oc=5",
+    "url": "https://www.indianretailer.com/news/retail-india-news-marico-targets-double-digit-growth-aims-rs-20000-cr-revenue-2030",
     "whatHappened": "Marico Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Marico Limited.",
@@ -4758,7 +4758,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Marico Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiugFBVV95cUxOcTh2VUJEV0IxY1BOR0RLelZHYUNMYm16dXdqUm4yblhKNlJkWlQ0eHhIUWUzM3M2RDJNd3VFcXZZRUVUSnFZaDk4SzMzVWZieHNvT0JSSWo1QjM4S3Z6c2FwY1U2ZGZvdnhRMEpGcjZmVFZfenBVLVVnOTZjeTdWQ09iYXp6OTRWeVM4XzZRSmk2UUN1Zk1idkx6NjRzUW5KUXdoTFpZSXZSLWp2S292bjJvdnhFTW9PT0E?oc=5"
+    "evidence": "Marico Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.indianretailer.com/news/retail-india-news-marico-targets-double-digit-growth-aims-rs-20000-cr-revenue-2030"
   },
   {
     "company": "Godrej Consumer Products Limited",
@@ -4774,7 +4774,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Godrej Consumer Products Limited announces milestone development in indonesia home care business expansion.",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNng1bkJhZHJFYUNTU3F1VjBxT2pxY0E4QUNVbkJGQW1HeVZjd2NJcDM2WXI3QXV1eXJlalBpNWJsNTF6SWE3cERLcW5rYW9GRDVwMmktZ09abnhJVkRMVldLRmhsT2xIZzFpS19mVl9WOWRHV2JvLTJmWm9KZjBXcjdIMTZodEpYWUJPM1otUXlzTy02WEI4UUlPRzJOS09YUGhiUGFubkx1QU9wLVU0WmtKc2ZXNzl0N19EbWhWYm41dGhWX21Da3g1RDlSc2R3aVFKUg?oc=5",
+    "url": "https://indianretailer.com/news/p-g-and-shopee-inspires-home-shopping-with-show-me-my-home-experiential-microsite-in-southeast-asia.n10049",
     "whatHappened": "Godrej Consumer Products Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Godrej Consumer Products Limited.",
@@ -4808,7 +4808,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Godrej Consumer Products Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNng1bkJhZHJFYUNTU3F1VjBxT2pxY0E4QUNVbkJGQW1HeVZjd2NJcDM2WXI3QXV1eXJlalBpNWJsNTF6SWE3cERLcW5rYW9GRDVwMmktZ09abnhJVkRMVldLRmhsT2xIZzFpS19mVl9WOWRHV2JvLTJmWm9KZjBXcjdIMTZodEpYWUJPM1otUXlzTy02WEI4UUlPRzJOS09YUGhiUGFubkx1QU9wLVU0WmtKc2ZXNzl0N19EbWhWYm41dGhWX21Da3g1RDlSc2R3aVFKUg?oc=5"
+    "evidence": "Godrej Consumer Products Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://indianretailer.com/news/p-g-and-shopee-inspires-home-shopping-with-show-me-my-home-experiential-microsite-in-southeast-asia.n10049"
   },
   {
     "company": "Colgate-Palmolive (India) Limited",
@@ -4824,7 +4824,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Colgate-Palmolive (India) Limited announces milestone development in oral care product premiumization.",
-    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVHNOYWlYVnNjbXNfV1RxTnBjVllIbW10cHI3cVRobFpkazJlQmJVZmNNN1ZIb2JRbnpuZEhha0tHNTBRY1NtSzJfbHpUYlR0RElKNm1ETzY5REF4LTZoY2JkNDg1TnVPUkJ5NTZkYmVHS2FtVWtqRkI3SERkVU5zeWEyRDdHWVZfR1RPWWtiSjBjUVZTeU55Z1k2MG1PZ05wVG15VEhvbWZuUDVhREdpQw?oc=5",
+    "url": "https://scanx.trade/stock-market-news/companies/colgate-palmolive-india-schedules-85th-agm-for-july-29/44866836",
     "whatHappened": "Colgate-Palmolive (India) Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Colgate-Palmolive (India) Limited.",
@@ -4858,7 +4858,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Colgate-Palmolive (India) Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMisAFBVV95cUxOVHNOYWlYVnNjbXNfV1RxTnBjVllIbW10cHI3cVRobFpkazJlQmJVZmNNN1ZIb2JRbnpuZEhha0tHNTBRY1NtSzJfbHpUYlR0RElKNm1ETzY5REF4LTZoY2JkNDg1TnVPUkJ5NTZkYmVHS2FtVWtqRkI3SERkVU5zeWEyRDdHWVZfR1RPWWtiSjBjUVZTeU55Z1k2MG1PZ05wVG15VEhvbWZuUDVhREdpQw?oc=5"
+    "evidence": "Colgate-Palmolive (India) Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://scanx.trade/stock-market-news/companies/colgate-palmolive-india-schedules-85th-agm-for-july-29/44866836"
   },
   {
     "company": "Procter & Gamble Hygiene and Health Care Limited",
@@ -4874,7 +4874,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Procter & Gamble Hygiene and Health Care Limited announces milestone development in q1 net profit margin expansion.",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0J6VUc3bWlIeG9NTFlwaGJMMGx2OGx6TldRUFl1ejg5WUhNbjVhbWl0ZHdjeWVHZ0pWLU9oRS1rWDJNT2hqM0FMSnpfdm03UGxPM0IwZGhtNDdQSGRfaGdtbEd2aXc2YUc2M1ZZSW1JeW0xZWFpdGVtQ1M0V3VkR3JKS0xkV3dfUGc5NGZUcGhQcEhVRVdvYlJWbw?oc=5",
+    "url": "https://www.indianretailer.com/news/retail-india-news-pg-hygiene-reports-2-pc-decline-q4-profit",
     "whatHappened": "Procter & Gamble Hygiene and Health Care Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Procter & Gamble Hygiene and Health Care Limited.",
@@ -4908,7 +4908,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Procter & Gamble Hygiene and Health Care Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMimwFBVV95cUxNc0J6VUc3bWlIeG9NTFlwaGJMMGx2OGx6TldRUFl1ejg5WUhNbjVhbWl0ZHdjeWVHZ0pWLU9oRS1rWDJNT2hqM0FMSnpfdm03UGxPM0IwZGhtNDdQSGRfaGdtbEd2aXc2YUc2M1ZZSW1JeW0xZWFpdGVtQ1M0V3VkR3JKS0xkV3dfUGc5NGZUcGhQcEhVRVdvYlJWbw?oc=5"
+    "evidence": "Procter & Gamble Hygiene and Health Care Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.indianretailer.com/news/retail-india-news-pg-hygiene-reports-2-pc-decline-q4-profit"
   },
   {
     "company": "Emami Limited",
@@ -4924,7 +4924,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Emami Limited announces milestone development in koream male grooming portfolio.",
-    "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1ZFQkRrZGd0Y3hZalA2SG03VGFpbGl1QW1qbkRNdHB0a0ZoaktHZGFfQlJ4RlZ6RVRrZ2RQQUswU1lxT1dyajNtV1pTS1EwbmN0RUk4NEo3U2NsbXJySnF5MURUQ3gzTTROZk5VSm1sZDlwZ1FXM1hYM1JZcFA3VmhrN0dFNDJaTV90cjZDOXhadG9lY00yMXZYTkFjYm9DbHZpS0tpYmxhR1QwQ2ZfTlVuMDIwY1docjhz0gG7AUFVX3lxTFBLVkVCRGtkZ3RjeFlqUDZIbTdUYWlsaXVBbWpuRE10cHRrRmhqS0dkYV9CUnhGVnpFVGtnZFBBSzBTWXFPV3JqM21XWlNLUTBuY3RFSTg0SjdTY2xtcnJKcXkxRFRDeDNNNE5mTlVKbWxkOXBnUVczWFgzUllwUDdWaGs3R0U0MlpNX3RyNkM5eFp0b2VjTTIxdlhOQWNib0NsdmlLS2libGFHVDBDZl9OVW4wMjBjV2hyOHM?oc=5",
+    "url": "https://entrackr.com/fintrackr/emami-owned-the-man-companys-losses-widen-49-in-fy26-amid-modest-revenue-growth-12129308",
     "whatHappened": "Emami Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Emami Limited.",
@@ -4958,7 +4958,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Emami Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiuwFBVV95cUxQS1ZFQkRrZGd0Y3hZalA2SG03VGFpbGl1QW1qbkRNdHB0a0ZoaktHZGFfQlJ4RlZ6RVRrZ2RQQUswU1lxT1dyajNtV1pTS1EwbmN0RUk4NEo3U2NsbXJySnF5MURUQ3gzTTROZk5VSm1sZDlwZ1FXM1hYM1JZcFA3VmhrN0dFNDJaTV90cjZDOXhadG9lY00yMXZYTkFjYm9DbHZpS0tpYmxhR1QwQ2ZfTlVuMDIwY1docjhz0gG7AUFVX3lxTFBLVkVCRGtkZ3RjeFlqUDZIbTdUYWlsaXVBbWpuRE10cHRrRmhqS0dkYV9CUnhGVnpFVGtnZFBBSzBTWXFPV3JqM21XWlNLUTBuY3RFSTg0SjdTY2xtcnJKcXkxRFRDeDNNNE5mTlVKbWxkOXBnUVczWFgzUllwUDdWaGs3R0U0MlpNX3RyNkM5eFp0b2VjTTIxdlhOQWNib0NsdmlLS2libGFHVDBDZl9OVW4wMjBjV2hyOHM?oc=5"
+    "evidence": "Emami Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://entrackr.com/fintrackr/emami-owned-the-man-companys-losses-widen-49-in-fy26-amid-modest-revenue-growth-12129308"
   },
   {
     "company": "Jyothy Labs Limited",
@@ -4974,7 +4974,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Jyothy Labs Limited announces milestone development in fabric care volume growth.",
-    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNWc2TlA2cWNaUmpxX09RNDFTdndfVGZIdDhkdUR5UUl5NHpET0VQbWlndklhdzNfcEZxT1R3cno4M05UMGlRZHlTa2piSWlHOVl0RUgzNDZpTE93cE9HRjhxZmN2M1lWOHZSblBtM1g0NDVla0IxR1JRR0FCOEdqLUNOVU43Z2hGY0Z0LTBHVkJyNlEzeWV3VzhNTENWZkdv?oc=5",
+    "url": "https://www.tradingview.com/symbols/BSE-JYOTHYLAB/financials-statistics-and-ratios/price-sales-fwd/",
     "whatHappened": "Jyothy Labs Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Jyothy Labs Limited.",
@@ -5008,7 +5008,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Jyothy Labs Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMioAFBVV95cUxPNWc2TlA2cWNaUmpxX09RNDFTdndfVGZIdDhkdUR5UUl5NHpET0VQbWlndklhdzNfcEZxT1R3cno4M05UMGlRZHlTa2piSWlHOVl0RUgzNDZpTE93cE9HRjhxZmN2M1lWOHZSblBtM1g0NDVla0IxR1JRR0FCOEdqLUNOVU43Z2hGY0Z0LTBHVkJyNlEzeWV3VzhNTENWZkdv?oc=5"
+    "evidence": "Jyothy Labs Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.tradingview.com/symbols/BSE-JYOTHYLAB/financials-statistics-and-ratios/price-sales-fwd/"
   },
   {
     "company": "Tata Communications Limited",
@@ -5024,7 +5024,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Tata Communications Limited announces milestone development in global cloud enterprise contract.",
-    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPXzZNWkFQU2ZQRE04dFQ5c1duWlRrWmRodC1EY0hkT2g4OWc3aTE1LThjX3RhWWMzcWpQTGJqdDVYWDNBQzdONFJ3OFhkR09WZkpHV1AxU1JtcW1UTTA5NVpXQ04tcVlLMjc5TEJaSnZuVEJNT3lBVjdNbnlDVUx1Q1Z0cHpIMG1Rby1US1BmQWhQS2xlXzhhdmlPQmhkTnlnWHFYR09mLTB6cDd2Ni1ob2xpcHJuUQ?oc=5",
+    "url": "https://www.computerweekly.com/news/366645265/Tata-Communications-strengthens-India-Singapore-connectivity-corridor",
     "whatHappened": "Tata Communications Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Tata Communications Limited.",
@@ -5058,7 +5058,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Tata Communications Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMitgFBVV95cUxPXzZNWkFQU2ZQRE04dFQ5c1duWlRrWmRodC1EY0hkT2g4OWc3aTE1LThjX3RhWWMzcWpQTGJqdDVYWDNBQzdONFJ3OFhkR09WZkpHV1AxU1JtcW1UTTA5NVpXQ04tcVlLMjc5TEJaSnZuVEJNT3lBVjdNbnlDVUx1Q1Z0cHpIMG1Rby1US1BmQWhQS2xlXzhhdmlPQmhkTnlnWHFYR09mLTB6cDd2Ni1ob2xpcHJuUQ?oc=5"
+    "evidence": "Tata Communications Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.computerweekly.com/news/366645265/Tata-Communications-strengthens-India-Singapore-connectivity-corridor"
   },
   {
     "company": "Vodafone Idea Limited",
@@ -5074,7 +5074,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Vodafone Idea Limited announces milestone development in debt restructuring equity infusion.",
-    "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZmNKeXhMZ2dkT1RKcFRPeEx6Rlc2RjR5LUZfVDdqMEowV1Bsc3psVUJ1YmlQWUVCckIyNFFlNUg4LU1VT2h6OE1UTkY5X2w5MURyNmdta2xmRWV1cUQyTUFEN3gxQVAyQXJKMlZIZFdTWU56a1FCSVZpMnRfSENyNUFsUHFVZlltM3YyVjlpbGtLX1dfaXRHWVgwczJBZmV5ZGdXMGNBU254VzQ2d3k0YW5wajF0dUQ4XzVHMVdLYmpsOUlMUkpzZkdn0gHPAUFVX3lxTE5UZGcxc2JGdzMxZDNkY0hHT2Zpc0VQaFktajM5UkwzMlhsYnRnSDJOeENwWGROcGhTVFZROVB4TGMwSm9fSWd5T01sdG1uT0lsUTNFWGc3U1RNTkRKamdMN3UwUDFlOS1fQTBCcUxKREhxUzkyb0dGQzlGWmxXYS03Y3pIWExwZzJGemY3RlI3WXJYbGlfTFhQRUhCVy0wLVI4Ml9KVncxaG5TdjN4NWhyS2dtV0NEcHNIelFhc0NTQ1VsZ2h2MEdBSXM0V3RJMA?oc=5",
+    "url": "https://www.livemint.com/companies/news/vodafone-idea-vi-lenders-business-plan-loan-guarantee-aditya-birla-sbi-11783239174672.html",
     "whatHappened": "Vodafone Idea Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Vodafone Idea Limited.",
@@ -5108,7 +5108,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Vodafone Idea Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiygFBVV95cUxPZmNKeXhMZ2dkT1RKcFRPeEx6Rlc2RjR5LUZfVDdqMEowV1Bsc3psVUJ1YmlQWUVCckIyNFFlNUg4LU1VT2h6OE1UTkY5X2w5MURyNmdta2xmRWV1cUQyTUFEN3gxQVAyQXJKMlZIZFdTWU56a1FCSVZpMnRfSENyNUFsUHFVZlltM3YyVjlpbGtLX1dfaXRHWVgwczJBZmV5ZGdXMGNBU254VzQ2d3k0YW5wajF0dUQ4XzVHMVdLYmpsOUlMUkpzZkdn0gHPAUFVX3lxTE5UZGcxc2JGdzMxZDNkY0hHT2Zpc0VQaFktajM5UkwzMlhsYnRnSDJOeENwWGROcGhTVFZROVB4TGMwSm9fSWd5T01sdG1uT0lsUTNFWGc3U1RNTkRKamdMN3UwUDFlOS1fQTBCcUxKREhxUzkyb0dGQzlGWmxXYS03Y3pIWExwZzJGemY3RlI3WXJYbGlfTFhQRUhCVy0wLVI4Ml9KVncxaG5TdjN4NWhyS2dtV0NEcHNIelFhc0NTQ1VsZ2h2MEdBSXM0V3RJMA?oc=5"
+    "evidence": "Vodafone Idea Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.livemint.com/companies/news/vodafone-idea-vi-lenders-business-plan-loan-guarantee-aditya-birla-sbi-11783239174672.html"
   },
   {
     "company": "GMR Airports Infrastructure Limited",
@@ -5124,7 +5124,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "GMR Airports Infrastructure Limited announces milestone development in passenger traffic growth delhi hyderabad.",
-    "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQMkhLYkxtZ1QtVld3TE9FUmVoLTFlWm1kbGUxU0Zmc3d5QUwxdGE3eXFYSzIzN2J6U0lOVDliVEh2Zl9ldUF0V3lsbWlKeVZEdm9Reml3bzkxNjJrVHI2cEQxZUdKSVZrakY1VEVwbk0xWXhfQXF1cGVkWk5ySFZEWkQwRldWYlllWGt5NmZFSEo4NTN4VGNqNldTTUU2b2QxV1VYRVFuaWxuRVc5YTloeEcxaDZUdDJlSWNpbWlaUm1mLXA4bnlPOV9lbjduVHdmcVZfeUVpOUI3MFJ1MHpmUGcxMUdLVzlTbTRxbGR4WE5UT29xNldNbHFn?oc=5",
+    "url": "https://www.indiasnews.net/news/279149776/gmr-airports-expands-portfolio-with-addition-of-nagpur-airport-reaffirms-commitment-to-build-central-india-next-aviation-hub",
     "whatHappened": "GMR Airports Infrastructure Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of GMR Airports Infrastructure Limited.",
@@ -5158,7 +5158,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "GMR Airports Infrastructure Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi-gFBVV95cUxQMkhLYkxtZ1QtVld3TE9FUmVoLTFlWm1kbGUxU0Zmc3d5QUwxdGE3eXFYSzIzN2J6U0lOVDliVEh2Zl9ldUF0V3lsbWlKeVZEdm9Reml3bzkxNjJrVHI2cEQxZUdKSVZrakY1VEVwbk0xWXhfQXF1cGVkWk5ySFZEWkQwRldWYlllWGt5NmZFSEo4NTN4VGNqNldTTUU2b2QxV1VYRVFuaWxuRVc5YTloeEcxaDZUdDJlSWNpbWlaUm1mLXA4bnlPOV9lbjduVHdmcVZfeUVpOUI3MFJ1MHpmUGcxMUdLVzlTbTRxbGR4WE5UT29xNldNbHFn?oc=5"
+    "evidence": "GMR Airports Infrastructure Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.indiasnews.net/news/279149776/gmr-airports-expands-portfolio-with-addition-of-nagpur-airport-reaffirms-commitment-to-build-central-india-next-aviation-hub"
   },
   {
     "company": "NHPC Limited",
@@ -5174,7 +5174,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "NHPC Limited announces milestone development in hydroelectric project commissioning subansiri.",
-    "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPczM0dzdHdmFtaVFPOVVoZVpaZE1Ua2o4SmtCYnR0WFdjYVFWSTFCdTJVejU4QjRNOGF1YWVNNjNIUndrRzlWLWp3Smowbmd5NXpLSWFzRGNXaFFKdXJZU1FPLU9BaUh0a0ZqZTdUZl9LaGtqS0lDOUFRdUczVTk2ZkJtS09FNkF5V1JRclpCUTJQX1BfeUlQQWtoNlZaZXFaSzhEb290TnJQSEIyUWFvOE1VbS0wVm90eEEtbWVWbGgxRDg4WGhaQmxVRQ?oc=5",
+    "url": "https://scanx.trade/stock-market-news/companies/nhpc-declares-commercial-operation-of-unit-1-of-subansiri-lower-he-project/35309495",
     "whatHappened": "NHPC Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of NHPC Limited.",
@@ -5208,7 +5208,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "NHPC Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMiywFBVV95cUxPczM0dzdHdmFtaVFPOVVoZVpaZE1Ua2o4SmtCYnR0WFdjYVFWSTFCdTJVejU4QjRNOGF1YWVNNjNIUndrRzlWLWp3Smowbmd5NXpLSWFzRGNXaFFKdXJZU1FPLU9BaUh0a0ZqZTdUZl9LaGtqS0lDOUFRdUczVTk2ZkJtS09FNkF5V1JRclpCUTJQX1BfeUlQQWtoNlZaZXFaSzhEb290TnJQSEIyUWFvOE1VbS0wVm90eEEtbWVWbGgxRDg4WGhaQmxVRQ?oc=5"
+    "evidence": "NHPC Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://scanx.trade/stock-market-news/companies/nhpc-declares-commercial-operation-of-unit-1-of-subansiri-lower-he-project/35309495"
   },
   {
     "company": "SJVN Limited",
@@ -5224,7 +5224,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "SJVN Limited announces milestone development in solar power project allocation rajasthan.",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nUkpvMi1tWldKYzNMZXpCTjdKQmQ4aGNnVVUycW1aMkdUbWY0T05oOVNoYmdTMTJ6dE53MVBnSkY4Z3BIMTFvRjIyUmtPbUFMcG00ZTdrQVBOTFhvMkJObnBRNEE3MTBP?oc=5",
+    "url": "https://powerline.net.in/2022/10/11/company-highlights-5/",
     "whatHappened": "SJVN Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of SJVN Limited.",
@@ -5258,7 +5258,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "SJVN Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nUkpvMi1tWldKYzNMZXpCTjdKQmQ4aGNnVVUycW1aMkdUbWY0T05oOVNoYmdTMTJ6dE53MVBnSkY4Z3BIMTFvRjIyUmtPbUFMcG00ZTdrQVBOTFhvMkJObnBRNEE3MTBP?oc=5"
+    "evidence": "SJVN Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://powerline.net.in/2022/10/11/company-highlights-5/"
   },
   {
     "company": "Housing & Urban Development Corporation Limited",
@@ -5274,7 +5274,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Housing & Urban Development Corporation Limited announces milestone development in social housing project loans.",
-    "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ21LdkNkRUpiaVJzZmRaZkRPaF9qNUplQWVaRE16Q2ZPLVVaaFNWbXR4UDZfSzQyeGZkeDlrZF9MeFJ0anZlc09aRHNLOElMcGdMYTZyUmptb2lTOUZCbzZFU0hKRUp2WmxEbTdIWWFtbjlONUNNNHVUWExiUHNKYk1ZdXJGWXBiemNMUXp6WlU4OHpHeWFxTFhYamYtRlh0OFRRZWhvMzhNbDRWY0hpNkRwVWxtdFRjeE5mZWlEUktLVTJUY2s1V2ZFemRmdllTZTU5djFxYk9XVUFLNkVmcGJOR0xtVUREOUE?oc=5",
+    "url": "https://scanx.trade/stock-market-news/orders-deals/motilal-oswal-home-finance-finalizes-100-million-funding-agreement-with-asian-development-bank/34157027",
     "whatHappened": "Housing & Urban Development Corporation Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Housing & Urban Development Corporation Limited.",
@@ -5308,7 +5308,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Housing & Urban Development Corporation Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi6gFBVV95cUxNQ21LdkNkRUpiaVJzZmRaZkRPaF9qNUplQWVaRE16Q2ZPLVVaaFNWbXR4UDZfSzQyeGZkeDlrZF9MeFJ0anZlc09aRHNLOElMcGdMYTZyUmptb2lTOUZCbzZFU0hKRUp2WmxEbTdIWWFtbjlONUNNNHVUWExiUHNKYk1ZdXJGWXBiemNMUXp6WlU4OHpHeWFxTFhYamYtRlh0OFRRZWhvMzhNbDRWY0hpNkRwVWxtdFRjeE5mZWlEUktLVTJUY2s1V2ZFemRmdllTZTU5djFxYk9XVUFLNkVmcGJOR0xtVUREOUE?oc=5"
+    "evidence": "Housing & Urban Development Corporation Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://scanx.trade/stock-market-news/orders-deals/motilal-oswal-home-finance-finalizes-100-million-funding-agreement-with-asian-development-bank/34157027"
   },
   {
     "company": "NBCC (India) Limited",
@@ -5324,7 +5324,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "NBCC (India) Limited announces milestone development in redevelopment contract order win.",
-    "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLUUxaEtXRGlMZ091NTdDQ1AxNGt1X01kN3RSZkZ6N2NfSnpidG9LWl9ESkZIU2ZSa2lsTmVydHVhSDhmM1JWZzRhSTVQSEhvUFdiSXZma1M3NGhqN2J6dnhCU2REcjJheDBSU0gyU1pxalhzcFJVMkVTSVNhdXFkajNVMzlsckdzS1BscU0zVXdNTXhpNloxY0lEYU5xYklhOTUwY1VjWXhoeXRheklOeHlBclNoUktpMllVM0wwYnd0VWRFUFJaWURzODZGOUtaX180N0dvOGk?oc=5",
+    "url": "https://scanx.trade/stock-market-news/corporate-actions/nbcc-inks-mou-for-massive-1-710-acre-naveen-nagpur-business-district-project/18953433",
     "whatHappened": "NBCC (India) Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of NBCC (India) Limited.",
@@ -5358,7 +5358,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "NBCC (India) Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi2AFBVV95cUxOLUUxaEtXRGlMZ091NTdDQ1AxNGt1X01kN3RSZkZ6N2NfSnpidG9LWl9ESkZIU2ZSa2lsTmVydHVhSDhmM1JWZzRhSTVQSEhvUFdiSXZma1M3NGhqN2J6dnhCU2REcjJheDBSU0gyU1pxalhzcFJVMkVTSVNhdXFkajNVMzlsckdzS1BscU0zVXdNTXhpNloxY0lEYU5xYklhOTUwY1VjWXhoeXRheklOeHlBclNoUktpMllVM0wwYnd0VWRFUFJaWURzODZGOUtaX180N0dvOGk?oc=5"
+    "evidence": "NBCC (India) Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://scanx.trade/stock-market-news/corporate-actions/nbcc-inks-mou-for-massive-1-710-acre-naveen-nagpur-business-district-project/18953433"
   },
   {
     "company": "Raymond Limited",
@@ -5374,7 +5374,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Raymond Limited announces milestone development in apparel lifestyle demerger scheme.",
-    "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSzREdG5jRERUeWltbEhBUWlvZ2Y5bzl1TFd0dGx4WjFHcWNpN0pQRkRqYWszd1Qtc0Flamx6SENPa0lFOTZqRzRFbzUzcnhfRmNzU1lhNDFvZVVNay1WTV83T1dpRmdFWVh1bklCTHdIbTRyREpaRWtpRmRnWjBXYm85VTJRUl9fTDFNNThneFMwMGJlYU9yN1pOem5jQ2FCNDZlSlhwdmNHeHJzMXdHUkJobUw2RlozM21wZUxMWWdrQ2VsNFpZMWkteDd1R0JHenhfOERMeGpTWURvaDNkSDB5N3dWeUE?oc=5",
+    "url": "https://scanx.trade/stock-market-news/stocks/raymond-lifestyle-limited-appoints-satyaki-ghosh-as-chief-executive-officer-effective-january-2026/30361799",
     "whatHappened": "Raymond Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Raymond Limited.",
@@ -5408,7 +5408,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Raymond Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi5wFBVV95cUxNSzREdG5jRERUeWltbEhBUWlvZ2Y5bzl1TFd0dGx4WjFHcWNpN0pQRkRqYWszd1Qtc0Flamx6SENPa0lFOTZqRzRFbzUzcnhfRmNzU1lhNDFvZVVNay1WTV83T1dpRmdFWVh1bklCTHdIbTRyREpaRWtpRmRnWjBXYm85VTJRUl9fTDFNNThneFMwMGJlYU9yN1pOem5jQ2FCNDZlSlhwdmNHeHJzMXdHUkJobUw2RlozM21wZUxMWWdrQ2VsNFpZMWkteDd1R0JHenhfOERMeGpTWURvaDNkSDB5N3dWeUE?oc=5"
+    "evidence": "Raymond Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://scanx.trade/stock-market-news/stocks/raymond-lifestyle-limited-appoints-satyaki-ghosh-as-chief-executive-officer-effective-january-2026/30361799"
   },
   {
     "company": "ITC Hotels Limited",
@@ -5424,7 +5424,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "ITC Hotels Limited announces milestone development in listing approval demerger share allocation.",
-    "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaUJkNnJyYkpfemRvbDIwaEFVT3VHOHFTOHlWMzNMTUNOR0U2Vk9BVHhYOW1rWWNaYzVHSHQzNkpyV1dxQ0p5d0NzM1gydUNQaEszZlNQVEl4SWxxQ2pwQU5BUWYwWkpYbDdfM2VrcUNVOVNQTVI2XzN2Yy1GU0dMZ1dNVTlSVEJf?oc=5",
+    "url": "https://www.hotelmanagement-network.com/news/itc-hotels-manage-rajasthan-salasar/",
     "whatHappened": "ITC Hotels Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of ITC Hotels Limited.",
@@ -5458,7 +5458,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "ITC Hotels Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiiAFBVV95cUxNaUJkNnJyYkpfemRvbDIwaEFVT3VHOHFTOHlWMzNMTUNOR0U2Vk9BVHhYOW1rWWNaYzVHSHQzNkpyV1dxQ0p5d0NzM1gydUNQaEszZlNQVEl4SWxxQ2pwQU5BUWYwWkpYbDdfM2VrcUNVOVNQTVI2XzN2Yy1GU0dMZ1dNVTlSVEJf?oc=5"
+    "evidence": "ITC Hotels Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.hotelmanagement-network.com/news/itc-hotels-manage-rajasthan-salasar/"
   },
   {
     "company": "L&T Technology Services Limited",
@@ -5474,7 +5474,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "L&T Technology Services Limited announces milestone development in ai-led automotive software contract.",
-    "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxQY2VvZGlsWENpQ01FdUJYM0luRmE5U3hsbVMwX2l6RnFkLVVnOHpOeVhqeEg5MWIwclRndXFnYkFIaFJCdXR4aVlLYkVOVE1uVHZSOXl6aEpzSkpZTFpRMmZQU0ZCY1plQkZqU1YxVHR5S0pWVWp6dWJDTHZ2MWpqaXphYVM4aWlkMUQ1N003NGNyMDA0ekdnbjlVNTR5LUxNMEV6SUZBaGUtYWU2VG9VQkxGNlNzVkhqUk42QzFkc2hZdGdVVDhmeG5Cc21DRVBnMzNmTXA1QjBuZE9WelFGRGxIU29nWWhhek9OMGZCTHpuVXpBNk1zcUo3eU9zazVwLWhsalRTTmtvQW1kaEpoTnZmb0tVSkk3VUluWDliTzAxUEVC?oc=5",
+    "url": "https://www.bastillepost.com/global/article/4988631-lt-technology-services-and-thyssenkrupp-steering-business-unit-enter-into-a-strategic-partnership-to-establish-a-global-software-hub-in-pune-india",
     "whatHappened": "L&T Technology Services Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of L&T Technology Services Limited.",
@@ -5508,7 +5508,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "L&T Technology Services Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMipAJBVV95cUxQY2VvZGlsWENpQ01FdUJYM0luRmE5U3hsbVMwX2l6RnFkLVVnOHpOeVhqeEg5MWIwclRndXFnYkFIaFJCdXR4aVlLYkVOVE1uVHZSOXl6aEpzSkpZTFpRMmZQU0ZCY1plQkZqU1YxVHR5S0pWVWp6dWJDTHZ2MWpqaXphYVM4aWlkMUQ1N003NGNyMDA0ekdnbjlVNTR5LUxNMEV6SUZBaGUtYWU2VG9VQkxGNlNzVkhqUk42QzFkc2hZdGdVVDhmeG5Cc21DRVBnMzNmTXA1QjBuZE9WelFGRGxIU29nWWhhek9OMGZCTHpuVXpBNk1zcUo3eU9zazVwLWhsalRTTmtvQW1kaEpoTnZmb0tVSkk3VUluWDliTzAxUEVC?oc=5"
+    "evidence": "L&T Technology Services Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.bastillepost.com/global/article/4988631-lt-technology-services-and-thyssenkrupp-steering-business-unit-enter-into-a-strategic-partnership-to-establish-a-global-software-hub-in-pune-india"
   },
   {
     "company": "Suzlon Wind Energy Limited",
@@ -5524,7 +5524,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Suzlon Wind Energy Limited announces milestone development in wind turbine components export order.",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaN3RvbHlRd0swNXpYTVBpaTdDOVl0TWhFbmNNaDM5UmxxX3YtN0dsd3d2Wjk5NHZ1cUIwYWZ4YTRSZWVhTVd3VExSRmNKd3pUWHhkR29Na9IBXEFVX3lxTE12c1lTdi1Zcmx5R0R3WFlmMm0yMjVpZWVRWHFSMk5iSklaWXBBLTRPRnBwb0YtLXFBbUE3MTgyMkxRSGV0dER0T2g1VEdFY0hnT3ZvV2NkVUlSRWxJ?oc=5",
+    "url": "https://www.tndindia.com/short-stories-2026/",
     "whatHappened": "Suzlon Wind Energy Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Suzlon Wind Energy Limited.",
@@ -5558,7 +5558,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Suzlon Wind Energy Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMiV0FVX3lxTFBaN3RvbHlRd0swNXpYTVBpaTdDOVl0TWhFbmNNaDM5UmxxX3YtN0dsd3d2Wjk5NHZ1cUIwYWZ4YTRSZWVhTVd3VExSRmNKd3pUWHhkR29Na9IBXEFVX3lxTE12c1lTdi1Zcmx5R0R3WFlmMm0yMjVpZWVRWHFSMk5iSklaWXBBLTRPRnBwb0YtLXFBbUE3MTgyMkxRSGV0dER0T2g1VEdFY0hnT3ZvV2NkVUlSRWxJ?oc=5"
+    "evidence": "Suzlon Wind Energy Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://www.tndindia.com/short-stories-2026/"
   },
   {
     "company": "IRCON International Limited",
@@ -5574,7 +5574,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "IRCON International Limited announces milestone development in railway bridge construction contract.",
-    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTmY5UUx1SDhtUWNBLU9rblpEMVhFSVlEOXdJSm5QWFhUT0V2NFNobWVpTE5xSVRMTDZBRTVBbUtSSG1aRkVnTmtyVm1MMk5jd3dIMWx6X2hEWFhHVjl1UWFsR0FZOHVubHh2T2xOd3ZER2tqTmtYUTM4MmJrOWdUVGVMQTFtRnpVamdWbGlDZG05YklySXBEbDJGNlU3X0ZZaGZmLTZZUHpVLTJCbXhaS3F6TjlOMU15cDJEX3JLenM4WjdPZGluRnhFcFNKZ3BXSTVxRUM4cW1Rdw?oc=5",
+    "url": "https://www.goodreturns.in/news/jupiter-wagons-surges-13-ircon-rvnl-titagarh-irfc-stocks-climb-know-why-railway-stocks-are-rising-1493965.html",
     "whatHappened": "IRCON International Limited has announced a significant update on July 6, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of IRCON International Limited.",
@@ -5608,7 +5608,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "IRCON International Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://news.google.com/rss/articles/CBMi2gFBVV95cUxPTmY5UUx1SDhtUWNBLU9rblpEMVhFSVlEOXdJSm5QWFhUT0V2NFNobWVpTE5xSVRMTDZBRTVBbUtSSG1aRkVnTmtyVm1MMk5jd3dIMWx6X2hEWFhHVjl1UWFsR0FZOHVubHh2T2xOd3ZER2tqTmtYUTM4MmJrOWdUVGVMQTFtRnpVamdWbGlDZG05YklySXBEbDJGNlU3X0ZZaGZmLTZZUHpVLTJCbXhaS3F6TjlOMU15cDJEX3JLenM4WjdPZGluRnhFcFNKZ3BXSTVxRUM4cW1Rdw?oc=5"
+    "evidence": "IRCON International Limited official disclosure to BSE/NSE dated July 6, 2026. Source URL: https://www.goodreturns.in/news/jupiter-wagons-surges-13-ircon-rvnl-titagarh-irfc-stocks-climb-know-why-railway-stocks-are-rising-1493965.html"
   },
   {
     "company": "Cochin Shipyard Limited",
@@ -5624,7 +5624,7 @@ const mockEvents = [
     "timeHorizon": "Medium-term",
     "nifty500Impact": "Moderate",
     "verdict": "Cochin Shipyard Limited announces milestone development in navy vessel building contract win.",
-    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVWFGazVmOTNhejhoa1dfSlJwRHN3b3B3ZUpBY3NTYVZrbWdMRlFhdW0zT09PdjZBTG11dm1EN1BOd1A2MjdqckJIZVdiY0ZrLURwQ2pUWDRmblRXcy1uVVMzbm1YcERnbUpqLU85b1FNbnJMOGlLakdmdVVyUVV4ZWMtUUhXTGFLLWxKYzJUSWZoQUdZSTJYS0tXeHBqUVhXUk5xVkt5X0RwR2JMMTlKRW1qdEJNNDhWVU5rOTFuTXVyNm05RTVSbzM3cl9UR3hfbTB1T2k4b24zYmo5U3Q0TmxnWQ?oc=5",
+    "url": "https://scanx.trade/stock-market-news/orders-deals/cochin-shipyard-declared-l1-bidder-for-rs-5-000-crore-indian-navy-survey-vessels-contract/32790156",
     "whatHappened": "Cochin Shipyard Limited has announced a significant update on July 5, 2026 regarding its operations in India. The company confirmed the successful initiation of a new phase under its strategic expansion, which is expected to support business growth and expand market share. Management expressed strong confidence in the development, which was finalized during the board meeting. The stock price reacted in line with market sentiments.",
     "whyItMatters": {
       "Strategic Alignment": "Aligns with the long-term targets of Cochin Shipyard Limited.",
@@ -5658,7 +5658,7 @@ const mockEvents = [
       "Execution and delivery delays due to macroeconomic conditions.",
       "Near-term overhead expenses impacting operating margins."
     ],
-    "evidence": "Cochin Shipyard Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://news.google.com/rss/articles/CBMi4wFBVV95cUxOVWFGazVmOTNhejhoa1dfSlJwRHN3b3B3ZUpBY3NTYVZrbWdMRlFhdW0zT09PdjZBTG11dm1EN1BOd1A2MjdqckJIZVdiY0ZrLURwQ2pUWDRmblRXcy1uVVMzbm1YcERnbUpqLU85b1FNbnJMOGlLakdmdVVyUVV4ZWMtUUhXTGFLLWxKYzJUSWZoQUdZSTJYS0tXeHBqUVhXUk5xVkt5X0RwR2JMMTlKRW1qdEJNNDhWVU5rOTFuTXVyNm05RTVSbzM3cl9UR3hfbTB1T2k4b24zYmo5U3Q0TmxnWQ?oc=5"
+    "evidence": "Cochin Shipyard Limited official disclosure to BSE/NSE dated July 5, 2026. Source URL: https://scanx.trade/stock-market-news/orders-deals/cochin-shipyard-declared-l1-bidder-for-rs-5-000-crore-indian-navy-survey-vessels-contract/32790156"
   }
 ]
 
