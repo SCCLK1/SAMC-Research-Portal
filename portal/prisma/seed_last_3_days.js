@@ -173,20 +173,8 @@ async function main() {
     let age = event.age || '1 day ago'
     let freshness = event.freshness || 90
 
-    // Shift dates
-    whatHappened = whatHappened
-      .replace(/July 5, 2026/g, 'July 14, 2026')
-      .replace(/July 4, 2026/g, 'July 13, 2026')
-      .replace(/July 6, 2026/g, 'July 15, 2026')
-      .replace(/July 7, 2026/g, 'July 15, 2026')
-      .replace(/July 3, 2026/g, 'July 12, 2026')
-      
-    evidence = evidence
-      .replace(/July 5, 2026/g, 'July 14, 2026')
-      .replace(/July 4, 2026/g, 'July 13, 2026')
-      .replace(/July 6, 2026/g, 'July 15, 2026')
-      .replace(/July 7, 2026/g, 'July 15, 2026')
-      .replace(/July 3, 2026/g, 'July 12, 2026')
+    // Keep original dates from template to maintain fact integrity and avoid mismatches with primary sources
+
 
     // Adjust ages
     if (index < 30) {
