@@ -21,8 +21,27 @@ jobs:
           echo "${{ secrets.EC2_SSH_KEY }}" > ~/.ssh/deploy_key
           ssh-keyscan -H "${{ secrets.EC2_HOST }}" >> ~/.ssh/known_hosts
 
+      # ── Check deployed commit hash ─────────────────────────────────────────
+      - name: Check deployed commit hash
+        id: check_commit
+        run: |
+          DEPLOYED_SHA=$(ssh -i ~/.ssh/deploy_key -o StrictHostKeyChecking=no "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}" "cat /app/samc-research-portal/portal/.git-commit-hash 2>/dev/null || true")
+          echo "Currently deployed SHA: $DEPLOYED_SHA"
+          echo "Target SHA: ${{ github.sha }}"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Forcing deploy due to workflow_dispatch"
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          elif [ "$DEPLOYED_SHA" = "${{ github.sha }}" ]; then
+            echo "Commit SHA matches. Skipping deployment."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "Commit SHA mismatch. Deploying..."
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
       # ── Write production .env on runner, then SCP it ───────────────────────
       - name: Write production .env
+        if: steps.check_commit.outputs.skip != 'true'
         run: |
           {
             echo "DATABASE_URL=file:./prod.db"
@@ -42,6 +61,7 @@ jobs:
 
       # ── Sync portal source to EC2 (no node_modules or build artifacts) ─────
       - name: Sync source code to EC2
+        if: steps.check_commit.outputs.skip != 'true'
         run: |
           ssh -i ~/.ssh/deploy_key \
             "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}" \
@@ -59,6 +79,7 @@ jobs:
 
       # ── Upload .env and seed DB ────────────────────────────────────────────
       - name: Upload .env and seed DB to EC2
+        if: steps.check_commit.outputs.skip != 'true'
         run: |
           scp -i ~/.ssh/deploy_key \
             "$RUNNER_TEMP/prod.env" \
@@ -71,6 +92,7 @@ jobs:
 
       # ── Build & restart on EC2 ─────────────────────────────────────────────
       - name: Install, build & restart on EC2
+        if: steps.check_commit.outputs.skip != 'true'
         run: |
           ssh -i ~/.ssh/deploy_key \
             "${{ secrets.EC2_USER }}@${{ secrets.EC2_HOST }}" \
@@ -106,4 +128,7 @@ jobs:
               -- start
           fi
           pm2 save
+
+          # Save the deployed commit hash
+          echo "${{ github.sha }}" > "$PORTAL/.git-commit-hash"
           ENDSSH
