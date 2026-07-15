@@ -250,7 +250,7 @@ export default function EventDetailView({
         {/* What happened */}
         {event.whatHappened && (
           <Section title="What Happened">
-            <p className="text-secondary text-sm" style={{ lineHeight: 1.5 }}>
+            <p className="text-secondary text-sm" style={{ lineHeight: 1.5, whiteSpace: 'pre-wrap' }}>
               {event.whatHappened}
             </p>
           </Section>

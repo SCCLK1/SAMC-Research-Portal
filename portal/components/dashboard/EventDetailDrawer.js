@@ -147,7 +147,7 @@ export default function EventDetailDrawer({ event, isWatchlist, onClose }) {
           {/* What happened */}
           {event.whatHappened && (
             <Section title="What Happened">
-              <p style={{ fontSize: '0.875rem', lineHeight: 1.7, color: 'var(--color-text-secondary)' }}>
+              <p style={{ fontSize: '0.875rem', lineHeight: 1.7, color: 'var(--color-text-secondary)', whiteSpace: 'pre-wrap' }}>
                 {event.whatHappened}
               </p>
             </Section>
@@ -193,7 +193,7 @@ export default function EventDetailDrawer({ event, isWatchlist, onClose }) {
           {/* Reaction lean */}
           {event.reactionLean && (
             <Section title="Reaction Lean">
-              <p style={{ fontSize: '0.875rem', lineHeight: 1.7, color: 'var(--color-text-secondary)' }}>
+              <p style={{ fontSize: '0.875rem', lineHeight: 1.7, color: 'var(--color-text-secondary)', whiteSpace: 'pre-wrap' }}>
                 {event.reactionLean}
               </p>
             </Section>
