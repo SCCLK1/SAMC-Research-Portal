@@ -30,11 +30,15 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         const passwordMatch = await bcrypt.compare(credentials.password, user.passwordHash)
         if (!passwordMatch) return null
 
-        // Update last login timestamp
-        await prisma.user.update({
-          where: { id: user.id },
-          data: { lastLoginAt: new Date() },
-        })
+        // Update last login timestamp — wrapped in try-catch to support read-only platforms like Vercel SQLite
+        try {
+          await prisma.user.update({
+            where: { id: user.id },
+            data: { lastLoginAt: new Date() },
+          })
+        } catch (err) {
+          console.warn('Unable to update lastLoginAt (expected on read-only environments like Vercel SQLite):', err.message)
+        }
 
         return {
           id: user.id,
