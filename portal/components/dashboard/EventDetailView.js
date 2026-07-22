@@ -152,8 +152,11 @@ export default function EventDetailView({
           marginBottom: 'var(--space-1)'
         }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: 'var(--space-2)' }}>
-            <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--color-text-muted)', display: 'flex', alignItems: 'center', gap: 4 }}>
-              <span>📝</span> Analyst Workspace
+            <div style={{ fontSize: '0.75rem', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.08em', color: 'var(--color-text-muted)', display: 'flex', alignItems: 'center', gap: 6 }}>
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0, color: 'var(--color-primary-light)' }}>
+                <path d="M12 20h9M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"/>
+              </svg>
+              Analyst Workspace
             </div>
 
             {/* Status select dropdown */}
@@ -179,10 +182,10 @@ export default function EventDetailView({
                   borderColor: 'var(--color-border)'
                 }}
               >
-                <option value="NEW">🆕 New / Unassigned</option>
-                <option value="REVIEWING">⏳ Under Review</option>
-                <option value="ACTION_REQUIRED">🚨 Action Required</option>
-                <option value="COMPLETED">✅ Completed</option>
+                <option value="NEW">New / Unassigned</option>
+                <option value="REVIEWING">Under Review</option>
+                <option value="ACTION_REQUIRED">Action Required</option>
+                <option value="COMPLETED">Completed</option>
               </select>
             </div>
           </div>

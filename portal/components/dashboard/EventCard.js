@@ -39,9 +39,30 @@ function getSeverityClass(sev) {
 }
 
 const getStatusBadge = (status) => {
-  if (status === 'REVIEWING') return <span className="badge" style={{ background: 'rgba(245,158,11,0.1)', color: 'var(--color-accent)', border: '1px solid rgba(245,158,11,0.25)', fontSize: '0.625rem', padding: '1px 5px', flexShrink: 0 }}>⏳ Reviewing</span>
-  if (status === 'ACTION_REQUIRED') return <span className="badge" style={{ background: 'var(--color-bearish-dim)', color: 'var(--color-bearish)', border: '1px solid rgba(239,68,68,0.25)', fontSize: '0.625rem', padding: '1px 5px', flexShrink: 0 }}>🚨 Action Req</span>
-  if (status === 'COMPLETED') return <span className="badge" style={{ background: 'var(--color-bullish-dim)', color: 'var(--color-bullish)', border: '1px solid rgba(16,185,129,0.25)', fontSize: '0.625rem', padding: '1px 5px', flexShrink: 0 }}>✅ Done</span>
+  if (status === 'REVIEWING') return (
+    <span className="badge" style={{ background: 'rgba(245,158,11,0.1)', color: 'var(--color-accent)', border: '1px solid rgba(245,158,11,0.25)', fontSize: '0.625rem', padding: '3px 6px', flexShrink: 0, display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+        <circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/>
+      </svg>
+      Reviewing
+    </span>
+  )
+  if (status === 'ACTION_REQUIRED') return (
+    <span className="badge" style={{ background: 'var(--color-bearish-dim)', color: 'var(--color-bearish)', border: '1px solid rgba(239,68,68,0.25)', fontSize: '0.625rem', padding: '3px 6px', flexShrink: 0, display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/>
+      </svg>
+      Action Req
+    </span>
+  )
+  if (status === 'COMPLETED') return (
+    <span className="badge" style={{ background: 'var(--color-bullish-dim)', color: 'var(--color-bullish)', border: '1px solid rgba(16,185,129,0.25)', fontSize: '0.625rem', padding: '3px 6px', flexShrink: 0, display: 'inline-flex', alignItems: 'center', gap: 4 }}>
+      <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ flexShrink: 0 }}>
+        <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/>
+      </svg>
+      Done
+    </span>
+  )
   return null
 }
 
